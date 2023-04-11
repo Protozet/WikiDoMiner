@@ -6,6 +6,12 @@ import pandas as pd
 from tqdm import tqdm
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer, TfidfVectorizer
 
+import nltk
+#from nltk.tokenize import word_tokenize
+#from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+
+
 from nltk.corpus import wordnet as wn
 from nltk.corpus import stopwords, words
 from nltk.tokenize import word_tokenize, sent_tokenize, RegexpTokenizer
@@ -80,6 +86,17 @@ def calculate_jaccard(text1,text2):  # calculates jaccard similarity between two
   word_tokens1=word_tokenize(text1.lower())
   word_tokens2=word_tokenize(text2.lower())
   both_tokens = word_tokens1 + word_tokens2
+  ####
+  vectorizer = TfidfVectorizer()
+  vectors = vectorizer.fit_transform([text1, text2]).toarray()
+
+    # Calculate the cosine similarity between the two vectors.
+  cosine_sim = cosine_similarity([vectors[0]], [vectors[1]])[0][0]
+
+    # Print out some information.
+  #print("Tokens:", both_tokens)
+  print("Cosine similarity score:", cosine_sim)
+  ####
   union = set(both_tokens)
   # Calculate intersection.
   intersection = set()
