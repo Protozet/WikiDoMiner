@@ -35,7 +35,7 @@ def main():
     parser.add_argument('--sim_threshold', dest='sim_threshold', type=float, default=0.5, help='set similarity threshold when using title similarity')
     parser.add_argument('--filter-cats', dest='filter_cats', type=bool, default=True, help='filter generic categories')
     parser.add_argument('--use-tfidf', dest='tfidf', type=bool, default=True, help='use TFIDF to rank keywords')
-    parser.add_argument('--limit-keywords', dest='K', type=int, default=50, help='Set to limit the number of extracted keywords if TFIDF is used.')#default was none
+    parser.add_argument('--limit-keywords', dest='K', type=int, default=None, help='Set to limit the number of extracted keywords if TFIDF is used.')
     parser.add_argument('--wiki-depth', dest='depth', type=int, default=0, help='Set the depth of wikiedia search. 0: only the articles that matches the keywords. 1: articles from the the categories of matching keywords. 2 articles from the subcategories..')
     parser.add_argument('--max-limit', dest='maxlimit', type=int, default=200, help='set limit to filter large categories')
     parser.add_argument('--max-cats', dest='maxcats', type=int, default=50, help='skip articles with too many categories')
@@ -94,7 +94,8 @@ def openFiles(files,path):
   for f in files:
     with open(path+f,"r") as tf:
       li.append(tf.read().replace('\n', ''))
-  return li
+  return li.encode("utf-8")
+
 
 # get all nouns and noun phrases from the input sentence
 def getAllNPsFromSent(sent,include_nouns=False):
@@ -177,6 +178,7 @@ def getTFIDFscore(q,id,tfidf):
   for t in q.split():
     if t in tfidf[q].columns:
       score+=tfidf[q][t][id]
+      print (score)
   return score  
 
 
@@ -238,21 +240,28 @@ def getCorpus(list_of_keywords, title_similarity=False,sim_threshold=0.5,filtere
   for keyword in tqdm(list_of_keywords, disable= verbose):
     c+=1
     #if verbose:
-    #  print('=== Processing keyword:',keyword, c,'/',len(list_of_keywords))
+      #print('=== Processing keyword:',keyword, c,'/',len(list_of_keywords))
     # we search for the closest titles matching our keyword
     if auto_suggest:
-      matching_titles=wiki.search(keyword,suggestion=True)  
+      matching_titles=wiki.search(keyword,suggestion=True)
+      #print("a")  
       if not matching_titles:
         continue
       for title in matching_titles:
         # you can add a similarity criteria between the keyword and the matching article before proceeding
         # for example use jaccard with a threshold: if calculate_jaccard(keyword,title)>0.5
+        print(matching_titles)
         if title not in processed_titles:
           if title_similarity:
-            if calculate_jaccard(title,keyword)<sim_threshold:
+            print (title)
+            print (keyword)
+            if calculate_jaccard(title,keyword)<sim_threshold:#######################################################################
+              print(title)
+              print(keyword)
               continue
           corpus.extend(getCorpusFromTitle(title,filtered_cats,depth=depth,maxcats=maxcats, maxlimit=maxlimit,verbose=verbose))
           title.append(processed_titles)
+          #processed_titles.append(title)
     else:
       corpus.extend(getCorpusFromTitle(keyword,filtered_cats,depth=depth,maxcats=maxcats, maxlimit=maxlimit,verbose=verbose))
   return list(set(corpus))
@@ -276,6 +285,7 @@ def saveCorpus(docs,parent_dir,folder='Corpus'):
             print(f"{filename} saved successfully!")
             # no need to explicitly close the file as the 'with' statement does this for us as the file was being closed before.
 
+
 def docSimilarity(doc1,doc2,nlp):
   return nlp(doc1).similarity(nlp(doc2))
 
@@ -287,7 +297,7 @@ def getTotal_nbr_words(corpus):
   print("total number of words:",total_nbr_words)
   return total_nbr_words
 
-def createWordCloud(corpus,nlp,image_name='Word Cloud'):
+def createWordCloud(corpus,nlp,show=False,image_name='Word Cloud'):
   WC=WordCloud(stopwords=set(nlp.Defaults.stop_words), #width = 1000, height = 500,
                         max_font_size=50, max_words=100,background_color="white")
   wordcloud = (WC.generate(' '.join(corpus)))
@@ -296,7 +306,8 @@ def createWordCloud(corpus,nlp,image_name='Word Cloud'):
   plt.imshow(wordcloud, interpolation="bilinear")
   plt.axis("off")
   plt.savefig(image_name+".png", bbox_inches='tight')
-  plt.show()
+  if show:
+    plt.show()
   plt.close()
 
 def readPDF(file):
