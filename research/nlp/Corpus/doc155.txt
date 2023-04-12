@@ -1,0 +1,168 @@
+The Micro Four Thirds system (MFT or M4/3) (マイクロフォーサーズシステム, Maikuro Fō Sāzu Shisutemu) is a standard released by Olympus and Panasonic in 2008, for the design and development of mirrorless interchangeable lens digital cameras, camcorders and lenses. Camera bodies are available from Blackmagic, DJI, JVC, Kodak, Olympus, Panasonic, Sharp, and Xiaomi. MFT lenses are produced by Cosina Voigtländer, DJI, Kowa, Kodak, Mitakon, Olympus, Panasonic, Samyang, Sharp, Sigma, SLR Magic, Tamron, Tokina, TTArtisan, Veydra, Xiaomi, Laowa, Yongnuo, Zonlai, Lensbaby, Kowa, Venus Optics and 7artisans amongst others.
+MFT shares the original image sensor size and specification with the Four Thirds system, designed for DSLRs. Unlike Four Thirds, the MFT system design specification does not provide space for a mirror box and a pentaprism, which facilitates smaller body and lens designs via the shorter flange focal distance of 19.25mm. The short flange distance, when combined with an adapter of proper depth, allows MFT bodies to use almost any lens ever made for a camera with a flange distance larger than 19.25mm. Still-camera lenses produced by Canon, Leica, Minolta, Nikon, Pentax and Zeiss have all been successfully adapted for MFT use – as well as lenses produced for cinema, e.g., PL mount or C mount.
+
+Comparison with other systems
+For comparison of the original Four Thirds with competing DSLR system see Four Thirds system#Advantages, disadvantages and other considerations
+Compared to inexpensive digital compact cameras and many bridge cameras, MFT cameras have better, larger sensors, and interchangeable lenses. There are many lenses available. On top of this, a large number of other lenses (even from the analogue film era) can be fitted using an adapter. Different lenses yield greater creative possibilities. However, Micro Four Thirds cameras also tend to be slightly larger, heavier and more expensive than compact cameras.
+Compared to most digital SLRs, the Micro Four Thirds system (body and lenses) is smaller and lighter. However, their sensors are smaller than full-frame or even APS-C systems. The small lenses do not allow the noise depth-of-field tradeoffs of larger lenses in other systems. Micro Four Thirds cameras use an electronic viewfinder. Resolutions and refresh speeds on these EVF displays were originally compared negatively to optical viewfinders, but today's EVF systems are faster, brighter and much higher resolution than the original displays. Original Micro Four Thirds cameras used a contrast-detection autofocus system, slower than the phase-detect autofocus that is standard on DSLRs. To this day most Micro Four Thirds cameras continue to use a contrast-based focusing system. Although some current models, such as the Olympus OM-D E-M1 Mark II, feature a hybrid phase-detect/contrast detect system, Panasonic Lumix cameras have continued to use a contrast-based system called DFD (Depth from Defocus). Both systems today provide focusing speeds to rival or even surpass many current DSLRs.
+
+Sensor size and aspect ratio
+The image sensor of Four Thirds and MFT measures 18 mm × 13.5 mm (22.5 mm diagonal), with an imaging area of 17.3 mm × 13.0 mm (21.6 mm diagonal), comparable to the frame size of 110 film. Its area, ca. 220 mm2, is approximately 30% less than the APS-C sensors used in other manufacturers' DSLRs; it is around 9 times larger than the 1/2.3" sensors typically used in compact digital cameras.
+The Four Thirds system uses a 4:3 image aspect ratio, like compact digital cameras. In comparison, DSLRs usually adhere to the 3:2 aspect ratio of the traditional 35 mm format. Thus, "Four Thirds" refers to both the size and the aspect ratio of the sensor. However, the chip diagonal is shorter than 4/3 of an inch; the 4/3 inch designation for this size of sensor dates back to the 1950s and vidicon tubes, when the external diameter of the camera tube was measured, not the active area.
+The MFT design standard also specifies multiple aspect ratios: 4:3, 3:2, 16:9 (the native HD video format specification), and 1:1 (a square format). With the exception of a few MFT cameras, most MFT cameras record in a native 4:3 format image aspect ratio, and through cropping of the 4:3 image, can record in 16:9, 3:2 and 1:1 formats.
+
+Lens mount
+The MFT system design specifies a bayonet type lens mount with a flange focal distance of 19.25 mm. By avoiding internal mirrors, the MFT standard allows a much thinner camera body.
+
+Viewfinders for a mirrorless camera
+Viewing is achieved on all models by live view electronic displays with LCD screens. In addition, some models feature a built-in electronic viewfinder (EVF), while others may offer optional detachable electronic viewfinders.
+An independent optical viewfinder typically matched to a particular non-zoom prime lens is sometimes an option.
+
+Backward compatibility
+The throat diameter is about 38 mm, 6 mm less than that of the Four Thirds system. Electrically, MFT uses an 11-contact connector between lens and camera, adding to the nine contacts in the Four Thirds system design specification. Olympus claims full backward compatibility for many of its existing Four Thirds lenses on MFT bodies, using a purpose built adapter with both mechanical and electrical interfaces.
+
+Adapters to other lens mounts
+The shallow but wide MFT lens mount also allows the use of existing lenses including Leica M, Leica R, and Olympus OM system lenses, via Panasonic and Olympus adapters.  Aftermarket adapters include Leica Screw Mount, Contax G, C mount, Arri PL mount, Praktica, Canon, Nikon, and Pentax, amongst others. In fact, almost any still camera, movie or video camera interchangeable lens that has a flange focal distance greater than or marginally less than 20 mm can often be used on MFT bodies via an adapter.  While MFT cameras can use many of these "legacy" lenses only with manual focus and manual aperture control mode, hundreds of lenses are available, even those designed for cameras no longer in production.
+While lens manufacturers seldom publish lens mount specifications, the MFT mount has been reverse-engineered by enthusiasts, with CAD files available.
+
+Autofocus design
+MFT cameras usually use contrast-detection autofocus (CDAF), a common autofocus system for mirrorless compact or "point-and-shoot". By comparison, DSLRs use phase-detection autofocus (PDAF). The use of separate PDAF sensors has been favored in DSLR systems because of mirror box and pentaprism design, along with better performance for fast-moving subjects.
+The (non-Micro) Four Thirds system design standard specifies a 40 mm flange focal length distance, which allowed for using a single lens reflex design, with mirror box and pentaprism. Four Thirds DSLR cameras designed by Olympus and Panasonic initially used exclusively PDAF focusing systems. Olympus then introduced the first live view DSLR camera, which incorporated both traditional DSLR phase focus and also optional contrast detection focus. As a result, newer Four Thirds system lenses were designed both for PDAF and contrast focus. Several of the Four Thirds lenses focus on Micro Four Thirds proficiently when an electrically compatible adapter is used on the Micro Four Thirds cameras, and they focus on Micro Four Thirds cameras much quicker than earlier generation Four Thirds lenses can.
+Some MFT cameras, such as the OM-D E-M1 series and E-M5 Mark III incorporate phase-detection hardware on the sensor to support legacy lenses. These camera bodies perform better with legacy lenses (e.g. focus performance of the 150mm f/2 and 300mm f/2.8 lenses are as quick and accurate as a native Four Thirds body).
+
+Flange focal distance and crop factor
+The much shorter flange focal distance enabled by the removal of the mirror allows normal and wide angle lenses to be significantly smaller because they do not have to use strongly retrofocal designs.
+The Four Thirds sensor format used in MFT cameras is equivalent to a 2.0 crop factor when compared to a 35 mm film (full frame) camera. This means that the field of view of an MFT lens is the same as a full frame lens with twice the focal length. For example, a 50 mm lens on a MFT body would have a field of view equivalent to a 100 mm lens on a full frame camera. For this reason, MFT lenses can be smaller and lighter because to achieve the equivalent 35 mm film camera field of view, the MFT focal length is much shorter. See the table of lenses below to understand the differences better. For comparison, typical DSLR sensors, such as Canon's APS-C sensors, have a crop factor of 1.6.
+
+Equivalents
+This section gives a brief introduction to the subject of "equivalence" in photography. Equivalent images are made by photographing the same angle of view, with the same depth of field and the same Angular resolution due to diffraction limitation (which requires different f-stops on different focal length lenses), the same motion blur (requires the same shutter speed), therefore the ISO setting must differ to compensate for the f-stop difference. The use of this is only to let us compare the effectiveness of the sensors given the same amount of light hitting them. In normal photography with any one camera, equivalence is not necessarily an issue: there are several lenses faster than f/2.4 for Micro Four Thirds (see the tables under Fixed Focal Length Lenses, below), and there are certainly many lenses faster than f/4.8 for full frame and no one hesitates to use them even though they can have shallower depth of field than a Nikon 1 at f/1.7, in fact that can be seen as advantageous, but it has to be taken into consideration that a further aspect of image resolution is limitation by optical aberration, which can be compensated the better the smaller the focal lengths of a lens is. Lenses designed for mirrorless camera systems such as Nikon 1 or Micro Four Thirds often use image-space telecentric lens designs, which reduce shading and therefore light loss and blurring at the microlenses of the image sensor. Furthermore, in low light conditions by using low f-numbers a too-shallow depth of field can lead to less satisfying image results, especially in videography, when the object being filmed by the camera or the camera itself is moving. For those interested in producing equivalent images, read on.
+Equivalent focal lengths are given, if the angle of view is identical.The depth of field is identical, if angle of view and absolute aperture width are identical. Also the relative diameters of the Airy disks representing the limitation by diffraction are identical. Therefore, the equivalent f-numbers are varying.In this case, i.e., with the same luminous flux within the lens, the illuminance quadratically decreases and the luminous intensity quadratically increases with the image size. Therefore, all systems detect the same luminances and the same exposure values in the image plane, and as a consequence of this the equivalent exposure indexes (respectively equivalent ISO speeds) are different in order to get the identical shutter speeds (i.e., exposure times) with the same levels of motion blur and image stabilisation. Furthermore, for a given guide number of a photoflash device all systems have the same exposure at the same flash-to-subject distance.
+The following table exemplarily shows a few identical image parameters for some popular image sensor classes compared to Micro Four Thirds: The smaller the focal length, the smaller is also the displacement in the image space between the last principal plane of the lens and the image sensor in order to focus a certain object. Therefore, the energy needed for focusing as well as the appropriate delay for shifting the focusing lens system are shorter, the smaller the focal length is.
+
+Advantages of Micro Four Thirds over DSLR cameras
+Micro Four Thirds has several advantages over larger format cameras and lenses:
+
+Cameras and lenses are generally smaller and lighter, making them easier to carry and more discreet.
+The shorter flange focal distance means that most manual lenses can be adapted for use, though C-mount lenses have a slightly shorter flange focal distance and are trickier to adapt.
+The shorter flange focal distance allows for smaller, lighter, and less expensive lenses, particularly with wide angle lenses.
+Contrast-detection autofocus is not prone to systematic front- or back-focusing errors which may occur with phase-detection autofocus on DSLRs, eliminating the need to individually calibrate focusing for each lens to each camera.
+The absence of a mirror eliminates the need for an additional precision assembly, along with its "mirror slap" noise and resultant camera vibration/movement.
+The smaller sensor generates less heat and can be cooled more easily, reducing image noise when shooting long exposure and videography.
+Because of the reduced sensor-flange distance, the sensor is easier to clean than with a DSLR, which also have delicate mirror mechanisms attached.
+The smaller sensor (2× crop factor) allows for longer telephoto reach with smaller and lighter lenses.
+The smaller sensor size gives deeper depth-of-field for the same field of view and equivalent f-number. This can be desirable in some situations, such as landscape and macro shooting as well as video shooting in low light conditions.
+Some models are equipped with electronic viewfinders, which have certain advantages over conventional optical viewfinders (see below).
+
+Advantages of the electronic viewfinder
+Though many DSLRs also have "live view" functionality, these often function relatively poorly compared to a Micro Four Thirds electronic viewfinder (EVF), which has the following advantages:
+
+Real-time preview of exposure, white balance, and tone.
+Can show a low-light scene brighter than it is.
+The viewfinder can provide a zoomed preview, allowing for more precise manual focus.
+The viewfinder can be used while shooting videos. On a DSLR, the mirror must be flipped up to shoot video, which prevents use of the optical viewfinder.
+The viewfinder displays how the sensor sees the potential picture, rather than an optical view, which may differ.
+The view can appear larger than some optical viewfinders, especially on lower-end DSLRs, whose viewfinders often have a tunnel-like view.
+Not reliant on a moving mirror and shutter, which otherwise adds noise, weight, design complexity, and cost.
+No weight or size penalty for better quality of materials and design. Optical viewfinder quality varies greatly across all DSLRs.Olympus and Panasonic approached the implementation of electronic viewfinders in two ways: the built-in EVF, and the optional hotshoe add-on EVF.
+Until the introduction of the OM-D E-M5 in February, 2012, none of the Olympus designs included a built-in EVF. Olympus has four available add-on hotshoe viewfinders.  The Olympus VF-1 is an optical viewfinder with an angle of view of 65 degrees, equivalent to the 17mm pancake lens field of view, and was designed primarily for the EP-1.  Olympus has since introduced the high resolution VF-2 EVF, and a newer, less expensive, slightly lower resolution VF-3 for use in all its MFT cameras after the Olympus EP-1.  These EVF's not only slip into the accessory hotshoe, but also plug into a dedicated proprietary port for power and communication with Olympus cameras only.  Both the VF-2 and VF-3 may also be used on high-end Olympus compact point and shoot cameras such as the Olympus XZ-1.  Olympus announced the VF-4 in May 2013, along with the fourth generation PEN flagship, the E-P5.
+As of mid-2011, Panasonic G and GH series cameras have built in EVF's, while two of the three GF models are able to use the add-on LVF1 hotshoe EVF.  The LVF1 must also plug into a proprietary port built into the camera for power and communication.  This proprietary port and the accessory is omitted in the Panasonic Lumix DMC-GF3 design.  Similar to Olympus, the LVF1 is usable on high-end Panasonic compact point and shoot cameras, such as the Panasonic Lumix DMC-LX5.
+
+Disadvantages of Micro Four Thirds compared to DSLRs
+The Four Thirds sensor (2.0× crop factor) is 32% smaller in area than Canon APS-C (1.6x crop factor), 39% smaller than Nikon/Sony APS-C (1.5x crop factor), and 75% smaller (i.e. one quarter of the area) than a full frame sensor (1.0× crop factor, 35 mm equivalent). This can mean lower image quality when all other variables are the same, including poorer color transitions and more noise at identical ISO settings, especially in low light, when compared with the larger sensors.
+Contrast-detection autofocus systems such as those used in Micro Four Thirds cameras were initially slower than the phase-detection systems used in DSLRs. Note that this disadvantage has mostly been eliminated, at least for static subjects; the Olympus OM-D E-M5 (2012) compares favorably with DSLRs in single AF. Contrast detection also tends to perform poorly when tracking moving subjects, though cameras with on-sensor phase detection autofocus, introduced in the Olympus OM-D E-M1 in 2013, can perform comparably to DSLRs in continuous AF mode. The Olympus OM-D E-M1X even uses technology trained by artificial intelligence in order to predict the area of interest and its behaviour.
+Due to the absence of a mirror and prism mechanism, there is no ability to use a through-the-lens optical viewfinder. A through-the-lens electronic viewfinder, an attachable not-through-the-lens optical viewfinder (similar to a rangefinder or TLR), or the universally-supplied LCD screen must be used instead.
+Theoretically, changing lenses can expose the sensor to more dust in a "mirrorless" camera design, compared to DSLRs that have both a mirror and a closed shutter protecting the sensor.  Mirrorless cameras have dust-removal systems that try to minimize this problem, and in practice they experience fewer dust problems than a DSLR. Many micro-four third users report never having found dust on the sensor at all.
+A larger crop factor (2× multiplier, versus 1.5× or 1.6× on APS-C) means greater depth-of-field for the same equivalent field of view and f/stop when compared with APS-C and especially full frame cameras. This can be a disadvantage when a photographer wants to blur a background, such as when shooting portraits.
+Some Micro Four Thirds cameras and lenses are very small, which can result in relatively poor ergonomics for users with larger hands. This applies especially to handling, the depth of the right-hand grip, and the size and placement of buttons and dials.
+Micro Four Thirds lenses can be used on 35 mm equivalent *(full-frame) and APS-C cameras but will be susceptible to lens vignetting.
+Older cameras can be prone to "shutter shock" at slower shutter speeds. In a DSLR, the shutter opens and closes, while a Micro Four Thirds camera has to close the shutter, open-close it, then open it again whenever a photo is taken.
+
+Advantages of Micro Four Thirds over compact digital cameras
+Greatly increased sensor size (5–9 times larger area) gives much better image quality, e.g.  low light performance and greater dynamic range, with reduced noise.
+Interchangeable lenses allow more optical choices including niche, legacy, and future lenses.
+Shallower depth of field possible (e.g. for portraits, for bokeh ... ).
+Sharper images at slower shutter speeds as a result of IBIS (In-Body Image Stabilization) common in Panasonic and Olympus Micro Four Thirds cameras.
+
+Disadvantages of Micro Four Thirds compared to compact digital cameras
+Increased physical size and weight (camera and lenses are both larger due to increased sensor size);
+Extreme zoom lenses available on compacts (such as 30× to 120× models) are more expensive or simply not available on large sensor cameras due to physical size, cost, and practicality considerations;
+Similarly, larger sensors and shallow depth-of-field make bundled macro capability and close focusing more difficult, often requiring separate, specialized lenses.
+Higher cost.
+
+Popularity with adapted/legacy lenses
+Due to the short native flange distance of the Micro Four Thirds System, the usage of adapted lenses from practically all formats has become widely popular.  Because lenses can be used from old and abandoned camera systems, adapted lenses typically represent good value for the money.  Adapters ranging from low- to high-quality are readily available for purchase online.  Canon FD, Nikon F (G lenses require special adapters), MD/MC, Leica M, M42 Screw Mount, and C-mount Cine lenses to name a few are all easily adaptable to the Micro Four Thirds system with glassless adapters resulting in no induced loss of light or sharpness.
+Adapted lenses retain their native focal lengths but field of view is reduced by half —i.e., an adapted 50mm lens is still a 50mm lens in terms of focal length but has a narrower FOV equivalent to a 100mm lens due to the Micro Four Thirds System 2x crop factor. Therefore, most adapted glass from the 35mm film era and current DSLR lineups provide effective fields of view varying from normal to extreme telephoto. Wide angles are generally not practical for adapted use from both an image quality and value point of view.
+Using older adapted lenses on Micro Four Thirds sometimes leads to a slight losses in image quality.  This is the result of placing high resolution demands on the center crop of decade old 35mm lenses.  Therefore, 100% crops from the lenses do not usually represent the same level of pixel-level sharpness as they would on their native formats.  Another slight disadvantage of using adapted lenses can be size.  By using a 35mm film lens, one would be using a lens that casts an image circle that is far larger than what is required by Micro Four Thirds Sensors.
+The main disadvantage of using adapted lenses however, is that focus is manual even with natively autofocus lenses.  Full metering functionality is maintained however, as are some automated shooting modes (aperture priority).  A further disadvantage with some LM and LTM lenses is that lenses with significant rear protrusions simply do not fit inside the camera body and risk damaging lens or body.  An example is the Biogon type of lens.
+Overall, the ability to use adapted lenses gives Micro Four Thirds a great advantage in overall versatility and the practice has gained a somewhat cult following. Image samples can be found readily online, and in particular on the MU-43 adapted lenses forum.
+
+Micro Four Thirds system cameras
+As of June 2012, Olympus, Panasonic, Cosina Voigtländer, Carl Zeiss AG, Jos. Schneider Optische Werke GmbH, Komamura Corporation, Sigma Corporation, Tamron, Astrodesign, Yasuhara, and Blackmagic Design have a commitment to the Micro Four Thirds system.
+The first Micro Four Thirds system camera was Panasonic Lumix DMC-G1, which was launched in Japan in October 2008.  In April 2009, Panasonic Lumix DMC-GH1 with HD video recording added to it. The first Olympus model, the Olympus PEN E-P1, was shipped in July 2009.
+In August 2013 SVS Vistek GmbH in Seefeld, Germany introduced the first high-speed industrial MFT lens mount camera using 4/3" sensors from Truesense Imaging, Inc (formally Kodak sensors), now part of ON Semiconductor. Their Evo "Tracer" cameras range from 1 megapixels at 147 frames per second (fps) to 8 megapixels at 22 fps.
+In 2014, JK Imaging Ltd., which holds the Kodak brand, released its first Micro Four Thirds camera, the Kodak Pixpro S-1; several lenses and niche camera makers have products made for the standard. In 2015, DJI provided its drone with optional MFT cameras. Both cameras can capture 16MP stills and up to 4K/30fps video with an option of 4 interchangeable lenses ranging from 12mm to 17mm. In 2016, Xiaoyi introduced the YI M1, a 20MP MFT camera with 4K video capability.Blackmagic design has a range of cameras made for cinematography.
+
+Micro Four Thirds lenses
+Because the flange focal distance of Micro Four Thirds cameras are shorter than DSLRs, most lenses are smaller and cheaper.Of particular interest in illustrating this fact are the Panasonic 7–14 mm ultra-wide angle (equivalent to 14–28 mm in the 35 mm film format) and the Olympus M.Zuiko Digital ED 9–18 mm ultra wide-angle lens (equivalent to an 18–36 mm zoom lens in the 35 mm film format). This feature also permitted the lens designers to develop the world's fastest fisheye lens with autofocus, the Olympus ED 8 mm f/1.8.
+On the telephoto end, the Panasonic 100–300 mm or the Leica DG 100-400 mm as well as the Olympus 75–300 mm zooms show how small and light extreme telephotos can be made. The 400 mm focal length in Micro Four Thirds has the same angle of view as an 800 mm focal length in full frame cameras.
+When compared to a full frame camera lens providing a similar angle of view, rather than weighing a few kilograms (several pounds) and generally having a length of over 60 cm (2 ft) end to end, the optically stabilized Panasonic Lumix G Vario 100–300 mm lens weighs just 520 grams (18.3 oz), is only 126 mm (5.0 in) long, and uses a relatively petite 67 mm filter size.  As a point of comparison, the Nikon 600 mm f5.6 telephoto weighs 3600 grams (7.9 lb), is 516.5 mm (20.3 in) in length and uses a custom 122 mm filter.
+
+Image stabilization approaches
+Olympus and Panasonic have both produced cameras with sensor-based stabilization, and lenses with stabilization. However, the lens stabilization will only work together with body stabilization for cameras of the same brand. Before 2013, Olympus and Panasonic approached image stabilization (IS) differently. Olympus used sensor-shift image stabilization only, which it calls IBIS (In-Body Image Stabilization), a feature included all of its cameras. Until 2013, Panasonic used lens-based stabilization only, called Mega OIS or Power OIS. These stabilize the image by shifting a small optical block within the lens.
+
+In 2013, Panasonic began including sensor-based stabilization in its cameras, beginning with the Lumix DMC-GX7. Panasonic called the combination of lens and body stabilization "Dual IS," and this function won an award of the European Imaging and Sound Association (EISA) in the category Photo Innovation 2016–2017. In 2016, Olympus added lens-based stabilization to the M. Zuiko 300mm f/4.0 Pro telephoto prime lens and the M. Zuiko 12-100mm f/4.0 IS Pro lens.
+Panasonic claims that OIS is more accurate because the stabilization system can be designed for the particular optical characteristics of each lens. A disadvantage of this approach is that the OIS motor and shift mechanism must be built into each lens, making lenses more expensive than comparable non-OIS lenses. Of all Panasonic lenses only few with short focal lengths, and therefore wide angles of view and low susceptibility to image shaking, are not image stabilized, including the 8 mm fisheye, 7–14 mm wide angle zoom, 14 mm prime, the 15 mm prime, the 20 mm prime and the 25 mm prime.
+The advantage of in-body IS is that even unstabilized lenses can make use of the in-body stabilization.
+
+Lens compactness and mount adaptabilitySince most Micro Four Thirds lenses have neither a mechanical focusing ring nor an aperture ring, adapting these lenses for other camera mounts is impossible or compromised. A variety of companies manufacture adapters to use lenses from nearly any legacy lens mount (such lenses, of course, support no automatic functions.) For the Four Third lenses that can be mounted on MFT bodies, see Four Thirds system lenses. For the Four Third lenses that support AF, see the Olympus website.  For those that support fast AF (Imager AF), see the Olympus website.
+
+Zoom lenses
+Wide zoom lenses
+Standard zoom lenses
+Telephoto zoom lenses
+Superzoom lenses
+Fixed focal length lenses
+On Jan 9, 2012 Sigma announced its first two lenses for Micro Four Thirds, the "30mm f/2.8 EX DN and the 19mm f/2.8 EX DN lenses in Micro Four Thirds mounts". In a press release posted on January 26, 2012, Olympus and Panasonic jointly announced that "ASTRODESIGN, Inc., Kenko Tokina Co., Ltd. and Tamron Co., Ltd. join[ed] the Micro Four Thirds System Standard Group". On January 26, 2012, Tokina and Tamron have indicated they would be designing lenses for the Micro 4/3 system as well. To date, both have released a single lens for the system, each.
+
+Prime lenses with autofocus
+This list does not include fisheye and macro lenses (see below).
+
+Table notes
+
+Macro lenses
+Fisheyes
+Prime lenses without autofocus
+Other lenses
+3D lenses
+
+Panasonic Lumix G 12.5mm 3D lens f/12 (35mm EFL and aperture = 65mmf/24) when using 16:9 format on Panasonic Lumix DMC-GH2.  This lens is only compatible with newer Panasonic bodies and the Olympus OMD E-M5. Not compatible with Panasonic Lumix DMC G-1, GF-1 and GH-1. Not compatible with any Olympus PEN digital cameras.Digiscoping lenses
+
+SLR Magic 12-36x50 ED spotting scope for micro four thirds f/8-25 (announced September 2011)(35mm EFL and aperture = 840–2520 mm f/16-50)Pinhole
+
+SLR Magic x Toy Lens Pinhole f/128 'lens' cap (announced March 2012)(35mm EFL and aperture = 12mm f/256)
+Wanderlust Pinwide f/96–f/128 'lens' capSpecial effects
+
+Lensbaby Trio 28mm f/3.5. 3-in-1 effects.
+Lensbaby Sol 22mm  f/3.5. Creates a spot of focus effect surrounded by smooth bokeh.
+Lensbaby Spark 2.0 50mm f/2.5. Squeeze and tilt it to focus.
+Photex MC 50mm f/2 Tilt-Shift.
+Samyang 24mm F3.5 ED AS UMC Tilt-Shift.
+
+3D
+On July 27, 2010, Panasonic announced the development of a three-dimensional optic solution for the Micro Four Thirds system. A specially designed lens allows it to capture stereo images compatible with VIERA 3D-TV-sets and Blu-ray 3D Disc Players.
+
+See also
+Image sensor format
+Lenses for SLR and DSLR cameras
+List of lens mounts
+
+References
+External links
+
+The Micro Four Thirds Standard official pages.
+Complete Micro 4/3 Lens List.
+Panasonic Lumix G family of lenses
+Olympus PEN system lenses Archived 2012-09-22 at the Wayback Machine
+Cosina Voigtländer Nokton MFT mount product page
+Noktor Hyperprime MFT mount product page
+Samyang Fisheye product page

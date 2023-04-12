@@ -1,0 +1,11 @@
+An actinograph is an instrument for measuring or estimating the amount of light available, in terms of its ability to expose photographic film.  That is, it measures the actinic or chemical intensity of light, as opposed to radiometric or photometric amount of light.
+The earliest actinographs were 24-hour recording devices, using a rotating cylinder of photographic paper exposed through a wedged-shaped slit to record a graph of actinic light during the period of a day; hence the graph suffix in actinograph.  Such devices were developed and described by Robert Hunt, secretary of the Royal Cornwall Polytechnic Society in 1845, as an improvement on T. B. Jordan's 1839 Heliograph.In 1888, Ferdinand Hurter and Vero Charles Driffield patented a device for estimating the actinic power of sunlight and for computing exposure times and apertures for cameras, based on the plate speed, time of day, time of year, and latitude.  These were slide rules, not measuring instruments, and did not produce a graph, but Hurter and Driffield adopted the same name for it.
+In 1911, Arthur William Clayden M.A. (Fellow of the Royal Meteorological Society and Principal of the Royal Albert Memorial University College of Exeter) developed a version of an actinograph for meteorologists, to observe and record the change of radiation.
+
+See also
+Actinometer
+Pyranometer (a type of actinograph)
+Hurter and Driffield
+
+
+== References ==

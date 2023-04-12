@@ -1,0 +1,51 @@
+Network planning and design is an iterative process, encompassing 
+topological design, network-synthesis, and network-realization, and is aimed at ensuring that a new telecommunications network or service meets the needs of the subscriber and operator.
+The process can be tailored according to each new network or service.
+
+A network planning methodology
+A traditional network planning methodology in the context of business decisions involves five layers of planning, namely:
+
+need assessment and resource assessment
+short-term network planning
+IT resource
+long-term and medium-term network planning
+operations and maintenance.Each of these layers incorporates plans for different time horizons, i.e. the business planning layer determines the planning that the operator must perform to ensure that the network will perform as required for its intended life-span. The Operations and Maintenance layer, however, examines how the network will run on a day-to-day basis.
+The network planning process begins with the acquisition of external information. This includes:
+
+forecasts of how the new network/service will operate;
+the economic information concerning costs, and
+the technical details of the network’s capabilities.Planning a new network/service involves implementing the new system across the first four layers of the OSI Reference Model. Choices must be made for the protocols and transmission technologies.The network planning process involves three main steps:
+
+Topological design: This stage involves determining where to place the components and how to connect them. The (topological) optimization methods that can be used in this stage come from an area of mathematics called graph theory. These methods involve determining the costs of transmission and the cost of switching, and thereby determining the optimum connection matrix and location of switches and concentrators.
+Network-synthesis: This stage involves determining the size of the components used, subject to performance criteria such as the grade of service (GOS). The method used is known as "Nonlinear Optimisation", and involves determining the topology, required GoS, cost of transmission, etc., and using this information to calculate a routing plan, and the size of the components.
+Network realization: This stage involves determining how to meet capacity requirements, and ensure reliability within the network. The method used is known as "Multicommodity Flow Optimisation", and involves determining all information relating to demand, costs, and reliability, and then using this information to calculate an actual physical circuit plan.These steps are performed iteratively in parallel with one another.
+
+The role of forecasting
+During the process of Network Planning and Design, estimates are made of the expected traffic intensity and traffic load that the network must support. If a network of a similar nature already exists, traffic measurements of such a network can be used to calculate the exact traffic load. If there are no similar networks, then the network planner must use telecommunications forecasting methods to estimate the expected traffic intensity.The forecasting process involves several steps:
+Definition of a problem;
+Data acquisition;
+Choice of forecasting method;
+Analysis/Forecasting;
+Documentation and analysis of results.
+
+Dimensioning
+Dimensioning a new network determines the minimum capacity requirements that will still allow the Teletraffic Grade of Service (GoS) requirements to be met. To do this, dimensioning involves planning for peak-hour traffic, i.e. that hour during the day during which traffic intensity is at its peak.The dimensioning process involves determining the network’s topology, routing plan, traffic matrix, and GoS requirements, and using this information to determine the maximum call handling capacity of the switches, and the maximum number of channels required between the switches. This process requires a complex model that simulates the behavior of the network equipment and routing protocols.
+A dimensioning rule is that the planner must ensure that the traffic load should never approach a load of 100 percent. To calculate the correct dimensioning to comply with the above rule, the planner must take on-going measurements of the network’s traffic, and continuously maintain and upgrade resources to meet the changing requirements. Another reason for overprovisioning is to make sure that traffic can be rerouted in case a failure occurs in the network.
+Because of the complexity of network dimensioning, this is typically done using specialized software tools. Whereas researchers typically develop custom software to study a particular problem, network operators typically make use of commercial network planning software.
+
+Traffic engineering
+Compared to network engineering, which adds resources such as links, routers, and switches into the network, traffic engineering targets changing traffic paths on the existing network to alleviate traffic congestion or accommodate more traffic demand.
+This technology is critical when the cost of network expansion is prohibitively high and the network load is not optimally balanced.  The first part provides financial motivation for traffic engineering while the second part grants the possibility of deploying this technology.
+
+Survivability
+Network survivability enables the network to maintain maximum network connectivity and quality of service under failure conditions. It has been one of the critical requirements in network planning and design. It involves design requirements on topology, protocol, bandwidth allocation, etc..  Topology requirement can be maintaining a minimum two-connected network against any failure of a single link or node.  Protocol requirements include using a dynamic routing protocol to reroute traffic against network dynamics during the transition of network dimensioning or equipment failures.  Bandwidth allocation requirements pro-actively allocate extra bandwidth to avoid traffic loss under failure conditions.  This topic has been actively studied in conferences, such as the International Workshop on Design of Reliable Communication Networks (DRCN).
+
+Data driven network design
+More recently, with the increasing role of Artificial Intelligence technologies in engineering, the idea of using data to create data-driven models of existing networks has been proposed. By analyzing large network data, also the less desired behaviors that may occur in real-world networks can be understood, worked around, and avoided in future designs. 
+Both the design and management of networked systems can be improved by data-driven paradigm. Data-driven models can also be used at various phases of service and network management life cycle such as service instantiation, service provision, optimization, monitoring, and diagnostic.
+
+See also
+Network Partition for Optimization
+
+
+== References ==

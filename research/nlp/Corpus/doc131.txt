@@ -1,0 +1,17 @@
+Universal Camera Corp. v. NLRB, 340 U.S. 474 (1951), was a United States Supreme Court case which held that a court will defer to a federal agency's findings of fact if supported by "substantial evidence on the record considered as a whole." Universal Camera added another qualification to the substantial evidence test laid down in Consolidated Edison Co. v. NLRB. The evidence supporting the agency's conclusion must be substantial in consideration of the record as a whole, even including the evidence that is not consistent with the agency's conclusion.
+
+Background
+Universal Camera Corp. fired an employee who testified under the Wagner Act.  The National Labor Relations Board ordered Universal Camera Corp. to reinstate the employee with back pay and to cease and desist terminating employees for this reason.  The Court of Appeals for the Second Circuit upheld the order, and the Supreme Court granted certiorari to resolve a circuit split.
+
+Decision
+Justice Frankfurter delivered the opinion of the Court. The Court discussed the "substantial evidence" test established by the Court in Consolidated Edison Co. v. NLRB, which interpreted the Wagner Act, the original National Labor Relations Act. The Act provided that "[t]he findings of the Board as to the facts, if supported by evidence, shall be conclusive." The Con Edison court read "evidence" to mean "substantial evidence."  "Substantial evidence is more than a mere scintilla.  It means such relevant evidence as a reasonable mind might accept as adequate to support a conclusion."The Universal Camera Court reviewed the Act's legislative history, concluding that "[i]t is fair to say that in all this Congress expressed a mood... As legislation that mood must be respected."  The Court found that both the Administrative Procedure Act and the Taft-Hartley Act, which amended the National Labor Relations Act, required that courts consider the whole record. In weighing the substantiality of evidence, courts must thus consider the whole body of evidence, including views opposed to the ultimate decision. Justices Black and Douglas concurred only in parts I and II of the opinion, and dissented from part III.Universal Camera has been "the leading case on the meaning of the APA's 'substantial evidence' test for review of agency factual conclusions in formal proceedings" for over sixty years. Commentators have noted that the substantial evidence test, as determined by Universal Camera, is "less deferential than the jury standard but more deferential than the clearly erroneous standard of Fed. R. Civ. Proc. 52(a)."
+
+See also
+List of United States Supreme Court cases
+Lists of United States Supreme Court cases by volume
+List of United States Supreme Court cases, volume 340
+List of United States Supreme Court cases by the Vinson Court
+
+References
+External links
+Text of Universal Camera Corp. v. NLRB, 340 U.S. 474 (1951) is available from: CourtListener  Findlaw  Google Scholar  Justia  Library of Congress  OpenJurist

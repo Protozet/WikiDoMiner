@@ -1,0 +1,14 @@
+A networked narrative, also known as a network narrative or distributed narrative, is a narrative partitioned across a network of interconnected authors, access points, and/or discrete threads. It is not driven by the specificity of details; rather, details emerge through a co-construction of the ultimate story by the various participants or elements.
+
+Networked narratives as decentralized stories
+Networked narratives can be seen as being defined by their rejection of narrative unity. As a consequence, such narratives escape the constraints of centralized authorship, distribution, and storytelling. One of the most visible forms of networked narrative has been the alternate reality game, an interactive scenario that is experienced through multiple channels and adapts to player behavior. Additionally, networked narratives have been represented in films such as Crash and Syriana through highly decentralized, threaded plots.
+
+Networked narratives as social movements
+Marco Deseriis breaks down networked narratives in three central functions: denotative, performing, and pragmatic. He claims that socially-created networked narratives:
+1. Represent an initially unsolved conflict, dilemma, or other situation.
+2. Invite viewers to perform a role in the story.
+3. Are oriented around a system of beliefs or ethics that resonates with participants and allows them to create new stories.
+Internet activism, hacktivism, and the free software movement are principal examples of such narratives in practice. While adherents to these movements tend to share a common ethos, there is no central authority - the direction of the narrative hinges on its participants.
+
+
+== Notes ==

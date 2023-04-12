@@ -1,0 +1,58 @@
+A microprocessor development board is a printed circuit board containing a microprocessor and the minimal support logic needed for an electronic engineer or any person that wants to become acquainted with the microprocessor on the board and to learn to program it. It also served users of the microprocessor as a method to prototype applications in products.
+Unlike a general-purpose system such as a home computer, usually a development board contains little or no hardware dedicated to a user interface. It will have some provision to accept and run a user-supplied program, such as downloading a program through a serial port to flash memory, or some form of programmable memory in a socket in earlier systems.
+
+History
+The reason for the existence of a development board was solely to provide a system for learning to use a new microprocessor, not for entertainment. So everything superfluous was left out to keep costs down. Even an enclosure was not supplied, nor a power supply. This is because the board would only be used in a "laboratory" environment so it did not need an enclosure, and the board could be powered by a typical bench power supply already available to an electronic engineer.
+Microprocessor training development kits were not always produced by microprocessor manufacturers. Many systems that can be classified as microprocessor development kits were produced by third parties, one example is the Sinclair MK14, which was inspired by the official SC/MP development board from National Semiconductor, the "NS introkit".Although these development boards were not designed for hobbyists, they were often bought by them because they were the earliest cheap microcomputer devices you could buy. They often added all kinds of expansions, such as more memory, a video interface etc. It was very popular to use (or write) an implementation of Tiny Basic. The most popular microprocessor board, the KIM-1, received the most attention from the hobby community, because it was much cheaper than most other development boards, and you could get more software for it (Tiny Basic, games, assemblers), and cheap expansion cards to add more memory or other functionality. More articles were published in magazines like "Kilobaud Microcomputing" that described home-brew software and hardware for the KIM-1 than for other development boards.Today some chip producers still release "test boards" to demonstrate their chips, and to use them as a "reference design". Their significance these days is much smaller than it was in the days that such boards, (the KIM-1 being the canonical example) were the only low cost way to get "hands-on" acquainted with microprocessors..
+
+Features
+The most important feature of the microprocessor development board was the ROM based built-in machine language monitor, or "debugger" as it was also sometimes called. Often the name of the board was related to the name of this monitor program, for example the name of the monitor program of the KIM-1 was "Keyboard Input Monitor", because the ROM based software allowed entry of programs without the rows of cumbersome toggle switches that older systems used. The popular 6800 based systems often used a monitor with a name with the word "bug" for "debugger" in it, for example the popular "MIKBUG".Input was normally done with a hexadecimal keyboard, using a machine language monitor program, and the display only consisted of a 7-segment display. Backup storage of written assembler programs was primitive: only a cassette type interface was typically provided, or the serial Teletype interface was used to read (or punch) a papertape.Often the board has some kind to expansion connector that brought out all the necessary CPU signals, so that an engineer could build and test an experimental interface or other electronic device.
+External interfaces on the bare board were often limited to a single RS-232 or current loop serial port, so a terminal, printer, or Teletype could be connected.
+
+List of historical development boards
+8085AAT, an Intel 8085 microprocessor training unit from Paccom
+CDP18S020 evaluation board for the RCA CDP1802 microprocessor
+EVK 300 6800 single board from American Microsystems (AMI)
+Explorer/85 expandable learning system based on the 8085, by Netronics's research and development ltd.
+ITT experimenter used switches and LEDs, and an intel 8080
+JOLT was designed by Raymond M. Holt, co-founder of Microcomputer Associates, Incorporated.
+KIM-1 the development board for the MOS Technology/Rockwell/Synertek 6502 microprocessor. The name KIM is short for "keyboard input monitor"
+SYM-1 a slightly improved KIM-1 with better software, more memory, and I/O. Also known as the VIM
+AIM-65 an improved KIM-1 with an alphanumerical LED display, and a built-in printer.
+The KIM-1 also lead to some unofficial copies, such as the super-KIM and the Junior from the magazine Elektor, and the MCS Alpha 1
+LC80 by Kombinat Mikroelektronik Erfurt
+MAXBOARD development board for the Motorola 6802.
+MEK6800D2 the official development board for the Motorola 6800 microprocessor. The name of the monitor software was MIKBUG
+MicroChroma 68 color graphics kit. Developed by Motorola to demonstrate their new 6847 video display processor. The monitor software was called TVBUG
+Motorola EXORciser development system (rack based) for the Motorola 6809
+Microprofessor I (MPF-1) Z80 development and training system by Acer
+Tangerine Microtan 65 6502 development system with VDU, that could be expanded to a more capable system.
+MST-80B 8080 training system by the Lawrence Livermore National Laboratory
+NS introkit by National Semiconductor featuring the SC/MP, the predecessor to the Sinclair MK14
+NRI microcomputer, a system developed to teach computer courses by McGraw-Hill and the National Radio Institute (NRI)
+MK14 Training system for the SC/MP microprocessor from Sinclair Research Ltd.
+SDK-80 Intel's development board for their 8080 microprocessor
+SDK-51 Intel's development board for their Intel MCS-51
+SDK-85 Intel's development board for their 8085 microprocessor
+SDK-86 Intel's development board for their 8086 microprocessor
+Siemens Microset-8080 boxed system based on an 8080.
+Signetics Instructor 50 based on the Signetics 2650.
+SGS-ATES Nanocomputer z80.
+RCA Cosmac Super Elf by RCA . a 1802 learning system with an RCA 1861 Video Display Controller.
+TK-80 the development board for NEC's clone of Intel's i8080, the μPD 8080A
+TM 990/100M evaluation board for the Texas Instruments TMS9900
+TM 990/180M evaluation board for the Texas Instruments TMS9800
+XPO-1 Texas Instruments development system for the PPS-4/1 line of microcontrollers
+
+DSP evaluation boards
+A DSP evaluation board, sometimes also known as a DSP starter kit (DSK) or a DSP evaluation module, is an electronic board with a digital signal processor used for experiments, evaluation and development. Applications are developed in DSP Starter Kits using software usually referred as an integrated development environment (IDE). Texas Instruments and Spectrum Digital are two companies who produce these kits. 
+Two examples are the DSK 6416 by Texas Instruments, based on the TMS320C6416 fixed point digital signal processor, a member of C6000 series of processors that is based on VelociTI.2 architecture, and the DSK 6713 by Texas Instruments, which was developed in cooperation with Spectrum Digital, based on the TMS320C6713 32-bit floating point digital signal processor,: 3  which allows for programming in C and assembly.
+
+See also
+Embedded system
+Intel System Development Kit
+Single-board computer
+Single-board microcontroller
+
+
+== References ==

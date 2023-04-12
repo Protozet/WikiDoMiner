@@ -1,0 +1,18 @@
+For an interchangeable lens camera, the flange focal distance (FFD) (also known as the flange-to-film distance, flange focal depth, flange back distance (FBD), flange focal length (FFL), back focus or register, depending on the usage and source) of a lens mount system is the distance from the mounting flange (the interlocking metal rings on the camera and the rear of the lens) to the film or image sensor plane. This value is different for different camera systems. The range of this distance, which will render an image clearly in focus within all focal lengths, is usually measured to a precision of hundredths of millimetres, and is not to be confused with depth of field.
+Lenses can be adapted from one mount (and respective FFD) to another. FFD determines whether infinity focus can be accomplished with a simple non-optical adapter. Optics to correct for distance introduce more cost and can lower image quality, so non-optical lens adapters are preferred. A simple non-optical adapter holds the longer FFD lens the appropriate additional distance away from the sensor or film on the shorter FFD camera. A camera body with a shorter FFD can accept a larger number of lenses (those with a longer FFD) by using a simple adapter. A lens with a longer FFD can be more readily adapted to a larger number of camera bodies (those with a shorter FFD). If the difference is small, other factors such as the sizes and positions of the mounting flanges will influence whether a lens can be adapted without optics.
+
+Standard mounts
+Typically, camera bodies with shorter flange focal distance can be adapted more readily to lenses with longer flange focal distance.
+
+Precision
+Flange focal distance is one of the most important variables in a system camera, as lens seating errors of as little as 0.01 mm will manifest themselves critically on the imaging plane and focus will not match the lens marks. Professional movie cameras are rigorously tested by rental houses regularly to ensure the distance is properly calibrated. Any discrepancies between eye focus and measured focus that manifest them­selves across a range of distances within a single lens may be collimation error with the lens, but if such discrepancies occur across several lenses, it is more likely to be the flange focal distance or the ground glass (or both) that are misset.
+
+Film use
+Due to research on optimal flange focal distance settings, it is currently considered better for flange focal distance to be set to somewhere within the film's emulsion layer, rather than on the surface of it. Therefore, the nominal flange focal depth will be equivalent to the distance to the ground glass, whereas the actual flange focal depth to the aperture plate will in fact be ~0.02 mm less.
+
+See also
+List of lens mounts
+
+References
+
+Markerink, Willem-Jan. Camera Mounts & Registers Archived 2007-11-24 at the Wayback Machine. Retrieved on November 6, 2005.

@@ -1,0 +1,22 @@
+The Nikon NASA F4 Electronic Still Camera is one of the first and rarest fully digital cameras with development started in 1987. While Nikon delivered a modified Nikon F4 body, most of the electronics for the digital camera and housings were designed and manufactured by NASA at the Johnson Space Center and other suppliers. It was first flown in September 1991 on board the Space Shuttle Discovery, mission STS-48. Later the cameras were flown on several other Shuttle missions including STS-44, 45, 42, 49, 53, 56 and 61.Although the camera was often used alone mounted with its Electronics Box, the HERCULES system was built around it: Hand-held Earth-oriented Real-time Cooperative, User-friendly, Location, targeting, and Environmental System. It includes one of the first laptops in space mounted atop the Playback-Downlink Unit (PDU) and the kit also included the HERCULES Attitude Processor (HAP, a gyroscope based geolocation processor with initialization through star alignment shot with Nikon NASA F4 and additionally GPS data, giving up to 0.005 degrees per hour precision), Electronic Still Camera (ESC) Electronics Box (ESCEB) including removable imagery data storage disks, NRL HERCULES Inertial Measurement Unit (HIMU) with the three-axis Honeywell ring laser gyroscope, DA-20 action finder, a night vision image intensifier as well as assorted lenses and cables. It was flown on the STS-53 and 56 mission and was succeeded by the HERCULES-B.
+
+History
+Nikon has been a supplier of space (EVA) capable cameras for NASA since 1971, when they delivered a modified Nikon F SLR Photomic FTn camera with center-weighted TTL metering system, which was first used on the Apollo 15 mission. In 1973, a newer modified version of the Nikon F with a motor drive was delivered for use in Skylab. In 1980 and 1989, Nikon delivered modified, space capable F3 (big and small version) respectively F4 cameras to NASA, which were used in the Space Shuttle.
+Nikon's first digital camera (still video camera, with analog storage) was the Nikon Still Video Camera (SVC) Model 1, a prototype which was first presented at photokina 1986. The follower Nikon QV-1000C Still Video Camera was produced since 1988 mainly for professional press use. Both cameras used QV mount lenses, a variant of Nikon F-mount lenses. Via an adapter (QM-100) other F-mount lenses can be fitted.
+The NASA Electronic Still Camera / Nikon NASA F4 was followed by the NASA-used Nikon-based Kodak DCS 460, DCS 660 and DCS 760, Nikon D1, D2X, D2Xs, D3, D3X, D3S, D4 and the D800E. The Nikon F-mount is the only 35mm SLR or DSLR lens mount ever used by NASA.
+
+Technology
+The camera was based on a modified F4 with standard F-mount and had a digital camera back with a monochrome CCD image sensor with 1024 x 1024 pixels on an area of 15 x 15mm developed by Ford Aerospace. ISO 200 was the only light sensitivity, without infrared filter ISO 400. Removable IDE hard-disks were used for digital storage of 40 images each with 8 bits per pixel. The camera's imaging sensor interface was based on an Altera Stand Alone Microsequencer and employed a 1 image SRAM storage buffer. The removable hard drive, RS-232 interface, LCD display, Ku-Band downlink interface and remaining camera control were accomplished with a Wildcard 88 (Intel 80C88 8 MHz CPU) single-board computer. Images were transmitted to the ground via the Orbiter Ku-Band digital downlink at a rate of 2 Mbit/s. Within 1 hour the images were processed at Johnson Space Center's Pixar Image Computer and laser printed.Three copies of the NASA Electronic Still Camera were produced.  The original development team included NASA Civil Servant electronic and mechanical design and fabrication, Lockheed development of the Electronic Still Camera ground station, Nikon Engineering supplying in total 14 modified Nikon F4 camera bodies also for prototypes, and Ford Aerospace and JPL development of the CCD image sensor.Developed upgrades included a 2048 x 2048 CCD sensor, a color CCD and architecture changes, but finally the Kodak DCS 460 was preferred.
+
+See also
+Nikon E series
+List of cameras on ISS
+List of NASA cameras on spacecraft
+
+References
+External links
+
+Nikon NASA F4 (ESC) Images taken at Mission STS-48 (E) NASA
+Nikon NASA F4 (ESC) Images taken at Mission STS-49 (E) NASA
+HERCULES Earth observation Nikon NASA F4 (ESC) Images taken at Mission STS-56 (E) NASA
+Nikon NASA F4 (ESC) Images taken at Mission STS-61 (E) NASA

@@ -1,0 +1,51 @@
+Skycam is a computer-controlled, stabilized, cable-suspended camera system. The system is maneuvered through three dimensions in the open space over a playing area of a stadium or arena by computer-controlled cable-drive system. It is responsible for bringing video game–like camera angles to television sports coverage. The camera package weighs less than 14 kilograms (31 lb) and can travel at 13 m/s (29 mph).
+
+History
+Skycam was invented by Garrett Brown (also the inventor of the Steadicam) in the early 1980s. The patent for Skycam was assigned to Skycam, Inc. In 2004, Skycam, Inc. was acquired by Winnercomm, Inc. In 2009, Winnercomm was acquired by Outdoor Channel Holdings, Inc., parent company of the Outdoor Channel. In 2013, Outdoor Channel was acquired by Kroenke Sports & Entertainment.In 2015, a federal lawsuit was filed by Nic Salomon, the former President of Skycam, claiming intentional interference with contractual relations related to the 2013 acquisition by Kroenke Sports & Entertainment.  The case was allowed to proceed by the court in the Northern District of Texas in August 2017.  It was then dismissed in February 2019, weeks before a jury trial. In March 2019, Salomon appealed to the United States Court of Appeals for the Fifth Circuit. In April 2021, the Court of Appeals ruled in Kroenke Sports' favor.Despite the dispute, Skycam remains an important technology for the presentation of football content.
+
+Usage
+While "Skycam" is a registered trademark, the term "Skycam" is often used generically for cable-suspended camera system, and competing systems like CableCam (invented by Jim Rodnunsky but also a subsidiary of Kroenke Sports & Entertainment, LLC), Spidercam and Robycam 3D. Systems like it have been in limited use since the mid-1980s when the technology was first patented, but until the mid-1990s progress was slow due to limitations in computer and servo motor technology as well as cost (a 2001 estimate pegged the cost to use the Skycam at $30,000 per event). All of these systems began seeing more widespread use in the 21st century.
+
+American football
+Skycam was first publicly used in fall 1984, at a preseason National Football League (NFL) game in San Diego between the Chargers and 49ers, televised by CBS. NBC debuted the first wire-flown remote-controlled camera used in sports coverage at the 1985 Orange Bowl.The XFL was one of the first leagues to make extensive use of the Skycam as a primary camera angle for broadcasts when it debuted in spring 2001. Traditional camera angles were used more prominently after the first week of play; the "Xcam" (as it was known in that league's broadcasts) remained in regular use throughout the rest of the season.ESPN first used Skycam in 2001 for an NFL pre-season telecast and then consistently in 2002 for Sunday Night Football broadcasts. Since then, ESPN and sister-network ABC have made widespread use of Skycam for NCAA football, Monday Night Football, and Super Bowl XXXVII. The networks have regularly offered a Skycam-only internet broadcast of many of its more important sportscasts under the Megacast brand.
+CBC used a CableCam in their broadcasts of the 2005 and 2006 Grey Cups.On October 22, 2017, NBC was required to broadcast the majority of a Sunday Night Football game using Skycam angles, as their traditional sideline angles were obscured by a large amount of fog. Reception to the impromptu experiment was mostly positive (with some drawing comparisons to the default camera angle used in football video games, such as the Madden NFL franchise); NBC announced that it would experiment with intentionally using the Skycam as a primary angle during a subsequent Thursday-night game on November 16, 2017 and again for the December 14 game the same year.The Skycam's perspective, while making more effective use of the field of vision offered by a television screen (thus allowing viewers to see plays develop more clearly than the traditional sideline view), distorts vertical distances and makes it more difficult to assess yardages, which was part of the reason it has not been used more often. Consequently, in NBC's trial runs, they switched to a traditional sideline camera in short-yardage situations including the red zone, where the shorter distances negate some of the disadvantages of the sideline camera. To mitigate some of these disadvantages, NBC experimented with expanding the live on-field graphics to include a "green zone" that darkens the area between the line of scrimmage and the line to gain for a first down.
+
+Other sports
+Prior to the 1984 Olympics in Los Angeles, it was proposed that Skycam be used at the Opening Ceremonies and Track & Field events at the LA Coliseum. During test runs, the images were excellent, but on its last test, one of its four support wires snagged on the top of the steel football goal post at the peristyle end of the Coliseum and bent one of the arms. Skycam was unharmed, but was not used at the Olympics that year.Systems from Skycam and CableCam have also been used for the NBA and NHL final series and the beginning of the 2005 and 2006 NASCAR season broadcast on Fox. CableCam was used on the famous 17th hole at the Tournament Players Club at Sawgrass for NBC's coverage of The Players Championship in 2005.  CBS used a SkyCam for their coverage of the 2010 NCAA Men's Basketball Final Four games in Lucas Oil Stadium.
+In Australia, the Nine Network trialed Skycam for three of their Friday Night Football broadcasts of the Australian Football League for the 2004 season. It was also used in the State of Origin series.
+The first use of Skycam for an MLS broadcast was on April 2, 2005, for an ESPN broadcast of a match between DC United and Chivas USA at the Home Depot Center in Carson, California. However, the use of Skycam proved to be controversial three weeks later on April 23, 2005 when the camera crashed to the field of the Home Depot Center during a match between the LA Galaxy and Chivas USA.Skycam has been used infrequently for MLS broadcasts since then, including the 2015 MLS All-Star Game. On April 2, 2016, Sporting Kansas City debuted the league's first semi-permanent Skycam installation at Children's Mercy Park, in a match against Real Salt Lake.
+
+Technical overview
+Skycam consists of three major components: the reel—the motor drive and cables, the spar—the counterbalanced pan and tilt video camera, and central control—the computer software used by the operator to fly the camera.
+
+Reels
+The system consists of four reels anchored at high fixed points at corners of the stadium or arena (the cables are attached to fixed spars formed by tall extensible lift platforms when permanent anchors are not available). Each reel is a cable spool with 4.5 horsepower (3.4 kW) motor and disc brakes with its own computer capable of a .01 inches (0.25 mm) positioning resolution. The cable is a braided Kevlar jacketed single mode optical fiber with conductive copper elements and is capable of supporting 600 pounds (270 kg) on a single cable.
+
+Mobile spar
+The 36-inch (91 cm) tall spar contains the Sony HD camera, the pan and tilt motor, and stabilization sensors. Weighing 45 pounds (20 kg), the package also includes a power distribution module and electronics for fiber optic signaling.
+
+Central control
+Central control is an industrial grade Linux computer workstation that provides camera flight and video control. Both a pilot (the one who flies the spar in 3D space) and the operator (the one who controls the camera pan, tilt, zoom and focus) use this system for controlling the overall video shot. The central computer system uses a custom software package to control each aspect of the camera system, including motion, video, and obstacle avoidance.
+
+Incidents
+In the December 20, 2009 Las Vegas Bowl between the Oregon State Beavers and the BYU Cougars, Skycam had to be taken down as a result of high winds. Gusts were reported at over 40 miles per hour (64 km/h).
+In the 2011 Insight Bowl on December 30, 2011 between the Iowa Hawkeyes and the Oklahoma Sooners, Skycam crashed onto the field with 2:22 left to play, almost striking Iowa receiver Marvin McNutt. The game was delayed for about 5 minutes as a result, as the camera and its cables were removed from the field of play.
+During a Week 9 game between the Buffalo Bills and New York Jets at MetLife Stadium on November 6, 2022, one of the Skycam cables snapped with 8:27 remaining in the third quarter, causing a 12-minute delay. The camera and its cables were removed from the field of play.
+
+See also
+Spidercam
+
+References
+Notes
+Bibliography
+Gwinn, Eric (November 11, 2004). "Working the angles". Chicago Tribune.
+
+External links
+ Media related to Skycam at Wikimedia Commons
+Official site
+CableCam Archived 2017-12-08 at the Wayback Machine
+Skycam Inventor Garrett Brown
+Article at DTV Professional
+Press release announcing LynxOS real-time operating system in Skycam (2003)
+A cable camera platform used in the 1994 Winter Olympics and for filming Peter Pan's "Hook."
+A DIY Skycam

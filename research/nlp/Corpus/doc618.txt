@@ -1,0 +1,10 @@
+OMNeT++ (Objective Modular Network Testbed in C++) is a modular, component-based C++ simulation library and framework, primarily for building network simulators. OMNeT++ can be used for free for non-commercial simulations like at academic institutions and for teaching. OMNEST is an extended version of OMNeT++ for commercial use.OMNeT++ itself is a simulation framework without models for network protocols like IP or HTTP. The main computer network simulation models are available in several external frameworks. The most commonly used one is INET which offers a variety of models for all kind of network protocols and technologies like for IPv6, BGP. INET also offers a set of mobility models to simulate the node movement in simulations. The INET models are licensed under the LGPL or GPL. NED (NEtwork Description) is the topology description language of OMNeT++. 
+To manage and reduce the time to carry out large-scale simulations, additional tools have been developed, for example, based on Python.
+
+See also
+MLDesigner
+QualNet
+NEST (software)
+
+
+== References ==

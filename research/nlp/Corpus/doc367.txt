@@ -1,0 +1,48 @@
+Range imaging is the name for a collection of techniques that are used to produce a 2D image showing the distance to points in a scene from a specific point, normally associated with some type of sensor device.
+The resulting range image has pixel values that correspond to the distance. If the sensor that is used to produce the range image is properly calibrated the pixel values can be given directly in physical units, such as meters.
+
+Types of range cameras
+The sensor device that is used for producing the range image is sometimes referred to as a range camera or depth camera. Range cameras can operate according to a number of different techniques, some of which are presented here.
+
+Stereo triangulation
+Stereo triangulation is an application of stereophotogrammetry where the depth data of the pixels are determined from data acquired using a stereo or multiple-camera setup system. This way it is possible to determine the depth to points in the scene, for example, from the center point of the line between their focal points. In order to solve the depth measurement problem using a stereo camera system it is necessary to first find corresponding points in the different images. Solving the correspondence problem is one of the main problems when using this type of technique. For instance, it is difficult to solve the correspondence problem for image points that lie inside regions of homogeneous intensity or color. As a consequence, range imaging based on stereo triangulation can usually produce reliable depth estimates only for a subset of all points visible in the multiple cameras.
+The advantage of this technique is that the measurement is more or less passive; it does not require special conditions in terms of scene illumination. The other techniques mentioned here do not have to solve the correspondence problem but are instead dependent on particular scene illumination conditions.
+
+Sheet of light triangulation
+If the scene is illuminated with a sheet of light this creates a reflected line as seen from the light source. From any point out of the plane of the sheet the line will typically appear as a curve, the exact shape of which depends both on the distance between the observer and the light source, and the distance between the light source and the reflected points. By observing the reflected sheet of light using a camera (often a high resolution camera) and knowing the positions and orientations of both camera and light source, it is possible to determine the distances between the reflected points and the light source or camera.
+By moving either the light source (and normally also the camera) or the scene in front of the camera, a sequence of depth profiles of the scene can be generated. These can be represented as a 2D range image.
+
+Structured light
+By illuminating the scene with a specially designed light pattern, structured light, depth can be determined using only a single image of the reflected light. The structured light can be in the form of horizontal and vertical lines, points or checker board patterns. A light stage is basically a generic structured light range imaging device originally created for the job of reflectance capture.
+
+Time-of-flight
+The depth can also be measured using the standard time-of-flight (ToF) technique, more or less like a radar, in that a range image similar to a radar image is produced, except that a light pulse is used instead of an RF pulse. It is also not unlike a LIDAR, except that ToF is scannerless, i.e., the entire scene is captured with a single light pulse, as opposed to point-by-point with a rotating laser beam. Time-of-flight cameras are relatively new devices that capture a whole scene in three dimensions with a dedicated image sensor, and therefore have no need for moving parts. A time-of-flight laser radar with a fast gating intensified CCD camera achieves sub-millimeter depth resolution. With this technique a short laser pulse illuminates a scene, and the intensified CCD camera opens its high speed shutter only for a few hundred picoseconds. The 3D information is calculated from a 2D image series that was gathered with increasing delay between the laser pulse and the shutter opening.
+
+Interferometry
+By illuminating points with coherent light and measuring the phase shift of the reflected light relative to the light source it is possible to determine depth. Under the assumption that the true range image is a more or less continuous function of the image coordinates, the correct depth can be obtained using a technique called phase-unwrapping. See terrestrial SAR interferometry.
+
+Coded aperture
+Depth information may be partially or wholly inferred alongside intensity through reverse convolution of an image captured with a specially designed coded aperture pattern with a specific complex arrangement of holes through which the incoming light is either allowed through or blocked. The complex shape of the aperture creates a non-uniform blurring of the image for those parts of the scene not at the focal plane of the lens. The extent of blurring across the scene, which is related to the displacement from the focal plane, may be used to infer the depth.In order to identify the size of the blur (needed to decode depth information) in the captured image, two approaches can be used: 1) deblurring the captured image with different blurs, or 2) learning some linear filters that identify the type of blur.
+The first approach uses correct mathematical deconvolution that takes account of the known aperture design pattern; this deconvolution can identify where and by what degree the scene has become convoluted by out of focus light selectively falling on the capture surface, and reverse the process. Thus the blur-free scene may be retrieved together with the size of the blur.
+The second approach, instead, extracts the extent of the blur bypassing the recovery of the blur-free image, and therefore without performing reverse convolution. Using a principal component analysis (PCA) based technique, the method learns off-line a bank of filters that uniquely identify each size of blur; these filters are then applied directly to the captured image, as a normal convolution. A key advantage of this approach is that no information about the coded aperture pattern is required. Because of its efficiency, this algorithm has also been extended to video sequences with moving and deformable objects.Since the depth for a point is inferred from its extent of blurring caused by the light spreading from the corresponding point in the scene arriving across the entire surface of the aperture and distorting according to this spread, this is a complex form of stereo triangulation. Each point in the image is effectively spatially sampled across the width of the aperture.
+This technology has lately been used in the iPhone X. Many other phones from Samsung and computers from Microsoft have tried to use this technology but they do not use the 3D mapping.
+
+See also
+3D scanner
+Depth map
+Kinect
+Laser rangefinder
+Lidar
+Light-field camera (plenoptic camera)
+Photogrammetry
+Time-of-flight camera
+Laser Dynamic Range Imager
+Structure from motion
+Intensified CCD camera
+Optical flow technique developed for the Matrix franchise provides an effective solution to the correspondence problem to enable virtual cinematography.
+
+References
+
+Bernd Jähne (1997). Practical Handbook on Image Processing for Scientific Applications. CRC Press. ISBN 0-8493-8906-2.
+Linda G. Shapiro and George C. Stockman (2001). Computer Vision. Prentice Hall. ISBN 0-13-030796-3.
+David A. Forsyth and Jean Ponce (2003). Computer Vision, A Modern Approach. Prentice Hall. ISBN 0-12-379777-2.

@@ -1,0 +1,54 @@
+NASA has operated several cameras on spacecraft over the course of its history.
+
+Apollo Program
+Apollo TV camera
+Hasselblad "Electric Camera" (modified 500 EL) with 70 mm film
+Maurer Data Acquisition Camera (DAC) with 16 mm film
+Nikon with 35 mm film
+Mapping (Metric) Camera (7.6 cm focal length) with 127 mm film, on Apollo 15, 16, and 17 (see Sherman Fairchild#Lunar photography)
+Stellar Camera (7.6 cm focal length) with 35 mm film, on Apollo 15, 16, and 17
+Panoramic Camera (61 cm focal length) with 127 mm film, on Apollo 15, 16, and 17
+
+Skylab
+Personal camera equipment:
+Television camera
+16 mm film video camera
+35 mm film camera
+70 mm film camera
+
+Space Shuttle program
+Space Shuttle booster cameras.
+Space Shuttle External Tank camera
+Columbia
+Shuttle Infrared Leeside Temperature Sensing experiment
+Nikon NASA F4
+
+Lunar missions
+Pioneer program, 1958–1960
+Pioneer 1, television camera
+Pioneer 2, television camera
+Lunar Orbiter program, Lunar Orbiter 1–5, 1966–1967The camera used two lenses to simultaneously expose a wide-angle and a high-resolution image on the same film. The wide-angle, medium resolution mode used an 80 mm F 2.8 Xenotar lens manufactured by Schneider Kreuznach, Germany. The high-resolution mode used a 610 mm F 5.6 Panoramic lens manufactured by the Pacific Optical Company. The film was developed on-orbit, and then scanned by a photomultiplier for transmission to Earth.
+Clementine, 1994
+Ultraviolet/Visible camera (UV/Vis)
+Near-Infrared camera (NIR)
+High-Resolution Camera (HIRES)
+Lunar Precursor Robotic Program, 2009
+Lunar Reconnaissance Orbiter
+Lunar Reconnaissance Orbiter Camera (LROC)
+Lunar Crater Observation and Sensing Satellite
+One visible, two near infrared, and two mid-infrared cameras
+Gravity Recovery and Interior Laboratory, 2011
+Moon Knowledge Acquired by Middle school students (MoonKAM)
+
+Other missions
+Hazcam
+Navcam
+Pancam
+Cachecam
+
+See also
+List of cameras on ISS
+Nikon NASA F4
+
+
+== References ==

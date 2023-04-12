@@ -1,0 +1,61 @@
+Arashi Vision Inc. (Chinese: 影石创新科技股份有限公司), doing business as Insta360, is a camera company headquartered in Shenzhen, Guangdong, with offices in Los Angeles, Tokyo and Berlin. It makes action cameras, 360-degree cameras, editing software for mobile and desktop and 180-3D cameras.
+
+History
+Insta360 CEO JK Liu (刘靖康) met his co-founders while studying computer science at Nanjing University. Liu recognized the potential of 360 when he attended a music concert and wanted to develop products to record and share such powerfully moving events.Liu's first product was a smartphone app for live streaming, but he quickly expanded the firm's product portfolio by developing an accessory to turn a smartphone into a 360-degree camera.After graduating, Liu and his team moved to Shenzhen and founded Insta360 in 2015 to begin developing and manufacturing 360-degree cameras as they found the current market standard did not fulfill their needs. Insta360 later began to recognise the benefits of 360 video go far beyond standard 360 video, and began pioneering a new type of action camera, a 360 action camera that uses 360 video as a tool to create traditional flat framed content. This was with the first in the ONE series, Insta360 ONE.
+Since then, Insta360 has also opened offices in Los Angeles, Tokyo, and Berlin and it hosts 500 employees globally.
+In 2020, Insta360 entered a strategic partnership with Leica to help produce the ONE R 1-Inch Edition. Since then, ONE R has been recognised as one of TIME magazine's best inventions of 2020. A recent milestone for the company was Apple hosting Insta360 cameras in stores in over 100 countries.In 2018, NASA used Insta360 Pro and Pro 2 to live stream the landing of the InSight Mars Lander from mission control, winning an Emmy for the project. In 2021, NASA again used Insta360 Pro 2 to live stream from mission control when the Perseverance rover landed on Mars.
+
+Product lines
+Action cameras
+Insta360's action camera lineup includes ONE, ONE X, ONE R, ONE RS, ONE X2, X3, and the Insta360 GO with its successor the GO 2. The brand's action cameras use 360 technology to create traditional flat video results by "reframing" the 360 video, allowing the editor to pick their angle in post-production. They also all share Insta360's proprietary "FlowState Stabilization" image stabilization technology.
+
+Insta360 X3
+Launched in September 2022, the Insta360 X3 is the successor of the Insta360 ONE X2. It is a waterproof 360 action camera, with new 1/2" 48MP sensors and a 2.29" touchscreen allowing for 5.7K 360-degree video with Active HDR. It is also capable of capturing 72MP photos and 8K 360 timelapses. It also features AI reframing and extensive editing features.
+
+Insta360 ONE RS
+Launched in March 2022, Insta360 ONE RS is a waterproof interchangeable lens action cam. A new 4K Boost Lens with a 1/2" image sensor shoots 4K 60fps wide angle video and 48MP photos. The Core has a new processor for improved in-camera stabilization, an additional mic and faster WiFi. The new lens and Core are cross-compatible with the preceding ONE R generation as well, including the 5.7K 360 Lens and the 5.3K 1-Inch Wide Angle Lens co-engineered with Leica. By switching lenses, users can shoot both 4K action videos and 360-degree videos using the same device.
+
+Insta360 ONE X2
+The Insta360 ONE X2 camera was released on October 27, 2020, as the successor to the ONE X. It is a dual-lens 360 action camera that shoots 5.7K 360-degree video and is waterproof to 10 meters.
+
+Insta360 ONE R
+Launched in January 2020, Insta360 ONE R is a waterproof modular action cam with interchangeable lenses. Three lenses are currently available: The 4K Wide Angle Lens, 360 Lens, and the 5.3K 1-Inch Wide-Angle Lens, co-engineered with Leica. It can be used as a traditional action camera with the 4K or 1-Inch lenses, or as a 360-degree camera with the 360 Lens. A new in-camera stabilization mode “Quick FlowState” was added in November 2021 for 4K 50fps, 30fps, 25fps and 24fps video modes.
+
+Insta360 GO 2
+Released in March 2021, Insta360 GO 2 is a wearable action camera that weighs 26.5 grams (0.93 oz). It has a magnetic body and comes with five accessories, including a pendant, hat clip, stand, lens protector and charge case. The camera is IPX8 waterproof to 13 ft, has a 1/2.3” sensor and shoots 1440p stabilized video. The charge case can be used as a remote to control the camera over Bluetooth, as well as to charge the camera.Insta360 GO 2 is a compact and lightweight camera designed for capturing action shots and everyday moments. It features HyperSmooth video stabilization, 6-axis image stabilization, 360-degree capture, and a variety of shooting modes including timelapse and slow motion. The camera is waterproof and can be controlled through the accompanying mobile app, allowing for easy editing and sharing of footage.
+
+360 Cameras
+Insta360 ONE RS 1-Inch 360
+Launched in June 2022,The 1-Inch 360 Edition is the first 360 camera from Insta360 with dual 1-inch sensors and the first 360 camera co-engineered with Leica. The 1-Inch 360 Lens drastically improves low light performance and takes 360 image quality to new heights. Along with the new lens, the 1-Inch 360 Edition comes with a new Vertical Battery Base and a Mounting Bracket to secure the camera.
+The 1-Inch 360 Edition comes with the same ONE RS Core as the 4K Boost Lens, 1-Inch Wide Angle Lens and 360 Lens. If you're a ONE RS user and would like to upgrade to the 1-Inch 360 Lens, you can purchase an upgrade bundle which includes the lens, battery and bracket only.
+
+Professional VR cameras
+Insta360 also create VR 360 cameras made for professionals. This line includes Pro, Pro 2 and Titan. They all shoot high resolution content designed for consumption in VR, or as traditional 360 video.
+
+Insta360 Titan
+Insta360 Titan is a unibody 360 VR camera with eight lenses and eight Micro Four Thirds sensors. Shooting modes include 11K at 30fps Video, 10K 3D 30fps Video and 11K 360 Photo in 3D and monoscopic formats, as well as up to 8K VR live streaming. Titan is also equipped with Insta360's FlowState stabilization.
+
+Insta360 Pro 2
+Insta360 Pro 2 is a unibody 360 VR camera with 6 lenses that shoots 8K video and photos in 3D and monoscopic formats, and supports up to 8K VR live streaming. Pro 2 is also equipped with Insta360's FlowState stabilization.
+
+Webcams
+Insta360 Link
+Launched in August 2022, Insta360 Link is an AI-powered 4K webcam designed for business professionals, educators and live streamers. It features a 3-axis gimbal and built-in AI algorithms to track and follow the user. Specialized modes are available for whiteboard enhancement, portrait live streaming and more. Link connects to a computer via USB cable and can be mounted with a built-in clip or ¼” mounting point. The Link is configured by a desktop software suite.
+
+Gimbals
+Insta360 Flow
+Launched in March 2023, Insta360 Flow is an AI-tracking smartphone stabilizer. Auto tracking enables the smartphone to follow the creator or their desired subject with precision, while 3-axis stabilization delivers smooth shots. A built-in selfie stick, tripod and power bank allow for easy creating on-the-go. Flow is packed with handy shooting modes, live filming tips, and other features that elevate a regular smartphone into a content creation tool.
+
+Aerial cameras
+Insta360 Sphere
+Launched in May 2022, Insta360 Sphere is compatible with the Mavic Air 2/2S and attaches to the drone with a locking mechanism, offering improvements in footage capture in comparison to traditional onboard cameras. The camera films in 5.7K 360, with the option for users to adjust the angle and camera direction of their video after capture. With the camera attached, the drone can be rendered invisible in 360-degree footage. Sphere users can edit their videos using the AI-powered features in the Insta360 app, supporting both Android and Apple products.
+
+The Insta360 app
+The app for iOS and Android is developed for use alongside Insta360 ONE X2, ONE R and GO 2. The Insta360 app is made for editing both 360 and flat framed content, then exporting it to share or save. It has editing tools as well as AI-assisted templates in what Insta360 calls "Shot Lab" to make 360 editing less cumbersome, and make creative 360 techniques easier. The app also has a community section, where creators from around the world share tips, discuss and share their content shot on Insta360 cameras.
+
+Insta360 Studio
+Insta360 Studio is a free desktop video editing software for Mac and Windows computers. It can be used for editing footage shot on Insta360's consumer cameras, including ONE X2, ONE R, ONE X, ONE, GO 2, GO, EVO and Nano S. A new interface was introduced in September 2021, for easier project management.
+
+References
+External links
+Official website

@@ -1,0 +1,31 @@
+A thermal copier or thermocopier (used as a Tattoo transfer copier) is  a kind of photocopier based on the effect of heat. The original sheet  feeds in conjunction with the "thermo-sensitive" paper, generating a copy on its specially treated surface. The black parts on the original sheet, once scanned, make the copier activate the heating elements that produce some chemical reactions on the "thermo-sensitive" copy paper that darkens its surface.  After the process, a stable black-and-white image is obtained on the cooled film or paper.There are several types of thermal printers, among them and marketed at present time as Tattoo transfer copiers, there are  two main types made by different manufactures: Thermo-head type  and Heat lamp type
+
+Thermo-head type
+The black parts on the original sheet, once scanned, make the copier activate the heating elements that produce some chemical reactions on the "thermo-sensitive" copy paper that darkens its surface
+Process: A special "thermo-sensitive" paper is fed into the copier at the same time but in indirect contact to the original. The thermo-sensitive paper is actually feed between the thermal head and the platen. The copier, while scanning the original, sends an electric current to some selected heating elements of the thermal head, which generate heat. The heated elements correspond to the black areas of the original and, being pressed against the copy paper, make the areas they touch on the "thermo-sensitive" substrate, to become darker.
+
+Heating lamp type
+Is a copying machine (in a drawer format) with a lamp as a heat source inside. An original sheet is exposed to the before said heat source in conjunction with future copy paper generating a copy on its specially treated surface. Is a kind of photocopy based on the effect of heat - When the black parts of the heat-sensitive paper generate some type of chemical reaction. The heat lamp makes indirect revealing. After cooling the film or paper, a stable black-and-white image is obtained.Process: A special "heat sensitized" paper is fed into the copier in direct contact to the original. There is a strong lamp within the machine that heats both original and the "heat sensitized" copy paper. Due to its absorption of heat strokes of black colour areas in the original are hotter than the white areas which reflect light and do not become so hot. These black areas of the original being hot and pressed against the copy paper, make areas with "heat-sensitive" substrate in contact with them to become darker.
+
+Uses
+Thermal Transparencies - They have a layer of silver salt / silver halide. When any part of it is heated it becomes dark brown  
+Heat shield for silk-screen printing.  These screens have a special emulsion. When heated, the emulsion is burned revealing silk screen.
+Paper Masters for alcohol copiers. Of great use today in the tattoo technique. Each master has 4 sheets
+The top sheet is white. This is the layer where the image will be transferred.
+The second sheet is not attached and is milky white. Normally this sheet is to be disposed before printing.
+The third sheet is carbon paper (purple/blue). Pressing this coating layer with something sharp or applying heat, the ink is transferred to the top sheet leaving a purple/blue image.
+The fourth sheet is yellow and serves to hold the original in place when using it in an alcohol copier or in a mimeograph.
+
+See also
+Lightbox
+Photo mask
+Diazo copier
+Photolith
+Verifax copier
+
+References
+Alan Pipes (2005). Production for GraphicDesigners. Laurence King Publishing. pp. 253–. ISBN 978-1-85669-458-2.
+
+External links
+Demonstration video of a Thermal copier
+Demonstration video of a Thermal copier (bis)

@@ -1,0 +1,21 @@
+Low-latency queuing (LLQ) is a feature developed by Cisco to bring strict priority queuing (PQ) to class-based weighted fair queuing (CBWFQ). LLQ allows delay-sensitive data (such as voice) to be given preferential treatment over other traffic by letting the data to be dequeued and sent first.
+
+Development
+Class-based weighted fair queuing (CB-WFQ) was initially released without the support of a priority queuing system, thus it could not guarantee the delay and jitter (delay variation) requirements of real-time, interactive voice and video conversations. Since for CBWFQ, the weight for a packet belonging to a specific class is derived from the bandwidth assigned to the class, which in turn determines the order in which packets are sent. All packets are serviced fairly based on weight and no class of packets may be granted strict priority. This scheme poses problems for voice traffic that is largely intolerant of delay, especially variation in delay.
+In order to address this, Cisco released LLQ to provide strict priority queuing for CBWFQ by enabling the use of a single, strict priority queue within CBWFQ at the class level. This allows for directing traffic belonging to a class to the CBWFQ strict priority queue. One or more classes priority status can be given within a policy map. When multiple classes within a single policy map are configured as priority classes, all traffic from these classes is enqueued to the same single, strict priority queue.
+
+See also
+Class of service
+Quality of service
+QPPB
+Streaming media
+Traffic shaping
+
+External links
+Low Latency Queuing (LLQ)
+Cisco QoS – Low Latency Queuing
+Bandwidth Sharing within CBWFQ/LLQ
+
+References
+
+Congestion Management Configuring CBWFQ and LLQ

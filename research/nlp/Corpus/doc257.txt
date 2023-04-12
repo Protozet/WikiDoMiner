@@ -1,0 +1,25 @@
+Rolling shutter is a method of image capture in which a still picture (in a still camera) or each frame of a video (in a video camera) is captured not by taking a snapshot of the entire scene at a single instant in time but rather by scanning across the scene rapidly, vertically, horizontally or rotationally.  In other words, not all parts of the image of the scene are recorded at exactly the same instant. (Though, during playback, the entire image of the scene is displayed at once, as if it represents a single instant in time.) This produces predictable distortions of fast-moving objects or rapid flashes of light. This is in contrast with "global shutter" in which the entire frame is captured at the same instant.
+The rolling shutter can be either mechanical or electronic. The advantage of this electronic rolling shutter is that the image sensor can continue to gather photons during the acquisition process, thus effectively increasing sensitivity. It is found on many digital still and video cameras using CMOS sensors.  The effect is most noticeable when imaging extreme conditions of motion or the fast flashing of light. While some CMOS sensors use a global shutter, the majority found in the consumer market use a rolling shutter.
+CCDs (charge-coupled devices) are alternatives to CMOS sensors, which are generally more sensitive and more expensive. CCD-based cameras often use global shutters, which take a snapshot representing a “relative” single instant in time and therefore do not suffer from the motion artifacts caused by rolling shutters.
+
+Distortion effects
+Rolling shutters can cause such effects as:
+Wobble. This phenomenon (also known as the jello effect) appears when the camera is vibrating, in situations such as hand-held shots at telephoto settings, or when shooting from a moving vehicle. The rolling shutter causes the image to wobble unnaturally.
+Skew. The image bends diagonally in one direction or another as the camera or subject moves from one side to another, exposing different parts of the image at different times. Skew is a minor manifestation of the wobble phenomenon described above.
+Spatial aliasing. Vertically adjacent pixels are sampled in violation of the sampling theorem, when the camera or object motion is too rapid. One example of this is imaging of a quickly rotating propeller. The smear of each blade is caused by the propeller rotating at the same or near the same speed that the frame is read by the camera.  Viewed perpendicular to a fan spinning clockwise, the blades on the left side appear thinner than usual while the blades on the right side appear thicker, and can even appear as if they aren't connected at the center.Temporal aliasing, including partial exposure. If a camera flash goes on for only part of the time of the exposure, the illumination of the flash may only be present for some rows of pixels in a given frame. For example, the top 1/3 of the picture may be brightly lit by a flash, while the bottom 2/3 of the picture is dark and unlit, as the flash was off by the time that part of the CMOS was sequenced. The difference between the two distinct parts of the frame can look odd. Similar problems can arise with fluorescent lighting, strobe effects, lightning, or any extreme situation where very fast motion or very fast bursts of light are seen in the time between when the CMOS chip sequentially records a frame.The effects of a rolling shutter can prove difficult for visual effects filming. The process of matchmoving establishes perspective in a scene based on a single point in time, but this is difficult with a rolling shutter that provides multiple points in time within the same frame. Final results depend on the readout speed of the sensor and the nature of the scene being filmed; as a rule of thumb, higher-end cinema cameras will have faster readout speeds and therefore milder rolling shutter artifacts than low-end cameras.
+Images and video that suffer from rolling shutter distortion can be improved by algorithms that do rolling shutter rectification, or rolling shutter compensation. How to do this is an active area of research.
+
+See also
+Digital artifact
+Event camera
+Strip photography
+Wagon-wheel effect
+
+Notes
+External links
+
+Rolling Shutter Tutorial from the CVPR 2012 conference.
+Airplane propeller blades - rolling shutter effect on YouTube
+Bass strings - rolling shutter effect (vimeo)
+3D rendering explaining how a rolling shutter produces the strange propeller airplane effect on YouTube
+Excellent explanation/simulation of rolling shutter effect from Smarter Every Day on YouTube

@@ -1,0 +1,36 @@
+A lens board or lensboard is a photographic part used for securing a lens to the front standard of a large format view camera. The lens board itself is usually flat, square, and made of metal (most commonly aluminum), wood, or plastic. The lens board will have a hole of various diameters drilled dead center on the board. A lens board typically varies between 1 and 4 millimeters in thickness. The overall size and shape of the lens board depends on the brand of camera and film format used. Some cameras will use 2 to 4 screws to secure the lens board to the front standard of the view camera, most commonly however, the lens board will be secured by one or more locking levers or tabs to allow tool-less removal of the lens board. The rear surface of a lens board is usually painted matte black to keep light entering the camera through the lens during exposure from reflecting off the surface and interfering with the projected image.
+While most lens boards are flat, some are recessed to accommodate wider focal length lenses which must be positioned closer to the film plane. A recessed lens board effectively reduces the flange focal distance of a camera.
+
+Sizes
+Depending on the size and focal length of a particular lens, a certain diameter of hole must be drilled in the center of the lens board to accommodate the shutter assembly . Lens boards are typically available pre-drilled by the camera manufacturer, however, if no replacement lens board is available from a camera manufacturer, then one must be custom fabricated by a machinist. 
+Nearly all large format leaf shutters made since the 1990s are manufactured by the Nidec Copal Corporation, therefore the diameter of hole drilled is commonly referred to as the ‘Copal Number’.
+The Copal sizes are as follows:
+
+Copal #0 - 34.6 mm
+Copal #1 - 41.6 mm
+Copal #3 – 65 mm
+Copal #3s - 64.5 mmThe origin Compur/Compound sizes are as follows:
+
+Compur #00           - 26.3 mm
+Compur #0            - 34.6 mm
+Compur #1            - 41.6 mm
+Compur #2            - 52.5 mm (there were different versions like Compur II and Compur II 5/2)
+Compur #3            - 65.0 mm
+Compound Dagor       - 38.0 mm
+Compound #3 Hülse 7  - 63.2 mm
+Compound #4 Hülse 9  - 69.1 mm
+Compound #4 Hülse 10 - 80.0 mm
+Compound #5 Hülse 12 - 93.4 mm
+
+Lens mounting
+Lenses are fitted to a lens board by placing the shutter assembly through the front of the board and securing the shutter assembly by threading a locknut to rear of the shutter. A front lens element will thread onto the mounted shutter and if necessary, a second lens element will thread onto the rear of the mounted shutter. This procedure can be accomplished by a camera technician, or by an end-user with the appropriate tools.
+
+Other uses
+Lens boards are used in photographic enlargers to secure an enlarging lens to the focus stage of the device.
+Similar to large format photographic view cameras, a lens board is utilized by some reprographic cameras in the printing industry.
+Lens boards may also be utilized by some medical and scientific imaging devices.
+
+See also
+Photographic lens
+Lens mount
+S-mount (CCTV lens)

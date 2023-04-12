@@ -1,0 +1,4 @@
+Breathing originally referred to any geometric change in field-of-view when changing focus distance. Even if the angle-of-view is constant distortion changes will cause visible breathing. It has been recently used by photographers for changes of focal length of a lens when changing the focus. Breathing is sometimes used for the suction and expulsion of air from within the lens as its internal volume changes. A lens with a constant focal length will exhibit narrowing of the angle of view at closer focus, and conversely, maintaining a constant angle of view requires precise reduction of focal length as focus is decreased, which some (often higher quality) lenses are designed to do. Lens breathing does not prevent one from racking focus or following focus with this lens, but it lessens the desirability of any type of focus adjustment, since it noticeably changes the composition of the shot.
+
+
+== References ==

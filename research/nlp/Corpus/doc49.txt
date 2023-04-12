@@ -1,0 +1,9 @@
+In telecommunications, transmission is the process of sending or propagating an analog or digital signal via a medium that is wired, wireless, or fiber-optic.Transmission system technologies typically refer to physical layer protocol duties such as modulation, demodulation, line coding, equalization, error control, bit synchronization and multiplexing, but it may also involve higher-layer protocol duties, for example, digitizing an analog signal, and data compression.
+Transmission of a digital message, or of a digitized analog signal, is known as data transmission.
+Examples of transmission are the sending of signals with limited duration, for example, a block or packet of data, a phone call, or an email.
+
+See also
+Radio transmitter
+
+
+== References ==

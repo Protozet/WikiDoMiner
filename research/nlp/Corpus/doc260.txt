@@ -1,0 +1,5 @@
+In telecommunication, insertion gain is the gain resulting from the insertion of a device in a transmission line, expressed as the ratio of the signal power delivered to that part of the line following the device to the signal power delivered to that same part before insertion.  If the resulting number is less than unity, an "insertion loss" is indicated.  Incident power is made of two part, the reflection from the device and the power absorbed by the device.Insertion gain is usually expressed in dB.
+
+References
+
+ This article incorporates public domain material from Federal Standard 1037C. General Services Administration. (in support of MIL-STD-188).

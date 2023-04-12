@@ -1,0 +1,6 @@
+Automatic route selection is a private branch exchange (PBX) feature that allows a system to route a telephone call over the most appropriate carrier and service offering based on factors such as the type of call (i.e., local, local long distance, etc.), the user's class of service (CoS), the time of day, and the day of the week (e.g., workday, weekend, or holiday). 
+ARS can be used to route the landline leg of a call through a cellular network, if it offers lower rates. ARS is of greatest value in a liberalized or deregulated telecom environment where there are multiple competing carriers and rate plans available. ARS generally uses a lookup table rather than parsing a hierarchy of dialed telephone numbers and calculating a least cost route. 
+ARS is also known as Least-cost routing (LCR).
+
+References
+Your Dictionary

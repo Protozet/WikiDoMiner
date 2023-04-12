@@ -1,0 +1,14 @@
+A drag freight is a long, slow, high-tonnage railroad train, often carrying commodities such as coal or ore. Compared to "fast freight" trains, drag freight trains have a very low power-to-weight ratio, making them somewhat unpredictable on steep grades or hilly routes. This causes many dispatchers to be extremely conservative with how they handle drag freights, especially when they share lines with higher priority fast freights and passenger trains.
+
+Power
+Before and during WWI and into the 1920s, large locomotives such as the 2-8-2 Mikado or mainly larger types like Articulated locomotives were typically used for drag freight operations.
+After the railroads dieselized, heavy duty diesel locomotives (typically six-axle units, to improve adhesion) were used for the drag freights.  Multiple unit operations allowed one person to control multiple locomotives. As many as 4-11 locomotives may be used for a heavy haul drag freight. Attempts were made to develop ultra large locomotives for this purpose, for example the Union Pacific DDA40X and gas-turbine locomotives.
+When AC traction motors and thyristor inverters became available, locomotives such as EMD SD70MAC and the GE AC4400CW replaced the older EMD SD40 on a three-for-two basis.
+
+United Kingdom
+In the UK, such trains were called mineral trains and the locomotives that hauled them were called mineral locomotives. An example of a mineral locomotive was the LNWR 17in Coal Engine.
+The trains were loose-coupled, had no continuous brakes, and were speed-limited to 25 mph (40 km/h). The lack of brake power was a potential hazard and, when approaching a downhill gradient, it was necessary to stop the train and "pin down" the handbrakes on some of the wagons before proceeding.
+Today, Class 60 and Class 66 locomotives owned by the DB Cargo UK and Freightliner Heavy Haul are used for drag freights. Also, Class 59 locomotives owned by National Power, Foster Yeoman, and other large bulk shippers were used on the heavy freights in the 1990s. Because of coupling limits, only single units were used.
+
+External links
+"Lipstick on a Pig?". Railway Age. 2001. Retrieved 2007-10-16.

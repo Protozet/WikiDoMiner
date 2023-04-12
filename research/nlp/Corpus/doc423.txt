@@ -1,0 +1,1661 @@
+In electromagnetics, an antenna's gain is a key performance parameter which combines the antenna's directivity and radiation efficiency.  The term power gain has been deprecated by IEEE.  In a transmitting antenna, the gain describes how well the antenna converts input power into radio waves headed in a specified direction. In a receiving antenna, the gain describes how well the antenna converts radio waves arriving from a specified direction into electrical power. When no direction is specified, gain is understood to refer to the peak value of the gain, the gain in the direction of the antenna's main lobe.  A plot of the gain as a function of direction is called the antenna pattern or radiation pattern.  It is not to be confused with directivity, which does not take an antenna's radiation efficiency into account.
+Gain or 'absolute gain' is defined as "The ratio of the radiation intensity in a given direction to the radiation intensity that would be produced if the power accepted by the antenna were isotropically radiated".  Usually this ratio is expressed in decibels with respect to an isotropic radiator (dBi).  An alternative definition compares the received power to the power received by a lossless half-wave dipole antenna, in which case the units are written as dBd.  Since a lossless dipole antenna has a gain of 2.15 dBi,  the relation between these units is 
+  
+    
+      
+        
+          G
+          a
+          i
+          n
+          (
+          d
+          B
+          d
+          )
+        
+        ≈
+        
+          G
+          a
+          i
+          n
+          (
+          d
+          B
+          i
+          )
+        
+        −
+        2.15
+      
+    
+    {\displaystyle \mathrm {Gain(dBd)} \approx \mathrm {Gain(dBi)} -2.15}
+  .  For a given frequency, the antenna's effective area is proportional to the gain.  An antenna's effective length is proportional to the square root of the antenna's gain for a particular frequency and radiation resistance. Due to reciprocity, the gain of any antenna when receiving is equal to its gain when transmitting.
+
+Gain
+Gain is a unitless measure that combines an antenna's radiation efficiency 
+  
+    
+      
+        η
+      
+    
+    {\displaystyle \eta }
+   and directivity D:
+
+  
+    
+      
+        G
+        =
+        η
+        D
+      
+    
+    {\displaystyle G=\eta D}
+
+Radiation efficiency
+The radiation efficiency 
+  
+    
+      
+        η
+      
+    
+    {\displaystyle \eta }
+   of an antenna is "The ratio of the total power radiated by an antenna to the net power accepted by the antenna from the connected transmitter."
+
+  
+    
+      
+        η
+        =
+        
+          
+            
+              P
+              
+                R
+              
+            
+            
+              P
+              
+                O
+              
+            
+          
+        
+      
+    
+    {\displaystyle \eta ={P_{R} \over P_{O}}}
+  A transmitting antenna is supplied power by a transmission line connecting the antenna to a radio transmitter.   The power accepted by the antenna 
+  
+    
+      
+        
+          P
+          
+            O
+          
+        
+      
+    
+    {\displaystyle P_{O}}
+   is the power supplied to the antenna's terminals.  Losses prior to the antenna terminals are accounted for by separate impedance mismatch factors which are therefore not included in the calculation of radiation efficiency.
+
+Gain in decibels
+Published numbers for antenna gain are almost always expressed in decibels (dB), a logarithmic scale.  From the gain factor G, one finds the gain in decibels as:
+
+  
+    
+      
+        
+          G
+          
+            dBi
+          
+        
+        =
+        10
+        
+          log
+          
+            10
+          
+        
+        ⁡
+        
+          (
+          G
+          )
+        
+        .
+      
+    
+    {\displaystyle G_{\text{dBi}}=10\log _{10}\left(G\right).}
+  Therefore, an antenna with a peak power gain of 5 would be said to have a gain of 7 dBi. dBi is used rather than just dB to emphasize that this is the gain according to the basic definition, in which the antenna is compared to an isotropic radiator.
+When actual measurements of an antenna's gain are made by a laboratory, the field strength of the test antenna is measured when supplied with, say, 1 watt of transmitter power, at a certain distance. That field strength is compared to the field strength found using a so-called reference antenna at the same distance receiving the same power in order to determine the gain of the antenna under test. That ratio would be equal to G if the reference antenna were an isotropic radiator (irad).
+However a true isotropic radiator cannot be built, so in practice a different antenna is used. This will often be a half-wave dipole, a very well understood and repeatable antenna that can be easily built for any frequency. The directive gain of a half-wave dipole is known to be 1.64 and it can be made nearly 100% efficient. Since the gain has been measured with respect to this reference antenna, the difference in the gain of the test antenna is often compared to that of the dipole. The gain relative to a dipole is thus often quoted and is denoted using dBd instead of dBi to avoid confusion. Therefore, in terms of the true gain (relative to an isotropic radiator) G, this figure for the gain is given by:
+
+  
+    
+      
+        
+          G
+          
+            dBd
+          
+        
+        ≈
+        10
+        
+          log
+          
+            10
+          
+        
+        ⁡
+        
+          (
+          
+            
+              G
+              1.64
+            
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle G_{\text{dBd}}\approx 10\log _{10}\left({\frac {G}{1.64}}\right).}
+  For instance, the above antenna with a gain G = 5 would have a gain with respect to a dipole of 5/1.64 ≈ 3.05, or in decibels one would call this 10 log(3.05) ≈ 4.84 dBd. In general:
+
+  
+    
+      
+        
+          G
+          
+            dBd
+          
+        
+        ≈
+        
+          G
+          
+            dBi
+          
+        
+        −
+        2.15
+        
+        
+          dB
+        
+      
+    
+    {\displaystyle G_{\text{dBd}}\approx G_{\text{dBi}}-2.15\,{\text{dB}}}
+  Both dBi and dBd are in common use. When an antenna's maximum gain is specified in decibels (for instance, by a manufacturer) one must be certain as to whether this means the gain relative to an isotropic radiator or with respect to a dipole. If it specifies dBi or dBd then there is no ambiguity, but if only dB is specified then the fine print must be consulted. Either figure can be easily converted into the other using the above relationship.
+When considering an antenna's directional pattern, gain with respect to a dipole does not imply a comparison of that antenna's gain in each direction to a dipole's gain in that direction. Rather, it is a comparison between the antenna's gain in each direction to the peak gain of the dipole (1.64). In any direction, therefore, such numbers are 2.15 dB smaller than the gain expressed in dBi.
+
+Partial gain
+Partial gain is calculated as power gain, but for a particular polarization.  It is defined as the part of the radiation intensity 
+  
+    
+      
+        U
+      
+    
+    {\displaystyle U}
+   corresponding to a given polarization, divided by the total radiation intensity of an isotropic antenna.The partial gains in the 
+  
+    
+      
+        θ
+      
+    
+    {\displaystyle \theta }
+   and 
+  
+    
+      
+        ϕ
+      
+    
+    {\displaystyle \phi }
+   components are expressed as
+
+  
+    
+      
+        
+          G
+          
+            θ
+          
+        
+        =
+        4
+        π
+        
+          (
+          
+            
+              
+                U
+                
+                  θ
+                
+              
+              
+                P
+                
+                  in
+                
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle G_{\theta }=4\pi \left({\frac {U_{\theta }}{P_{\text{in}}}}\right)}
+  and
+
+  
+    
+      
+        
+          G
+          
+            ϕ
+          
+        
+        =
+        4
+        π
+        
+          (
+          
+            
+              
+                U
+                
+                  ϕ
+                
+              
+              
+                P
+                
+                  in
+                
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle G_{\phi }=4\pi \left({\frac {U_{\phi }}{P_{\text{in}}}}\right)}
+  ,where 
+  
+    
+      
+        
+          U
+          
+            θ
+          
+        
+      
+    
+    {\displaystyle U_{\theta }}
+   and 
+  
+    
+      
+        
+          U
+          
+            ϕ
+          
+        
+      
+    
+    {\displaystyle U_{\phi }}
+   represent the radiation intensity in a given direction contained in their respective 
+  
+    
+      
+        E
+      
+    
+    {\displaystyle E}
+   field component.
+As a result of this definition, we can conclude that the total gain of an antenna is the sum of partial gains for any two orthogonal polarizations.
+
+  
+    
+      
+        G
+        =
+        
+          G
+          
+            θ
+          
+        
+        +
+        
+          G
+          
+            ϕ
+          
+        
+      
+    
+    {\displaystyle G=G_{\theta }+G_{\phi }}
+
+Examples
+First example
+Suppose a lossless antenna has a radiation pattern given by:
+
+  
+    
+      
+        U
+        =
+        
+          B
+          
+            0
+          
+        
+        
+        
+          sin
+          
+            3
+          
+        
+        ⁡
+        (
+        θ
+        )
+        .
+      
+    
+    {\displaystyle U=B_{0}\,\sin ^{3}(\theta ).}
+  Let us find the gain of such an antenna. First we find the peak radiation intensity of this antenna:
+
+  
+    
+      
+        
+          U
+          
+            max
+          
+        
+        =
+        
+          B
+          
+            0
+          
+        
+      
+    
+    {\displaystyle U_{\text{max}}=B_{0}}
+  The total radiated power can be found by integrating over all directions:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  P
+                  
+                    rad
+                  
+                
+              
+              
+                
+                =
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    2
+                    π
+                  
+                
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    π
+                  
+                
+                U
+                (
+                θ
+                ,
+                ϕ
+                )
+                sin
+                ⁡
+                (
+                θ
+                )
+                
+                d
+                θ
+                
+                d
+                ϕ
+                =
+                2
+                π
+                
+                  B
+                  
+                    0
+                  
+                
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    π
+                  
+                
+                
+                  sin
+                  
+                    4
+                  
+                
+                ⁡
+                (
+                θ
+                )
+                
+                d
+                θ
+                =
+                
+                  B
+                  
+                    0
+                  
+                
+                
+                  (
+                  
+                    
+                      
+                        3
+                        4
+                      
+                    
+                    
+                      π
+                      
+                        2
+                      
+                    
+                  
+                  )
+                
+              
+            
+            
+              
+                D
+              
+              
+                
+                =
+                4
+                π
+                
+                  (
+                  
+                    
+                      
+                        U
+                        
+                          max
+                        
+                      
+                      
+                        P
+                        
+                          rad
+                        
+                      
+                    
+                  
+                  )
+                
+                =
+                4
+                π
+                
+                  [
+                  
+                    
+                      
+                        B
+                        
+                          0
+                        
+                      
+                      
+                        
+                          B
+                          
+                            0
+                          
+                        
+                        
+                          (
+                          
+                            
+                              
+                                3
+                                4
+                              
+                            
+                            
+                              π
+                              
+                                2
+                              
+                            
+                          
+                          )
+                        
+                      
+                    
+                  
+                  ]
+                
+                =
+                
+                  
+                    16
+                    
+                      3
+                      π
+                    
+                  
+                
+                ≈
+                1.698
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}P_{\text{rad}}&=\int _{0}^{2\pi }\int _{0}^{\pi }U(\theta ,\phi )\sin(\theta )\,d\theta \,d\phi =2\pi B_{0}\int _{0}^{\pi }\sin ^{4}(\theta )\,d\theta =B_{0}\left({\frac {3}{4}}\pi ^{2}\right)\\D&=4\pi \left({\frac {U_{\text{max}}}{P_{\text{rad}}}}\right)=4\pi \left[{\frac {B_{0}}{B_{0}\left({\frac {3}{4}}\pi ^{2}\right)}}\right]={\frac {16}{3\pi }}\approx 1.698\end{aligned}}}
+  Since the antenna is specified as being lossless the radiation efficiency is 1. The maximum gain is then equal to:
+
+  
+    
+      
+        
+          
+            
+              
+                G
+              
+              
+                
+                =
+                η
+                D
+                ≈
+                (
+                1
+                )
+                (
+                1.698
+                )
+                =
+                1.698
+              
+            
+            
+              
+                
+                  G
+                  
+                    dBi
+                  
+                
+              
+              
+                
+                ≈
+                10
+                
+                
+                  log
+                  
+                    10
+                  
+                
+                ⁡
+                (
+                1.698
+                )
+                ≈
+                2.30
+                
+                
+                  dBi
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}G&=\eta D\approx (1)(1.698)=1.698\\G_{\text{dBi}}&\approx 10\,\log _{10}(1.698)\approx 2.30\,{\text{dBi}}\end{aligned}}}
+  Expressed relative to the gain of a half-wave dipole we would find:
+
+  
+    
+      
+        
+          G
+          
+            dBd
+          
+        
+        =
+        10
+        
+        
+          log
+          
+            10
+          
+        
+        ⁡
+        
+          (
+          
+            
+              1.698
+              1.64
+            
+          
+          )
+        
+        =
+        0.15
+        
+        
+          dBd
+        
+      
+    
+    {\displaystyle G_{\text{dBd}}=10\,\log _{10}\left({\frac {1.698}{1.64}}\right)=0.15\,{\text{dBd}}}
+  .
+
+Second example
+As an example, consider an antenna that radiates an electromagnetic wave whose electrical field has an amplitude 
+  
+    
+      
+         
+        
+          E
+          
+            θ
+          
+        
+         
+      
+    
+    {\displaystyle \ E_{\theta }\ }
+   at a distance 
+  
+    
+      
+         
+        r
+         
+        .
+      
+    
+    {\displaystyle \ r\ .}
+   That amplitude is given by:
+
+  
+    
+      
+        
+          E
+          
+            θ
+          
+        
+        =
+        
+          
+            
+              A
+              I
+            
+            r
+          
+        
+      
+    
+    {\displaystyle E_{\theta }={AI \over r}}
+  where:
+
+  
+    
+      
+         
+        I
+         
+      
+    
+    {\displaystyle \ I\ }
+   is the current fed to the antenna and
+
+  
+    
+      
+         
+        A
+         
+      
+    
+    {\displaystyle \ A\ }
+   is a characteristic constant of each antenna.For a large distance 
+  
+    
+      
+         
+        r
+         
+        .
+      
+    
+    {\displaystyle \ r\ .}
+   The radiated wave can be considered locally as a plane wave. The intensity of an electromagnetic plane wave is:
+
+  
+    
+      
+        
+          
+            P
+            S
+          
+        
+        =
+        
+          
+            
+              
+                c
+                
+                  ∘
+                
+              
+              
+                ε
+                
+                  ∘
+                
+              
+            
+            2
+          
+        
+        
+          
+            
+              E
+              
+                θ
+              
+            
+          
+          
+            2
+          
+        
+        =
+        
+          
+            1
+            2
+          
+        
+        
+          
+            
+              
+                
+                  E
+                  
+                    θ
+                  
+                
+              
+              
+                2
+              
+            
+            
+              Z
+              
+                ∘
+              
+            
+          
+        
+         
+      
+    
+    {\displaystyle {P \over S}={c_{\circ }\varepsilon _{\circ } \over 2}{E_{\theta }}^{2}={1 \over 2}{{E_{\theta }}^{2} \over Z_{\circ }}\ }
+  where 
+
+  
+    
+      
+        
+          Z
+          
+            ∘
+          
+        
+        =
+        
+          
+            
+              
+                
+                  μ
+                  
+                    ∘
+                  
+                
+                
+                  ε
+                  
+                    ∘
+                  
+                
+              
+            
+             
+          
+        
+        =
+        376.730313461
+        
+          
+             
+            Ω
+             
+          
+        
+      
+    
+    {\displaystyle Z_{\circ }={\sqrt {{\mu _{\circ } \over \varepsilon _{\circ }}\ }}=376.730313461{\mathsf {\ \Omega \ }}}
+   is a universal constant called vacuum impedance.and
+
+  
+    
+      
+        
+          
+            (
+            
+              
+                P
+                S
+              
+            
+            )
+          
+          
+            
+              a
+              n
+              t
+            
+          
+        
+        =
+        
+          
+            1
+            
+              2
+              
+                Z
+                
+                  ∘
+                
+              
+            
+          
+        
+        
+          
+            
+              
+                A
+                
+                  2
+                
+              
+              
+                I
+                
+                  2
+                
+              
+            
+            
+              r
+              
+                2
+              
+            
+          
+        
+         
+      
+    
+    {\displaystyle \left({P \over S}\right)_{\mathsf {ant}}={1 \over 2Z_{\circ }}{A^{2}I^{2} \over r^{2}}\ }
+  If the resistive part of the series impedance of the antenna is 
+  
+    
+      
+         
+        
+          
+            R
+            
+              s
+            
+          
+        
+         
+        ,
+      
+    
+    {\displaystyle \ {R_{s}}\ ,}
+   the power fed to the antenna is 
+  
+    
+      
+        
+          
+            
+              1
+              2
+            
+          
+          
+            
+              R
+              
+                s
+              
+            
+            
+              I
+              
+                2
+              
+            
+          
+           
+          .
+        
+      
+    
+    {\displaystyle \scriptstyle {1 \over 2}{R_{s}I^{2}}\ .}
+   The intensity of an isotropic antenna is the power so fed divided by the surface of the sphere of radius r:
+
+  
+    
+      
+        
+          
+            (
+            
+              
+                P
+                S
+              
+            
+            )
+          
+          
+            
+              i
+              s
+              o
+            
+          
+        
+        =
+        
+          
+            
+              
+                
+                  1
+                  2
+                
+              
+              
+                R
+                
+                  s
+                
+              
+              
+                I
+                
+                  2
+                
+              
+            
+            
+              4
+              π
+              
+                r
+                
+                  2
+                
+              
+            
+          
+        
+         
+      
+    
+    {\displaystyle \left({P \over S}\right)_{\mathsf {iso}}={{1 \over 2}R_{s}I^{2} \over 4\pi r^{2}}\ }
+  The directive gain is:
+
+  
+    
+      
+        G
+        =
+        
+          
+            
+              [
+              
+                
+                  
+                    1
+                    
+                      2
+                      
+                        Z
+                        
+                          ∘
+                        
+                      
+                    
+                  
+                
+                
+                  
+                    
+                      
+                        A
+                        
+                          2
+                        
+                      
+                      
+                        I
+                        
+                          2
+                        
+                      
+                    
+                    
+                      r
+                      
+                        2
+                      
+                    
+                  
+                
+              
+              ]
+            
+            
+              
+                [
+                
+                  
+                    
+                      
+                        
+                          1
+                          2
+                        
+                      
+                      
+                        R
+                        
+                          s
+                        
+                      
+                      
+                        I
+                        
+                          2
+                        
+                      
+                    
+                    
+                      4
+                      π
+                      
+                        r
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+                ]
+              
+            
+          
+        
+        ≈
+        
+          
+            
+              A
+              
+                2
+              
+            
+            
+              30
+              
+                R
+                
+                  s
+                
+              
+            
+          
+        
+         
+      
+    
+    {\displaystyle G={\left[{1 \over 2Z_{\circ }}{A^{2}I^{2} \over r^{2}}\right] \over {\left[{\frac {{1 \over 2}R_{s}I^{2}}{4\pi r^{2}}}\right]}}\approx {A^{2} \over 30R_{s}}\ }
+  For the commonly utilized half-wave dipole, the particular formulation works out to the following, including its decibel equivalency, expressed as dBi (decibels referenced to isotropic radiator):
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  R
+                  
+                    
+                      λ
+                      2
+                    
+                  
+                
+              
+              
+                
+                =
+                60
+                Cin
+                ⁡
+                (
+                2
+                π
+                )
+                =
+                60
+                
+                  [
+                  
+                    ln
+                    ⁡
+                    (
+                    2
+                    π
+                    )
+                    +
+                    γ
+                    −
+                    Ci
+                    ⁡
+                    (
+                    2
+                    π
+                    )
+                  
+                  ]
+                
+                =
+                120
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    
+                      π
+                      2
+                    
+                  
+                
+                
+                  
+                    
+                      cos
+                      ⁡
+                      
+                        
+                          (
+                          
+                            
+                              
+                                π
+                                2
+                              
+                            
+                            cos
+                            ⁡
+                            θ
+                          
+                          )
+                        
+                        
+                          2
+                        
+                      
+                    
+                    
+                      sin
+                      ⁡
+                      θ
+                    
+                  
+                
+                d
+                θ
+                 
+                ,
+              
+            
+            
+              
+              
+                
+                =
+                15
+                
+                  [
+                  
+                    2
+                    
+                      π
+                      
+                        2
+                      
+                    
+                    −
+                    
+                      
+                        1
+                        3
+                      
+                    
+                    
+                      π
+                      
+                        4
+                      
+                    
+                    +
+                    
+                      
+                        4
+                        135
+                      
+                    
+                    
+                      π
+                      
+                        6
+                      
+                    
+                    −
+                    
+                      
+                        1
+                        630
+                      
+                    
+                    
+                      π
+                      
+                        8
+                      
+                    
+                    +
+                    
+                      
+                        4
+                        70875
+                      
+                    
+                    
+                      π
+                      
+                        10
+                      
+                    
+                    …
+                    +
+                    (
+                    −
+                    1
+                    
+                      )
+                      
+                        n
+                        +
+                        1
+                      
+                    
+                    
+                      
+                        
+                          (
+                          2
+                          π
+                          
+                            )
+                            
+                              2
+                              n
+                            
+                          
+                        
+                        
+                          n
+                          (
+                          2
+                          n
+                          )
+                          !
+                        
+                      
+                    
+                  
+                  ]
+                
+                 
+                ,
+              
+            
+            
+              
+              
+                
+                =
+                73.12960
+                …
+                
+                  
+                    
+                    Ω
+                    ;
+                  
+                
+              
+            
+          
+        
+         
+      
+    
+    {\displaystyle {\begin{aligned}R_{\frac {\lambda }{2}}&=60\operatorname {Cin} (2\pi )=60\left[\ln(2\pi )+\gamma -\operatorname {Ci} (2\pi )\right]=120\int _{0}^{\frac {\pi }{2}}{\frac {\cos \left({\frac {\pi }{2}}\cos \theta \right)^{2}}{\sin \theta }}d\theta \ ,\\&=15\left[2\pi ^{2}-{\frac {1}{3}}\pi ^{4}+{\frac {4}{135}}\pi ^{6}-{\frac {1}{630}}\pi ^{8}+{\frac {4}{70875}}\pi ^{10}\ldots +(-1)^{n+1}{\frac {(2\pi )^{2n}}{n(2n)!}}\right]\ ,\\&=73.12960\ldots {\mathsf {\;\Omega ;}}\end{aligned}}\ }
+  
+(In most cases 73.130, is adequate)
+  
+    
+      
+        
+          
+            
+              
+                
+                  G
+                  
+                    
+                      λ
+                      2
+                    
+                  
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      60
+                      
+                        2
+                      
+                    
+                    
+                      30
+                      
+                        R
+                        
+                          
+                            λ
+                            2
+                          
+                        
+                      
+                    
+                  
+                
+                =
+                
+                  
+                    3600
+                    
+                      30
+                      
+                        R
+                        
+                          
+                            λ
+                            2
+                          
+                        
+                      
+                    
+                  
+                
+                =
+                
+                  
+                    120
+                    
+                      R
+                      
+                        
+                          λ
+                          2
+                        
+                      
+                    
+                  
+                
+                =
+                
+                  
+                    1
+                    
+                      
+
+                      
+                      
+                        
+                          ∫
+                          
+                            0
+                          
+                          
+                            
+                              π
+                              2
+                            
+                          
+                        
+                        
+                          
+                            
+                              cos
+                              ⁡
+                              
+                                
+                                  (
+                                  
+                                    
+                                      
+                                        π
+                                        2
+                                      
+                                    
+                                    cos
+                                    ⁡
+                                    θ
+                                  
+                                  )
+                                
+                                
+                                  2
+                                
+                              
+                            
+                            
+                              sin
+                              ⁡
+                              θ
+                            
+                          
+                        
+                        d
+                        θ
+                      
+                    
+                  
+                
+                 
+                ,
+              
+            
+            
+              
+              
+                
+                ≈
+                
+                  
+                    120
+                    73.1296
+                  
+                
+                ≈
+                1.6409224
+                ≈
+                2.15088
+                 
+                
+                  
+                     
+                    d
+                    B
+                    i
+                  
+                
+                ;
+              
+            
+          
+        
+         
+      
+    
+    {\displaystyle {\begin{aligned}G_{\frac {\lambda }{2}}&={\frac {60^{2}}{30R_{\frac {\lambda }{2}}}}={\frac {3600}{30R_{\frac {\lambda }{2}}}}={\frac {120}{R_{\frac {\lambda }{2}}}}={\frac {1}{{}^{\int _{0}^{\frac {\pi }{2}}{\frac {\cos \left({\frac {\pi }{2}}\cos \theta \right)^{2}}{\sin \theta }}d\theta }}}\ ,\\&\approx {\frac {120}{73.1296}}\approx 1.6409224\approx 2.15088\ {\mathsf {\ dBi}};\end{aligned}}\ }
+  
+(Likewise, 1.64 and 2.15 dBi are usually the cited values)Sometimes, the half-wave dipole is taken as a reference instead of the isotropic radiator. The gain is then given in dBd (decibels over dipole):
+
+0 dBd = 2.15 dBi
+
+Realized gain
+Realized gain differs from gain in that it is "reduced by its impedance mismatch factor."  This mismatch induces losses above the dissipative losses described above; therefore, realized gain will always be less than gain.  Gain may be expressed as absolute gain if further clarification is required to differentiate it from realized gain.
+
+Total radiated power
+Total radiated power (TRP) is the sum of all RF power radiated by the antenna when the source power is included in the measurement.  TRP is expressed in watts or the corresponding logarithmic expressions, often dBm or dBW.When testing mobile devices, TRP can be measured while in close proximity of power-absorbing losses such as the body and hand of the user.The TRP can be used to determine body loss (BoL). The body loss is considered as the ratio of TRP measured in the presence of losses and TRP measured while in free space.
+
+See also
+Antenna
+Antenna measurement
+Antenna effective area
+Cardioid
+
+References
+Bibliography
+Antenna Theory (3rd edition), by C. Balanis, Wiley, 2005, ISBN 0-471-66782-X
+Antenna for all applications (3rd edition), by John D. Kraus, Ronald J. Marhefka, 2002, ISBN 0-07-232103-2 This article incorporates public domain material from Federal Standard 1037C. General Services Administration. (in support of MIL-STD-188).

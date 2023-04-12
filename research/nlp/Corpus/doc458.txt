@@ -1,0 +1,338 @@
+A link budget is an accounting of all of the power gains and losses that a communication signal experiences in a telecommunication system; from a transmitter, through a communication medium such as radio waves, cable, waveguide, or optical fiber, to the receiver.  It is an equation giving the received power from the transmitter power, after the attenuation of the transmitted signal due to propagation, as well as the antenna gains and feedline and other losses, and amplification of the signal in the receiver or any repeaters it passes through.  A link budget is a design aid, calculated during the design of a communication system to determine the received power, to ensure that the information is received intelligibly with an adequate signal-to-noise ratio.   Randomly varying channel gains such as fading are taken into account by adding some margin depending on the anticipated severity of its effects. The amount of margin required can be reduced by the use of mitigating techniques such as antenna diversity or frequency hopping.
+A simple link budget equation looks like this:
+
+Received power (dBm) = transmitted power (dBm) + gains (dB) − losses (dB)Power levels are expressed in (dBm), Power gains and losses are expressed in decibels (dB), which is a logarithmic measurement, so adding decibels is equivalent to multiplying the actual power ratios.
+
+In radio systems
+For a line-of-sight radio system, the primary source of loss is the decrease of the signal power due to uniform propagation, proportional to the inverse square of the distance (geometric spreading).
+
+Transmitting antennas are for the most part neither isotropic (an imaginary class of antenna with uniform radiation in 3 dimensions) nor omnidirectional (a real class of antenna with uniform radiation in 2 dimensions).
+The use of omnidirectional antennas is rare in telecommunication systems, so almost every link budget equation must consider antenna gain.
+Transmitting antennas typically concentrate the signal power in a favoured direction, normally that in which the receiving antenna is placed.
+Transmitter power is effectively increased (in the direction of highest antenna gain). This systemic gain is expressed by including the antenna gain in the link budget.
+The receiving antenna is also typically directional, and when properly oriented collects more power than an isotropic antenna would; as a consequence, the receiving antenna gain (in decibels from isotropic, dBi) adds to the received power.
+The antenna gains (transmitting or receiving) are scaled by the wavelength of the radiation in question. This step may not be required if adequate systemic link budgets are achieved.
+
+Simplifications needed
+Often link budget equations are messy and complex, so standard practices have evolved to simplify the Friis transmission equation into the link budget equation. It includes the transmit and receive antenna gain, the free space path loss and additional losses and gains, assuming line of sight between the transmitter and receiver.
+
+The wavelength (or frequency) term is part of the free space loss part of the link budget.
+The distance term is also considered in the free space loss.
+
+Transmission line and polarization loss
+In practical situations (deep space telecommunications, weak signal DXing etc.) other sources of signal loss must also be accounted for
+
+The transmitting and receiving antennas may be partially cross-polarized.
+The cabling between the radios and antennas may introduce significant additional loss.
+Fresnel zone losses due to a partially obstructed line of sight path.
+Doppler shift induced signal power losses in the receiver.
+
+Endgame
+If the estimated received power is sufficiently large (typically relative to the receiver sensitivity), which may be dependent on the communications protocol in use, the link will be useful for sending data. The amount by which the received power exceeds receiver sensitivity is called the link margin.
+
+Equation
+A link budget equation including all these effects, expressed logarithmically, might look like this:
+
+  
+    
+      
+        
+          P
+          
+            RX
+          
+        
+        =
+        
+          P
+          
+            TX
+          
+        
+        +
+        
+          G
+          
+            TX
+          
+        
+        −
+        
+          L
+          
+            TX
+          
+        
+        −
+        
+          L
+          
+            FS
+          
+        
+        −
+        
+          L
+          
+            M
+          
+        
+        +
+        
+          G
+          
+            RX
+          
+        
+        −
+        
+          L
+          
+            RX
+          
+        
+        
+      
+    
+    {\displaystyle P_{\text{RX}}=P_{\text{TX}}+G_{\text{TX}}-L_{\text{TX}}-L_{\text{FS}}-L_{M}+G_{\text{RX}}-L_{\text{RX}}\,}
+  where:
+
+  
+    
+      
+        
+          P
+          
+            RX
+          
+        
+      
+    
+    {\displaystyle P_{\text{RX}}}
+  , received power (dBm)
+
+  
+    
+      
+        
+          P
+          
+            TX
+          
+        
+      
+    
+    {\displaystyle P_{\text{TX}}}
+  , transmitter output power (dBm)
+
+  
+    
+      
+        
+          G
+          
+            TX
+          
+        
+      
+    
+    {\displaystyle G_{\text{TX}}}
+  , transmitter antenna gain (dBi)
+
+  
+    
+      
+        
+          L
+          
+            TX
+          
+        
+      
+    
+    {\displaystyle L_{\text{TX}}}
+  , transmitter losses (coax, connectors...) (dB)
+
+  
+    
+      
+        
+          L
+          
+            FS
+          
+        
+      
+    
+    {\displaystyle L_{\text{FS}}}
+  , path loss, usually free space loss (dB)
+
+  
+    
+      
+        
+          L
+          
+            M
+          
+        
+      
+    
+    {\displaystyle L_{\text{M}}}
+  , miscellaneous losses (fading margin, body loss, polarization mismatch, other losses, ...) (dB)
+
+  
+    
+      
+        
+          G
+          
+            RX
+          
+        
+      
+    
+    {\displaystyle G_{\text{RX}}}
+  , receiver antenna gain (dBi)
+
+  
+    
+      
+        
+          L
+          
+            RX
+          
+        
+      
+    
+    {\displaystyle L_{\text{RX}}}
+  , receiver losses (coax, connectors, ...)  (dB)The loss due to propagation between the transmitting and receiving antennas, often called the path loss, can be written in dimensionless form by normalizing the distance to the wavelength:
+
+  
+    
+      
+        
+          L
+          
+            FS
+          
+        
+        
+          (dB)
+        
+        =
+        20
+        
+          log
+          
+            10
+          
+        
+        ⁡
+        
+          (
+          
+            4
+            π
+            
+              
+                
+                  distance
+                
+                
+                  wavelength
+                
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle L_{\text{FS}}{\text{(dB)}}=20\log _{10}\left(4\pi {{\text{distance}} \over {\text{wavelength}}}\right)}
+   (where distance and wavelength are in the same units)When substituted into the link budget equation above, the result is the logarithmic form of the Friis transmission equation.
+In some cases, it is convenient to consider the loss due to distance and wavelength separately, but in that case, it is important to keep track of which units are being used, as each choice involves a differing constant offset.  Some examples are provided below.
+
+  
+    
+      
+        
+          L
+          
+            FS
+          
+        
+      
+    
+    {\displaystyle L_{\text{FS}}}
+   (dB) ≈  32.45 dB + 20 log10[frequency (MHz)] + 20 log10[distance (km)]
+
+  
+    
+      
+        
+          L
+          
+            FS
+          
+        
+      
+    
+    {\displaystyle L_{\text{FS}}}
+   (dB) ≈ −27.55 dB + 20 log10[frequency (MHz)] + 20 log10[distance (m)]
+
+  
+    
+      
+        
+          L
+          
+            FS
+          
+        
+      
+    
+    {\displaystyle L_{\text{FS}}}
+   (dB) ≈  36.6  dB + 20 log10[frequency (MHz)] + 20 log10[distance (miles)]These alternative forms can be derived by substituting wavelength with the ratio of propagation velocity (c, approximately 3×108 m/s) divided by frequency, and by inserting the proper conversion factors between km or miles and meters, and between MHz and (1/s).
+
+Non-line-of-sight radio
+Because of building obstructions such as walls and ceilings, propagation losses indoors can be significantly higher. This occurs because of a combination of attenuation by walls and ceilings, and blockage due to equipment, furniture, and even people.
+
+For example, a "2 by 4" wood stud wall with drywall on both sides results in about 6 dB loss per wall at 2.4 GHz.
+Older buildings may have even greater internal losses than new buildings due to materials and line of sight issues.Experience has shown that line-of-sight propagation holds only for about the first 3 meters. Beyond 3 meters propagation losses indoors can increase at up to 30 dB per 30 meters in dense office environments. This is a good rule-of-thumb, in that it is conservative (it overstates path loss in most cases). Actual propagation losses may vary significantly depending on
+building construction and layout. 
+The attenuation of the signal is highly dependent on the frequency of the signal.
+
+In waveguides and cables
+Guided media such as coaxial and twisted pair electrical cable, radio frequency waveguide and optical fiber have losses that are exponential with distance.
+The path loss will be in terms of dB per unit distance.
+This means that there is always a crossover distance beyond which the loss in a guided medium will exceed that of a line-of-sight path of the same length.
+Long distance fiber-optic communication became practical only with the development of ultra-transparent glass fibers. A typical path loss for single mode fiber is 0.2 dB/km, far lower than any other guided medium.
+
+Earth–Moon–Earth communications
+Link budgets are important in Earth–Moon–Earth communications. As the albedo of the Moon is very low (maximally 12% but usually closer to 7%), and the path loss over the 770,000 kilometre return distance is extreme (around 250 to 310 dB depending on VHF-UHF band used, modulation format and Doppler shift effects), high power (more than 100 watts) and high-gain antennas (more than 20 dB) must be used. 
+
+In practice, this limits the use of this technique to the spectrum at VHF and above.
+The Moon must be above the horizon in order for EME communications to be possible.
+
+Voyager program
+The Voyager program spacecraft have the highest known path loss (308 dB as of 2002: 26 ) and lowest link budgets of any telecommunications circuit. The Deep Space Network has been able to maintain the link at a higher than expected bitrate through a series of improvements, such as increasing the antenna size from 64 m to 70 m for a 1.2 dB gain, and upgrading to low noise electronics for a 0.5 dB gain in 2000–2001. During the Neptune flyby, in addition to the 70-m antenna, two 34-m antennas and twenty-seven 25-m antennas were used to increase the gain by 5.6 dB, providing additional link margin to be used for a 4× increase in bitrate.: 35
+
+See also
+Friis transmission equation
+Antenna gain-to-noise-temperature
+Isotropic radiator
+Radiation pattern
+Multipath propagation
+RF planning
+
+References
+External links
+Link budget calculator for wireless LAN
+Link budget tutorial
+Point-to-point link budget calculator
+MUOS Link budget calculator/planner
+Example LTE, GSM and UMTS Link Budgets
+Python link budget calculator for satellites
+Small satellites link budget (with python examples)

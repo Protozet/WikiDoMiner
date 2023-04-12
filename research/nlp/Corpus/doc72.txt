@@ -1,0 +1,33 @@
+In communications, traffic policing is the process of monitoring network traffic for compliance with a traffic contract and taking steps to enforce that contract. Traffic sources which are aware of a traffic contract may apply traffic shaping to ensure their output stays within the contract and is thus not discarded. Traffic exceeding a traffic contract may be discarded immediately, marked as non-compliant, or left as-is, depending on administrative policy and the characteristics of the excess traffic.
+
+Effects
+The recipient of traffic that has been policed will observe packet loss distributed throughout periods when incoming traffic exceeded the contract. If the source does not limit its sending rate (for example, through a feedback mechanism), this will continue, and may appear to the recipient as if link errors or some other disruption is causing random packet loss. The received traffic, which has experienced policing en route, will typically comply with the contract, although jitter may be introduced by elements in the network downstream of the policer.
+With reliable protocols, such as TCP as opposed to UDP, the dropped packets will not be acknowledged by the receiver, and therefore will be resent by the emitter, thus generating more traffic.
+
+Impact on congestion-controlled sources
+Sources with feedback-based congestion control mechanisms (for example TCP) typically adapt rapidly to static policing, converging on a rate just below the policed sustained rate.Co-operative policing mechanisms, such as packet-based discard facilitate more rapid convergence, higher stability and more efficient resource sharing.  As a result, it may be hard for endpoints to distinguish TCP traffic that has been merely policed from TCP traffic that has been shaped.
+
+Impact in the case of ATM
+Where cell-level dropping is enforced (as opposed to that achieved through packet-based policing) the impact is particularly severe on longer packets. Since cells are typically much shorter than the maximum packet size, conventional policers discard cells which do not respect packet boundaries, and hence the total amount of traffic dropped will typically be distributed throughout a number of packets. Almost all known packet reassembly mechanisms will respond to a missing cell by dropping the packet entirely, and consequently a very large number of packet losses can result from moderately exceeding the policed contract.
+
+Process
+RFC 2475 describes traffic policing elements like a meter and a dropper.  They may also optionally include a marker. The meter measures the traffic and determines whether or not it exceeds the contract (for example by GCRA). Where it exceeds the contract, some policy determines if any given PDU is dropped, or if marking is implemented, if and how it is to be marked. Marking can comprise setting a congestion flag (such as ECN flag of TCP or CLP bit of ATM) or setting a traffic aggregate indication (such as Differentiated Services Code Point of IP).
+In simple implementations, traffic is classified into two categories, or "colors" : compliant (green) and in excess (red). RFC 2697 proposes a more precise classification, with three "colors". In this document, the contract is described through three parameters: Committed Information Rate (CIR), Committed Burst Size (CBS), and Excess Burst Size (EBS). A packet is "green" if it doesn't exceed the CBS, "yellow" if it does exceed the CBS, but not the EBS, and "red" otherwise.
+The "single-rate three-color marker" described by RFC 2697 allows for temporary bursts. The bursts are allowed when the line was under-used before they appeared. A more predictable algorithm is described in RFC 2698, which proposes a "double-rate three-color marker". RFC 2698 defines a new parameter, the Peak Information Rate (PIR). RFC 2859 describes the "Time Sliding Window Three Colour Marker" which meters a traffic stream and marks packets based on measured throughput relative to two specified rates: Committed Target Rate (CTR) and Peak Target Rate (PTR).
+
+Implementations
+On Cisco equipment, both traffic policing and shaping are implemented through the token bucket algorithm.Traffic policing in ATM networks is known as Usage/Network Parameter Control. The network can also discard non-conformant traffic in the network (using Priority Control). The reference for both traffic policing and traffic shaping in ATM (given by the ATM Forum and the ITU-T) is the Generic Cell Rate Algorithm (GCRA), which is described as a version of the leaky bucket algorithm.However, comparison of the leaky bucket and token bucket algorithms shows that they are simply mirror images of one another, one adding bucket content where the other takes it away and taking away bucket content where the other adds it. Hence, given equivalent parameters, implementations of both algorithms will see exactly the same traffic as conforming and non-conforming.
+Traffic policing requires maintenance of numerical statistics and measures for each policed traffic flow, but it does not require implementation or management of significant volumes of packet buffer. Consequently, it is significantly less complex to implement than traffic shaping.
+
+Connection Admission Control as an alternative
+Connection-oriented networks (for example ATM systems) can perform Connection Admission Control (CAC) based on traffic contracts. In the context of Voice over IP (VoIP), this is also known as Call Admission Control (CAC).An application that wishes to use a connection-oriented network to transport traffic must first request a connection (through signalling, for example Q.2931), which involves informing the network about the characteristics of the traffic and the quality of service (QoS) required by the application. This information is matched against a traffic contract. If the connection request is accepted, the application is permitted to use the network to transport traffic.
+This function protects the network resources from malicious connections and enforces the compliance of every connection to its negotiated traffic contract.
+Difference between CAC and traffic policing is that CAC is an a priori verification (before the transfer occurs), while traffic policing is an a posteriori verification (during the transfer).
+
+See also
+Broadband Networks
+Queuing discipline
+Teletraffic engineering in broadband networks
+
+
+== References ==

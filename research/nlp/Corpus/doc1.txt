@@ -1,0 +1,59 @@
+Photographic plates preceded photographic film as a capture medium in photography, and were still used in some communities up until the late 20th century. The light-sensitive emulsion of silver salts was coated on a glass plate, typically thinner than common window glass.
+
+History
+Glass plates were far superior to film for research-quality imaging because they were stable and less likely to bend or distort, especially in large-format frames for wide-field imaging. Early plates used the wet collodion process. The wet plate process was replaced late in the 19th century by gelatin dry plates.   
+
+A view camera nicknamed "The Mammoth" weighing 1,400 pounds (640 kg) was built by George R. Lawrence in 1899, specifically to photograph "The Alton Limited" train owned by the Chicago & Alton Railway. It took photographs on glass plates measuring 8 feet (2.4 m) × 4.5 feet (1.4 m).Glass plate photographic material largely faded from the consumer market in the early years of the 20th century, as more convenient and less fragile films were increasingly adopted. However, photographic plates were reportedly still being used by one photography business in London until the 1970s, and by one in Bradford called the Belle Vue Studio that closed in 1975. They were in wide use by the professional astronomical community as late as the 1990s. Workshops on the use of glass plate photography as an alternative medium or for artistic use are still being conducted.
+
+Scientific uses
+Astronomy
+Many famous astronomical surveys were taken using photographic plates, including the first Palomar Observatory Sky Survey (POSS) of the 1950s, the follow-up POSS-II survey of the 1990s, and the UK Schmidt survey of southern declinations. A number of observatories, including Harvard College and Sonneberg, maintain large archives of photographic plates, which are used primarily for historical research on variable stars.
+Many solar system objects were discovered by using photographic plates, superseding earlier visual methods. Discovery of minor planets using photographic plates was pioneered by Max Wolf beginning with his discovery of 323 Brucia in 1891.  The first natural satellite discovered using photographic plates was Phoebe in 1898.  Pluto was discovered using photographic plates in a blink comparator; its moon Charon was discovered 48 years later in 1978 by U.S. Naval Observatory astronomer James W. Christy  by carefully examining a bulge in Pluto's image on a photographic plate.
+Glass-backed plates, rather than film, were generally used in astronomy because they do not shrink or deform noticeably in the development process or under environmental changes. Several important applications of astrophotography, including astronomical spectroscopy and astrometry, continued using plates until digital imaging improved to the point where it could outmatch photographic results. Kodak and other manufacturers discontinued production of most kinds of plates as the market for them dwindled between 1980 and 2000, terminating most remaining astronomical use, including for sky surveys.
+
+Physics
+Photographic plates were also an important tool in early high-energy physics, as they are blackened by ionizing radiation. Ernest Rutherford was one of the first to study the absorption, in various materials, of the rays produced in radioactive decay, by using photographic plates to measure the intensity of the rays.  Development of particle detection optimised nuclear emulsions in the 1930s and 1940s, first in physics laboratories, then by commercial manufacturers, enabled the discovery and measurement of both the pi-meson and K-meson, in 1947 and 1949, initiating a flood of new particle discoveries in the second half of the 20th century.
+
+Electron microscopy
+Photographic emulsions were originally coated on thin glass plates for imaging with electron microscopes, which provided a more rigid, stable and flatter plane compared to plastic films. Beginning in the 1970s, high-contrast, fine grain emulsions coated on thicker plastic films manufactured by Kodak, Ilford and DuPont replaced glass plates. These films have largely been replaced by digital imaging technologies.
+
+Medical imaging
+The sensitivity of certain types of photographic plates to ionizing radiation (usually X-rays) is also useful in medical imaging and material science applications, although they have been largely replaced with reusable and computer readable image plate detectors and other types of X-ray detectors.
+
+Decline
+The earliest flexible films of the late 1880s were sold for amateur use in medium-format cameras. The plastic was not of very high optical quality and tended to curl and otherwise not provide as desirably flat a support surface as a sheet of glass. Initially, a transparent plastic base was more expensive to produce than glass. Quality was eventually improved, manufacturing costs came down, and most amateurs gladly abandoned plates for films. After large-format high quality cut films for professional photographers were introduced in the late 1910s, the use of plates for ordinary photography of any kind became increasingly rare.
+The persistent use of plates in astronomical and other scientific applications started to decline in the early 1980s as they were gradually replaced by charge-coupled devices (CCDs), which also provide outstanding dimensional stability. CCD cameras have several advantages over glass plates, including high efficiency, linear light response, and simplified image acquisition and processing. However, even the largest CCD formats (e.g., 8192 × 8192 pixels) still do not have the detecting area and resolution of most photographic plates, which has forced modern survey cameras to use large CCD arrays to obtain the same coverage.
+The manufacture of photographic plates has been discontinued by Kodak, Agfa and other widely known traditional makers. Eastern European sources have subsequently catered to the minimal remaining demand, practically all of it for use in holography, which requires a recording medium with a large surface area and a submicroscopic level of resolution that currently (2014) available electronic image sensors cannot provide. In the realm of traditional photography, a small number of historical process enthusiasts make their own wet or dry plates from raw materials and use them in vintage large-format cameras.
+
+Preservation
+Several institutions have established archives to preserve photographic plates and prevent their valuable historical information from being lost. The emulsion on the plate can deteriorate. In addition, the glass plate medium is fragile and prone to cracking if not stored correctly.
+
+Historical archives
+The United States Library of Congress has a large collection of both wet and dry plate photographic negatives, dating from 1855 through 1900, over 7,500 of which have been digitized from the period 1861 to 1865.
+The George Eastman Museum holds an extensive collection of photographic plates. In 1955, wet plate negatives measuring 4 feet 6 inches (1.37 m) × 3 feet 2 inches (0.97 m) were reported to have been discovered in 1951 as part of the Holtermann Collection. These purportedly were the largest glass negatives discovered at that time. These images were taken in 1875 by Charles Bayliss and formed the "Shore Tower" panorama of Sydney Harbour. Albumen contact prints made from these negatives are in the holdings of the Holtermann Collection, the negatives are listed among the current holdings of the Collection.
+
+Scientific archives
+Preservation of photographic plates is a particular need in astronomy, where changes often occur slowly and the plates represent irreplaceable records of the sky and astronomical objects that extend back over 100 years. The method of digitization of astronomical plates enables free and easy access to those unique astronomical data and it is one of the most popular approaches to preserve them. This approach was applied at the Baldone Astrophysical Observatory where about 22,000 glass and film plates of the Schmidt Telescope were scanned and cataloged. Another example of an astronomical plate archive is the Astronomical Photographic Data Archive (APDA) at the Pisgah Astronomical Research Institute (PARI).  APDA was created in response to recommendations of a group of international scientists who gathered in 2007 to discuss how to best preserve astronomical plates (see the Osborn and Robbins reference listed under Further reading).  The discussions revealed that some observatories no longer could maintain their plate collections and needed a place to archive them. APDA is dedicated to housing and cataloging unwanted plates, with the goal to eventually catalog the plates and create a database of images that can be accessed via the Internet by the global community of scientists, researchers, and students. APDA now has a collection of more than 404,000 photographic images from over 40 observatories that are housed in a secure building with environmental control.  The facility possesses several plate scanners, including two high-precision ones, GAMMA I and GAMMA II, built for NASA and the Space Telescope Science Institute (STScI) and used by a team under the leadership of the late Dr. Barry Lasker to develop the Guide Star Catalog and Digitized Sky Survey that are used to guide and direct the Hubble Space Telescope.  APDA's networked storage system can store and analyze more than 100 terabytes of data.A historical collection of photographic plates from Mt. Wilson observatory is available at the Carnegie Observatories. Metadata is available via a searchable database, while a portion of the plates has been digitized.
+
+See also
+Camera
+Film base
+Photographic film
+
+References
+Further reading
+Peter Kroll, Constanze La Dous, Hans-Jürgen Bräuer: "Treasure Hunting in Astronomical Plate Archives." (Proceedings of the international Workshop held at Sonneberg Observatory, March 4 to 6, 1999.) Verlag Herri Deutsch, Frankfurt am Main (1999), ISBN 3-8171-1599-7
+Wayne Osborn, Lee Robbins: "Preserving Astronomy's Photographic Legacy:  Current State and the Future of North American Astronomical Plates."  Astronomical Society of the Pacific Conference Series, Vol. 410 (2009), ISBN 978-1-58381-700-1
+Pisgah Astronomical Research Institute (PARI) Astronomical Photographic Data Archive (APDA) https://www.pari.edu/research/adpa/
+
+External links
+
+Carnegie Observatories
+The Sonneberg Plates Archiv (Sonneberg Observatory)
+The Harvard College Observatory Plate Stacks
+APDA @ PARI
+Pisgah Astronomical Research Institute Astronomical Photographic Data Archive (PARI APDA)(Archive from Aug 2012)
+Capturing Oregon's Frontier  Documentary produced by Oregon Public Broadcasting
+Video demonstration of collodion wet plate preparation and photographic image creation
+Course on field wet-plate photography
+Information on creation of wet-plate photographs

@@ -1,0 +1,42 @@
+A video camera is an optical instrument that captures videos (as opposed to a movie camera, which records images on film). Video cameras were initially developed for the television industry but have since become widely used for a variety of other purposes.
+Video cameras are used primarily in two modes. The first, characteristic of much early broadcasting, is live television, where the camera feeds real time images directly to a screen for immediate observation.  A few cameras still serve live television production, but most live connections are for security, military/tactical, and industrial operations where surreptitious or remote viewing is required. In the second mode the images are recorded to a storage device for archiving or further processing; for many years, videotape was the primary format used for this purpose, but was gradually supplanted by optical disc, hard disk, and then flash memory. Recorded video is used in television production, and more often surveillance and monitoring tasks in which unattended recording of a situation is required for later analysis.
+
+Types and uses
+Modern video cameras have numerous designs and use:
+
+Professional video cameras, such as those used in television production, may be television studio-based or mobile in the case of an electronic field production (EFP). Such cameras generally offer extremely fine-grained manual control for the camera operator, often to the exclusion of automated operation. They usually use three sensors to separately record red, green and blue.
+Camcorders combine a camera and a VCR or other recording device in one unit; these are mobile, and were widely used for television production, home movies, electronic news gathering (ENG) (including citizen journalism), and similar applications. Since the transition to digital video cameras, most cameras have in-built recording media and as such are also camcorders. Action cameras often have 360° recording capabilities.
+Closed-circuit television (CCTV) generally uses pan–tilt–zoom cameras (PTZ), for security, surveillance, and/or monitoring purposes. Such cameras are designed to be small, easily hidden, and able to operate unattended; those used in industrial or scientific settings are often meant for use in environments that are normally inaccessible or uncomfortable for humans, and are therefore hardened for such hostile environments (e.g. radiation, high heat, or toxic chemical exposure).
+Webcams are video cameras that stream a live video feed to a computer.
+Many smartphones have built-in video cameras and even high-end smartphones can capture video in 4K resolution.
+Special camera systems are used for scientific research, e.g. on board a satellite or a space probe, in artificial intelligence and robotics research, and in medical use. Such cameras are often tuned for non-visible radiation for infrared (for night vision and heat sensing) or X-ray (for medical and video astronomy use).
+
+History
+The earliest video cameras were based on the mechanical Nipkow disk and used in experimental broadcasts through the 1910s–1930s. All-electronic designs based on the video camera tube, such as Vladimir Zworykin's Iconoscope and Philo Farnsworth's image dissector, supplanted the Nipkow system by the 1930s. These remained in wide use until the 1980s, when cameras based on solid-state image sensors such as the charge-coupled device (CCD) and later CMOS active-pixel sensor (CMOS sensor) eliminated common problems with tube technologies such as image burn-in and streaking and made digital video workflow practical, since the output of the sensor is digital so it does not need conversion from analog.
+The basis for solid-state image sensors is metal–oxide–semiconductor (MOS) technology, which originates from the invention of the MOSFET (MOS field-effect transistor) at Bell Labs in 1959. This led to the development of semiconductor image sensors, including the CCD and later the CMOS active-pixel sensor. The first semiconductor image sensor was the charge-coupled device, invented at Bell Labs in 1969, based on MOS capacitor technology. The NMOS active-pixel sensor was later invented at Olympus in 1985, which led to the development of the CMOS active-pixel sensor at NASA's Jet Propulsion Laboratory in 1993.Practical digital video cameras were also enabled by advances in video compression, due to the impractically high memory and bandwidth requirements of uncompressed video. The most important compression algorithm in this regard is the discrete cosine transform (DCT), a lossy compression technique that was first proposed in 1972. Practical digital video cameras were enabled by DCT-based video compression standards, including the H.26x and MPEG video coding standards introduced from 1988 onwards.The transition to digital television gave a boost to digital video cameras. By the early 21st century, most video cameras were digital cameras.
+With the advent of digital video capture, the distinction between professional video cameras and movie cameras has disappeared as the intermittent mechanism has become the same. Nowadays, mid-range cameras exclusively used for television and other work (except movies) are termed professional video cameras.
+
+Recording media
+Early video could not be directly recorded. The first somewhat successful attempt to directly record video was in 1927 with John Logie Baird’s disc based Phonovision. The discs were unplayable with the technology of the time although later advances allowed the video to be recovered in the 1980s. The first experiments with using tape to record a video signal took place in 1951. The first commercially released system was Quadruplex videotape produced by Ampex in 1956. Two years later Ampex introduced a system capable of recording colour video. The first recording systems designed to be mobile (and thus usable outside the studio) were the Portapak systems starting with the Sony DV-2400 in 1967. This was followed in 1981 by the Betacam system where the tape recorder was built into the camera making a camcorder.
+
+Lens mounts
+While some video cameras have built in lenses others use interchangeable lenses connected via a range of mounts. Some like Panavision PV and Arri PL are designed for movie cameras while others like Canon EF and Sony E come from still photography. A further set of mounts like S-mount exist for applications like CCTV.
+
+See also
+Digital movie camera
+Digital single-lens reflex camera
+FireWire camera
+Professional video camera
+Recording at the edge
+Television production
+Three-CCD
+Video camera tube
+Videograph
+Videotelephony
+Webcam
+Smart camera
+
+References
+External links
+ Media related to Video cameras at Wikimedia Commons
+ The dictionary definition of video camera at Wiktionary

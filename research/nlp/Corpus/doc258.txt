@@ -1,0 +1,1931 @@
+The primary line constants are parameters that describe the characteristics of conductive transmission lines, such as pairs of copper wires, in terms of the physical electrical properties of the line.  The primary line constants are only relevant to transmission lines and are to be contrasted with the secondary line constants, which can be derived from them, and are more generally applicable.  The secondary line constants can be used, for instance, to compare the characteristics of a waveguide to a copper line, whereas the primary constants have no meaning for a waveguide.
+The constants are conductor resistance and inductance, and insulator capacitance and conductance, which are by convention given the symbols R, L, C, and G respectively. The constants are enumerated in terms of per unit length. The circuit representation of these elements requires a distributed-element model and consequently calculus must be used to analyse the circuit.  The analysis yields a system of two first order, simultaneous linear partial differential equations which may be combined to derive the secondary constants of characteristic impedance and propagation constant.
+A number of special cases have particularly simple solutions and important practical applications.  Low loss cable requires only L and C to be included in the analysis, useful for short lengths of cable.  Low frequency applications, such as twisted pair telephone lines, are dominated by R and C only.  High frequency applications, such as RF co-axial cable, are dominated by L and C.  Lines loaded to prevent distortion need all four elements in the analysis, but have a simple, elegant solution.
+
+The constants
+There are four primary line constants, but in some circumstances some of them are small enough to be ignored and the analysis can be simplified.  These four, and their symbols and units are as follows:
+
+R and L are elements in series with the line (because they are properties of the conductor) and C and G are elements shunting the line (because they are properties of the dielectric material between the conductors).  G represents leakage current through the dielectric and in most cables is very small.  The word loop is used to emphasise that the resistance and inductance of both conductors must be taken into account.  For instance, if a line consists of two identical wires that have a resistance of 25 mΩ/m each, the loop resistance is double that, 50 mΩ/m.  Because the values of the constants are quite small, it is common for manufacturers to quote them per kilometre rather than per metre; in the English-speaking world "per mile" can also be used.The word "constant" can be misleading. It means that they are material constants; but they may vary with frequency. In particular, R is heavily influenced by the skin effect.  Furthermore, while G has virtually no effect at audio frequency, it can cause noticeable losses at high frequency with many of the dielectric materials used in cables due to a high loss tangent.  Avoiding the losses caused by G is the reason many cables designed for use at UHF are air-insulated or foam-insulated (which makes them virtually air-insulated). The actual meaning of constant in this context is that the parameter is constant with distance.  That is the line is assumed to be homogenous lengthwise.  This condition is true for the vast majority of transmission lines in use today.
+
+Typical values for some common cables
+† Manufacturers commonly omit a value for inductance in their data sheets.  Some of these values are estimated from the figures for capacitance and characteristic impedance by 
+  
+    
+      
+        
+          
+            
+              
+                Z
+                
+                  0
+                
+              
+            
+            
+              2
+            
+          
+          =
+          L
+          
+            /
+          
+          C
+        
+      
+    
+    {\displaystyle \scriptstyle {Z_{0}}^{2}=L/C}
+  .
+
+Circuit representation
+The line constants cannot be simply represented as lumped elements in a circuit; they must be described as distributed elements.  For instance "pieces" of the capacitance are in between "pieces" of the resistance.  However many pieces the R and C are broken into, it can always be argued they should be broken apart further to properly represent the circuit, and after each division the number of meshes in the circuit is increased.  This is shown diagramtically in figure 1.  To give a true representation of the circuit, the elements must be made infinitesimally small so that each element is distributed along the line.  The infinitesimal elements in an infinitesimal distance 
+  
+    
+      
+        
+          d
+          x
+        
+      
+    
+    {\displaystyle \scriptstyle dx}
+   are given by;
+
+  
+    
+      
+        d
+        L
+        =
+        
+          lim
+          
+            δ
+            x
+            →
+            0
+          
+        
+        (
+        L
+        δ
+        x
+        )
+        =
+        L
+        d
+        x
+      
+    
+    {\displaystyle dL=\lim _{\delta x\to 0}(L\delta x)=Ldx}
+   
+
+  
+    
+      
+        d
+        R
+        =
+        
+          lim
+          
+            δ
+            x
+            →
+            0
+          
+        
+        (
+        R
+        δ
+        x
+        )
+        =
+        R
+        d
+        x
+      
+    
+    {\displaystyle dR=\lim _{\delta x\to 0}(R\delta x)=Rdx}
+   
+
+  
+    
+      
+        d
+        C
+        =
+        
+          lim
+          
+            δ
+            x
+            →
+            0
+          
+        
+        (
+        C
+        δ
+        x
+        )
+        =
+        C
+        d
+        x
+      
+    
+    {\displaystyle dC=\lim _{\delta x\to 0}(C\delta x)=Cdx}
+   
+
+  
+    
+      
+        d
+        G
+        =
+        
+          lim
+          
+            δ
+            x
+            →
+            0
+          
+        
+        (
+        G
+        δ
+        x
+        )
+        =
+        G
+        d
+        x
+      
+    
+    {\displaystyle dG=\lim _{\delta x\to 0}(G\delta x)=Gdx}
+   
+It is convenient for the purposes of analysis to roll up these elements into general series impedance, Z, and shunt admittance, Y elements such that;
+
+  
+    
+      
+        d
+        Z
+        =
+        (
+        R
+        +
+        i
+        ω
+        L
+        )
+        d
+        x
+        =
+        Z
+        d
+        x
+        
+        ,
+      
+    
+    {\displaystyle dZ=(R+i\omega L)dx=Zdx\,,}
+    and,
+
+  
+    
+      
+        d
+        Y
+        =
+        (
+        G
+        +
+        i
+        ω
+        C
+        )
+        d
+        x
+        =
+        Y
+        d
+        x
+        
+        .
+      
+    
+    {\displaystyle dY=(G+i\omega C)dx=Ydx\,.}
+  Analysis of this network (figure 2) will yield the secondary line constants: the propagation constant, 
+  
+    
+      
+        
+          γ
+        
+      
+    
+    {\displaystyle \scriptstyle \gamma }
+  , (whose real and imaginary parts are the attenuation constant, 
+  
+    
+      
+        
+          α
+        
+      
+    
+    {\displaystyle \scriptstyle \alpha }
+  , and phase change constant, 
+  
+    
+      
+        
+          β
+        
+      
+    
+    {\displaystyle \scriptstyle \beta }
+  , respectively) and the characteristic impedance, 
+  
+    
+      
+        
+          
+            Z
+            
+              0
+            
+          
+        
+      
+    
+    {\displaystyle \scriptstyle Z_{0}}
+  , which also, in general, will have real, 
+  
+    
+      
+        
+          
+            R
+            
+              0
+            
+          
+        
+      
+    
+    {\displaystyle \scriptstyle R_{0}}
+  , and imaginary, 
+  
+    
+      
+        
+          
+            X
+            
+              0
+            
+          
+        
+      
+    
+    {\displaystyle \scriptstyle X_{0}}
+  , parts, making a total of four secondary constants to be derived from the four primary constants.  The term constant is even more misleading for the secondary constants as they usually vary quite strongly with frequency, even in an ideal situation where the primary constants do not.  This is because the reactances in the circuit (
+  
+    
+      
+        
+          ω
+          L
+        
+      
+    
+    {\displaystyle \scriptstyle \omega L}
+   and 
+  
+    
+      
+        
+          1
+          
+            /
+          
+          (
+          ω
+          C
+          )
+        
+      
+    
+    {\displaystyle \scriptstyle 1/(\omega C)}
+  ) introduce a dependence on 
+  
+    
+      
+        
+          ω
+        
+      
+    
+    {\displaystyle \scriptstyle \omega }
+  .  It is possible to choose specific values of the primary constants that result in 
+  
+    
+      
+        
+          α
+        
+      
+    
+    {\displaystyle \scriptstyle \alpha }
+   and 
+  
+    
+      
+        
+          
+            Z
+            
+              0
+            
+          
+        
+      
+    
+    {\displaystyle \scriptstyle Z_{0}}
+   being independent of 
+  
+    
+      
+        ω
+      
+    
+    {\displaystyle \omega }
+   (the Heaviside condition) but even in this case, there is still 
+  
+    
+      
+        
+          β
+        
+      
+    
+    {\displaystyle \scriptstyle \beta }
+   which is directly proportional to 
+  
+    
+      
+        
+          ω
+        
+      
+    
+    {\displaystyle \scriptstyle \omega }
+  .  As with the primary constants, the meaning of "constant" is that the secondary constants do not vary with distance along the line, not that they are independent of frequency.
+
+Characteristic impedance
+The characteristic impedance of a transmission line, 
+  
+    
+      
+        
+          
+            Z
+            
+              0
+            
+          
+        
+      
+    
+    {\displaystyle \scriptstyle Z_{0}}
+  , is defined as the impedance looking into an infinitely long line.  Such a line will never return a reflection since the incident wave will never reach the end to be reflected.  When considering a finite length of the line, the remainder of the line can be replaced by 
+  
+    
+      
+        
+          
+            Z
+            
+              0
+            
+          
+        
+      
+    
+    {\displaystyle \scriptstyle Z_{0}}
+   as its equivalent circuit.  This is so because the remainder of the line is still infinitely long and therefore equivalent to the original line.  If the finite segment is very short, then in the equivalent circuit it will be modelled by an L-network consisting of one element of 
+  
+    
+      
+        
+          d
+          Z
+        
+      
+    
+    {\displaystyle \scriptstyle dZ}
+   and one of 
+  
+    
+      
+        
+          d
+          Y
+        
+      
+    
+    {\displaystyle \scriptstyle dY}
+  ; the remainder is given by 
+  
+    
+      
+        
+          
+            Z
+            
+              0
+            
+          
+        
+      
+    
+    {\displaystyle \scriptstyle Z_{0}}
+  .  This results in the network shown in figure 3, which can be analysed for 
+  
+    
+      
+        
+          
+            Z
+            
+              0
+            
+          
+        
+      
+    
+    {\displaystyle \scriptstyle Z_{0}}
+   using the usual network analysis theorems,
+
+  
+    
+      
+        
+          Z
+          
+            0
+          
+        
+        =
+        δ
+        Z
+        +
+        
+          
+            
+              Z
+              
+                0
+              
+            
+            
+              1
+              +
+              
+                Z
+                
+                  0
+                
+              
+              δ
+              Y
+            
+          
+        
+      
+    
+    {\displaystyle Z_{0}=\delta Z+{\frac {Z_{0}}{1+Z_{0}\delta Y}}}
+  which re-arranges to,
+
+  
+    
+      
+        
+          
+            
+              Z
+              
+                0
+              
+            
+          
+          
+            2
+          
+        
+        −
+        
+          Z
+          
+            0
+          
+        
+        δ
+        Z
+        =
+        
+          
+            
+              δ
+              Z
+            
+            
+              δ
+              Y
+            
+          
+        
+      
+    
+    {\displaystyle {Z_{0}}^{2}-Z_{0}\delta Z={\frac {\delta Z}{\delta Y}}}
+  Taking limits of both sides
+
+  
+    
+      
+        
+          lim
+          
+            δ
+            x
+            →
+            0
+          
+        
+        (
+        
+          
+            
+              Z
+              
+                0
+              
+            
+          
+          
+            2
+          
+        
+        −
+        
+          Z
+          
+            0
+          
+        
+        δ
+        Z
+        )
+        =
+        
+          
+            
+              Z
+              
+                0
+              
+            
+          
+          
+            2
+          
+        
+        =
+        
+          
+            
+              d
+              Z
+            
+            
+              d
+              Y
+            
+          
+        
+      
+    
+    {\displaystyle \lim _{\delta x\to 0}({Z_{0}}^{2}-Z_{0}\delta Z)={Z_{0}}^{2}={\frac {dZ}{dY}}}
+  and since the line was assumed to be homogenous lengthwise,
+
+  
+    
+      
+        
+          
+            
+              Z
+              
+                0
+              
+            
+          
+          
+            2
+          
+        
+        =
+        
+          
+            Z
+            Y
+          
+        
+      
+    
+    {\displaystyle {Z_{0}}^{2}={\frac {Z}{Y}}}
+
+Propagation constant
+The ratio of the line input voltage to the voltage a distance 
+  
+    
+      
+        
+          δ
+          x
+        
+      
+    
+    {\displaystyle \scriptstyle \delta x}
+   further down the line (that is, after one section of the equivalent circuit) is given by a standard voltage divider calculation.  The remainder of the line to the right, as in the characteristic impedance calculation, is replaced with 
+  
+    
+      
+        
+          
+            Z
+            
+              0
+            
+          
+        
+      
+    
+    {\displaystyle \scriptstyle Z_{0}}
+  ,
+
+  
+    
+      
+        
+          
+            
+              V
+              
+                
+                  i
+                
+              
+            
+            
+              V
+              
+                x
+                1
+              
+            
+          
+        
+        =
+        
+          
+            
+              δ
+              Z
+              +
+              
+                
+                  
+                    
+                      Z
+                      
+                        0
+                      
+                    
+                    
+                      /
+                    
+                    δ
+                    Y
+                  
+                  
+                    
+                      Z
+                      
+                        0
+                      
+                    
+                    +
+                    1
+                    
+                      /
+                    
+                    δ
+                    Y
+                  
+                
+              
+            
+            
+              
+                
+                  Z
+                  
+                    0
+                  
+                
+                
+                  /
+                
+                δ
+                Y
+              
+              
+                
+                  Z
+                  
+                    0
+                  
+                
+                +
+                1
+                
+                  /
+                
+                δ
+                Y
+              
+            
+          
+        
+        =
+        1
+        +
+        
+          
+            
+              δ
+              Z
+            
+            
+              Z
+              
+                0
+              
+            
+          
+        
+        +
+        δ
+        Z
+        δ
+        Y
+      
+    
+    {\displaystyle {\frac {V_{\mathrm {i} }}{V_{x1}}}={\frac {\delta Z+{\frac {Z_{0}/\delta Y}{Z_{0}+1/\delta Y}}}{\frac {Z_{0}/\delta Y}{Z_{0}+1/\delta Y}}}=1+{\frac {\delta Z}{Z_{0}}}+\delta Z\delta Y}
+  Each infinitesimal section will multiply the voltage drop by the same factor.  After 
+  
+    
+      
+        
+          n
+        
+      
+    
+    {\displaystyle \scriptstyle n}
+   sections the voltage ratio will be,
+
+  
+    
+      
+        
+          
+            
+              V
+              
+                
+                  i
+                
+              
+            
+            
+              V
+              
+                x
+                n
+              
+            
+          
+        
+        =
+        
+          
+            (
+            
+              1
+              +
+              
+                
+                  
+                    δ
+                    Z
+                  
+                  
+                    Z
+                    
+                      0
+                    
+                  
+                
+              
+              +
+              δ
+              Z
+              δ
+              Y
+            
+            )
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle {\frac {V_{\mathrm {i} }}{V_{xn}}}=\left(1+{\frac {\delta Z}{Z_{0}}}+\delta Z\delta Y\right)^{n}}
+  At a distance 
+  
+    
+      
+        
+          x
+        
+      
+    
+    {\displaystyle \scriptstyle x}
+   along the line, the number of sections is 
+  
+    
+      
+        
+          x
+          
+            /
+          
+          δ
+          x
+        
+      
+    
+    {\displaystyle \scriptstyle x/\delta x}
+   so that,
+
+  
+    
+      
+        
+          
+            
+              V
+              
+                
+                  i
+                
+              
+            
+            
+              V
+              
+                x
+                n
+              
+            
+          
+        
+        =
+        
+          
+            (
+            
+              1
+              +
+              
+                
+                  
+                    δ
+                    Z
+                  
+                  
+                    Z
+                    
+                      0
+                    
+                  
+                
+              
+              +
+              δ
+              Z
+              δ
+              Y
+            
+            )
+          
+          
+            
+              x
+              
+                δ
+                x
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {V_{\mathrm {i} }}{V_{xn}}}=\left(1+{\frac {\delta Z}{Z_{0}}}+\delta Z\delta Y\right)^{\frac {x}{\delta x}}}
+  In the limit as 
+  
+    
+      
+        
+          δ
+          x
+          →
+          0
+        
+      
+    
+    {\displaystyle \scriptstyle \delta x\to 0}
+  ,
+
+  
+    
+      
+        
+          
+            
+              V
+              
+                
+                  i
+                
+              
+            
+            
+              V
+              
+                x
+              
+            
+          
+        
+        =
+        
+          lim
+          
+            δ
+            x
+            →
+            0
+          
+        
+        
+          
+            
+              V
+              
+                
+                  i
+                
+              
+            
+            
+              V
+              
+                x
+                n
+              
+            
+          
+        
+        =
+        
+          lim
+          
+            δ
+            x
+            →
+            0
+          
+        
+        
+          
+            (
+            
+              1
+              +
+              
+                
+                  
+                    δ
+                    Z
+                  
+                  
+                    Z
+                    
+                      0
+                    
+                  
+                
+              
+              +
+              δ
+              Z
+              δ
+              Y
+            
+            )
+          
+          
+            
+              x
+              
+                δ
+                x
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {V_{\mathrm {i} }}{V_{x}}}=\lim _{\delta x\to 0}{\frac {V_{\mathrm {i} }}{V_{xn}}}=\lim _{\delta x\to 0}\left(1+{\frac {\delta Z}{Z_{0}}}+\delta Z\delta Y\right)^{\frac {x}{\delta x}}}
+  The second order term 
+  
+    
+      
+        
+          δ
+          Z
+          δ
+          Y
+        
+      
+    
+    {\displaystyle \scriptstyle \delta Z\delta Y}
+   will disappear in the limit, so we can write without loss of accuracy,
+
+  
+    
+      
+        
+          
+            
+              V
+              
+                
+                  i
+                
+              
+            
+            
+              V
+              
+                x
+              
+            
+          
+        
+        =
+        
+          lim
+          
+            δ
+            x
+            →
+            0
+          
+        
+        
+          
+            (
+            
+              1
+              +
+              
+                
+                  
+                    δ
+                    Z
+                  
+                  
+                    Z
+                    
+                      0
+                    
+                  
+                
+              
+            
+            )
+          
+          
+            
+              x
+              
+                δ
+                x
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {V_{\mathrm {i} }}{V_{x}}}=\lim _{\delta x\to 0}\left(1+{\frac {\delta Z}{Z_{0}}}\right)^{\frac {x}{\delta x}}}
+  and comparing with the mathematical identity,
+
+  
+    
+      
+        
+          e
+          
+            x
+          
+        
+        ≡
+        
+          lim
+          
+            p
+            →
+            ∞
+          
+        
+        (
+        1
+        +
+        1
+        
+          /
+        
+        p
+        
+          )
+          
+            p
+            x
+          
+        
+      
+    
+    {\displaystyle e^{x}\equiv \lim _{p\to \infty }(1+1/p)^{px}}
+  yields,
+
+  
+    
+      
+        
+          V
+          
+            
+              i
+            
+          
+        
+        =
+        
+          V
+          
+            x
+          
+        
+        
+          e
+          
+            
+              
+                Z
+                
+                  Z
+                  
+                    0
+                  
+                
+              
+            
+            x
+          
+        
+      
+    
+    {\displaystyle V_{\mathrm {i} }=V_{x}e^{{\frac {Z}{Z_{0}}}x}}
+  From the definition of propagation constant,
+
+  
+    
+      
+        
+          V
+          
+            
+              i
+            
+          
+        
+        =
+        
+          V
+          
+            x
+          
+        
+        
+          e
+          
+            γ
+            x
+          
+        
+        
+        
+      
+    
+    {\displaystyle V_{\mathrm {i} }=V_{x}e^{\gamma x}\,\!}
+  Hence,
+
+  
+    
+      
+        γ
+        =
+        
+          
+            Z
+            
+              Z
+              
+                0
+              
+            
+          
+        
+        =
+        
+          
+            Z
+            Y
+          
+        
+      
+    
+    {\displaystyle \gamma ={\frac {Z}{Z_{0}}}={\sqrt {ZY}}}
+
+Special cases
+Ideal transmission line
+An ideal transmission line will have no loss, which implies that the resistive elements are zero.  It also results in a purely real (resistive) characteristic impedance.  The ideal line cannot be realised in practice, but it is a useful approximation in many circumstances.  This is especially true, for instance, when short pieces of line are being used as circuit components such as stubs.  A short line has very little loss and this can then be ignored and treated as an ideal line.  The secondary constants in these circumstances are;
+
+  
+    
+      
+        γ
+        =
+        i
+        ω
+        
+          
+            L
+            C
+          
+        
+      
+    
+    {\displaystyle \gamma =i\omega {\sqrt {LC}}}
+  
+  
+    
+      
+        α
+        =
+        0
+        
+      
+    
+    {\displaystyle \alpha =0\,}
+  
+  
+    
+      
+        β
+        =
+        ω
+        
+          
+            L
+            C
+          
+        
+      
+    
+    {\displaystyle \beta =\omega {\sqrt {LC}}}
+  
+  
+    
+      
+        
+          Z
+          
+            0
+          
+        
+        =
+        
+          
+            
+              L
+              C
+            
+          
+        
+      
+    
+    {\displaystyle Z_{0}={\sqrt {\frac {L}{C}}}}
+
+Twisted pair
+Typically, twisted pair cable used for audio frequencies or low data rates has line constants dominated by R and C.  The dielectric loss is usually negligible at these frequencies and G is close to zero.  It is also the case that, at a low enough frequency, 
+  
+    
+      
+        
+          R
+          ≫
+          ω
+          L
+        
+      
+    
+    {\displaystyle \scriptstyle R\gg \omega L}
+   which means that L can also be ignored.  In those circumstances the secondary constants become,
+
+  
+    
+      
+        γ
+        ≈
+        
+          
+            i
+            ω
+            C
+            R
+          
+        
+      
+    
+    {\displaystyle \gamma \approx {\sqrt {i\omega CR}}}
+  
+  
+    
+      
+        α
+        ≈
+        
+          
+            
+              
+                ω
+                C
+                R
+              
+              2
+            
+          
+        
+      
+    
+    {\displaystyle \alpha \approx {\sqrt {\frac {\omega CR}{2}}}}
+  
+  
+    
+      
+        β
+        ≈
+        
+          
+            
+              
+                ω
+                C
+                R
+              
+              2
+            
+          
+        
+      
+    
+    {\displaystyle \beta \approx {\sqrt {\frac {\omega CR}{2}}}}
+  
+  
+    
+      
+        
+          Z
+          
+            0
+          
+        
+        ≈
+        
+          
+            
+              R
+              
+                i
+                ω
+                C
+              
+            
+          
+        
+        =
+        
+          
+            
+              R
+              
+                2
+                ω
+                C
+              
+            
+          
+        
+        −
+        i
+        
+          
+            
+              R
+              
+                2
+                ω
+                C
+              
+            
+          
+        
+      
+    
+    {\displaystyle Z_{0}\approx {\sqrt {\frac {R}{i\omega C}}}={\sqrt {\frac {R}{2\omega C}}}-i{\sqrt {\frac {R}{2\omega C}}}}
+  The attenuation of this cable type increases with frequency, causing distortion of waveforms.  Not so obviously, the variation of 
+  
+    
+      
+        
+          β
+        
+      
+    
+    {\displaystyle \scriptstyle \beta }
+   with frequency also causes a distortion of a type called dispersion.  To avoid dispersion the requirement is that 
+  
+    
+      
+        
+          β
+        
+      
+    
+    {\displaystyle \scriptstyle \beta }
+   is directly proportional to 
+  
+    
+      
+        
+          ω
+        
+      
+    
+    {\displaystyle \scriptstyle \omega }
+  .  However, it is actually proportional to 
+  
+    
+      
+        
+          
+            
+              ω
+            
+          
+        
+      
+    
+    {\displaystyle \scriptstyle {\sqrt {\omega }}}
+   and dispersion results.  
+  
+    
+      
+        
+          
+            Z
+            
+              0
+            
+          
+        
+      
+    
+    {\displaystyle \scriptstyle Z_{0}}
+   also varies with frequency and is also partly reactive; both these features will be the cause of reflections from a resistive line termination.  This is another undesirable effect.  The nominal impedance quoted for this type of cable is, in this case, very nominal, being valid at only one spot frequency, usually quoted at 800 Hz or 1 kHz.
+
+Co-axial cable
+Cable operated at a high enough frequency (medium wave radio frequency or high data rates) will meet the conditions 
+  
+    
+      
+        
+          R
+          ≪
+          ω
+          L
+        
+      
+    
+    {\displaystyle \scriptstyle R\ll \omega L}
+   and 
+  
+    
+      
+        
+          G
+          ≪
+          ω
+          C
+        
+      
+    
+    {\displaystyle \scriptstyle G\ll \omega C}
+  .  This must eventually be the case as the frequency is increased for any cable.  Under those conditions R and G can both be ignored (except for the purpose of calculating the cable loss) and the secondary constants become;
+
+  
+    
+      
+        γ
+        ≈
+        i
+        ω
+        
+          
+            L
+            C
+          
+        
+      
+    
+    {\displaystyle \gamma \approx i\omega {\sqrt {LC}}}
+  
+  
+    
+      
+        α
+        ≈
+        
+          
+            
+              L
+              G
+              +
+              R
+              C
+            
+            
+              2
+              
+                
+                  L
+                  C
+                
+              
+            
+          
+        
+        =
+        
+          
+            
+              1
+              2
+            
+          
+        
+        
+          (
+          
+            
+              Z
+              
+                0
+              
+            
+            G
+            +
+            
+              
+                R
+                
+                  Z
+                  
+                    0
+                  
+                
+              
+            
+          
+          )
+        
+        ≈
+        
+          
+            R
+            
+              2
+              
+                Z
+                
+                  0
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle \alpha \approx {\frac {LG+RC}{2{\sqrt {LC}}}}={\tfrac {1}{2}}\left(Z_{0}G+{\frac {R}{Z_{0}}}\right)\approx {\frac {R}{2Z_{0}}}}
+  
+  
+    
+      
+        β
+        ≈
+        ω
+        
+          
+            L
+            C
+          
+        
+      
+    
+    {\displaystyle \beta \approx \omega {\sqrt {LC}}}
+  
+  
+    
+      
+        
+          Z
+          
+            0
+          
+        
+        ≈
+        
+          
+            
+              L
+              C
+            
+          
+        
+      
+    
+    {\displaystyle Z_{0}\approx {\sqrt {\frac {L}{C}}}}
+
+Loaded line
+Loaded lines are lines designed with deliberately increased inductance. This is done by adding iron or some other magnetic metal to the cable or adding coils. The purpose is to ensure that the line meets the Heaviside condition, which eliminates distortion caused by frequency-dependent attenuation and dispersion, and ensures that 
+  
+    
+      
+        
+          
+            Z
+            
+              0
+            
+          
+        
+      
+    
+    {\displaystyle \scriptstyle Z_{0}}
+   is constant and resistive. The secondary constants are here related to the primary constants by;
+
+  
+    
+      
+        γ
+        =
+        
+          
+            R
+            G
+          
+        
+        +
+        i
+        ω
+        
+          
+            L
+            C
+          
+        
+      
+    
+    {\displaystyle \gamma ={\sqrt {RG}}+i\omega {\sqrt {LC}}}
+  
+  
+    
+      
+        α
+        =
+        
+          
+            R
+            G
+          
+        
+      
+    
+    {\displaystyle \alpha ={\sqrt {RG}}}
+  
+  
+    
+      
+        β
+        =
+        ω
+        
+          
+            L
+            C
+          
+        
+      
+    
+    {\displaystyle \beta =\omega {\sqrt {LC}}}
+  
+  
+    
+      
+        
+          Z
+          
+            0
+          
+        
+        =
+        
+          
+            
+              L
+              C
+            
+          
+        
+        =
+        
+          
+            
+              R
+              G
+            
+          
+        
+      
+    
+    {\displaystyle Z_{0}={\sqrt {\frac {L}{C}}}={\sqrt {\frac {R}{G}}}}
+
+Velocity
+The velocity of propagation is given by,
+
+  
+    
+      
+        v
+        =
+        λ
+        f
+        .
+      
+    
+    {\displaystyle v=\lambda f.}
+  Since,
+
+  
+    
+      
+        ω
+        =
+        2
+        π
+        f
+      
+    
+    {\displaystyle \omega =2\pi f}
+   and 
+  
+    
+      
+        β
+        =
+        
+          
+            
+              2
+              π
+            
+            λ
+          
+        
+      
+    
+    {\displaystyle \beta ={\frac {2\pi }{\lambda }}}
+  then,
+
+  
+    
+      
+        v
+        =
+        
+          
+            ω
+            β
+          
+        
+        .
+      
+    
+    {\displaystyle v={\frac {\omega }{\beta }}.}
+  In cases where β can be taken as,
+
+  
+    
+      
+        β
+        =
+        ω
+        
+          
+            L
+            C
+          
+        
+      
+    
+    {\displaystyle \beta =\omega {\sqrt {LC}}}
+  the velocity of propagation is given by,
+
+  
+    
+      
+        v
+        =
+        
+          
+            1
+            
+              
+                L
+                C
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle v={1 \over {\sqrt {LC}}}.}
+  The lower the capacitance the higher the velocity.  With an air dielectric cable, which is approximated to with low-loss cable, the velocity of propagation is very close to c, the speed of light in vacuo.
+
+Notes
+References
+F.R. Connor, Wave Transmission, Edward Arnold Ltd., 1972 ISBN 0-7131-3278-7.
+John Bird, Electrical Circuit Theory and Technology, Newnes, 2007 ISBN 0-7506-8139-X.
+Ian Hickman, Analog Electronics, Newnes, 1999 ISBN 0-7506-4416-8.
+Fred Porges, The Design of Electrical Services for Buildings, Taylor & Francis, 1989 ISBN 0-419-14590-7.

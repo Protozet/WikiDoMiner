@@ -1,0 +1,385 @@
+Mismatch loss in transmission line theory is the amount of power expressed in decibels that will not be available on the output due to impedance mismatches and signal reflections.  A transmission line that is properly terminated, that is, terminated with the same impedance as that of the characteristic impedance of the transmission line, will have no reflections and therefore no mismatch loss.  Mismatch loss represents the amount of power wasted in the system.  It can also be thought of as the amount of power gained if the system was perfectly matched.  Impedance matching is an important part of RF system design; however, in practice there will likely be some degree of mismatch loss. In real systems, relatively little loss is due to mismatch loss and is often on the order of 1dB.
+
+Calculation
+Mismatch loss (ML) is the ratio of incident power to the difference between incident and reflected power:
+
+  
+    
+      
+        M
+        
+          L
+          
+            
+              d
+              B
+            
+          
+        
+        =
+        10
+        
+          log
+          
+            10
+          
+        
+        ⁡
+        
+          
+            (
+          
+        
+        
+          
+            
+              P
+              
+                i
+              
+            
+            
+              
+                P
+                
+                  i
+                
+              
+              −
+              
+                P
+                
+                  r
+                
+              
+            
+          
+        
+        
+          
+            )
+          
+        
+        
+      
+    
+    {\displaystyle ML_{\mathrm {dB} }=10\log _{10}{\bigg (}{\frac {P_{i}}{P_{i}-P_{r}}}{\bigg )}\,}
+  
+  
+    
+      
+        
+          P
+          
+            r
+          
+        
+        =
+        
+          P
+          
+            i
+          
+        
+        −
+        
+          P
+          
+            d
+          
+        
+        
+      
+    
+    {\displaystyle P_{r}=P_{i}-P_{d}\,}
+  where
+
+  
+    
+      
+        
+          P
+          
+            i
+          
+        
+      
+    
+    {\displaystyle P_{i}}
+   = incident power
+  
+    
+      
+        
+          P
+          
+            r
+          
+        
+      
+    
+    {\displaystyle P_{r}}
+   = reflected power
+  
+    
+      
+        
+          P
+          
+            d
+          
+        
+      
+    
+    {\displaystyle P_{d}}
+   = delivered power (also called the accepted power)
+The fraction of incident power delivered to the load is
+
+  
+    
+      
+        
+          
+            
+              P
+              
+                d
+              
+            
+            
+              P
+              
+                i
+              
+            
+          
+        
+        =
+        1
+        −
+        
+          ρ
+          
+            2
+          
+        
+      
+    
+    {\displaystyle {\frac {P_{d}}{P_{i}}}=1-\rho ^{2}}
+  
+where
+
+  
+    
+      
+        ρ
+      
+    
+    {\displaystyle \rho }
+   is the magnitude of the reflection coefficient.  Note that as the reflection coefficient approaches zero, power to the load is maximized.
+If the reflection coefficient is known, mismatch can be calculated by
+
+  
+    
+      
+        M
+        
+          L
+          
+            
+              d
+              B
+            
+          
+        
+        =
+        −
+        10
+        
+          log
+          
+            10
+          
+        
+        ⁡
+        
+          
+            (
+          
+        
+        1
+        −
+        
+          ρ
+          
+            2
+          
+        
+        
+          
+            )
+          
+        
+        
+      
+    
+    {\displaystyle ML_{\mathrm {dB} }=-10\log _{10}{\bigg (}1-\rho ^{2}{\bigg )}\,}
+  In terms of the voltage standing wave ratio (VSWR):
+
+  
+    
+      
+        M
+        
+          L
+          
+            
+              d
+              B
+            
+          
+        
+        =
+        −
+        10
+        
+          log
+          
+            10
+          
+        
+        ⁡
+        
+          
+            (
+          
+        
+        1
+        −
+        
+          
+            (
+          
+        
+        
+          
+            
+              V
+              S
+              W
+              R
+              −
+              1
+            
+            
+              V
+              S
+              W
+              R
+              +
+              1
+            
+          
+        
+        
+          
+            
+              )
+            
+          
+          
+            2
+          
+        
+        
+          
+            )
+          
+        
+        
+      
+    
+    {\displaystyle ML_{\mathrm {dB} }=-10\log _{10}{\bigg (}1-{\bigg (}{\frac {VSWR-1}{VSWR+1}}{\bigg )}^{2}{\bigg )}\,}
+
+Sources of mismatch loss
+Any component of the transmission line that has an input and output will contribute to the overall mismatch loss of the system.  For example, in mixers mismatch loss occurs when there is an impedance mismatch between the RF port and IF port of the mixer. This is one of the principal reasons for losses in mixers.  Likewise, a large amount of the loss in amplifiers comes from the mismatch between the input and output.  Consequently, not all of the available power generated by the amplifier gets transferred to the load. This is most important in antenna systems where mismatch loss in the transmitting and receiving antenna directly contributes to the losses the system—including the system noise figure.  Other common RF system components such as filters, attenuators, splitters, and combiners will generate some amount of mismatch loss.  While completely eliminating mismatch loss in these components is near impossible, mismatch loss contributions by each component can be minimized by selecting quality components for use in a well designed system.
+
+Mismatch error
+If there are two or more components in cascade as is often the case, the resultant mismatch loss is not only due to the mismatches from the individual components, but also from how the reflections from each component combine with each other.  The overall mismatch loss cannot be calculated by just adding up the individual loss contributions from each component.  The difference between the sum of the mismatch loss in each component and total mismatch loss due to the interactions of the reflections is known as mismatch error.  Depending on how the multiple reflections combine, the overall system loss may be lower or higher than the sum of the mismatch loss from each component.  Mismatch error occurs in pairs as the signal reflects off of each mismatched component.  So for the example in Figure 3, there are mismatch errors generated by each pair of components. The mismatch uncertainty increases as the frequency increases, and in wide-band applications.  The phasing of the reflections makes it particularly harder to model.
+The general case for calculating mismatch error (ME) is:
+
+  
+    
+      
+        M
+        
+          E
+          
+            
+              d
+              B
+            
+          
+        
+        =
+        20
+        
+          log
+          
+            10
+          
+        
+        ⁡
+        
+          
+            (
+          
+        
+        1
+        −
+        
+          ρ
+          
+            1
+          
+        
+        
+          ρ
+          
+            2
+          
+        
+        
+        
+          e
+          
+            −
+            j
+            2
+            θ
+          
+        
+        
+          
+            )
+          
+        
+        
+      
+    
+    {\displaystyle ME_{\mathrm {dB} }=20\log _{10}{\bigg (}1-\rho _{1}\rho _{2}\,e^{-j2\theta }{\bigg )}\,}
+  where 
+  
+    
+      
+        θ
+      
+    
+    {\displaystyle \theta }
+   is the complex phase change due to the second reflection
+
+See also
+Insertion loss
+
+
+== References ==

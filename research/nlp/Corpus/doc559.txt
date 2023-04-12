@@ -1,0 +1,297 @@
+dBc (decibels relative to the carrier) is the power ratio of a signal to a carrier signal, expressed in decibels. For example, phase noise is expressed in dBc/Hz at a given frequency offset from the carrier. dBc can also be used as a measurement of Spurious-Free Dynamic Range (SFDR) between the desired signal and unwanted spurious outputs resulting from the use of signal converters such as a digital-to-analog converter or a frequency mixer.
+If the dBc figure is positive, then the relative signal strength is greater than the carrier signal strength.  If the dBc figure is negative, then the relative signal strength is less than carrier signal strength.
+Although the decibel (dB) is permitted for use alongside SI units, the dBc is not.
+
+Example
+If a carrier (reference signal) has a power of 
+  
+    
+      
+        
+          C
+        
+        =
+        0
+        
+          .
+        
+        1
+        
+        
+          m
+          W
+        
+      
+    
+    {\textstyle \mathrm {C} =0{.}1\,\mathrm {mW} }
+  , and noise signal has power of 
+  
+    
+      
+        
+          S
+        
+        =
+        10
+        
+        
+          μ
+          W
+        
+      
+    
+    {\textstyle \mathrm {S} =10\,\mathrm {\mu W} }
+  .
+Power of reference signal expressed in decibel is :
+
+  
+    
+      
+        
+          P
+          
+            
+              C
+            
+          
+        
+        =
+        10
+        log
+        ⁡
+        
+          (
+          
+            
+              
+                0
+                
+                  .
+                
+                1
+                
+                
+                  m
+                  W
+                
+              
+              
+                1
+                
+                
+                  m
+                  W
+                
+              
+            
+          
+          )
+        
+        =
+        −
+        10
+        
+        
+          d
+          B
+          m
+        
+      
+    
+    {\displaystyle P_{\mathrm {C} }=10\log \left({\frac {0{.}1\,\mathrm {mW} }{1\,\mathrm {mW} }}\right)=-10\,\mathrm {dBm} }
+  Power of noise expressed in decibel is :
+
+  
+    
+      
+        
+          P
+          
+            
+              S
+            
+          
+        
+        =
+        10
+        log
+        ⁡
+        
+          (
+          
+            
+              
+                10
+                
+                
+                  μ
+                  W
+                
+              
+              
+                1
+                
+                
+                  m
+                  W
+                
+              
+            
+          
+          )
+        
+        =
+        −
+        20
+        
+        
+          d
+          B
+          m
+        
+      
+    
+    {\displaystyle P_{\mathrm {S} }=10\log \left({\frac {10\,\mathrm {\mu W} }{1\,\mathrm {mW} }}\right)=-20\,\mathrm {dBm} }
+  The calculation of dBc difference between noise signal and reference signal is then as follows:
+
+  
+    
+      
+        
+          P
+          
+            
+              S
+            
+          
+        
+        −
+        
+          P
+          
+            
+              C
+            
+          
+        
+        =
+        −
+        20
+        
+        
+          d
+          B
+          m
+        
+        −
+        (
+        −
+        10
+        
+        
+          d
+          B
+          m
+        
+        )
+        =
+        −
+        10
+        
+        
+          d
+          B
+          c
+        
+      
+    
+    {\displaystyle P_{\mathrm {S} }-P_{\mathrm {C} }=-20\,\mathrm {dBm} -(-10\,\mathrm {dBm} )=-10\,\mathrm {dBc} }
+  It is also possible to compute the dBc power of noise signal with respect to reference signal directly as logarithm of their ratio as follows:
+
+  
+    
+      
+        
+          P
+          
+            
+              S
+            
+          
+        
+        −
+        
+          P
+          
+            
+              C
+            
+          
+        
+        =
+        10
+        log
+        ⁡
+        
+          (
+          
+            
+              
+                S
+              
+              
+                C
+              
+            
+          
+          )
+        
+        =
+        10
+        log
+        ⁡
+        
+          (
+          
+            
+              
+                10
+                
+                
+                  μ
+                  W
+                
+              
+              
+                0
+                
+                  .
+                
+                1
+                
+                
+                  m
+                  W
+                
+              
+            
+          
+          )
+        
+        =
+        −
+        10
+        
+        
+          d
+          B
+          c
+        
+      
+    
+    {\displaystyle P_{\mathrm {S} }-P_{\mathrm {C} }=10\log \left({\frac {\mathrm {S} }{\mathrm {C} }}\right)=10\log \left({\frac {10\,\mathrm {\mu W} }{0{.}1\,\mathrm {mW} }}\right)=-10\,\mathrm {dBc} }
+  .
+
+References
+External links
+Encyclopedia of Laser Physics and Technology

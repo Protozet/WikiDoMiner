@@ -1,0 +1,15 @@
+Triggertrap was a company that created hardware and software products centred on triggering SLR cameras. Products included several Arduino-based camera triggers, along with mobile apps which interfaced with cameras using a device that plugs into the headphone socket of the smartphone or tablet. In May 2012, Triggertrap introduced Triggertrap Mobile for iOS, followed by a version for Android in September 2012. Triggertrap Mobile utilized the sensors and processing power of a smartphone or tablet running IOS to trigger cameras based on sound, motion, vibration, or location, in addition to timelapse, bulb ramping, and other features. Triggertrap ceased trading on the 31st of January 2017. The founder and CEO was the Dutch photographer Haje Jan Kamps.
+
+Background
+The story of Triggertrap started in July 2011, when Haje Jan Kamps started a Kickstarter campaign aiming to raise support for a new type of camera trigger. The project asked for $25,000, but within a month nearly 900 supporters had pledged more than $77,000 in exchange for more than 950 Triggertrap v1 products - which is nearly three times more than what they wanted for the project.
+
+Arduino-based products
+The Triggertrap v1 is a programmable trigger based on Arduino open-source architecture, and the source-code for the product is downloadable from GitHub. It has a built-in ambient light sensor, laser sensor, and sound sensor. In addition, it has an auxiliary port, which enables Triggertrap v1 to trigger a camera based on anything that generates an electric signal.
+The Triggertrap v1 is classed as a high-speed device, able to use the ambient light sensor to respond and fire the external flash such that it would correctly sync at shutter speeds down to 1/640th of a second- that's a response time of less than 1.6 milliseconds.In addition to the Triggertrap v1, the Triggertrap company marketed a Triggertrap Shield for Arduino. This was a feature-compatible version of the Triggertrap v1. After a user-configurable change in the config files, it runs on the same source code. The Shield for Arduino is cheaper, and aimed more at the hacking crowd.
+
+Triggertrap Ada
+In November 2013, the Triggertrap Ada was successfully crowd-funded via Kickstarter, raising £290,386 though the original goal was £50,000.  On 2 March 2015, Triggertrap announced that they had failed to bring the product into production and that the remaining 20% of the funds from the Kickstarter campaign was going to be returned to the original backers.Triggertrap and CEO Haje Jan Kamps received criticism from backers of the failed Triggertrap Ada project. Some backers have questioned the accuracy of the updates during the course of the campaign. Less than three months before the project was cancelled, Triggertrap announced that the shipping date would be May 2015, exactly 12 months after the original shipping estimate. Others have questioned the allocation of funds by Triggertrap and their interpretation of the Terms of Service that Triggertrap entered into when the project was created. Some have threatened legal action.
+
+References
+External links
+Official Website

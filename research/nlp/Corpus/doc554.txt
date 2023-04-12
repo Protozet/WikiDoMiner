@@ -1,0 +1,70 @@
+ns (from network simulator) is a name for a series of discrete event network simulators, specifically ns-1, ns-2, and ns-3. All are discrete-event computer network simulators, primarily used in research and teaching.
+
+History
+ns-1
+The first version of ns, known as ns-1, was developed at Lawrence Berkeley National Laboratory (LBNL) in the 1995-97 timeframe by Steve McCanne, Sally Floyd, Kevin Fall, and other contributors.  This was known as the LBNL Network Simulator, and derived in 1989 from an earlier simulator known as REAL by S. Keshav.
+
+ns-2
+Ns-2 began as a revision of ns-1. From 1997 to 2000, ns development was supported by DARPA through the VINT project at LBL, Xerox PARC, UCB, and USC/ISI. In 2000, ns-2 development was supported through DARPA with SAMAN and through NSF with CONSER, both at USC/ISI, in collaboration with other researchers including ACIRI.
+
+Features of NS2
+1. It is a discrete event simulator for networking research.
+2. It provides substantial support to simulate bunch of protocols like TCP, FTP, UDP, https and DSR.
+3. It simulates wired and wireless network.
+4. It is primarily Unix based.
+5. Uses TCL as its scripting languages.
+6. Otcl: Object oriented support
+7. Tclcl: C++ and otcl linkage
+8. Discrete event schedule
+Ns-2 incorporates substantial contributions from third parties, including wireless code from the UCB Daedelus and CMU Monarch projects and Sun Microsystems.
+
+ns-3
+In 2003, a team led by Tom Henderson, George Riley, Sally Floyd, and Sumit Roy, applied for and received funding from the U.S. National Science Foundation (NSF) to build a replacement for ns-2, called ns-3.  This team collaborated with the Planete project of INRIA at Sophia Antipolis, with Mathieu Lacage as the software lead, and formed a new open source project.
+In the process of developing ns-3, it was decided to completely abandon backward-compatibility with ns-2. The new simulator would be written from scratch, using the C++ programming language. Development of ns-3 began in July 2006.
+Current status of the three versions is:
+
+ns-1 development stopped when ns-2 was founded.  It is no longer developed nor maintained.
+ns-2 development stopped around 2010.  It is no longer developed nor maintained.
+ns-3 is actively being developed and maintained.
+
+Design
+ns-3 is built using C++ and Python with scripting capability. The ns library is wrapped by Python thanks to the pybindgen library which delegates the parsing of the ns C++ headers to castxml and pygccxml to automatically generate the corresponding C++ binding glue. These automatically generated C++ files are finally compiled into the ns Python module to allow users to interact with the C++ ns models and core through Python scripts. The ns simulator features an integrated attribute-based system to manage default and per-instance values for simulation parameters.
+
+Requirements
+To build ns you need a computer and a C++ compiler. We develop ns on several kinds of Unix (FreeBSD, Linux, SunOS, Solaris), so it installs smoothest there, but it should run on an Posix-like computer, possibly with some tweaking. Ns also builds and runs under Windows, see the dedicated Windows / Cygwin page. Simple scenarios should run on any reasonable machine, but very large scenarios benefit from large amounts of memory.
+Ns is fairly large. The allinone package requires about 320MB of disk space to build. Building ns from pieces can save some disk space. (If multiple people want to share files in the ns build tree to save space, you may download a simple perl script, then follow the instruction in its README. There is detailed instruction from CS599b class of USC. You may also find discussions in the ns-users mailing list archive useful.)
+
+Downloading and building ns
+As of November 2005, ns is available at this SourceForge location.
+Ns requires a modestly up-to-date installation of Tcl/Tk (with header files), and two additional packages: tclcl and otcl. Most OS installations do not come with full Tcl/Tk installations or with these other packages, so you will most likely need to install several packages.
+Generic Linux, BSD, OS X, and Solaris instructions
+There are two typical ways to build ns: building each component individually ("from the pieces") or running a script that installs them all in one shot ("allinone"). If you just want to try it out quickly, you might try the allinone package. If you want to do C-level development, or save download time or disk space, or have trouble with allinone, you should build it from the pieces.
+Installing the allinone package: This package has an install script that handles installation of Tcl/Tk, OTcl, tclcl, ns-2, nam-1 and other packages.
+Updating allinone: The "allinone" package is only updated for every release. If you are interested in the convenience of the allinone package for your platform, but are interested in using a fresher snapshot of the ns-2 code, this page is for you.
+Building ns from sources: Instructions
+(Note: The above allinone and pieces ISI pages need wikified and updated)
+Below are some instructions specific to different systems.
+Fedora Installation Guide
+Fedora installation guide
+Debian Installation Guide
+Debian installation guide
+Alternate installation guide for Debian with gcc 4.0.3
+Ubuntu Installation Guide
+Wouter Horré maintains a PPA for ns/nam, so you can get ready-to-use deb packages there. If looking for the build-from-sources installation instructions for some reason, check below...
+
+Simulation workflow
+The general process of creating a simulation can be divided into several steps:
+
+Topology definition: To ease the creation of basic facilities and define their interrelationships, ns-3 has a system of containers and helpers that facilitates this process.
+Model development: Models are added to simulation (for example, UDP, IPv4, point-to-point devices and links, applications); most of the time this is done using helpers.
+Node and link configuration: models set their default values (for example, the size of packets sent by an application or MTU of a point-to-point link); most of the time this is done using the attribute system.
+Execution: Simulation facilities generate events, data requested by the user is logged.
+Performance analysis: After the simulation is finished and data is available as a time-stamped event trace. This data can then be statistically analysed with tools like R to draw conclusions.
+Graphical Visualization: Raw or processed data collected in a simulation can be graphed using tools like Gnuplot, matplotlib or XGRAPH.
+
+See also
+GloMoSim
+
+References
+External links
+ns-3 webpage

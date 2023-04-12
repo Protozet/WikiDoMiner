@@ -1,0 +1,227 @@
+Differential signalling is a method for electrically transmitting information using two complementary signals. The technique sends the same electrical signal as a differential pair of signals, each in its own conductor. The pair of conductors can be wires in a twisted-pair or ribbon cable or traces on a printed circuit board. 
+Electrically, the two conductors carry voltage signals which are equal in magnitude, but of opposite polarity. The receiving circuit responds to the difference between the two signals, which results in a signal with a magnitude twice as large.
+The symmetrical signals of differential signalling may be referred to as balanced, but this term is more appropriately applied to balanced circuits and balanced lines which reject common-mode interference when fed into a differential receiver. Differential signalling does not make a line balanced, nor does noise rejection in balanced circuits require differential signalling. 
+Differential signalling is to be contrasted to single-ended signalling which drives only one conductor with signal, while the other is connected to a fixed reference voltage.
+
+Advantages
+Contrary to popular belief, differential signalling does not affect noise cancellation. Balanced lines with differential receivers will reject noise regardless of whether the signal is differential or single-ended, but since balanced line noise rejection requires a differential receiver anyway, differential signalling is often used on balanced lines. Some of the benefits of differential signalling include:
+
+Doubled signal voltage between the differential pair (compared to a single-ended signal of the same nominal level), giving 6 dB extra headroom.
+Common-mode noise between the two amps (e.g. from imperfect power supply rejection) is easily rejected by a differential receiver.
+Longer cable runs are possible due to this increased noise immunity and 6 dB extra headroom.
+At higher frequencies, the output impedance of the output amplifier can change, resulting in a small imbalance. When driven in differential mode by two identical amplifiers, this impedance change will be the same for both lines, and thus cancelled out.Differential signalling works for both analog signalling, as in balanced audio, and in digital signalling, as in RS-422, RS-485, Ethernet over twisted pair, PCI Express, DisplayPort, HDMI and USB.
+
+Suitability for use with low-voltage electronics
+The electronics industry, particularly in portable and mobile devices, continually strives to lower supply voltage to save power. A low supply voltage, however, reduces noise immunity. Differential signalling helps to reduce these problems because, for a given supply voltage, it provides twice the noise immunity of a single-ended system.
+To see why, consider a single-ended digital system with supply voltage 
+  
+    
+      
+        
+          V
+          
+            S
+          
+        
+      
+    
+    {\displaystyle V_{S}}
+  . The high logic level is 
+  
+    
+      
+        
+          V
+          
+            S
+          
+        
+        
+      
+    
+    {\displaystyle V_{S}\,}
+   and the low logic level is 0 V. The difference between the two levels is therefore 
+  
+    
+      
+        
+          V
+          
+            S
+          
+        
+        −
+        0
+        
+        
+          V
+        
+        =
+        
+          V
+          
+            S
+          
+        
+      
+    
+    {\displaystyle V_{S}-0\,\mathrm {V} =V_{S}}
+  . Now consider a differential system with the same supply voltage. The voltage difference in the high state, where one wire is at 
+  
+    
+      
+        
+          V
+          
+            S
+          
+        
+        
+      
+    
+    {\displaystyle V_{S}\,}
+   and the other at 0 V, is 
+  
+    
+      
+        
+          V
+          
+            S
+          
+        
+        −
+        0
+        
+        
+          V
+        
+        =
+        
+          V
+          
+            S
+          
+        
+      
+    
+    {\displaystyle V_{S}-0\,\mathrm {V} =V_{S}}
+  . The voltage difference in the low state, where the voltages on the wires are exchanged, is 
+  
+    
+      
+        0
+        
+        
+          V
+        
+        −
+        
+          V
+          
+            S
+          
+        
+        =
+        −
+        
+          V
+          
+            S
+          
+        
+      
+    
+    {\displaystyle 0\,\mathrm {V} -V_{S}=-V_{S}}
+  .  The difference between high and low logic levels is therefore 
+  
+    
+      
+        
+          V
+          
+            S
+          
+        
+        −
+        (
+        −
+        
+          V
+          
+            S
+          
+        
+        )
+        =
+        2
+        
+          V
+          
+            S
+          
+        
+        
+      
+    
+    {\displaystyle V_{S}-(-V_{S})=2V_{S}\,}
+  . This is twice the difference of the single-ended system. If the voltage noise on one wire is uncorrelated to the noise on the other one, it takes twice as much noise to cause an error with the differential system as with the single-ended system. In other words, differential signalling doubles the noise immunity.
+
+Comparison with single-ended signalling
+In single-ended signalling, the transmitter generates a single voltage that the receiver compares with a fixed reference voltage, both relative to a common ground connection shared by both ends. In many instances, single-ended designs are not feasible. Another difficulty is the electromagnetic interference that can be generated by a single-ended signalling system that attempts to operate at high speed.
+
+Relation to balanced interfaces
+When transmitting signals differentially between two pieces of equipment it is common to do so through a balanced interface. An interface is a subsystem containing three parts: a driver, a line, and a receiver. These three components complete a full circuit for a signal to travel through and the impedances of this circuit is what determines whether the interface as a whole is balanced or not: "A balanced circuit is a two-conductor circuit in which both conductors and all circuits to connected to them have the same impedance to ground and to all other conductors." Balanced interfaces were developed as a protection scheme against noise. In theory, it can reject any interference so long as it is common-mode (voltages that appear with equal magnitude and the same polarity in both conductors).There exists great confusion as to what constitutes a balanced interface and how it relates to differential signalling. In reality, they are two completely independent concepts: balanced interfacing concerns noise and interference rejection, while differential signalling only concerns headroom. The impedance balance of a circuit does not determine the signals it can carry and vice versa.
+
+Uses of differential pairs
+The technique minimizes electronic crosstalk and electromagnetic interference, both noise emission and noise acceptance, and can achieve a constant or known characteristic impedance, allowing impedance matching techniques important in a high-speed signal transmission line or high-quality balanced line and balanced circuit audio signal path.
+Differential pairs include:
+
+Twisted-pair cables, shielded and unshielded
+Microstrip and stripline differential pair routing techniques on printed circuit boardsDifferential pairs generally carry differential or semi-differential signals, such as high-speed digital serial interfaces including LVDS differential ECL, PECL, LVPECL, Hypertransport, Ethernet over twisted pair, Serial Digital Interface, RS-422, RS-485, USB, Serial ATA, TMDS, FireWire, and HDMI, etc., or else high quality and/or high frequency analog signals (e.g. video signals, balanced audio signals, etc.).
+
+Data rate examples
+Data rates of some interfaces implemented with differential pairs include the following:
+
+Serial ATA – 1.5 Gbit/s
+Hypertransport – 1.6 Gbit/s
+Infiniband – 2.5 Gbit/s
+PCI Express – 2.5 Gbit/s
+Serial ATA Revision 2.0 – 2.4 Gbit/s
+XAUI – 3.125 Gbit/s
+Serial ATA Revision 3.0 – 6 Gbit/s
+PCI Express 2.0 – 5.0 Gbit/s per lane
+10 Gigabit Ethernet – 10 Gbit/s (four differential pairs running at 2.5 Gbit/s each)
+DDR SDRAM – 3.2 Gbit/s (differential strobes latch single-ended data)
+
+Transmission lines
+The type of transmission line that connects two devices (chips, modules) often dictates the type of signalling. Single-ended signalling is typically used with coaxial cables, in which one conductor totally screens the other from the environment. All screens (or shields) are combined into a single piece of material to form a common ground. Differential signalling, however, is typically used with a balanced pair of conductors. For short cables and low frequencies, the two methods are equivalent, so cheap single-ended circuits with a common ground can be used with cheap cables. As signalling speeds become faster, wires begin to behave as transmission lines.
+
+Use in computers
+Differential signalling is often used in computers to reduce electromagnetic interference, because complete screening is not possible with microstrips and chips in computers, due to geometric constraints and the fact that screening does not work at DC. If a DC power supply line and a low-voltage signal line share the same ground, the power current returning through the ground can induce a significant voltage in it. A low-resistance ground reduces this problem to some extent. A balanced pair of microstrip lines is a convenient solution because it does not need an additional PCB layer, as a stripline does. Because each line causes a matching image current in the ground plane, which is required anyway for supplying power, the pair looks like four lines and therefore has a shorter crosstalk distance than a simple isolated pair. In fact, it behaves as well as a twisted pair. Low crosstalk is important when many lines are packed into a small space, as on a typical PCB.
+
+High-voltage differential signalling
+High-voltage differential (HVD) signalling uses high-voltage signals. In computer electronics, high voltage normally means 5 volts or more.
+SCSI-1 variations included a high voltage differential (HVD) implementation whose maximum cable length was many times that of the single-ended version. SCSI equipment, for example, allows a maximum total cable length of 25 meters using HVD, while single-ended SCSI allows a maximum cable length of 1.5 to 6 meters, depending on bus speed. LVD versions of SCSI allow less than 25 m cable length not because of the lower voltage, but because these SCSI standards allow much higher speeds than the older HVD SCSI.
+The generic term high-voltage differential signalling describes a variety of systems. Low-voltage differential signalling (LVDS), on the other hand, is a specific system defined by a TIA/EIA standard.
+
+Polarity switching
+Some integrated circuits dealing with differential signals provide a hardware option (via strapping options, under firmware control, or even automatic) to swap the polarity of the two differential signals, called differential pair swapping, polarity reversion, differential pair inversion, polarity inversion, or lane inversion. This can be utilized to simplify or improve the routing of high-speed differential pairs of traces on printed circuit boards in hardware development, to help to cope with common cabling errors through swapped wires, or easily fix common design errors under firmware control. Many Ethernet PHY transceivers support this as auto polarity detection and correction (not to be confused with a similar auto crossover feature). PCIe and USB SuperSpeed also support lane polarity inversion.
+Another way to deal with polarity errors is to use  polarity-insensitive line codes.
+
+See also
+Backplanes
+Current loop signalling
+Current mode logic (CML)
+DDR SDRAM
+Differential amplifier
+Differential TTL
+DisplayPort
+Humbucker
+Longitudinal voltage
+Signal integrity
+Single-ended signalling
+Transition Minimized Differential Signalling (TMDS)
+
+
+== References ==

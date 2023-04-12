@@ -1,0 +1,7 @@
+Highlight headroom is the measure of how much additional dynamic range a given photographic medium (such as film or digital image sensors) has to record the detail within the brightest parts of a scene.
+As an example, consider a photograph of a white wedding dress against a white background. With limited highlight headroom, it will be hard to appreciate the intricate details within the fabric of the dress. The higher the available headroom, the more subtle shades of white will be captured.
+In practice, photographers are often faced with photographing outdoors on a cloudy day, but with the sun shining through a gap onto the subjects forehead. This can often lead to a bright reflection which records as bright white. If this bright spot (called a highlight) lies at the edge of the persons outline (from the camera's perspective) then it may end up blending into the cloudy sky if there is insufficient highlight headroom.   
+This is a particular problem with digital cameras which often have a smaller dynamic range than film.  Digital sensors typically have an abrupt cut-off at the peak white level; sensor output typically increases linearly with incident light level until a peak white level, after which higher light levels result in the same peak output from the sensor. The response of film when the incident light is near the white level of the film is more gradual.
+
+
+== References ==

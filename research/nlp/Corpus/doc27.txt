@@ -1,0 +1,45 @@
+In computer network research, network simulation is a technique whereby a software program replicates the behavior of a real network. This is achieved by calculating the interactions between the different network entities such as routers, switches, nodes, access points, links, etc. Most simulators use discrete event simulation in which the modeling of systems in which state variables change at discrete points in time.  The behavior of the network and the various applications and services it supports can then be observed in a test lab; various attributes of the environment can also be modified in a controlled manner to assess how the network/protocols would behave under different conditions.
+
+Network simulator
+A network simulator is a software program that can predict the performance of a computer network or a wireless communication network. Since communication networks have become too complex for traditional analytical methods to provide an accurate understanding of system behavior, network simulators are used. In simulators, the computer network is modeled with devices, links, applications, etc., and the network performance is reported. Simulators come with support for the most popular technologies and networks in use today such as 5G, Internet of Things (IoT), Wireless LANs, mobile ad hoc networks, wireless sensor networks, vehicular ad hoc networks, cognitive radio networks, LTE etc.
+
+Simulations
+Most of the commercial simulators are GUI driven, while some network simulators are CLI driven. The network model/configuration describes the network (nodes, routers, switches, links) and the events (data transmissions, packet error, etc.). Output results would include network-level metrics, link metrics, device metrics etc. Further, drill down in terms of simulations trace files would also be available. Trace files log every packet, every event that occurred in the simulation and is used for analysis. Most network simulators use discrete event simulation, in which a list of pending "events" is stored, and those events are processed in order, with some events triggering future events—such as the event of the arrival of a packet at one node triggering the event of the arrival of that packet at a downstream node.
+
+Network emulation
+Network emulation allows users to introduce real devices and applications into a test network (simulated) that alters packet flow in such a way as to mimic the behavior of a live network. Live traffic can pass through the simulator and be affected by objects within the simulation.
+The typical methodology is that real packets from a live application are sent to the emulation server (where the virtual network is simulated). The real packet gets 'modulated' into a simulation packet. The simulation packet gets demodulated into a real packet after experiencing effects of loss, errors, delay, jitter etc., thereby transferring these network effects into the real packet. Thus it is as-if the real packet flowed through a real network but in reality it flowed through the simulated network.
+Emulation is widely used in the design stage for validating communication networks prior to deployment.
+
+List of network simulators
+There are both free/open-source and proprietary network simulators available. Examples of notable network simulators / emulators include:  
+
+ns simulator
+OPNET (Riverbed)
+NetSim (Tetcos)
+GloMoSimAll of these are open source code editable while some of these are commercial.
+
+Uses of network simulators
+Network simulators provide a cost-effective method for
+
+5G-NR capacity, throughput and latency analysis
+Network R & D (More than 70% of all Network Research paper reference a network simulator)
+Defense applications such as HF / UHF / VHF Radio based MANET Radios, Tactical data links etc.
+IOT, VANET simulations
+UAV network/drone swarm communication simulation
+Machine Learning: Testing ML algorithms for optimizing network parameters, generating synthetic data training ML algorithms on networks
+Education: Online courses, Lab experimentation, and R & D. Most universities use a network simulator for teaching / R & D since it is too expensive to buy hardware equipmentThere are a wide variety of network simulators, ranging from the very simple to the very complex. Minimally, a network simulator must enable a user to
+
+Model the network topology specifying the nodes on the network and the links between those nodes
+Model the application flow (traffic) between the nodes
+Providing network performance metrics as output
+Visualization of the packet flow
+Technology/protocol evaluation and device designs
+Logging of packet/events for drill-down analyses/debugging
+
+See also
+Network emulation
+Traffic generation model
+
+
+== References ==

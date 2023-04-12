@@ -1,0 +1,55 @@
+In rail transportation, a rolling highway or rolling road is a form of combined transport involving the conveying of road trucks by rail, referred to as Ro-La trains. The concept is a form of piggyback transportation.
+The technical challenges to implement rolling highways vary from region to region.  In North America, the loading gauge is often high enough to accommodate double stack containers, so the height of a semi-trailer on a flatcar is no issue.  However, in Europe, except for purpose built lines such as the Channel Tunnel or the Gotthard Base Tunnel, the loading gauge height is much smaller, and it is necessary to transport the trailers with the tires about 30 cm (11.81 in) above the rails, so the trailers cannot be simply parked on the surface of a flat car above the wagon wheels or bogies.  Making the wagon wheels smaller limits the maximum speed, so many designs allow the trailer to be transported with its wheels lower than the rail wagon wheels.  An early approach in France was the Kangourou wagon with modified trailers. This technology did not survive, due to the market resistance to modified trailers. Today, three designs for these special wagons are in commercial service, "Modalohr", "CargoBeamer" and "Niederflurwagen"
+
+.
+During a rolling-highway journey, if the drivers accompany the trailer, they are accommodated in a passenger car or a sleeping car. At both ends of the rail link there are purpose-built terminals that allow the train to be easily loaded and unloaded.
+
+Examples of rolling highways
+Rolling highways are mostly used for transit routes, e.g. through the Alps or from western to eastern Europe.
+
+Austria
+In Austria, rolling highways exist from Bavaria via Tyrol to Italy or to Eastern Europe. Traditionally, Austria is a transit country and therefore the rolling highway is of environmental importance. In 1999 the Austrian Federal Railways (ÖBB) carried 254,000 trucks, which equals 8,500,000 tonnes (8,400,000 long tons; 9,400,000 short tons) of load (including vehicle's weight) (158,989 trucks in 1993). The rolling highway trains in Austria are operated by Ökombi GmbH, a division of Rail Cargo Austria, the cargo division of ÖBB. There is a direct rolling highway between Salzburg and the harbour of Trieste, Italy, where the trucks arrive on ferries from Turkey. In those cases, drivers arrive by plane via Ljubljana airport, to take over the trucks.
+
+India
+In 1999, the Konkan Railway Corporation introduced the Roll On Roll Off (RORO) service on the section between Kolad in Maharashtra and Verna in Goa, which was extended up to Surathkal in Karnataka in 2004. The RORO service, the first of its kind in India, allowed trucks to be transported on flatcars. It was highly popular, carrying about 110,000 trucks and bringing in about ₹740 million worth of earnings to the corporation until 2007. These services are now being extended to other parts of India
+
+Switzerland
+In Switzerland, rolling highways across the Alps exist for both the Gotthard and Lötschberg - Simplon route. They are operated by RAlpin AG, headquartered in Olten. On April 15, 2015, BLS cargo launched a service between Cologne and Milan capable of transporting 4-meter articulated lorry trailers.
+
+Italy
+In 2018, 51% of the Ten-T network has been made adequate to P\C 80 loading gauge, required for ERA Technical Specifications for Interoperability to conveying road trucks by train. Further upgrades are underway.
+
+France
+Two rolling highways are currently in operation in France, both using French Modalohr technology: the 175 km (109 mi) Autoroute Ferroviaire Alpine, connecting the Savoy region to Turin through the Fréjus Rail Tunnel owned and operated jointly by SNCF and Trenitalia, and the 1,050 km (650 mi)  Lorry-Rail which connects Bettembourg, Luxembourg, to Perpignan operated by SNCF. Lorry-Rail only carries trailers, while the AFA carries accompanied and unaccompanied trailers. Since June 2012, these two are operated under the brand "VIIA" by SNCF Geodis.
+In 2013, plans were announced to add more routes in France. One was planned to link Dourges (near Lille) to Tarnos (near Bayonne) in spring 2016
+ and the other was an extension North from Bettembourg to Calais.  Eurotunnel announced its intention to build a terminal at Folkestone to extend the Dourges-Tarnos route to the UK
+. However, in April 2015 the French ministry of transportation announced the cancellation of the Dourges - Tarnos route, citing financial concerns.In July 2020, the government announced two further routes, Sète - Calais and Cherbourg - Bayonne.  French Transport Minister Jean-Baptiste Djebbari confirmed in September 2021 €15m funding in 2021 for further development of autoroutes ferroviaires including Calais – Sète, Cherbourg – Bayonne and Perpignan – Rungis. As of August 2021, the following routes are offered in France:
+VIIA
+
+Calais - le Boulou (1200km, 22h)
+Calais - Mâcon
+Calais - Orbassano (Italy)
+Mâcon - le Boulou
+Bettembourg (Luxembourg) - le Boulou
+Aiton - OrbassanoCargobeamer
+
+Calais - Perpignan (1100km, 24h)
+Calais - Domodossola (Italy) (950km, 19h)
+
+See also
+ACTS, CargoBeamer, Car shuttle train, Modalohr, Motorail, Roadrailer; forms of road-rail intermodal transport
+Kangourou wagon
+Eurotunnel Shuttle
+Piggyback
+Pocket wagon
+Well car
+Well wagon
+
+References
+External links
+"System comparison: Concepts for combined cargo". June 2011.
+
+Comparable concepts
+Environmental Advantage
+Flexiwaggon, corporate website
+Kockums Megaswing

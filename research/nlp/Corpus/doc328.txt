@@ -1,0 +1,36 @@
+In optics, a diffuser (also called a light diffuser or optical diffuser) is any material that diffuses or scatters light in some manner to transmit soft light. Diffused light can be easily obtained by reflecting light from a white surface, while more compact diffusers may use translucent material, including ground glass, teflon, opal glass, and greyed glass.
+
+Types
+Perfect reflecting diffuser
+A perfect (reflecting) diffuser (PRD) is a theoretical perfectly white surface with Lambertian reflectance (its brightness appears the same from any angle of view). It does not absorb light, giving back 100% of the light it receives. Reflective diffusers can be easily characterised by scatterometers.
+
+Diffractive diffuser/homogenizer
+A diffractive diffuser is a kind of diffractive optical element (DOE) that exploits the principles of diffraction and refraction. It uses diffraction to manipulate monochromatic light, giving it a specific spatial configuration and intensity profile. Diffractive diffusers are commonly used in commercially available LED illumination systems. Usually, the diffuser material is GaN or fused silica with processed rough surfaces. LED diffusers can be characterized online using scatterometry-based metrology.
+
+Applications
+Diffusion filters may be used to diffuse the light falling on the subject, or placed between the camera and the subject for a hazy effect.
+
+Lighting diffusers, transmitting and reflecting
+A flash diffuser (also called a speedlight diffuser, or shoot-through diffuser) spreads the light from the flash of a camera. A diffusion filter of this type may also be used in front of a non-flash studio light to soften the light on the scene being shot; such filters are used in still photography, in film lighting, and in stage lighting. In the film and stage industry, a diffusion filter  may also be called diffusion gel, or just diffusion. This is by analogy to a color gel, which is another type of lighting gel. Shōji are diffusing window/doors.
+Reflecting diffusers for photography are generally called "reflectors".
+In effect, the light will not come from one concentrated source (like a spotlight), but rather will spread out, bounce from reflective ceilings and walls, thus getting rid of harsh light, and hard shadows. This is particularly useful for portrait photographers, since harsh light and hard shadows are usually not considered flattering in a portrait.
+
+Objective-lens filters
+"Diffusion filter" may also refer to a translucent photographic filter used for a special effect.  When used in front of the camera lens, a diffusion filter softens subjects and generates a dreamy haze.  This effect can also be improvised by smearing petroleum jelly on a UV filter or shooting through a nylon stocking.  Diffusion filters may be uniform or may have a clear center area to create a vignette of diffused area around the clear center subject.
+
+Diffuser materials
+Silk sheets can also be used as diffusers, and in fact were until the invention of translucent plastics.  "Opal" is a common translucent or opalescent diffusion.
+Recently, photopolymers have been used for making holographic diffusers. Photopolymers offer better performance than other materials and have a large viewing angle. Also, the process of synthesizing photopolymers is much simpler.
+
+See also
+Beam homogenizer
+Diffuse reflection
+Integrating sphere
+Photon diffusion
+Beauty dish
+Reflector (photography)
+Softbox
+Soft focus
+
+
+== References ==

@@ -1,0 +1,577 @@
+The incremental inductance rule, attributed to Harold Alden Wheeler by Gupta: 101  and others: 80  is a formula used to compute skin effect resistance and internal inductance in parallel transmission lines when the frequency is high enough that the skin effect is fully developed.  Wheeler's concept is that the internal inductance of a conductor is the difference between the computed external inductance and the external inductance computed with all the conductive surfaces receded by one half of the skin depth.  
+Linternal = Lexternal(conductors receded) - Lexternal(conductors not receded).
+Skin effect resistance is assumed to be equal to the reactance of the internal inductance.
+Rskin = ωLinternal.
+Gupta: 67  gives a general equation with partial derivatives replacing the difference of inductance.
+
+  
+    
+      
+        
+          L
+          
+            i
+            n
+            t
+          
+        
+        =
+        
+          ∑
+          
+            m
+          
+        
+         
+        
+          
+            
+              μ
+              
+                m
+              
+            
+            
+              μ
+              
+                0
+              
+            
+          
+        
+        
+          
+            
+              ∂
+              L
+            
+            
+              ∂
+              
+                n
+                
+                  m
+                
+              
+            
+          
+        
+        
+          
+            
+              δ
+              
+                m
+              
+            
+            2
+          
+        
+      
+    
+    {\displaystyle L_{int}=\sum _{m}\ {\frac {\mu _{m}}{\mu _{0}}}{\frac {\partial L}{\partial n_{m}}}{\frac {\delta _{m}}{2}}}
+  
+  
+    
+      
+        
+          R
+          
+            s
+            k
+            i
+            n
+          
+        
+        =
+        
+          ∑
+          
+            m
+          
+        
+         
+        
+          
+            
+              R
+              
+                s
+                m
+              
+            
+            
+              μ
+              
+                0
+              
+            
+          
+        
+        
+          
+            
+              ∂
+              L
+            
+            
+              ∂
+              
+                n
+                
+                  m
+                
+              
+            
+          
+        
+        =
+        ω
+        
+          L
+          
+            i
+            n
+            t
+          
+        
+      
+    
+    {\displaystyle R_{skin}=\sum _{m}\ {\frac {R_{sm}}{\mu _{0}}}{\frac {\partial L}{\partial n_{m}}}=\omega L_{int}}
+  where
+
+  
+    
+      
+        
+          
+            
+              ∂
+              L
+            
+            
+              ∂
+              
+                n
+                
+                  m
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {\partial L}{\partial n_{m}}}}
+   is taken to mean the differential change in inductance as surface m is receded in the nm direction.
+
+  
+    
+      
+        
+          R
+          
+            s
+            m
+          
+        
+        =
+        
+          
+            
+              ω
+              
+                μ
+                
+                  m
+                
+              
+              
+                δ
+                
+                  m
+                
+              
+            
+            2
+          
+        
+      
+    
+    {\displaystyle R_{sm}={\frac {\omega \mu _{m}\delta _{m}}{2}}}
+   is the surface resistivity of surface m.
+
+  
+    
+      
+        
+          μ
+          
+            m
+          
+        
+        =
+      
+    
+    {\displaystyle \mu _{m}=}
+   magnetic permeability of conductive material at surface m.
+
+  
+    
+      
+        
+          δ
+          
+            m
+          
+        
+        =
+      
+    
+    {\displaystyle \delta _{m}=}
+   skin depth of conductive material at surface m.
+
+  
+    
+      
+        
+          n
+          
+            m
+          
+        
+        =
+      
+    
+    {\displaystyle n_{m}=}
+   unit normal vector at surface m.Wadell: 27  and Gupta: 67  state that the thickness and corner radius of the conductors should be large with respect to the skin depth.  Garg: 80  further states that the thickness of the conductors must be at least four times the skin depth.  Garg: 80  states that the calculation is unchanged if the dielectric is taken to be air and that 
+  
+    
+      
+        L
+        =
+        
+          
+            Z
+            
+              c
+            
+          
+        
+        
+          /
+        
+        
+          
+            V
+            
+              p
+            
+          
+        
+      
+    
+    {\displaystyle L={Z_{c}}/{V_{p}}}
+   where 
+  
+    
+      
+        
+          Z
+          
+            c
+          
+        
+        =
+      
+    
+    {\displaystyle Z_{c}=}
+   the characteristic impedance and 
+  
+    
+      
+        
+          V
+          
+            p
+          
+        
+        =
+      
+    
+    {\displaystyle V_{p}=}
+   velocity of propagation = the speed of light.  Paul, 2007,: 149  disputes the accuracy of 
+  
+    
+      
+        
+          R
+          
+            s
+            k
+            i
+            n
+          
+        
+        =
+        ω
+        
+          L
+          
+            i
+            n
+            t
+          
+        
+      
+    
+    {\displaystyle R_{skin}=\omega L_{int}}
+   at very high frequency for rectangular conductors such as stripline and microstrip due to a non-uniform distribution of current on the conductor.  At very high frequency, the current crowds into the corners of the conductor.
+
+Example
+In the top figure, if 
+
+  
+    
+      
+        
+          L
+          
+            0
+          
+        
+      
+    
+    {\displaystyle L_{0}}
+   is the inductance and 
+  
+    
+      
+        
+          Z
+          
+            0
+          
+        
+      
+    
+    {\displaystyle Z_{0}}
+   is the characteristic impedance using the dimensions 
+  
+    
+      
+        
+          
+            H
+          
+          
+            0
+          
+        
+        ,
+        
+          
+            W
+          
+          
+            0
+          
+        
+      
+    
+    {\displaystyle \mathrm {H} _{0},\mathrm {W} _{0}}
+  , and 
+  
+    
+      
+        
+          
+            T
+          
+          
+            0
+          
+        
+      
+    
+    {\displaystyle \mathrm {T} _{0}}
+  ,and 
+
+  
+    
+      
+        
+          L
+          
+            1
+          
+        
+      
+    
+    {\displaystyle L_{1}}
+   is the inductance and 
+  
+    
+      
+        
+          Z
+          
+            1
+          
+        
+      
+    
+    {\displaystyle Z_{1}}
+   is the characteristic impedance using the dimensions 
+  
+    
+      
+        
+          
+            H
+          
+          
+            1
+          
+        
+        ,
+        
+          
+            W
+          
+          
+            1
+          
+        
+      
+    
+    {\displaystyle \mathrm {H} _{1},\mathrm {W} _{1}}
+  , and 
+  
+    
+      
+        
+          
+            T
+          
+          
+            1
+          
+        
+      
+    
+    {\displaystyle \mathrm {T} _{1}}
+  then the internal inductance is
+
+  
+    
+      
+        
+          L
+          
+            i
+            n
+            t
+            e
+            r
+            n
+            a
+            l
+          
+        
+        =
+        (
+        
+          L
+          
+            1
+          
+        
+        −
+        
+          L
+          
+            0
+          
+        
+        )
+        =
+        (
+        
+          Z
+          
+            1
+          
+        
+        −
+        
+          Z
+          
+            0
+          
+        
+        )
+        
+          /
+        
+        
+          V
+          
+            p
+          
+        
+      
+    
+    {\displaystyle L_{internal}=(L_{1}-L_{0})=(Z_{1}-Z_{0})/V_{p}}
+   where 
+  
+    
+      
+        
+          V
+          
+            p
+          
+        
+      
+    
+    {\displaystyle V_{p}}
+   is the velocity of propagation in the dielectric.and the skin effect resistance is 
+
+  
+    
+      
+        
+          R
+          
+            s
+            k
+            i
+            n
+          
+        
+        =
+        ω
+        (
+        
+          L
+          
+            1
+          
+        
+        −
+        
+          L
+          
+            0
+          
+        
+        )
+      
+    
+    {\displaystyle R_{skin}=\omega (L_{1}-L_{0})}
+
+Notes
+
+
+== References ==

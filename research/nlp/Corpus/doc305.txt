@@ -1,0 +1,15 @@
+Mirror lock-up (often abbreviated to MLU) is a feature employed in many Single Lens Reflex (SLR) cameras.  It allows the operator to reduce vibration-induced motion blur during exposure. It also allows the mounting of lenses which extend into the SLR's mirror box when mounted.
+
+Reducing vibration
+Normal operation in an SLR camera involves flipping the mirror up out of the light-path just before the shutter opens, and then returning it when the shutter closes (although very early SLR's required the shutter to be cocked for the mirror to return). This causes vibration of the camera, particularly when the mirror slaps into the top of the mirror box. This vibration quickly dies away so the most motion blur is actually seen with short shutter times that capture multiple 'swings' of the vibration (shutter speeds of 1/2 to 1/60 second are often affected by this). While longer exposures will capture all of the vibrations, the exposure will be dominated by light captured when the camera is vibration-free (assuming a steady mount).
+Mirror lock-up involves flipping the mirror up well before the shutter opens, allowing the vibrations to die down before exposing the film. On some cameras MLU may be operated by an extra push of the shutter button, the second push resulting in the actual opening of the shutter. Other arrangements may involve an extra lever or button that flips the mirror up before using the shutter release button normally. On some cameras MLU is not a separate feature, but operated as part of the self timer (notably the Nikon FE line of cameras).
+Note that when the mirror is in the up and locked position, the subject is no longer visible through the viewfinder. Therefore, the photographer must compose the photograph prior to activating mirror lock-up and keep the camera from moving. Use of a tripod helps prevent movement of the camera during this operation.
+Combined with a remote or cable release, this greatly reduces the potential for vibration of the camera.
+
+Lenses requiring mirror lock-up
+Some lenses are designed such that they extend into the mirror box when properly mounted on an SLR. These may include early wide-angle lenses for SLR's, certain lenses designed for rangefinder cameras, and certain other non-SLR lenses adapted for SLR use. Mirror lock-up must be activated prior to mounting such lenses, and kept in place in order to prevent damage to the lens or camera. This method of operation prevents any use of the SLR viewfinder with the lens. Prior to the development of lenses utilizing the Angénieux retrofocus concept, mirror lock-up was essential to wide-angle SLR photography.
+
+References
+External links
+Understanding Mirror Lock-Up on The Luminous Landscape
+Mirror Lock Up by Bob Atkins on Photo.net

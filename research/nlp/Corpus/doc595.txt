@@ -1,0 +1,15 @@
+The Maglev Cobra is a Brazilian maglev train, which was developed at UFRJ (Federal University of Rio de Janeiro) by Coppe (Instituto Alberto Luiz Coimbra for Graduate Studies and Research in Engineering) and by the Polytechnic School through the LASUP (Laboratory of Applications of Superconductors). It's known as the first vehicle in the world to transport passengers on a full scale, by using superconducting magnets.The Brazilian train, like the German maglev, floats on the tracks, having friction only with the air during its displacement. It is based on levitation by superconductivity (which means its floor needs to be fueled with liquid nitrogen), moving without friction with the ground through a short primary linear motor, thereby avoiding greenhouse gas emissions, and noise pollution.
+
+Overview
+The prototype was presented in 2009 by the professor who created the project, Richard Stephen, which consisted of creating the first route within the university, and a module (wagon) with capacity for 28 people that would travel at 30 km/h.In 2018, the test line was being operated in the testing phase in a 200-meter stretch, on the premises of the University City of UFRJ, connecting two buildings of the Technological Center and transporting more than a thousand students everyday. Having successfully completed the testing phase, the University has issued an application for international certification and is awaiting the result of its approval to begin with its industrial production.In 2020, the Covid-19 pandemic ended up making it difficult for UFRJ to search for partners in order to enable the expansion of Maglev, the project that could be a cheaper and more sustainable option for public transport is currently abandoned in Rio de Janeiro, due to lack of investments.
+
+Superconductivity-based levitation
+Its levitation occurs due to a superconducting ceramic plate which is cooled with nitrogen and, when approaching magnetized rails by means of magnets – made from an alloy of neodymium (Nd), iron (Fe) and boron (B) –, it causes the effect of levitation. The researchers carry out bench tests with the isolated components, including a module that was able to support the weight of six adults, to then assemble the vehicle and test all the interconnected components.
+
+References
+Further reading
+Magnetic levitation train opens its doors to the public at UFRJ (in portuguese)
+Inovação Uniemp v.3 n.6 Campinas, 2007 - ISSN 1808-2394 (in portuguese)
+Maglev-Cobra: An Energy Efficient and Environmentally Friendly Urban Transport Vehicle (in portuguese)
+Official website of LASUP (in portuguese)
+Projeto Maglev Cobra - Levitação Supercondutora para Transporte Urbano (in portuguese)

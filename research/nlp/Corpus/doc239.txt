@@ -1,0 +1,129 @@
+FireWire cameras use the IEEE 1394 bus standard for the transmission of audio, video and control data. FireWire is Apple Computer's trademark for the IEEE 1283 standard.
+FireWire cameras are available in the form of photo cameras and video cameras, which provide image and audio data. A special form of video cameras is used in the domains of industry, medicine, astronomy, microscopy and science. These special cameras do not provide audio data.
+
+Structure
+The basic structure of FireWire cameras is based on the following six modules:
+
+Optics
+FireWire cameras are based on CCD or CMOS chips. The light-sensitive area, as well as the pixels of these chips, are small. In the case of cameras with integrated optics, we can assume that the optics are adapted to these chips.
+However, in the domains of professional, and semi-professional photography, as well as in the domain of special cameras, interchangeable optics are often used. In these cases, a system specialist has to adapt the optics and the chip to the application (see System integration). Besides normal lenses, such interchangeable lenses may be microscopes, endoscopes, telescopes, etc. With the exception of the standard C-mount and CS-mount, the mounts of interchangeable optics are company-specific.
+
+Signal capture
+Since the function of a FireWire camera depends upon electrical signals, the module "signal capture" transforms the incident light, as well as the incident sound into electrons. In the case of light, this process is performed by a CCD or CMOS chip. The transformation of the sound is performed by a microphone.
+
+Digitization
+The first step of the image's digitization results from the structure of a CCD or CMOS chip. It dissects the image into pixels. If a pixel has collected many photons, it creates a high voltage. Should there only be a few photons, a low voltage is created. "Voltage" is an analog value. Therefore, during the digitization's second step, the voltage has to be transformed into a digital value by an A/D converter. Now the raw digital image is available.
+A microphone transforms the sound into a voltage. An A/D converter transforms these analog values into digital ones.
+
+Signal enhancement
+The creation of color is based on a color filter, which is located in front of the CCD or CMOS chip. It is red, green or blue and changes its color from pixel to pixel. Therefore, the filter is called a color filter array or, after its inventor, Bayer filter. Using these raw digital images, the module "signal enhancement" creates an image, which meets aesthetic requirements. The same is true for the audio data.
+In the final step, the module compresses the image and audio data and outputs them - in the case of video cameras - as a DV data stream. In the case of photo cameras, single images may be output and, if applicable, voice comments as files.
+The application domains of industry, medicine, astronomy, microscopy and science often use special monochrome cameras. They forgo any signal enhancement and thus output the digital image data in its raw state.
+Some special models of color cameras are only capable of outputting raw digital image data. Such cameras are called ColorRAW or Bayer cameras. They are often used in industry, medicine, astronomy, microscopy, and science. In form of photo cameras, they are used by professional photographers. Semi-professional photo cameras often offer an optional RAW mode.
+The enhancement of the raw digital data takes place outside the camera on a computer and therefore the user is able to adapt it to a particular application.
+
+Interface
+The first three modules are part of any digital camera. The interface is the module that characterizes the FireWire camera. It is based on the IEEE 1283 standard, defined by the organization "Institute of Electrical and Electronics Engineers". This standard defines a bus, which transmits:
+
+time critical data, for example, a video and
+data whose integrity is of critical importance (for example, parameters or files).It allows the simultaneous use of up to 74 different devices (cameras, scanners, video recorders, hard disks, DVD drives, etc.).
+Other standards, called "protocols" define the behavior of these devices. FireWire cameras mostly use one of the following protocols:
+
+AV/C
+AV/C stands for "Audio Video Control" and defines the behavior of DV devices, for example, video cameras and video recorders. It is a standard, defined by the 1348 Trade Association. The Audio/Video Working Group is in charge of it.DCAM
+DCAM stands for "1394-based Digital Camera Specification" and defines the behavior of cameras that output uncompressed image data without audio. It is a standard, defined by the 1394 Trade Association. The IIDC (Instrumentation and Industrial Control Working Group) is in charge of it.IIDC
+IIDC is often used synonymously with DCAM.SBP-2
+SBP-2 stands for "Serial Bus Protocol" and defines the behavior of mass storage devices, such as hard disks. It is an ANSI standard maintained by NCITS.Devices that use the same protocol are able to communicate with each other. A typical example is the connection of a video camera and a video recorder. Thus, in contrast to the USB bus, there is no need to use a controlling computer. If a computer is used, it has to be compatible with the protocols of the device with which it is to communicate (please cf. Exchanging data with computers).
+
+Control
+The controlling module coordinates the other ones. The user may specify its behavior by:
+
+switches outside the camera,
+the FireWire bus, using application software or
+a hybrid of the first two cases.
+
+Photo cameras
+Professional and semi-professional photo cameras, and especially digital camera backs, offer FireWire interfaces to transfer image data and to control the camera.
+The image data's transfer is based on the protocol SBP-2. In this mode, the camera behaves as an external hard disk and thus enables the simple exchange of image files with a computer (please cf. Exchanging data with computers).
+To increase the work efficiency in a photo studio, additionally photo cameras and digital backs are controllable via the FireWire bus. Usually the camera manufacturer does not publish the protocol used in this mode. Therefore, camera control requires a specialized piece of software provided by the camera manufacturer, which mostly is available for Macintosh and Windows computers.
+
+Video cameras
+Although compatibility to the FireWire bus is only found in high-end photo cameras, it has usually been present in home-user level video cameras. Video cameras are mostly based on the protocol AV/C. It defines the flow of audio and video data, as well as the camera's control signals.
+The majority of video cameras only provides the output of audio and video data via the FireWire bus ("DVout"). Additionally, some video cameras are able to record audio and video data ("DVout/DVin"). Video cameras exchange their data with computers and/or video recorders.
+
+Special cameras
+In the domains of industry, medicine, astronomy, microscopy and science FireWire cameras are often used not for aesthetic, but rather for analytical purposes. They output uncompressed image data, without audio. These cameras are based on the protocol DCAM (IIDC) or on company specific protocols.
+Due to their field of application, their behavior is considerably different from photo cameras or video cameras:
+
+Their case is small and built mainly from metal and do not follow aesthetic, but rather functional design constraints.
+The vast majority of special cameras does not offer integrated optics, but a standardized lens mount called "C-mount" or "CS-mount". This standard is not only used by lenses, but also by microscopes, telescopes, endoscopes and other optical devices.
+Recording aids, such as autofocus or image stabilization are not available.
+Special cameras often utilize monochrome CCD or CMOS chips.
+Special cameras often do not apply an infrared cut filter or optical low pass filters, thus avoid affecting the image.
+Special cameras output image data streams and single images, which are captured using an external trigger signal. In this way, these cameras can be integrated into industrial processes.
+Mass storage devices are not available since the images have to be analyzed more or less immediately by the computer connected to the camera.
+The vast majority of special cameras is controlled by application software, installed on a computer. Therefore, the cameras do not have external switches.
+Application software is rarely available off-the-shelf. It usually has to be adapted to the specific application. Therefore, camera manufacturers offer programming tools designed for their cameras. If a camera uses the standard protocol DCAM (IIDC), it can also be used with third-party software. A lot of industrial computers and embedded systems are compatible to the DCAM (IIDC) protocol (please cf. Structure / Interface and Exchanging data with computers).In comparison to photo or video cameras, these special cameras are very complifcated. However, it makes no sense to use them in an isolated manner. They are, like other sensors, only components of a bigger system (please cf. System integration).
+
+Exchanging data with computers
+FireWire cameras are able to exchange data with any other FireWire device, as long as both devices use the same protocol (please cf. Structure / Interface). Depending upon the specific camera, these data are:
+
+Image and audio files (protocol: SBP-2)
+Image and audio data flows (protocol: AV/C or DCAM (IIDC))
+Parameters to control the camera (protocol: AV/C or DCAM (IIDC))
+If the camera is to communicate with a computer, this computer has to have a FireWire interface and to use the camera's protocol. The old days of FireWire cameras were dominated by company specific solutions. Some specialist offered interface boards and drivers, which were accessible only by their application software. Following this approach, application software is in charge of the protocol. Since this solution utilizes the computing resources in a very efficient manner, it is still used in the context of highly specialized, industrial projects. This strategy often leads to problems, using other FireWire devices, as for instance hard disks. Open systems avoid this disadvantage.
+Open systems are based on a layer model. The behavior of the single layers (interface board, low level driver, high level driver and API) follows the constraints of the respective operating system manufacturer. Application software is allowed to access operating system APIs, but never should access any level lower. In the context of FireWire cameras, the high level drivers are responsible for the protocol. The low level drivers and the interface boards put the definitions of the standard IEEE 1394 into effect. The advantage of this strategy is the simple realization of application software, which is independent of hardware and specific manufacturers.
+Especially in the domains of photo cameras and special cameras hybrids between open and company specific systems are used. The interface boards and the low level drivers typically adhere to the standard, while the levels above are company specific.
+The basic characteristic of open systems is not to use the APIs of the hardware manufacturers, but those of the operating system. For Apple and Microsoft the subject "image and sound" is of high importance. According to their APIs - QuickTime and DirectX - are very well known. However, in the public perception they are reduced to the reproduction of audio and video. Actually, they are powerful APIs that are also responsible for image acquisition.
+Under Linux this API is called video4linux. It is less powerful than QuickTime and DirectX and therefore additional APIs exist besides video4linux:
+
+Photo cameras
+Photo cameras usually use Linux' infrastructure for mass storage devices. One of the typical applications is digiKam.Video cameras
+Video cameras are accessed by various APIs. The image to the right depicts the access of the video editing software Kino to the libavc1394 API. Kino also accesses other APIs which are not shown in the image to simplify matters.Special cameras
+The most important API for special cameras is libdc1394. The image to the right depicts the access of the application software Coriander to this API. Coriander controls FireWire cameras that are based on the protocol DCAM (IIDC) and acquires their images.In order to simplify the use of video4linux and the dedicated APIs, the meta API unicap has been developed. It covers their bits and pieces with the aid of a simple programming model.
+
+System integration
+Often FireWire cameras are only a cog in a bigger system. Typically, a system specialist uses a number of different components to solve a particular problem. There are two basic approaches to do this:
+
+The problem at hand is interesting enough for a group of users. The typical indicator of this situation is the off-the-shelf availability of application software. Studio photography is an example.
+The problem at hand is only of interest to a particular application. In such cases, there is typically no application software available off-the-shelf. Therefore, it has to be written by a system specialist. The gauging of a steel plate is an example.Many aspects of system integration are not directly related to FireWire cameras. For example, illumination has a very strong influence on the quality of the acquired images. This holds true for both aesthetic and analytical applications.
+However, in the context of the realization of application software, there is a special feature, which is typical for FireWire cameras. It is the availability of standardized protocols, such as AV/C, DCAM, IIDC and SBP-2 (please cf. Structure / Interface and Exchanging data with computers). Using these protocols, the software is written independently from any particular camera and manufacturer.
+By leaving the realization of the protocol to the operating system, and by enabling access to a set of APIs, software can be developed independently from hardware. If, for instance, under Linux a piece of application software uses the API libdc1394 (please cf. Exchanging data with computers), it can access all FireWire cameras that use the protocol DCAM (IIDC). Using the API unicap additionally permits access to other video sources, such as frame grabbers.
+
+See also
+FireWire
+Camera
+Video camera
+Digital Video
+Optics
+Lens
+Microscope
+Telescope
+Endoscope
+Lens mount
+
+External links
+1394 Trade Association
+Complete list of Firewire cameras
+Supplier overview
+Full line of Firewire  IEEE1394a and IEEE1394b cameras and peripherals
+Imaging Solutions Group FireWire Cameras
+FireWire video cameras - for industrial, scientific and medical applications
+Photo cameras
+Video cameras
+Special cameras
+Operating System APIs
+QuickTime
+DirectX
+ActiveX
+Operating System APIs under Linux
+video4linux
+libavc1394
+libdc1394
+unicap
+Application software under Linux
+ucview
+digiKam
+Kino Archived 2014-02-14 at the Wayback Machine
+Coriander
+Videography

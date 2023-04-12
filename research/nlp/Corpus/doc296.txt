@@ -1,0 +1,19 @@
+Wratten numbers are a labeling system for optical filters, usually for photographic use comprising a number sometimes followed by a letter. The number denotes the color of the filter, but is arbitrary and does not encode any information (the 80A–80D are blue, the next filters in numerical order, 81A–81EF, are orange); letters almost always increase with increasing strength (the exception being 2B, 2A, 2C, 2E).
+They are named for the founder of the first photography company, British inventor Frederick Wratten. Wratten and partner C.E.K. Mees sold their company to Eastman Kodak in 1912, and Kodak started manufacturing Wratten filters. They remain in production, and are sold under license through the Tiffen corporation.Wratten filters are often used in observational astronomy by amateur astronomers. Color filters for visual observing made by GSO, Baader, Lumicon, or other companies are actually Wratten filters mounted in standard 1+1⁄4 in (32 mm) or 2 in (nominal, 48 mm actual) filter threads. For imaging interference filters are used. Wratten filters are also used in photomicrography.Filters made by various manufacturers may be identified by Wratten numbers but not precisely match the spectral definition for that number. This is especially true for filters used for aesthetic (as opposed to technical) reasons. For example, an 81B warming filter is a filter used to slightly "warm" the colors in a color photo, making the scene a bit less blue and more red. Many manufacturers make filters labeled as 81B with transmission curves which are similar, but not identical, to the Kodak Wratten 81B. This is according to that manufacturer's idea of how best to warm a scene, and depending on the dyes and layering techniques used in manufacturing. Some manufacturers use their own designations to avoid this confusion, for example Singh-Ray has a warming filter which they designate A‑13, which is not a Wratten number. Filters used where precisely specified and repeatable characteristics are required, e.g. for printing press color separation and scientific work, use more standardized and rigorous coding systems.
+Some filters are listed in tables of Wratten filters with codes which do not follow the original number-letter scheme, e.g. K2, G, X0, FL‑W; CC‑50Y.In digital photography, where the color temperature can be adjusted and color corrections can be easily accomplished in the camera (by firmware) or in software, the need for color filters has all but disappeared. Thus, it has become difficult to find Wratten filters in photography stores.
+
+Reference table
+The commonly available numbers and some of their uses include:
+
+See also
+Filter factor
+Filter (photography)
+Filter (optics)
+
+References
+External links
+Wratten Light Filters (Google ebook edition) (4th ed.). Eastman Kodak Company. 1920 – Gives graphical spectral transmission curves for all Wratten filters available as of the publication date.
+Peed, Allie C., Jr., ed. (n.d.). Transmission of Wratten filters (PDF) (Report). Eastman Kodak Company. Retrieved 2020-08-08 – Detailed compilation of numerical information on spectral transmission of Wratten filters, reproduced in the 90th CRC Handbook.
+"Kodak Professional Accessories" (PDF) (catalog). Tiffen.{{cite web}}:  CS1 maint: url-status (link)
+"Filters". filmcentre.co.uk. FAQs for DPs.
+"Color correction filters table". GeoCities. Cokin Filter System. Archived from the original on 2009-10-28.

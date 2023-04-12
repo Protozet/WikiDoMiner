@@ -1,0 +1,21 @@
+Chromo-modal dispersion (CMD) results from exciting various modes of a multimode waveguide with unique spectral components of a broadband optical signal. Modal dispersion during propagation in the waveguide then provides group velocity dispersion to the signal. The large modal dispersion inherent to multimode waveguides enables the dispersion per unit length of a chromo-modal dispersion device to be several orders of magnitude higher than that of diffraction grating or dispersion compensating fiber-based dispersive elements.
+
+Applications
+The ability to control chromatic dispersion is paramount in applications where the optical pulsewidth is critical, such as chirped pulse amplification and fiber optic communications.
+
+Other devices
+Typically, devices used to generate large amounts (>100 ps/nm) of chromatic dispersion are based on diffraction gratings, chirped fiber Bragg gratings, or dispersion compensating fiber. Unfortunately, these dispersive elements suffer from one or more of the following restrictions: 
+
+Limited operational bandwidth
+Limited total dispersion
+Low peak power handling
+Large spatial footprint.
+
+Construction
+The chromo-modal dispersion device is constructed by combining the angular dispersion of diffraction gratings with the modal dispersion of a multimode waveguide.
+
+Advantages
+The large dispersion and small footprint of the device make the chromo-modal dispersion device potentially useful for on-chip dispersion compensation using optical components such as integrated gratings and planar multimode waveguides. The advantage of physical compactness, combined with the magnitude and tunability of its dispersion suggest its potential use as a versatile tool for pulse stretching or compression in a variety of applications in which the capabilities of singlemode fiber or diffraction grating-based dispersive elements will not suffice.
+
+
+== References ==

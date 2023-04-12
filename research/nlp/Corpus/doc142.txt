@@ -1,0 +1,64 @@
+An image processor, also known as an image processing engine, image processing unit (IPU), or image signal processor (ISP), is a type of media processor or specialized digital signal processor (DSP) used for image processing, in digital cameras or other devices.
+Image processors often employ parallel computing even with SIMD or MIMD technologies to increase speed and efficiency. The digital image processing engine can perform a range of tasks. 
+To increase the system integration on embedded devices, often it is a system on a chip with multi-core processor architecture.
+
+Function
+Bayer transformation
+The photodiodes employed in an image sensor are color-blind by nature: they can only record shades of grey. To get color into the picture, they are covered with different color filters: red, green and blue (RGB) according to the pattern designated by the Bayer filter - named after its inventor. As each photodiode records the color information for exactly one pixel of the image, without an image processor there would be a green pixel next to each red and blue pixel. (Actually, with most sensors there are two green for each blue and red diodes.)
+This process, however, is quite complex and involves a number of different operations. Its quality depends largely on the effectiveness of the algorithms applied to the raw data coming from the sensor. The mathematically manipulated data becomes the photo file recorded.
+
+Demosaicing
+As stated above, the image processor evaluates the color and brightness data of a given pixel, compares them with the data from neighboring pixels and then uses a demosaicing algorithm to produce an appropriate colour and brightness value for the pixel. The image processor also assesses the whole picture to guess at the correct distribution of contrast. By adjusting the gamma value (heightening or lowering the contrast range of an image's mid-tones) subtle tonal gradations, such as in human skin or the blue of the sky, become much more realistic.
+
+Noise reduction
+Noise is a phenomenon found in any electronic circuitry. In digital photography its effect is often visible as random spots of obviously wrong colour in an otherwise smoothly-coloured area. Noise increases with temperature and exposure times. When higher ISO settings are chosen the electronic signal in the image sensor is amplified, which at the same time increases the noise level, leading to a lower signal-to-noise ratio. The image processor attempts to separate the noise from the image information and to remove it. This can be quite a challenge, as the image may contain areas with fine textures which, if treated as noise, may lose some of their definition.
+
+Image sharpening
+As the color and brightness values for each pixel are interpolated some image sharpening is applied to even out any fuzziness that has occurred. To preserve the impression of depth, clarity and fine details, the image processor must sharpen edges and contours.  It therefore must detect edges correctly and reproduce them smoothly and without over-sharpening.
+
+Models
+Image processor users are using industry standard products, application-specific standard products (ASSP) or even application-specific integrated circuits (ASIC) with trade names: Canon's is called DIGIC, Nikon's Expeed, Olympus' TruePic, Panasonic's Venus Engine and Sony's Bionz. Some are known to be based on the Fujitsu Milbeaut, the Texas Instruments OMAP, Panasonic MN103, Zoran Coach, Altek Sunny or Sanyo image/video processors.
+ARM architecture processors with its NEON SIMD Media Processing Engines (MPE) are often used in mobile phones.
+
+Processor brand names
+ATI - Imageon (graphics co-processor used in many early mobile photos to offer camera image signal processing)
+Canon - DIGIC (based on Texas Instruments OMAP)
+Casio - EXILIM engine
+Epson - EDiART
+Fujifilm - EXR III or X Processor Pro
+Google - Pixel Visual Core
+HTC - ImageSense
+MediaTek - Imagiq
+Minolta / Konica Minolta - SUPHEED with CxProcess
+Leica - MAESTRO (based on Fujitsu Milbeaut)
+Nikon - Expeed (based on Fujitsu Milbeaut)
+Olympus - TruePic (based on Panasonic MN103/MN103S)
+OPPO - MariSilicon X
+Panasonic - Venus Engine (based on Panasonic MN103/MN103S)
+Pentax - PRIME (Pentax Real IMage Engine) (newer variants based on Fujitsu Milbeaut)
+Qualcomm - Qualcomm Spectra
+Ricoh - GR engine (GR digital), Smooth Imaging Engine
+Samsung - DRIMe (based on Samsung Exynos)
+Sanyo - Platinum engine
+Sigma - True
+Sharp - ProPix
+Socionext - Milbeaut Family of ISPs - SC2000 (M-10V), SC2002 (M-11S)
+Sony - Bionz
+THine - THP series [1] with compatible SDK Kit for developing firmware [2]
+UNISOC - Vivimagic
+
+Speed
+With the ever-higher pixel count in image sensors, the image processor's speed becomes more critical: photographers don't want to wait for the camera's image processor to complete its job before they can carry on shooting - they don't even want to notice some processing is going on inside the camera. Therefore, image processors must be optimised to cope with more data in the same or even a shorter period of time.
+
+Software
+libcamera is a software library that supports using image signal processors for the capture of pictures.
+
+See also
+Color image pipeline
+Image processing
+Digital image processing
+Digital image editing
+Demosaicing
+
+
+== References ==

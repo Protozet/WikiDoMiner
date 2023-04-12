@@ -1,0 +1,21 @@
+A selenium meter is a light-measuring instrument based on the photoelectric properties of selenium. The most common use of such light meters is measuring the exposure value for photography. The electric part of such a meter is an electromagnetic measuring instrument which is connected to the anode and cathode of a selenium photo cell that produces more or less electric power when exposed to more or less light. The optical part of such a meter is a window in front of the photo cell's light-sensitive side. The window's surface is usually structured like a honeycomb made of convex lenses. This type of window helps to bundle the light coming from the direction in which the photo cell is pointed. The mechanical part of a selenium meter is an analog calculator which accepts exposure value and film speed as input parameters for showing the possible aperture and shutter-speed combinations for correct exposure.
+
+Types of meters
+Match-needle meters
+Uncoupled meter
+The simplest type of match-needle selenium meter shows a clockhand on the meter's scale. This can be moved by turning one slice of the analog calculator. When the clockhand matches the instrument's needle the EV-value is set right on the calculator.
+The picture on the right shows the device of the Zenit - E model, mounted on a left side of the camera. The inner (flat) circle rotates with the help of the knob and sets the film sensitivity (visible in both DIN and ASA units through tiny windows).  The outer circle is coupled to the moving O - shaped marker in the scale on the left and must be rotated till the marker covers the needle (visible in the left corner). The recommended exposures can be read on a side scale against the possible apertures (top scale).  The device is not directly coupled to actual aperture and exposure controls
+
+Coupled meters
+More sophisticated cameras have the match-needle instrument coupled directly to aperture and shutter speed setting rings on the lens tube instead to a separate analog calculator. This is the most convenient way of match-needle instrument usage, especially when the meter's scale is mirrored into the viewfinder.
+
+Manual control coupled meter
+Various models of Zeiss Ikon Contaflex SLR and Contessa cameras have built-in coupled match needle selenium meters. To change the aperture and/or shutter speed, move the red marker hand with the "O" shape loop, such that  the "O" is aligned with the selenium meter needle; the shutter speed and aperture is thus selected.  Minox B and Tessina have manually coupled meters.
+
+Automatic coupled meter
+With the Zeiss Ikon Contaflex Super B in  automatic mode, changing the shutter speed results in the camera automatically selecting the correct aperture according to the value indicated by the built in selenium meter needle. In the beginnings of exposure automation (ca. 1960) the instruments were even used for setting exposure settings directly, mainly for automatic aperture setting. A simple method for this was called "trap-needle"; pressing the shutter release mechanically gripped the meter needle, then moved an aperture control up to hit the needle, setting the aperture to a value controlled by the meter.
+This kind of attempt to automate exposure setting was common in an era were precision mechanical engineers didn't know any limits of complication so that even further steps were gone to use selenium photo cells to control all exposure settings, or to control them more exactly with help of electro-mechanical aids. Heinz Waaske's SLR construction Edixa Electronica was such a costly attempt. The construction problem was the low electric power delivered by the photo cell. It was a precision mechanical wonder that a handful of cameras were made which had automatic exposure control driven by a selenium meter, without need of further electronic or electromechanical support, for example the Optima.
+A compromise for expensive rangefinder or SLR or twin lens reflex cameras was to offer a selenium meter as optional device that could be coupled to the camera's shutter speed controls. The scale of these instruments show not an exposure value but an aperture value to be set "uncoupled" Examples of Leica and Tessina are shown in the photographs
+
+
+== References ==

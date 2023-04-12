@@ -1,0 +1,7 @@
+In telecommunication, speed of service is the time for a message to be received. For example:
+
+The time between release of a message by the originator to receipt of the message by the addressee, as perceived by the end user.  (originator-to-recipient speed of service)
+The time between entry of a message into a communications system and receipt of the message at the terminating communications facility, i.e., the communications facility serving the addressee, as measured by the system.
+
+References
+ This article incorporates public domain material from Federal Standard 1037C. General Services Administration. (in support of MIL-STD-188).

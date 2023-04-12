@@ -1,0 +1,39 @@
+In photography, a viewfinder is what the photographer looks through to compose, and, in many cases, to focus the picture.  Most viewfinders are separate, and suffer parallax, while the single-lens reflex camera lets the viewfinder use the main optical system. Viewfinders are used in many cameras of different types: still and movie, film, analog and digital.  A zoom camera usually zooms its finder in sync with its lens, one exception being rangefinder cameras.
+
+History
+Before the development of microelectronics and electronic display devices, only optical viewfinders existed.
+
+Direct optical viewfinders
+Direct viewfinders are essentially miniature Galilean telescopes; the viewer's eye was placed at the back, and the scene viewed through the viewfinder optics. A declining minority of point and shoot cameras use them. Parallax error results from the viewfinder being offset from the lens axis, to point above and usually to one side of the lens. The error varies with distance, being negligible for distant scenes, and very large for close-ups. Viewfinders often show lines to indicate the edge of the region which would be included in the photograph.
+Some sophisticated 20th century cameras with direct viewfinders had coincidence (split-image) rangefinders, initially with separate windows from the viewfinder, later integrated with it; they were called rangefinder cameras. Cameras with interchangeable lenses had to indicate the field of view of each lens in the viewfinder; more usually, interchangeable viewfinders to match the lenses were used.
+
+Waist-level (reflecting) viewfinders
+Simple reflecting viewfinders, known also as "brilliant finders", comprised a small forward-looking lens, a small mirror at 45° behind it, and a lens at the top; the user held the camera at waist level and looked down into the lens, where a small image could be seen. Such viewfinders were integrated into box cameras, and fitted to the side of folding cameras. These viewfinders were fitted to inexpensive cameras.
+
+Sportsfinder (sports viewfinder)
+For many sports and press applications optical viewfinders gave too small an image and were inconvenient to use for scenes that were changing rapidly. For these purposes a simple arrangement of two wire rectangles, a smaller one nearer the eye and a larger one further away, was used, with no optics; the two rectangles were aligned so the smaller one was centred in the larger, and the larger rectangle would give an indication of what would be included. This was fast and convenient to use, but not particularly accurate; cameras with sportsfinders usually had optical viewfinders too.
+A sportsfinder is sometimes known as an Albada finder. It is a "viewfinder used with a camera held at eye level; the field of view is enclosed by a white frame that is made to appear very distant by reflection from the rear surface of the objective lens".
+
+Twin-lens reflex viewfinders
+Twin-lens reflex (TLR) cameras had a large lens above the taking lens, and a large mirror at 45°, projecting an image onto a ground glass screen viewable from above, with the camera at waist level. The viewfinder lens was of similar size and focal length to the taking lens, though the optical quality was less critical; the mirror was of similar size to the film. These cameras were relatively expensive; the Rolleiflex and cheaper sister Rolleicord were the pioneers. Both single- and twin-lens reflexes allowed focussing by adjusting the lens until the image was sharp.
+
+Single-lens reflex viewfinders
+Single-lens reflex (SLR) cameras viewed the scene through the taking lens. Early SLRs were plate cameras, with a mechanism to insert a mirror between the lens and the film which reflected the light upwards, where it could be seen at waist level on a ground glass screen. When ready to take the picture, the mirror was pivoted out of the way (without moving the camera). Later SLRs had a mechanism which flipped the mirror out of the way when the shutter button was pressed, followed immediately by the shutter opening. Instead of a waist-level arrangement, a prism was used to allow the camera to be held to the eye. The big advantage of the SLR was that any lens, or other optical device, could be used; the viewfinder always showed exactly the image that would be projected onto the film. The live preview feature of digital cameras share this advantage of the SLR, as they also show the image exactly as it will be recorded, with no additional optics or parallax error.
+
+Contemporary viewfinders
+Viewfinders can be optical or electronic. An optical viewfinder is simply a reversed telescope mounted to see what the camera will see. Its drawbacks are many, but it also has advantages; it consumes no power, it does not wash out in sunlight, and it has "full resolution" (i.e. the resolution of the photographer's eye). An electronic viewfinder (EVF) is a CRT, LCD or OLED based display device. In addition to its primary purpose, an electronic viewfinder can be used to replay previously captured material, and as an on-screen display to browse through menus.
+A still camera's optical viewfinder typically has one or more small supplementary LED displays surrounding the view of the scene. On a film camera, these displays show shooting information such as the shutter speed and aperture and, for autofocus cameras, provide an indication that the image is correctly focussed. Digital still cameras will typically also display information such as the current ISO setting and the number of remaining shots which can be taken in a burst. Another display which overlays the view of the scene is often provided. It typically shows the location and state of the camera's provided auto-focus points. This overlay can also provide lines or a grid which assist in picture composition.
+
+It is not uncommon for a camera to have two viewfinders. For example, a digital still camera may have an optical viewfinder and an electronic one. The latter can be used to replay previously captured material, has an on-screen display, and can be switched off to save power. A camcorder may have two viewfinders, both electronic. The first is viewed through a magnifying eyepiece, and due to a rubber eyepiece it can be viewed perfectly even in bright light. The second viewfinder would be larger, of a higher resolution, and may be mounted on the side of the camera. Because it consumes more power, a method is often provided to turn it off to save energy.
+In late 2010, Fujifilm announced hybrid viewfinder of optical viewfinder and electronic viewfinder in one viewfinder for its highend compact cameras. There is a half mirror prism that reflect data from LCD to the optical viewfinder, so we can see both the shooting frame and the shooting data. A button can change the hybrid function to electronical viewfinder by blocking the image through the optical viewfinder with moving a half mirror prism to be a straight up mirror.Some special purpose cameras do not have viewfinders at all. These are, for example, web cameras and video surveillance cameras. They use external monitors as their viewfinders.
+
+See also
+Director's viewfinder
+Electronic viewfinder
+Eyepiece
+Finderscope
+Live preview
+Waist-level finder
+
+
+== References ==

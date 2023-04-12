@@ -1,0 +1,53 @@
+A stereoscope is a device for viewing a stereoscopic pair of separate images, depicting left-eye and right-eye views of the same scene, as a single three-dimensional image.
+A typical stereoscope provides each eye with a lens that makes the image seen through it appear larger and more distant and usually also shifts its apparent horizontal position, so that for a person with normal binocular depth perception the edges of the two images seemingly fuse into one "stereo window". In current practice, the images are prepared so that the scene appears to be beyond this virtual window, through which objects are sometimes allowed to protrude, but this was not always the custom. A divider or other view-limiting feature is usually provided to prevent each eye from being distracted by also seeing the image intended for the other eye.
+Most people can, with practice and some effort, view stereoscopic image pairs in 3D without the aid of a stereoscope, but the physiological depth cues resulting from the unnatural combination of eye convergence and focus required will be unlike those experienced when actually viewing the scene in reality, making an accurate simulation of the natural viewing experience impossible and tending to cause eye strain and fatigue.
+Although more recent devices such as Realist-format 3D slide viewers, the View-Master or virtual reality headsets are also stereoscopes, the word is now most commonly associated with viewers designed for the standard-format stereo cards that enjoyed several waves of popularity from the 1850s to the 1930s as a home entertainment medium.
+Devices such as polarized, anaglyph and shutter glasses which are used to view two actually superimposed or intermingled images, rather than two physically separate images, are not categorized as stereoscopes.
+
+History
+Wheatstone stereoscope
+The earliest stereoscopes, "both with reflecting mirrors and with refracting prisms", were invented by Sir Charles Wheatstone and constructed for him by optician R. Murray in 1832. Herbert Mayo shortly described Wheatstone's discovery in his book Outlines of Human Physiology (1833) and claimed that Wheatstone was about to publish an essay about it. It was only one of many projects of Wheatstone's and he first presented his findings on 21 June 1838 to the Royal College of London. In this presentation he used a pair of mirrors at 45 degree angles to the user's eyes, each reflecting a picture located off to the side. It demonstrated the importance of binocular depth perception by showing that when two pictures simulating left-eye and right-eye views of the same object are presented so that each eye sees only the image designed for it, but apparently in the same location, the brain will fuse the two and accept them as a view of one solid three-dimensional object. Wheatstone's stereoscope was introduced in the year before the first practical photographic processes became available, so initially drawings were used. The mirror type of stereoscope has the advantage that the two pictures can be very large if desired.
+
+Brewster stereoscope
+Contrary to a common assertion, David Brewster did not invent the stereoscope, as he himself was often at pains to make clear.  A rival of Wheatstone, Brewster credited the invention of the device to a Mr. Elliot, a "Teacher of Mathematics" from Edinburgh, who, according to Brewster, conceived of the idea as early as 1823 and, in 1839, constructed "a simple stereoscope without lenses or mirrors", consisting of a wooden box 18 inches (46 cm) long, 7 inches (18 cm) wide and 4 inches (10 cm) high, which was used to view drawn landscape transparencies, since photography had yet to become widespread.  Brewster's personal contribution was the suggestion to use lenses for uniting the dissimilar pictures in 1849; and accordingly the lenticular stereoscope (lens-based) may fairly be said to be his invention.  This allowed a reduction in size, creating hand-held devices, which became known as Brewster Stereoscopes, much admired by Queen Victoria when they were demonstrated at the Great Exhibition of 1851.Brewster was unable to find in Britain an instrument maker capable of working with his design, so he took it to France, where the stereoscope was improved by Jules Duboscq who made stereoscopes and stereoscopic daguerreotypes, and a famous picture of Queen Victoria that was displayed at The Great Exhibition.  Almost overnight a 3D industry developed and 250,000 stereoscopes were produced and a great number of stereoviews, stereo cards, stereo pairs or stereographs were sold in a short time. Stereographers were sent throughout the world to capture views for the new medium and feed the demand for 3D images. Cards were printed with these views often with explanatory text when the cards were looked at through the double-lensed viewer, sometimes also called a stereopticon, a common misnomer.
+
+Holmes stereoscope
+In 1861 Oliver Wendell Holmes created and deliberately did not patent a handheld, streamlined, much more economical viewer than had been available before. The stereoscope, which dates from the 1850s, consisted of two prismatic lenses and a wooden stand to hold the stereo card. This type of stereoscope remained in production for a century and there are still companies making them in limited production currently.
+
+Multiple view stereoscope
+Multiple view stereoscopes allow viewing multiple stereoscopic images in sequence by turning a knob, crank or pushing down a lever. The first design was patented by Antoine Claudet in 1855, but the design of Alexander Beckers from 1857 formed the basis for many revolving stereoscopes that were manufactured from the 1860s. The images are placed in holders that are attached to a rotating belt. The belt can usually hold 50 paper card or glass stereoviews, but there are also large floor standing models for 100 or 200 views.
+A more advanced multiple view stereoscope is only intended for glass slides and was especially popular in France, as the printing of stereo images on glass was a French specialty and popular until the 1930s. Most devices were manufactured in France, but also in Germany by ICA and Ernemann. The glass slides are placed in a bakelite or wooden tray. Turning a crank (or pushing down a lever) will lift a slide from the tray and brings it into viewing position. Turning further will place the slide back in the tray and moves the tray over a rail to select the next slide. The most sophisticated and well known design was the Taxiphote by Jules Richard, patented in 1899.
+
+Modern use
+In the mid-20th century the View-Master stereoscope (patented 1939), with its rotating cardboard disks containing image pairs, was popular first for 'virtual tourism' and then as a toy. In 2010, Hasbro started producing a stereoscope designed to hold an iPhone or iPod Touch, called the My3D. In 2014, Google released the template for a papercraft stereoscope called Google Cardboard. Apps on the mobile phone substitute for stereo cards; these apps can also sense rotation and expand the stereoscope's capacity into that of a full-fledged virtual reality device. The underlying technology is otherwise unchanged from earlier stereoscopes.
+Several fine arts photographers and graphic artists have and continue to produce original artwork to be viewed using stereoscopes.
+
+Principles
+A simple stereoscope is limited in the size of the image that may be used. A more complex stereoscope uses a pair of horizontal periscope-like devices, allowing the use of larger images that can present more detailed information in a wider field of view. The stereoscope is essentially an instrument in which two photographs of the same object, taken from slightly different angles, are simultaneously presented, one to each eye. This recreates the way which in natural vision, each eye is seeing the object from a slightly different angle, since they are separated by several inches, which is what gives humans natural depth perception. Each picture is focused by a separate lens, and by showing each eye a photograph taken several inches apart from each other and focused on the same point, it recreates the natural effect of seeing things in three dimensions.
+A moving image extension of the stereoscope has a large vertically mounted drum containing a wheel upon which are mounted a series of stereographic cards which form a moving picture. The cards are restrained by a gate and when sufficient force is available to bend the card it slips past the gate and into view, obscuring the preceding picture. These coin-enabled devices were found in arcades in the late 19th and early 20th century and were operated by the viewer using a hand crank. These devices can still be seen and operated in some museums specializing in arcade equipment.
+The stereoscope offers several advantages:
+
+Using positive curvature (magnifying) lenses, the focus point of the image is changed from its short distance (about 30 to 40 cm) to a virtual distance at infinity. This allows the focus of the eyes to be consistent with the parallel lines of sight, greatly reducing eye strain.
+The card image is magnified, offering a wider field of view and the ability to examine the detail of the photograph.
+The viewer provides a partition between the images, avoiding a potential distraction to the user.A stereo transparency viewer is a type of stereoscope that offers similar advantages, e.g. the View-Master.
+Disadvantages of stereo cards, slides or any other hard copy or print are that the two images are likely to receive differing wear, scratches and other decay. This results in stereo artifacts when the images are viewed. These artifacts compete in the mind resulting in a distraction from the 3D effect, eye strain and headaches.
+
+See also
+Stereo slide viewer
+Precursors of film
+Les Diableries
+View-Master
+Kinematoscope
+Haploscope
+Zograscope
+Virtual reality headset
+
+References
+External links
+University of Washington Libraries Digital Collections Stereocard Collection
+New York Public Library Robert N. Dennis Collection of Stereoscopic Views
+20th Century Stereo Viewer Reference site
+Volkan Yuksel's Extraordinary Cross Eyed 3D Stereo Pair Collection from Planet Earth
+American University in Cairo Rare Books and Special Collections Digital Library Underwood & Underwood Egypt Stereoviews Collection
+Panama Canal Stereographs Archived 2015-03-17 at the Wayback Machine
+Rees Stereograph Collection from the Digital Library of Georgia

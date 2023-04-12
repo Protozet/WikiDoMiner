@@ -1,0 +1,22 @@
+The Horizon (Russian: Горизонт) is a mechanical swing-lens panoramic camera. It is manufactured by Krasnogorsky Mechanicheskiy Zavod (KMZ) in Krasnogorsk, Russia, better-known for their range of Zenit cameras. The main characteristic of this camera is its rotating lens that takes in a 120° panorama as the shutter button is pressed. The current (2015) models are designated Horizon Perfekt and Horizon Kompakt.
+
+History
+The history of this camera dates back to the Soviet Union in the year 1948 when KMZ manufactured a very limited series of prototypes called FT-1, a small, boxy panoramic camera for 35 mm film. The first public edition was presented years later on the Brussels World Fair in 1958 under the name FT-2. Off the chronological order, an additional number of cameras labeled FT-3 with prototype characteristics had already been produced in 1952 and 1953. FT stood for Fotoapparat Tokareva (Фотоаппарат Токарева), meaning Tokarev's camera. Tokarev is said to have come up with the initial design. The film had to be loaded into special cassettes that then would be inserted into the camera. Until 1968 16,662 FT-2 were made and sold also abroad under the names Spiratone, Panorama and Spaceview. In 1967 it was succeeded by the Horizont. This camera already shared the basic looks with the present models and had similar technical specs: it had a f2.8/28 mm Industar lens and four shutter speeds, ranging from 1/30 s to 1/250 s. First introduced at Photokina in 1966, the Horizont created a picture using 24×58 mm frames on 35 mm film. It had an OF-28P (28 mm, f/2.8) fixed-focus lens and offers shutter speeds of 1/30 s, 1/60 s, and 1/125 s. Its body is 142 mm wide, 100 mm high, and 67 mm deep, and weighs 910 g (grip not included). After 49,849 units, this model was discontinued in 1973.In 1989, the camera was picked up again by KMZ and reworked, especially on the exterior. This time KMZ called the camera Horizon 202. Instead of a metal case, the outside was now made of ABS plastic. The interior workings, however, did not change much. The biggest change was the addition of a second gear, resulting in an additional set of shutter speeds. This left the photographer with 8 speeds to choose from: 1/2 s, 1/4 s, 1/8 s, 1/15 s, 1/30 s, 1/60 s, 1/125 s, and 1/250 s. In latter models the speeds 1/15 s and 1/30 s were dropped in favor of a more evenly running mechanism. Since 2006 it is sold in a stripped down version with only two shutter speeds (1/2 s and 1/60 s) as Horizon Kompakt.In 2003 an again reworked edition was presented, initially released as Horizon 203 but then called Horizon S3Pro. This upgrade focused on design and performance, leaving the technical specs as they were. In 2005 the Lomographic Society International and KMZ partnered to sell the camera together under the name Horizon Perfekt.From about 2000 to 2005 a medium format edition called Horizon 205 PC was produced in small numbers. This model, however, did not make it to mass production and was discontinued.
+
+Technical design
+Throughout all its history, the basic technical design remained unchanged: when the shutter button is pressed, a drum carrying the lens is rotating from left to right. Inside the camera through a small slit on the back of the drum, the captured image is projected on the film, which in turn also sits on a curved carrier. By varying the width of the slit, the time each segment of film is exposed to light is changed. With this trick, different shutter speeds can be achieved without changing the rotating speed of the drum. The entire mechanism is powered by a spring. The focus of the lens is fixed to the hyperfocal distance for the 28mm lens at f2.8 (approximately 13m which allows a depth of field from 5.5m to infinity). As the lens is stopped down the near focus limit increase by approximately 1m per stop to f8. F11 and f16 add about 0.5 m each so that by f16 all objects from about 1 meter onwards will be pictured sharp. On 35 mm film, the camera produces frames of a size of 24x58 mm.
+
+See also
+Noblex
+Widelux
+
+References
+External links
+ZenitCamera memorial site
+Krasnogorsky Zavod official site
+Panoramic photography with the 202
+The Horizon 202 at Alfred's Camera Page
+Horizont User manual (in Russian)
+Horizon-202 User manual (in English)
+Horizon-S3Pro User manual (in English)
+Horizon-205 User manual (in English)

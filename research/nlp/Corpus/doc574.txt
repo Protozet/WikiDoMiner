@@ -1,0 +1,4 @@
+A frame line is the unused space that separates two adjacent images, or film frames, on the release print of a motion picture. They can vary in width; a 35mm film with a 1.85:1 hard matte has a frame line approximately 8 mm (0.3 in) high, whereas both a full frame negative and the anamorphic format have very narrow frame lines, with the frames very close together. When a film is properly projected, the frame lines should not be visible to the audience and are typically cropped out in projection with an aperture mask.
+
+See also
+Letterbox

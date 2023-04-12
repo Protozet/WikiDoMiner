@@ -1,0 +1,7 @@
+In telecommunication, the term ringaround has the following meanings:
+
+The improper routing of a call back through a switching center already engaged in attempting to complete the same call.
+In secondary surveillance radar, the presence of false targets declared as a result of transponder interrogation by side lobes of the interrogating antenna.
+
+References
+ This article incorporates public domain material from Federal Standard 1037C. General Services Administration. Archived from the original on 2022-01-22.

@@ -1,0 +1,10 @@
+In telecommunication, the term electromagnetic environment (EME) has the following meanings:
+
+For a telecommunications system, the spatial distribution of electromagnetic fields surrounding a given site.  The electromagnetic environment may be expressed in terms of the spatial and temporal distribution of electric field strength (volts per metre), irradiance (watts per square metre), or energy density (joules per cubic metre).
+The resulting product of the power and time distribution, in various frequency ranges, of the radiated or conducted electromagnetic emission levels that may be encountered by a military force, system, or platform when performing its assigned mission in its intended operational environment. It is the sum of electromagnetic interference; electromagnetic pulse; hazards of electromagnetic radiation to personnel, ordnance, and volatile materials; and natural phenomena effects of lightning and p-static.
+All electromagnetic phenomena observable in a given location.
+
+References
+Sources
+ This article incorporates public domain material from Federal Standard 1037C. General Services Administration. (in support of MIL-STD-188).
+ This article incorporates public domain material from Dictionary of Military and Associated Terms. United States Department of Defense.

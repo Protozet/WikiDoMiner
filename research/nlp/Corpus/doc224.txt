@@ -1,0 +1,35 @@
+The International Space Station has a large number of cameras, lenses, and other photography equipment on board.
+
+List of cameras on ISS
+Kodak 760C (e.g. Kodak DCS 760)
+Nikon D1
+Nikon D2Xs
+Nikon D200
+Nikon D3
+Nikon D3X
+Nikon D3S
+Nikon D4
+Nikon D800E
+Nikon D5
+Sony α7S II, which captured the first commercial 4K video footage in space in 2016.Multi-function devices with a camera feature:
+
+iPhone 4
+HTC Nexus One
+iPad 2Installed hardware/experiments
+
+(no longer active) High Definition Earth-Viewing System (HDEV) 
+4:3 standard definition CCTV cameras
+EHDCA
+A Nikon D4 in special housing with motor controlled zoom from 28-300
+Two Raspberry Pi computers, one equipped with a standard camera and one with an infrared camera.
+
+Camera equipment
+Some of the modular lenses that are known to be used on the ISS include several lenses for Nikon cameras such as the D4. This includes the Nikon 24-70mm f/2.8E ED VR, the Nikon 800mm f/5.6E FL ED VR, and the Nikon AF-S FX TC-14E III 1.4x Teleconverter.
+
+See also
+Int-Ball
+SPHERES
+
+References
+External links
+Gateway to Astronaut best of 2015 crew observations

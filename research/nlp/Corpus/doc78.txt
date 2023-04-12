@@ -1,0 +1,15 @@
+The interconnect bottleneck comprises limits on integrated circuit (IC) performance due to connections between components instead of their internal speed.
+In 2006 it was predicted to  be a "looming crisis" by 2010.Improved performance of computer systems has been achieved, in large part, by downscaling the IC minimum feature size. This allows the basic IC building block, the transistor, to operate at a higher frequency, performing more computations per second. However, downscaling of the minimum feature size also results in tighter packing of the wires on a microprocessor, which increases parasitic capacitance and signal propagation delay. Consequently, the delay due to the communication between the parts of a chip becomes comparable to the computation delay itself. This phenomenon, known as an “interconnect bottleneck”, is becoming a major problem in high-performance computer systems.This interconnect bottleneck can be solved by utilizing optical interconnects to replace the long metallic interconnects. Such hybrid optical/electronic interconnects promise better performance even with larger designs. Optics has widespread use in long-distance communications; still it has not yet been widely used in chip-to-chip or on-chip interconnections because they (in centimeter or micrometer range) are not yet industry-manufacturable owing to costlier technology and lack of fully mature technologies. As optical interconnections move from computer network applications to chip level interconnections, new requirements for high connection density and alignment reliability have become as critical for the effective utilization of these links. There are still many materials, fabrication, and packaging challenges in integrating optic and electronic technologies.
+
+See also
+Bus (computing)
+Interconnects (integrated circuits)
+Network-on-chip
+Optical network on chip
+Optical interconnect
+Photonics
+Von Neumann architecture
+Random access memory § Memory wall
+
+
+== References ==

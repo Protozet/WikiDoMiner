@@ -1,0 +1,14 @@
+In telecommunication and computer networking, time-driven switching (TDS) is a node by node time variant implementation of circuit switching, where the propagating datagram is shorter in space than the distance between source and destination. With TDS it is no longer necessary to own a complete circuit between source and destination, but only the fraction of circuit where the propagating datagram is temporarily located.
+TDS adds flexibility and capacity to circuit-switched networks but requires precise synchronization among nodes and propagating datagrams. 
+Datagrams are formatted according to schedules that depend on quality of service and availability of switching nodes and physical links. In respect to circuit switching, the added time dimension introduces additional complexity to network management. Like circuit switching, TDS operates without buffers and header processing according to the pipeline forwarding principle; therefore an all optical implementation with optical fibers and optical switches is possible with low cost. The TDS concept itself pervades and is applicable with advantage to existing data switching technologies, including packet switching, where packets, or sets of packets become the datagrams that are routed through the network.TDS has been invented in 2002 by Prof. Mario Baldi and Prof. Yoram Ofek of Synchrodyne Networks that is the assignee of several patents issued by both the United States Patent and Trademark Office and the European Patent Office.
+
+References
+M. Baldi, Y. Ofek, "Fractional Lambda Switching," IEEE International Conference on Communications (ICC2002), Optical Networking Symposium, New York, NY, USA, Apr. 2002, pp. 2692-2696.
+M. Baldi, Y. Ofek, "Fractional Lambda Switching - Principles of Operation and Performance Issues," SIMULATION: Transactions of The Society for Modeling and Simulation International, Vol. 80, No. 10, Oct. 2004, pp. 527-544
+WebLink[1].
+
+See also
+Data transmission
+Digital communications
+Communication network
+Network architecture

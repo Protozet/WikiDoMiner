@@ -1,0 +1,78 @@
+Mamiya Digital Imaging Co., Ltd. (Japanese: マミヤ・デジタル・イメージング 株式会社, Hepburn: Mamiya Dejitaru Imējingu Kabushiki-gaisha, IPA: [maꜜmija deʑitaɾɯ imeꜜːʑiŋɡɯ kabɯɕi̥ki ɡaꜜiɕa]) is a Japanese company that manufactures high-end cameras and other related photographic and optical equipment. With headquarters in Tokyo, it has two manufacturing plants and a workforce of over 200 people. The company was founded in May 1940 by camera designer Seiichi Mamiya (間宮精一) and financial backer Tsunejiro Sugawara.
+
+History
+Mamiya originally achieved fame for its professional medium-format film cameras such as the Mamiya Six and the Mamiya Press series. It later developed the industry workhorse RB67 series, the RZ67, the 645 and the twin-lens reflex Mamiya C-series, used by advanced amateur and professional photographers.
+Many Mamiya models over the past six decades have become collectors' items. The earliest Mamiya Six medium-format folding camera, the 35 mm Mamiya-Sekor 1000DTL, the lightweight 35 mm Mamiya NC1000, the 6×6 cm medium-format C series of interchangeable-lens twin-lens reflex (TLR) cameras, and the press cameras of the Super/Universal series are highly valued. Mamiya also manufactured the last models in the Omega line of medium format cameras.
+Mamiya entered other business markets over time by purchasing other companies.  Until 2000, it made fishing equipment such as fishing rods and fishing reels.  In 2006, the Mamiya Op Co., Ltd., Inc. transferred the camera and optical business to Mamiya Digital Imaging Co., Ltd.  The original company, doing business as Mamiya-OP, continues to exist and makes a variety of industrial and electronics products.  It also makes golf clubs, golf club shafts and grips, and golf balls through its subsidiaries Kasco and USTMamiya.In 2009, Phase One, a medium format digital camera back manufacturer from Denmark, purchased a major stake in Mamiya.   In 2012, Phase One combined Mamiya and another subsidiary, Leaf Imaging, created a new, worldwide Mamiya Leaf brand to integrate both companies’ product lines into one complete medium-format digital camera system offering. The re-branding offers a streamlined product development and establishment of a more efficient customer sales and support base.
+In 2015 Phase One purchased Mamiya and began using Mamiya's Saku factory as the new Japan headquarters.
+
+135 film
+Mamiya started manufacturing 135-film cameras in 1949, with 135-film point-and-shoot compact cameras being introduced later. The excellent Mamiya-35 series of rangefinder cameras was followed by the Mamiya Prismat SLR in 1961 and the Mamiya TL/DTL in the mid-to-late 1960s. The SX, XTL and NC1000 were other 135-film SLR camera models introduced by Mamiya. One of Mamiya's last 135-film SLR designs was the Z-series. The original entry-level ZE model was an aperture-priority-only SLR; the ZE-2 added manual exposure; the ZE-X added shutter priority and full program automated mode, and (with a dedicated flash and an EF-series lens) focus-priority flash exposure). In these models the aperture ring had no direct connection to the diaphragm, allowing the camera body to override the set aperture, and the lenses could communicate a considerable amount of information to the camera body via electrical contacts on the mount.
+The Mamiya ZM, introduced in 1982, was essentially an advanced version of the ZE-2, with some of the features of the ZE-X. It was the last Mamiya 135-film camera produced. It had an aperture-priority automatic time control, based on center-weighted TTL readings, an automatic shutter-speed range from 4 seconds to 1/1000, and a manual range from 2 seconds to 1/1000. Visual and audio signals indicated over- or under-exposure, pending battery failure, or excessive camera shake. Metering modes, shutter release, self-timer, manual time settings and the ergonomics of the camera body were also improved.
+In 1984 Osawa, one of Mamiya's major distributors, filed for the Japanese equivalent of bankruptcy and, soon after, Mamiya discontinued 135-film camera production to focus on the medium-format professional market.
+
+Medium format
+Mamiya made a series of square format twin lens reflex (TLR) throughout the middle of the twentieth century. These were developed into the C cameras (C2, C3 through to C330s) which have interchangeable lenses as well as bellows focus.
+In 1970, Mamiya introduced the RB67 6×7 cm professional single lens reflex (SLR).  The RB67, a large, heavy, medium-format camera with built-in closeup bellows was innovative and successful.  Previous medium-format professional SLR cameras used the square 6×6 cm format which did not require the camera to be rotated for photographs in portrait orientation, problematical with large and heavy cameras when tripod-mounted.  Like the Linhof Technika the RB67 had a rotating back which enabled photographs to be taken in either landscape or portrait orientation without rotating the camera, at the expense of additional weight and bulk. The RB67 soon became widely used by professional studio photographers. The 6x7 frame had been introduced and patented by Linhof (56 x 72mm) and was described as being ideal, as the negatives required very little cropping to fit on standard 10" x 8" paper. Mamiya actually used 56 x 67mm.
+When comparing the RB67 to full frame 135 cameras there is a so-called "crop factor" of a half. That means the standard 35mm frame has "half" the diagonal of the 67 (though the ratio is different) but a quarter the area. This affects the focal length of lenses so that to get an equivalent field of view on a 35mm camera you need half the focal length. There is a similar effect on the depth of field of a particular aperture, so a 90mm f1:3.5 on the RB67 is equivalent to using a 45mm f1:1.8 on 35mm full frame.
+In 1975 Mamiya started to offer the M645, a camera re-using the 1930s 6x4.5 cm frame, allowing 15 shots on a standard 120 roll film becoming the first SLR MF camera to offer exclusively that format size also known as the 645 format.
+The RB67 was followed by the more advanced RZ67 6x7cm frame format camera in 1982.  These cameras established Mamiya as a major medium-format professional camera manufacturer, together with Hasselblad, Rollei, Bronica and Pentax.
+In 1989, Mamiya introduced the Mamiya 6 (6x6cm) rangefinder camera.
+In 1995, this was followed by the Mamiya 7 (6x7cm).
+The Mamiya 6 was discontinued ca. 1999; the Mamiya 7 was produced for 18 years, with production ending ca. 2013.
+The Mamiya 6 is more portable due to a collapsible lens mount, while the Mamiya 7 offers a wider variety of lens options.
+Both the Mamiya 6 and 7 are compact and quiet cameras which are reputed for the extremely high optical quality of their lenses.
+In 1999, Mamiya presented the Mamiya 645AF, a  6X4.5 frame SLR camera with interchangeable lenses and film backs, auto focus and an integrated prism visor that would be the base platform for the Mamiya 645AFD film and digital back cameras.
+
+Digital products
+Mamiya introduced the Mamiya ZD, which was a compact medium-format camera, in 2004. Rather than taking the form of a digital back solution, it was all built into one unit, much like a 35mm camera. This camera utilized the Mamiya 645AF lenses and had a resolution of 22mp. The solution had technical difficulties and became delayed. At the same time, Mamiya also announced a ZD back which had the same specification but was intended to be used with the Mamiya 645AFDII / AFDIII. The ZD back was even more delayed and, once it was introduced, it was already outdated.
+In 2009, the Mamiya M Series digital backs were released (M18, M22 and M31) all featuring high pixel counts with large CCDs and compatibility with the Mamiya 645AFD range and RZ/ RB series (via specially manufactured adapters). All the backs are compatible with 4x5 inch view cameras.
+In the final quarter of 2009, Mamiya released its Mamiya 645DF camera, the latest and digital-only version of the famed 6x4.5 format AF camera series. The Mamiya 645DF has many improved features including mirror-up delay, lack of shutter lag, AF preference with priority on speed or precision, and compatibility with the new leaf shutter lens range (Mamiya Sekor AF 80mm, 55mm and 110mm D lenses with in-built leaf shutters). With these lenses attached, flash synchronizations speeds of up to 1/1,600 of a second are achievable, although the camera can also be programmed to use the focal plane shutter even if a leaf shutter lens is attached.  2010 saw the release of 3 Mamiya DM Systems (Mamiya DM33 System, consisting of a 645DF camera body and 33MP digital back, the Mamiya DM28 System, consisting of a 645 AF III camera body and 28MP digital back, and the Mamiya DM22 System, consisting of a 645 AF III camera body and 22MP digital back. A new logo and webpage were also launched.
+
+Mamiya America Corporation
+In the United States, the trademark for "Mamiya" was not owned by the original company in Japan but rather by a wholly separate entity called Mamiya America Corporation ("M.A.C."). As such, all products that bear the name "Mamiya" were controlled by M.A.C. and resulted in considerably higher retail prices compared to outside the United States. 
+As of 2014 MAC group no longer manages the Mamiya brand in America, all sales, service and support was transferred to Phase One who already owned a large portion of Mamiya.
+
+Products
+6×4.5 cm format / Medium Format Professional
+For a detailed description of 6×4.5cm Mamiya products, see Mamiya 645
+Mamiya 645
+
+6×6 cm format / Medium Format Professional
+Mamiyaflex C Professional (1956)
+Mamiyaflex PF (1957) police model
+Mamiyaflex C2 Professional (1958)
+Mamiya C3 Professional (1962)
+Mamiya C33 Professional (1965)
+Mamiya C22 Professional (1966)
+Mamiya C220 Professional (1968)
+Mamiya C330 Professional (1969)
+Mamiya C330f Professional (1975)
+Mamiya C220f Professional (1982)
+Mamiya C330s Professional (1983)
+Mamiya 6 — electronic 6 cm × 6 cm rangefinder camera
+
+6×7 cm format / Medium Format Professional
+Mamiya RB67 Professional (1970) — mechanical 6 cm × 7 cm SLR medium-format camera
+Mamiya RB67 Professional S (1974) — minor changes
+Mamiya RB67 Professional GL (1982) — special edition of the Pro-S
+Mamiya RB67 Professional SD (1990) — new, larger lens throat; older lenses require an adapter
+Mamiya RZ67 Professional (1982) — electronic 6 cm × 7 cm SLR medium-format camera
+Mamiya RZ67 Professional II (1995) — upgraded electronics
+Mamiya RZ67 Professional IID (2004-2014) — added communication interface for digital backs
+Mamiya 7 (1995–1999) — electronic 6 cm × 7 cm rangefinder camera
+Mamiya 7 II (1999-2011) — added multi-exposure capability and other minor improvementsCamera bodies:
+
+35mm format
+Lenses
+See also
+List of photographic equipment makers
+
+References
+Shell, Bob (1992). Mamiya Medium Format Systems (Hove Pro Guides). United Kingdom: Hove Books. pp. 208pp ill. ISBN 978-0-906447-76-5.
+
+External links
+
+Mamiya Leaf
+Mamiya Digital Imaging Co., Ltd. (Mamiya Japan)
+マミヤ・オーピー (Mamiya Op Co., Ltd.) separate electronic and golf products company

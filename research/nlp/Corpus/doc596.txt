@@ -1,0 +1,69 @@
+The Fraunhofer Institute for Telecommunications, Heinrich Hertz Institute, HHI, also known as Fraunhofer HHI or Fraunhofer Heinrich Hertz Institute, is an organization of the Fraunhofer Society based in Berlin. The institute engages in applied research and development in the fields of physics, electrical engineering and computer sciences.
+
+Competencies
+The Fraunhofer Heinrich Hertz Institute develops mobile and stationary broadband communication networks and multimedia systems. Focal points of independent and contract research conducted by Fraunhofer HHI are photonic components and systems, fiber optic sensor systems, and image signal processing and transmission. Future applications for broadband networks are developed as well. Research in this area focuses on 3D displays, UHD panorama video production, human-machine interaction through gesture control, optical satellite communication and data transmission technologies such as visible light communications.
+Scientists at the institute work together with national and international research and industry partners. For example, institute researchers were and are involved in the development of the H.264 AVC video compression standard and its successor H.265 HEVC as part of the Moving Picture Experts Group (MPEG) and the Video Coding Experts Group (VCEG). Work on the various video compression standards received the Technology and Engineering Emmy award multiple times.
+
+Research
+The research and development work of the Fraunhofer HHI takes place in six departments.The research focus of the Photonic Networks and Systems department are high-performance optical transmission systems for use in in-house, access, metropolitan, wide-area and satellite communication networks. The focus is on increasing the capacity as well as improving security and energy efficiency.
+The Photonic Components department develops optoelectronic semiconductor components as well as integrated optical circuits for data transmission. Another focus is on infrared sensor systems, terahertz spectroscopy and high-performance semiconductor lasers for industrial and medical applications.
+The research on novel photonic sensors used in measuring and control systems for early hazard detection, energy management, robotics and medical technology is a focus of the Fiber Optical Sensor Systems department (branch). The sensors are characterized by extreme miniaturization, excellent communication and network capabilities and high energy efficiency.
+The research focus of the Wireless Communications and Networks department is on radio-based information transmission. The department provides contributions to the theory and technical feasibility of radio systems and develops hardware prototypes. This is supplemented by scientific studies, simulations and evaluations at the link and system levels.
+The Video Coding & Analytics department is researching actively the efficient encoding, transport, processing and analysis of video signals as well as machine learning.
+The focus in the Vision & Imaging Technologies department is on complex 2D/3D analysis and synthesis methods, on computer vision as well as innovative camera, sensor, display and projection systems. The department is researching for the entire video processing chain from content creation to playback.
+
+Partnerships
+Fraunhofer HHI employees hold professorships at the following universities:
+
+Technical University of Berlin (image communication, optical and opto-electric integration, network information theory)
+Clausthal University of Technology (applied photonics)
+Humboldt University of Berlin (visual computing)
+University of Potsdam (embedded systems architectures for signal processing)Fraunhofer HHI is a member of the following internal Fraunhofer groups and alliances
+
+Fraunhofer ICT Group
+Fraunhofer Group for Microelectronics
+Fraunhofer Group for Defense and Security
+Fraunhofer Alliance Ambient Assisted Living (AAL)
+Fraunhofer Alliance Big Data
+Fraunhofer Innovation Cluster Secure Identity
+Fraunhofer Innovation Cluster Life Cycle Engineering
+Fraunhofer Alliance Digital Media
+Fraunhofer Alliance Embedded Systems
+Fraunhofer Alliance Vision
+
+Infrastructure
+The total budget of Fraunhofer Heinrich Hertz Institute in 2015 was around EUR 49.2 million. The external funding ratio was 75 percent. 49.8 percent of the budget came from industrial revenues, 13 percent from federal and state contract research, and 6.5 percent from funds provided by the European Union. Around 270 employees and 140 students worked at the institute in 2015.
+
+History
+Establishment of the institute
+The founding phase of the Heinrich Hertz Institute began on 1 August 1927 with the written intention of the Study Society for Oscillation Research to establish an institute for the research on electrical and acoustic oscillation at the Technical University of Berlin. Members of this society were the German Reichspost, the Prussian Ministry of Science, Art and National Education, the Reichs-Rundfunk-Gesellschaft, the Technische Hochschule zu Berlin, the large corporations of the electrical industry, and the German Electrical Engineering Association.Effectively, the institute was founded on 23 February 1928 as Heinrich Hertz Institute for Oscillation Research. The opening took place in 1930 in Berlin-Charlottenburg, Franklinstrasse 1, with four departments: High-Frequency Engineering, Telecommunications and Telegraph Technology, Acoustics and Mechanics. Research focused on radio and television technology, room acoustics and electronic music among other things. 
+The institute was reorganized in 1936 and the name Heinrich Hertz was wiped out from its designation in the course of National Socialist "cleansing" in the interest of the Third Reich.
+
+Post World War II
+After the institute building was entirely destroyed in 1945, the Heinrich Hertz Institute for Oscillation Research was newly founded in the same year by Gustav Leithäuser with the former department structure. During the time of the currency reform and Berlin Blockade in 1950, the institute was split into an eastern section (Berlin-Adlershof) and a western section (Berlin-Charlottenburg, Jebensstrasse 1). In 1968 the institute moved into the new building at Einsteinufer 37 in Berlin.
+
+Institute with state and federal participation
+The institute was renamed to Heinrich-Hertz-Institut for Nachrichtentechnik Berlin GmbH (Heinrich-Hertz Institute for Communication Technology) in 1975 with the state of Berlin and the Federal Republic of Germany as shareholders. Realignment of the entire HHI research profile by Horst Ohnsorge. Systematic work on current problems of modern communication technology. Vision of a universal broadband communication network on a fiber optics basis. 5 specialist departments: General Principles; System Structures; Image and Sound; Relaying and Transmission; Planning. Support for optical communication engineering as a key technology at HHI in the 1980s. Restructuring of the institute with formation of two divisions: Communication Systems with the departments of Relaying and Transmission, Signal Processing and Terminal Equipment, Economic and Social Sciences Accompanying Research, and Human Engineering, and the division: Integrated Optics.
+In the 1990s research focused on the following fields: Photonic networks, electronic imaging technology for multimedia, mobile broadband systems, and integrated optics.
+
+Transition to the Fraunhofer Society
+The institute became part of the Fraunhofer Society in 2003 and received today’s name, Fraunhofer Institute for Telecommunications, Heinrich Hertz Institute, HHI. The institute has been cooperating with the neighboring Technical University of Berlin for decades.
+A data transmission system was successfully developed in 2006 with a never-before-seen speed of 2560 Gb/s, which means transmitting a data volume corresponding to the content of 60 DVDs takes one second. What’s more, a breakthrough was achieved in video compression making it possible to store motion pictures in the high-resolution HDTV format with 2 million pixels per image on DVD.
+On 10 November 2016 scientists of the Fraunhofer HHI established a bidirectional 1.7 Tbit/s free-space optical communications link over the air. The eye-safe optical beam transmission was transmitted over a distance of 380 meters. Eye-safe operation through 380-m air was successfully demonstrated at a total antenna output power of less than 10 mW. The signals in both directions consisted of 40 wavelength channels of 43 Gbit/s.
+
+List of directors
+Karl Willy Wagner, founding director (1927–1936)
+Willi Willing (provisional February 1936–March 1937)
+Heinrich Fassbender (1937–1945)
+Gustav Leithäuser (1945–1953)
+Friedrich-Wilhelm Gundlach (1957–1972)
+Horst Ohnsorge (1975–1980)
+Wolfgang Grunow (1980–1982)
+Clemens Baack (1982–2002)
+Joachim Hesse (provisional with Mr. Mrowka 2002–2004)
+Hans-Joachim Grallert (2004–2013) and Holger Boche (2004–2010)
+Martin Schell (since 2014) and Thomas Wiegand (since 2014)
+
+References
+External links
+Fraunhofer Institute for Telecommunications

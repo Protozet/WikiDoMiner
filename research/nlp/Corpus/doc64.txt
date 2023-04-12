@@ -1,0 +1,9 @@
+A complementary ground component is a terrestrial infill system for a mobile-satellite service that uses terrestrial base stations to provide connectivity in weak signal areas, such as urban areas. According to EU Decision 626/2008/EC: 
+
+"complementary ground components" of mobile satellite systems shall mean ground-based stations used at fixed locations, in order to improve the availability of the mobile-satellite service in geographical areas within the footprint of the system's satellite(s), where communications with one or more space stations cannot be ensured with the required quality”Such systems use the same frequencies assigned for space usage.
+
+See also
+Repeater
+
+
+== References ==

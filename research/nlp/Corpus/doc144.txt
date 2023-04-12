@@ -1,0 +1,5 @@
+In telecommunication, electromagnetic survivability is the ability of a system, subsystem, or equipment to resume functioning without evidence of degradation following temporary exposure to an adverse electromagnetic environment. 
+The system, subsystem, or equipment performance may be degraded during exposure to the adverse electromagnetic environment, but the system will not experience permanent damage, such as component burnout, that will prevent proper operation when the adverse electromagnetic environment is removed.
+
+References
+ This article incorporates public domain material from Federal Standard 1037C. General Services Administration. (in support of MIL-STD-188).

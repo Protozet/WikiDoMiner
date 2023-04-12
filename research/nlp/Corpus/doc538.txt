@@ -1,0 +1,92 @@
+Application enablement is an approach which brings telecommunications network providers and developers together to combine their network and web abilities in creating and delivering high demand advanced services and new intelligent applications.
+Network providers, in addition to bandwidth, provide abilities such as billing, location, presence, and security, which have allowed them to establish long-term relationships with end-users. By offering these select abilities as application programming interfaces (APIs), providers give developers access to a set of tools to create (mashup) new applications and services to run on provider networks. Unifying the strengths of providers and developers facilitates the creation of mash-up applications, and in turn, a better end user quality of experience (QoE) for improved profit margins.
+Apple’s iOS with App Store, and Google's Android with Android Market exemplify this approach.  Both have introduced mobile platforms that are supported by a comprehensive ecosystem in order to perpetuate innovation in product design, content and service offerings, and overall consumer behavior. By the end of April 2010, downloadable applications numbered over 200,000 for iPhone and over 50,000 for Android.
+
+Background
+Historically, telecommunication network providers have focused on the network in their business approach, relying almost exclusively on their network abilities for connectivity, availability and quality of service (QoS) to generate revenue and establish customer value.  With the evolution of network and web abilities, consumer demand for bandwidth intensive data and video applications has exploded, requiring significant investment by network providers if they are to maintain current levels of service continuity. To fully leverage such investments, and offset rising operating costs and declining average revenue per user (ARPU) levels, providers must deliver a customer-focused experience and adopt new business models that will broaden revenue opportunities and expand their position in the Telecommunications value chain.Application enablement supports providers in making this transition by providing an environment, or ecosystem, where providers and developers can collaborate to build, test, manage, and distribute applications across networks including television, broadband, Internet, and mobile. This cooperative effort produces mutually beneficial results for all parties, opening up new revenue streams while enhancing value and rate of return (ROI).
+The following are some examples of key network abilities which function as application enablers in the telecommunications market:
+
+Billing systems
+Security for private transactions
+Network-based storage of digital content
+End-to-end bandwidth for high-quality transmissions
+Scoring abilities to identify end-user preferences and behaviors
+Subscriber data to customize the end-user experience
+Context information, such as location and presence, to localize services.
+
+New business models
+As network providers work toward effective collaboration with application and content developers, several new business models are emerging to help facilitate the business relationships:
+
+Vendor-led
+A type of business model driven by telecommunications vendors, who assist network providers in building relationships with application and content developers to lower the cost and complexity of managing third parties. Examples of this model include:
+
+Forum Nokia
+IBM Technology Partner Ecosystem
+Ng Connect
+Huawei Intouch program
+
+Operator-led
+Characterized by network providers who want to maintain a high degree of flexibility and control over applications created for their end-consumers, this model lets them create and manage their own developer program, development platform, and application store.
+Under this arrangement, independent developers provide their own branding, marketing communications, pricing and customer care. Network providers pursuing this model will often seek to partner with a large number of third parties using standardized on-boarding processes.  Examples of this model include:
+
+o2 Litmus
+Orange Partner
+Joint Innovation Lab
+
+Aggregator
+Network providers who choose not to create/manage their own developer relationships will partner with one or multiple aggregators, to administer a portion of or their entire application strategy.  Examples of this model include:
+
+Ovi Operator Partnership
+Blackberry Operator Partnership
+Cellmania
+Buongiorno
+
+Mass wholesale
+Select network providers also participate in wholesale models that exist primarily for applications (BT’s Ribbit- an Internet Protocol (IP) based calling and messaging platform) and devices (Verizon’s Open Device initiative).  This business-to-business approach reduces a large portion of the potential costs of third party application enablement (marketing, acquisition and support). Examples of this model include:
+
+BT’s Ribbit
+Verizon Wireless ODI
+AT&T Synaptic Hosting
+
+The enterprise customer
+Some network providers are focusing on enabling applications in the enterprise space.  In this model, the network provider establishes a platform for their large enterprise customers who want to blend custom software with enhanced abilities, and will provide standardized processes around mobilizing enterprise applications, and exposing core back-office abilities to allow for dynamic customer interaction.  Examples of this model include:
+
+Vodafone Applications Service
+Verizon Private Network
+Sprint Solution Launchpad
+
+Trusted partner
+In this model, the network provider builds one-on-one relationships with trusted third-party developers by exposing customized network abilities, bringing a greater variety of brands to the network provider’s portfolio.  Network providers using this model tend to only have a few partners (in contrast to the operator led model).  Under this scenario, network providers benefit from a pre-established customer base and the developer’s marketing resources.  Examples of this model include:
+
+3/Skype Partnership (UK)
+Virgin Media and BBC iPlayer
+
+Network operator developer resources
+Operator led model
+
+o2 Litmus
+Orange Partner
+Joint Innovations LabAggregator model
+
+Ovi Operator Partnership
+Cellmania
+BuongiornoMass wholesale model
+
+BT Ribbit
+Verizon Wireless ODI
+AT&T Synaptic HostingEnterprise customer model
+
+Vodafone Applications Service
+Verizon Private Network
+Sprint Solution Launchpad
+
+References
+External links
+Videos
+
+Open APIs 2.0: A new commercial model – for device, network, back office and 3rd parties – Telecom TVWhitepapers
+
+Delivering a compelling online Experience – Application enablement keeps network providers at the forefront of consumer demandAdditional URLs
+
+https://web.archive.org/web/20090124002905/http://cisco.com/en/US/solutions/ns341/ns525/ns537/ns548/iphone_applications.html
+http://www.sybase.com/products/mobileenterprise/application-enablement

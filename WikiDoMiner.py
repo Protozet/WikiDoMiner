@@ -41,7 +41,7 @@ def main():
     parser.add_argument('--sim_threshold', dest='sim_threshold', type=float, default=0.5, help='set similarity threshold when using title similarity')
     parser.add_argument('--filter-cats', dest='filter_cats', type=bool, default=True, help='filter generic categories')
     parser.add_argument('--use-tfidf', dest='tfidf', type=bool, default=True, help='use TFIDF to rank keywords')
-    parser.add_argument('--limit-keywords', dest='K', type=int, default=None, help='Set to limit the number of extracted keywords if TFIDF is used.')
+    parser.add_argument('--limit-keywords', dest='K', type=int, default=10, help='Set to limit the number of extracted keywords if TFIDF is used.')
     parser.add_argument('--wiki-depth', dest='depth', type=int, default=0, help='Set the depth of wikiedia search. 0: only the articles that matches the keywords. 1: articles from the the categories of matching keywords. 2 articles from the subcategories..')
     parser.add_argument('--max-limit', dest='maxlimit', type=int, default=200, help='set limit to filter large categories')
     parser.add_argument('--max-cats', dest='maxcats', type=int, default=50, help='skip articles with too many categories')
@@ -80,7 +80,7 @@ def main():
     saveCorpus(corpus,args.path,folder=args.dir)
 
 def calculate_jaccard(text1,text2):  # calculates jaccard similarity between two string
-  print("token")
+  #print("token")
   #word_tokens1= "My title"
   #word_tokens2 = "title"
   word_tokens1=word_tokenize(text1.lower())
@@ -104,8 +104,8 @@ def calculate_jaccard(text1,text2):  # calculates jaccard similarity between two
     if w in word_tokens2:
       intersection.add(w)
   jaccard_score = len(intersection)/len(union)
-  print("intersection:", intersection)
-  print("union:", union)
+  #print("intersection:", intersection)
+  #print("union:", union)
   print("Jaccard similarity score:", jaccard_score)
   #print("Jaccard similarity score: ", jaccard_score)
   return jaccard_score
@@ -267,20 +267,20 @@ def getCorpus(list_of_keywords, title_similarity=False,sim_threshold=0.5,filtere
     # we search for the closest titles matching our keyword
     if auto_suggest:
       matching_titles=wiki.search(keyword,suggestion=True)
-      print("a")  
+      #print("a")  
       if not matching_titles:
         continue
       for title in matching_titles[0]:
         # you can add a similarity criteria between the keyword and the matching article before proceeding
         # for example use jaccard with a threshold: if calculate_jaccard(keyword,title)>0.5
-        print(matching_titles)
+        #print(matching_titles)
         if title not in processed_titles:
           if title_similarity:
             print (title)
-            print (keyword)
+            #print (keyword)
             if calculate_jaccard(title,keyword)<sim_threshold:#######################################################################
-              print(title)
-              print(keyword)
+              #print(title)
+              #print(keyword)
               continue
           corpus.extend(getCorpusFromTitle(title,filtered_cats,depth=depth,maxcats=maxcats, maxlimit=maxlimit,verbose=verbose))
           #title.append(processed_titles)

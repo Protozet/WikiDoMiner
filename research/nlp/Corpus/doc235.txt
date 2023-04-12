@@ -1,0 +1,23 @@
+A gray card is a middle gray reference, typically used together with a reflective light meter, as a way to produce consistent image  exposure and/or color in video production, film and photography.
+A gray card is a flat object of a neutral gray color that derives from a flat reflectance spectrum. A typical example is the Kodak R-27 set, which contains one 8x10" card and one 4x5" card which have 18% reflectance across the visible spectrum, and a white reverse side which has 90% reflectance. Note that flat spectral reflectance is a stronger condition than simply appearing neutral; this flatness ensures that the card always has the same colour as its illuminant (see metamerism).
+
+Application
+Gray cards are used in a variety of ways by photographers, cinematographers, video engineers and video camera operators.
+
+Photography
+A primary use of gray cards is to provide a standard reference object for exposure determination in photography. A gray card is an (approximate) realization of a Lambertian scatterer; its apparent brightness (and exposure determination) therefore depends only on its orientation relative to the light source. 
+To establish the exposure for a photograph Kodak recommends placing the gray card as close to the subject as possible and "aiming the surface of the gray card toward a point one third of the compound angle between the camera and the main light. For example, if the main light is located 30 degrees to the side and 45 degrees up from the camera-to subject axis, aim the card 10 degrees to the side and 15 degrees up." The card should be metered from approximately six inches away.
+Once a meter reading has been obtained, Kodak further recommends adjusting the exposure parameters using these criteria:
+
+For subjects of normal reflectance, increase the indicated exposure by one half stop.
+For light subjects, use the indicated exposure; for very light subjects, decrease exposure by one half stop.
+If the subject is dark to very dark, increase the indicated exposure by one- to one-and-one-half stops.This technique is similar to using an incident meter, as it depends on the illuminance but not the reflectivity of the subject. (Of course taking photographs with side lighting or back lighting implies that the gray card should be oriented toward the camera instead.)
+In addition to providing a means for measuring exposure, a gray card provides a convenient reference for white balance, or color balance, allowing the camera to compensate for the illuminant color in a scene.
+Gray cards can be used for in-camera white balance or post-processing white balance. Many digital cameras have a custom white balance feature. A photo of the gray card is taken and used to set white balance for a sequence of photos. For post-processing white balance, a photo of the gray card in the scene is taken, and the image processing software uses the data from the pixels in the gray card area of the photo to set the white balance point for the whole image.
+Gray cards are made of a variety of materials including fabric, plastic, paper, and foam.
+
+Limitations
+A gray card is useful for setting or correcting the balance of neutral colors, as well as for exposure.  Other charts, such as various color charts, provide standard reference patterns with calibrated reflectance spectrum and color coordinates, for use in adjusting color rendering in a larger range of situations.
+
+
+== References ==

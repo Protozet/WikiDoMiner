@@ -1,0 +1,5 @@
+In telecommunications, destination routing is a methodology for selecting sequential pathways that messages must pass through to reach a target destination, based on a single destination address. In electronic switching systems for circuit-based telephone calls, the destination stations are identified by a station address or more commonly, a telephone number. 
+The telephone network comprises various classes of switching systems. An end office switch connects directly to the stations.  It knows which circuit to activate (ring) when given a destination number. Other switches in the network are for transport only.  These are sometimes called tandem switches.  In this case, the goal of destination routing would be to select an outbound span for a particular destination number. The objective is to get a continuous signal path from the starting location of the caller to the ending location of the called party.
+
+External links
+VoIP Telephone System & IP Phones

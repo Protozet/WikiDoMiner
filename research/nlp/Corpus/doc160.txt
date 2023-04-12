@@ -1,0 +1,13 @@
+Hyperlapse or moving time-lapse (also stop-motion time-lapse, walklapse, spacelapse) is a technique in time-lapse photography for creating motion shots. In its simplest form, a hyperlapse is achieved by moving the camera a short distance between each shot. The first film using the hyperlapse technique dates to 1995.
+
+Technique
+Regular time-lapse involves taking photos at a regular interval with a camera mounted on a tripod or using a motorized dolly and/or pan-and-tilt head to add limited motion to the shot. Hyperlapse relies on the time-lapse principle, but adds movement over much longer distances. This technique allows using long exposures to create motion blur. The resulting image sequence is stabilized in post-production. The camera can also be mounted on a hand-held gimbal to achieve smooth motion while walking.
+A "walking hyperlapse" is a special hyperlapse technique that requires a person in the frame to walk at a specified interval. When played back, the person will appear to be walking at normal speed, while everything else appears to move quickly through the scene. For example, a hyperlapse recorded at 1 frame per second while a person is walking at 124 beats per minute, will capture a frame on every other step. When the hyperlapse is played back at 24 frames per second, the person will appear to be walking at normal speeds.
+
+History
+The first film using the hyperlapse technique seems to have been Pacer, shot on Super 8 film in Montreal in 1995 by Guy Roland, after experiments during the 1980s and 1990s. It has been suggested that the term "hyper-lapse" itself was first used in 2011 by American filmmaker Dan Eckert, and sustainably coined by Shahab Gabriel Behzumi´s Berlin Hyperlapse in 2012.Films made from images derived from Google Street View and Google Maps have also been called hyperlapse videos. Software that can help produce hyperlapse-style videos include Hyperlapse from Instagram and a similarly named program from Microsoft.Unmanned aerial vehicles have been used to create aerial hyperlapses since at least 2015.Subgenres of hyperlapse are flowmotion and hyperzoom. Flowmotion was developed in the 2010s by British filmmaker Rob Whitworth. It combines hyperlapse, timelapse and regular film shots to create the suggestion of a story proceeding in one long, almost uninterrupted take. Hyperzoom was developed by Geoff Tompkinson and uses film and post-production techniques to create a seamless flight through diverse locations.
+
+References
+
+
+== External links ==

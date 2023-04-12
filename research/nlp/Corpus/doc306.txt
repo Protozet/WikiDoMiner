@@ -1,0 +1,10 @@
+In telecommunication, receive-after-transmit time delay is the time interval between (a) the instant of keying off the local transmitter to stop transmitting and (b) the instant the local receiver output has increased to 90% of its steady-state value in response to an RF (radio-frequency) signal from another transmitter.  
+The RF signal from the distant transmitter must exist at the local receiver input prior to, or at the time of, keying off the local transmitter. 
+Receive-after-transmit time delay applies only to half-duplex operation.
+
+See also
+Transmit-after-receive time delay
+Attack-time delay
+
+References
+ This article incorporates public domain material from Federal Standard 1037C. General Services Administration. (in support of MIL-STD-188).

@@ -1,0 +1,22 @@
+A darkroom is used to process photographic film, to make prints and to carry out other associated tasks. It is a room that can be made completely dark to allow the processing of the light-sensitive photographic materials, including film and photographic paper. Various equipment is used in the darkroom, including an enlarger, baths containing chemicals, and running water.
+Darkrooms have been used since the inception of photography in the early 19th century. Darkrooms have many various manifestations, from the elaborate space used by Ansel Adams to a retooled ambulance wagon used by Timothy H. O'Sullivan. From the initial development of the film to the creation of prints, the darkroom process allows complete control over the medium.
+Due to the popularity of color photography and complexity of processing color film (see C-41 process) and printing color photographs and also to the rise, first of instant photography technology and later digital photography, darkrooms are decreasing in popularity, though are still commonplace on college campuses, schools and in the studios of many professional photographers.
+Other applications of darkrooms include the use in nondestructive testing, such as magnetic particle inspection.
+
+Darkroom equipment
+In most darkrooms, an enlarger, an optical apparatus similar to a slide projector, that projects light through the image of a negative onto a base, finely controls the focus, intensity and duration of light, is used for printmaking. A sheet of photographic paper is exposed to the light coming through the negative, resulting in a positive version of the image on the paper.
+When making black-and-white prints, a safelight is commonly used to illuminate the work area. Since the majority of black-and-white papers are sensitive to only blue, or to blue and green light, a red- or amber-colored light can be safely used without exposing the paper.
+Color print paper, being sensitive to all parts of the visible spectrum, must be kept in complete darkness until the prints are properly fixed. A very dim variation of safelight that can be used with certain negative color materials exists, but the light emitted by one is so low that most printers do not use one at all.Another use for a darkroom is to load film in and out of cameras, development spools, or film holders, which requires complete darkness. Lacking a darkroom, a photographer can make use of a changing bag, which is a small bag with sleeved arm holes specially designed to be completely light proof and used to prepare film prior to exposure or developing.
+
+Print processing
+During exposure, values in the image can be adjusted, most often by "dodging" (reducing the amount of light to a specific area of an image by selectively blocking light to it for part or all of the exposure time) and/or "burning" (giving additional exposure to specific area of an image by exposing only it while blocking light to the rest). Filters, usually thin pieces of colored plastic, can be used to increase or decrease an image's contrast (the difference between dark tones and light tones). One method of photographic printing, called "split filter printing," is where the photographer determines two separate exposure times using two separate filters (typically a 0 or 00, and a 5) to create a single print. This method allows the photographer to achieve a broad tonal range, with detailed highlights and rich blacks. After exposure, the photographic printing paper (which still appears blank) is ready to be processed.Photographers generally begin printing a roll of film by making a contact print of their negatives to use as a quick reference to decide which images to enlarge. Some large format photographers, such as Edward Weston, make only contact prints of their large (4x5", 5x7", 8x10" or larger) negatives.
+The paper that has been exposed is processed, first by immersion in a  photographic developer, halting development with a stop bath, and fixing in a photographic fixer. The print is then washed to remove the processing chemicals and dried. There are a variety of other, additional steps a photographer may take, such as toning.
+
+See also
+Photographic plate
+Photographic studio
+
+References
+
+
+== External links ==

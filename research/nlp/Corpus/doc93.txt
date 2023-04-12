@@ -1,0 +1,8 @@
+A Beatscript or beat-script is a scripting aid used for describing story ideas. It offers a level of detail not afforded by the standard feature-film screenplay format. This makes it especially useful for describing short film, animation and short sequence ideas.
+Its structure is focused on action rather than thought. This allows screenwriters to organise their narrative ideas in a concise manner that is conducive to screen presentation. It prevents authors from describing non-tangible, subjective elements that are unable to be effectively represented in screen form.
+Beatscripts are used as the starting-point for generating storyboards and shooting-scripts. While beats are used to describe action, shots are used to describe the visual screen presentation of action.
+The relationship between individual beats and shots is not direct. In situations, where an event is significant in a sequence, a single beat might equate to a single shot (and is likely to be framed as a close-up). Whereas a series of beats might describe a general idea, these beats might collectively equate to a single shot (which is likely to be framed as a long-shot). The specific visual treatment of beatscript ideas is usually determined by the cinematographer or director (which on small projects is usually the same person).
+
+References
+Carnicke, Sharon Marie (2000). "Stanislavsky’s System: Pathways for the Actor". Twentieth-Century Actor Training, ed. Alison Hodge. London: Routledge. 11–36. Teaching Stanislavski
+Perkins, Simon (2005). Beatscript / Prose Storyboards: action-centred scripting for shortfilms and animations.

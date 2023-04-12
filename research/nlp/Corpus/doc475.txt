@@ -1,0 +1,19 @@
+USB3 Vision is an interface standard introduced in 2013 for industrial cameras. It describes a specification on top of the USB standard, with a particular focus on supporting high-performance cameras based on USB 3.0. It is recognized as one of the fastest growing machine vision camera standards. As of October 2019, version 1.1 is the latest version of the standard.The standard is hosted by the AIA and developing a product implementing this standard must pass compliance tests and be licensed. As of late 2019, there are 42 companies that license this standard. The standard itself for reference or evaluation may be requested free of charge.The standard is built upon many of the same pieces as GigE Vision, being based on GenICam, but utilizes USB ports instead of Ethernet. Some of the benefits of this standard include simple plug and play usability, power over the cable, and high bandwidth. Additionally, it defines locking connectors that modify the standard USB connectors with additional screw-locks for industrial purposes.
+
+Technology
+The standard covers four major areas:
+Device Detection
+Register Access
+Streaming Data
+Event HandlingThe standard defines a specific USB Class ID (Class 0xEF, Subclass 0x05) for identifying the device. As the standard is defined at a protocol layer, the software vendor providing the driver may be a different entity than the company designing the camera.Register Access includes mandatory USB3 vision registers as well as camera specific registers which may control parameters such as shutter speed or integration time, gamma correction, white balance, etc.  The later register types are diverse across cameras.  The camera specific registers can be queried via a XML schema file which is part of the GenICam standard.  The GenICam standard has a Standard Feature Naming Convention so that vendor agnostic software can be created.  The GenICam standard is independent of the transfer protocol.  This standard and GigE Vision are examples of wire protocols which pair with the GenICam standard.  This contrasts with Camera Serial Interface; the Camera Command Set (CCS) is part of that standard for controlling camera parameters.  For many real devices, the vendors provide alternate methods such as I2C to access the full set of parameters that a specific device may support.  These can include lighting synchronization and separate motor controls for optical focusing elements.
+
+Implementations
+A complete list of companies offering products complying with this standard is available here: Companies that license USB3 Vision
+Open Source implementations:
+Linux kernel driver (NOTE: Basic register access and image streaming only. Significant application logic outside of this kernel module is needed to incorporate GenICam and be fully compatible with the USB3 Vision specification)
+Aravis uses libusb to implement the USB3 Vision protocol.  Supports GenICam interface for register introspection.
+Basler Linux kernel modifications - Allows Usb3 zero copy streaming.
+Linux 4.9+ zero copy usbfs is supported by newer versions of libusb.
+
+
+== References ==

@@ -1,0 +1,81 @@
+The IEEE P1906.1 - Recommended Practice for Nanoscale and Molecular Communication Framework is a standards working group sponsored by the IEEE Communications Society Standards Development Board whose goal is to develop a common framework for nanoscale and molecular communication. Because this is an emerging technology, the standard is designed to encourage innovation by reaching consensus on a common definition, terminology, framework, goals, metrics, and use-cases that encourage innovation and enable the technology to advance at a faster rate. The draft passed an initial sponsor balloting with comments on January 2, 2015. The comments were addressed by the working group and the resulting draft ballot passed again on August 17, 2015. Finally, additional material regarding SBML was contributed and the final draft passed again on October 15, 2015. The draft standard was approved by IEEE RevCom in the final quarter of 2015.
+
+Membership
+Working group membership includes experts in industry and academia with strong backgrounds in mathematical modeling, engineering, physics, economics and biological sciences.
+
+Content
+Electronic components such as transistors, or electrical/electromagnetic message carriers whose operation is similar at the macroscale and nanoscale are excluded from the definition. A human-engineered, synthetic component must form part of the system because it is important to avoid standardizing nature or physical processes. The definition of communication, particularly in the area of cell-surface interactions as viewed by biologists versus non-biologists has been a topic of debate. The interface is viewed as a communication channel, whereas the 'receptor-signaling-gene expression' events are the network.
+The draft currently comprises: definition, terminology, framework, metrics, use-cases, and reference code (ns-3).The standard provides a very broad foundation and encompasses all approaches to nanoscale communication. While there have been many superficial academic attempts to classify nanoscale communication approaches, the standard considers two fundamental approaches: waves and particles. This includes any hybrid of the two as well as quasiparticles.
+A unique contribution of the standard is an ns-3 reference model that enables users to build upon the standard components.
+
+Definition
+A precise definition of nanoscale networking
+Academic and industrial researchers have been playing with the concept of nanoscale communication networks, but without a common, well-defined, and precise definition. The IEEE P1906.1 working group has adopted the definitive specification for a nanoscale communication network. The draft standard sets the context of communication within length scales by defining communication length scales  ranging from the Planck length scale to relativistic length scales. A focus is upon the progression of physical changes that impact communication as length scale is reduced.
+
+Terminology
+Common terminology for nanoscale networking
+Nanoscale communication networking is a highly interdisciplinary endeavor. A clear, common language is required so that interdisciplinary researchers can work smoothly together and minimize cross-discipline misunderstanding due to the common definitions that are defined differently in different fields. The P1906.1 working group has reached consensus on common definitions unique to nanoscale communication networks.
+
+Framework
+A framework for ad hoc nanoscale networking
+There is a pressing need for a conceptual model of nanoscale networks. A standardized platform for nanoscale communication network simulation is needed. Researchers are developing simulation models and packages for components related to nanoscale communication networks; however the simulation components are not interoperable, even at a conceptual level. The IEEE P1906.1 working group has adopted a nanoscale communication framework that addresses this need. The result of the framework is known as the standard model.
+
+Metrics
+Metrics and analytical model are in development
+The working group is currently in the process of developing metrics to uniquely characterize nanoscale communication networks. Twenty metrics have been defined:
+Message Deliverability
+Message Lifetime
+Information Density
+Bandwidth-Delay Product
+Information and Communication Energy
+Collision Behavior
+Mass Displacement
+Positioning Accuracy of Message Carriers
+Persistence Length
+Diffusive Flux
+Langevin Noise
+Specificity
+Affinity
+Sensitivity
+Angular (Angle-of-Arrival) Spectrum
+Delay (Time-of-Arrival) Spectrum
+Active Network Programmability
+Perturbation Rate
+Supersystem Degradation
+Bandwidth-Volume Ratio
+
+Use-Cases
+Specific example applications of the standard
+Specific use-cases of nanoscale communication implemented using the P1906.1 definition and framework are provided. A standard mapping between a use-case, or implementation, and the standard model of the framework allows a brief summary of the information required about a use-case to understand its relevance to a nanoscale communication network.
+
+Reference model
+Reference code to model the recommended practice is in development
+Ns-3 reference code is currently in development that implements the developing IEEE P1906.1 recommended practice. The communication framework conceived by the P1906.1 working group has been implemented. A simple example highlighting the interaction and the role of each component in electromagnetic-based, diffusion-based, and molecular motor-based communication at the nanoscale has been developed.
+
+Applications
+Applications are numerous, however, there appears to be strong emphasis on medical and biological use-cases in nanomedicine.
+
+Simulation software
+The IEEE P1906.1 working group is developing ns-3 nanoscale simulation software that implements the IEEE 1906.1 standard and serves as a reference model and base for development of a wide-variety of interoperable small-scale communication physical layer models.
+
+Literature review
+The Best Readings on nanoscale communication networks provides good background information related to the standard. The Topics section breaks down the information using the standard approach.
+
+Building on IEEE 1906.1
+IEEE 1906.1 is the foundation for nanoscale communication. Additional standards are expected to build upon it. 
+IEEE 1906.1.1 Standard Data Model for Nanoscale Communication Systems 
+The Standard Data Model for Nanoscale Communication Systems defines a network management and configuration data model for nanoscale communication.
+This data model has several goals:
+
+Ensure compliance with IEEE 1906.1-2015
+Describe the essence of nanoscale communication
+Capture fundamental physics of IEEE 1906.1-2015
+Define configuration and management of simulation and experimental systems
+Provide a self-describing data structure for experimental data.The data model is written in YANG and will enable remote configuration and operation of nanoscale communication over the Internet using NETCONF.
+
+Notes
+References
+IEEE P1906.1 - Recommended Practice for Nanoscale and Molecular Communication Framework Project Application Request (PAR).
+
+External links
+IEEE P1906.1 - Recommended Practice for Nanoscale and Molecular Communication Framework

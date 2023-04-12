@@ -1,0 +1,14 @@
+In telecommunication, a "carrier grade" or "carrier class" refers to a system, or a hardware or software component that is extremely reliable, well tested and proven in its capabilities.  Carrier grade systems are tested and engineered to meet or exceed "five nines" high availability standards, and provide very fast fault recovery through redundancy (normally less than 50 milliseconds).
+"Carrier grade" is not a standard or very clearly defined term but, rather, a set of features and qualities that make the product acceptable by a carrier:
+The feature set that enables the carrier to utilize the business with use of that equipment. High quality and very good MTBF (Some requirements are stated in TR-144 chapter 7.17). Redundancy (if one part goes down, there is an alternative). Easy and cost-efficient O&M. All Standardized as much as possible
+
+See also
+Carrier Grade Linux
+Real-time computing
+Redundancy (engineering)
+Carrier system
+High availability
+
+External links
+What's all the fuss about network resiliency? (link no longer available)
+Carrier Ethernet Ready for Prime Time: Five Things to Consider

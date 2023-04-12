@@ -1,0 +1,7 @@
+In telecommunication, the term degree of start-stop distortion has the following meanings: 
+
+In asynchronous serial communication data transmission, the ratio of (a) the absolute value of the maximum measured difference between the actual and theoretical intervals separating any significant instant of modulation (or demodulation) from the significant instant of the start element immediately preceding it to (b) the unit interval.
+The highest absolute value of individual distortion affecting the significant instants of a start-stop modulation.The degree of distortion of a start-stop modulation (or demodulation) is usually expressed as a percentage. Distinction can be made between the degree of late (positive) distortion and the degree of early (negative) distortion.
+
+References
+ This article incorporates public domain material from Federal Standard 1037C. General Services Administration. Archived from the original on 2022-01-22.

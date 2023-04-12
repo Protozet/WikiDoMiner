@@ -1,0 +1,39 @@
+Reichle & De-Massari Holding AG (or R&M for short), is a globally active corporate group in the information and communication technology sector, based in Wetzikon, Switzerland. The family company develops and produces connecting technology for communications networks, such as fiber optic distributors, patch panels and computer connection modules.
+
+History
+When they were still working for a supplier of what was then Swiss Telecom PTT, Hans Reichle and Renato De-Massari had an idea for the development of a new, simpler to install telephone outlet. In 1964, they founded R&M as a two-man company to develop and produce what they called the Reichle connector. In subsequent years, the company extended its portfolio to include the entire connecting technology for data and voice networks based on copper cables and optical fiber (glass and polymer fibers).
+One of the company's most important products is the Category 6A connection module for Ethernet networks with RJ45 connectors. A large number of them are in use all over the world in local networks (LAN). The success of the RJ45 connection modules for twisted pair copper cabling can in part be attributed to a sales partnership with IBM (1993–1999).
+In 1993, R&M opened its first branch in Eastern Europe. Before Renato De-Massari died in 2000, his partner Hans Reichle took over the company as sole owner in 1996. In the years following, R&M drove international expansion by founding subsidiaries in Ukraine, Malaysia and Brazil.
+In 2005, Hans Reichle moved out of active management and became a member of the Board of Directors. He transferred responsibility for operations to his two sons Martin and Peter, who led the company as CEO and COO respectively. In 2006, construction was started on a proprietary sales and production facility in India.
+In September 2008, the first management and logistics hub for the Asia-Pacific region was created in Singapore. There had already been a subsidiary for product development and sales there since 1994. A further hub in the United Arab Emirates (UAE) followed in 2009. In 2010, the new R&M headquarters, the R&M Cube, was built in Wetzikon in compliance with low-exergy guidelines.
+On September 1, 2012, Michel Riva was the first non-family member to be appointed CEO. Martin and Peter Reichle continue to be members of the six-man Board of Directors and, in that function, represent the interests of the owner family.
+In July 2012, R&M opened a branch in the Dubai Freezone, where products are assembled for the regions Middle East / Africa (MEA) and Asia. In October 2012, a further FO production plant was commissioned in Sofia, Bulgaria. In the same year, the company opened a Saudi Arabian branch in Riyadh to pursue regional expansion plans and offer local customer service. In 2014, the company celebrated its 50th anniversary.In February 2016, R&M acquired the FO specialist REALM Communications Group Inc. domiciled in Milpitas, California, so as to be represented in the US with its own sales and production subsidiary. In April 2017, R&M acquired the Brazilian corporate group Peltier Comércio e Industria LTDA (PETCOM), domiciled in Santa Rita do Sapucaí, the intention being to gain a foothold in the Southern American fiber optic market. A production plant is part of the group.
+The company Transportkabel DIXI a.s., domiciled in Děčín, Czech Republic, acquired in May 2018, was renamed Reichle & De-Massari Czech Republic a.s. in August 2018. This takeover has allowed R&M to produce its own fiber optic cables for the very first time. Furthermore, R&M opened a new production facility for fiber optic products in Bangalore, India, in August 2018. The production plant was built as part of the Make in India initiative. With this initiative, the Indian government is pursuing a policy of establishing competitiveness and wealth long-term.
+Further expansion into the US took place in March 2019 with the takeover of Optimum Fiberoptics Inc., domiciled in Elkridge, Maryland. The market in Eastern USA is cultivated from here. The Group has consolidated all production and sales activities in North America under the name R&M USA Inc.
+In March 2019, R&M acquired the Chinese manufacturer of network cabinets and enclosures for data centers Durack Intelligent Electric Co. Ltd., domiciled in Jinshan District, Shanghai. This acquisition gives R&M the opportunity to gain a better foothold in the Chinese market.
+In January 2022, R&M acquired a further manufacturer of network cabinets and enclosures for data centers, the Tecnosteel S.r.l. based in Brunello (VA), Italy.
+
+Corporate affairs
+R&M develops, produces and sells components and systems for communication and data networks. R&M is a stock corporation not publicly listed and wholly owned by the Reichle family, and is thus independent of financial investors.
+The company primarily has products for copper cabling produced in its own production facility in Poland. It mainly has its multifiber connectors (FO connectors) and other products for FO cabling assembled in its facilities in Wetzikon, Sofia and Bangalore.
+Important proprietary product developments include:
+
+the high density FO distributor Netscale with up to 120 ports per height unit in a 19” rack
+the hardware and software system R&MinteliPhy for the automated real-time monitoring of cables, ports and connectors in data centers
+the SYNO dome closure with gel cold sealing for underground fiber optic distribution in public telecommunication networks
+the Cat. 8.1 cabling system for the fastest data transmission over twisted pair copper cables in local data networks (40 Gigabit Ethernet)
+the field-terminable FO connector FO FieldThe following are just some of the important technology developments which R&M has influenced
+
+sensors for Automated Infrastructure Management (AIM) for the centralized, digitized monitoring of cables, ports and connectors
+push-pull mechanism for the axial, rear side operation of tightly packed connectors
+insulation-displacement connector, also referred to as Insulation Displacement Connector (IDC), a durable wiring technology for copper conductors
+FO connector format SC-RJ as the smallest SC-Duplex connector
+WAve Reduction Patterns (WARP) as non-continuous shielding for unshielded cabling components; whereby shielding is achieved with short shield patterns insulated from each otherR&M is regularly involved in international standardization committees within the industry and cooperates with other manufacturers on the development of new cabling technologies. One in particular worthy of mention here: R&M is working together with Harting on the development of the Single Pair Ethernet (SPE) standard.
+R&M has numerous subsidiaries for example in Australia, Brazil, Bulgaria, China, Dubai, France, Germany, Hungary, India, Italy, Netherlands, Poland, Singapore, Spain, Ukraine, USA. In other countries, the company is represented by distribution partners. R&M is a highly export-oriented company and makes around 78 percent of its sales outside Switzerland.
+Since 2010, R&M has published a Corporate Social Responsibility Report every two years in accordance with the guidelines of the GRI (Global Reporting Initiative). The CSR Report documents the company's sense of responsibility and sustainable corporate governance.
+
+References
+External links
+Website Reichle & De-Massari Holding AG
+Moneyhouse Commercial Register and Business Data
+Bloomberg Profile

@@ -1,0 +1,6 @@
+In telecommunication, degradation is the loss of quality of an electronic signal, which may be categorized as either "graceful" or "catastrophic", and has the following meanings: 
+
+The deterioration in quality, level, or standard of performance of a functional unit.
+In communications, a condition in which one or more of the required performance parameters fall outside predetermined limits, resulting in a lower quality of service.There are several forms and causes of degradation in electric signals, both in the time domain and in the physical domain, including runt pulse, voltage spike, jitter, wander, swim, drift, glitch, ringing, crosstalk, antenna effect (not the same antenna effect as in IC manufacturing), and phase noise.
+Degradation usually refers to reduction in quality of an analog or digital signal. When a signal is being transmitted or received, it undergoes changes which are undesirable. These changes are called degradation. Degradation is usually caused by: distance, imitation:see Remote Control, noise, interference or EMI.
+ This article incorporates public domain material from Federal Standard 1037C. General Services Administration. Archived from the original on 2022-01-22.

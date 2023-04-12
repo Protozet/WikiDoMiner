@@ -1,0 +1,34 @@
+The ColorChecker Color Rendition Chart (often referred to by its original name, the Macbeth ColorChecker or simply Macbeth chart) is a color calibration target consisting of a cardboard-framed arrangement of 24 squares of painted samples. The ColorChecker was introduced in a 1976 paper by McCamy, Marcus, and Davidson in the Journal of Applied Photographic Engineering. The chart’s color patches have spectral reflectances intended to mimic those of natural objects such as human skin, foliage, and flowers, to have consistent color appearance under a variety of lighting conditions, especially as detected by typical color photographic film, and to be stable over time.
+
+Design
+The ColorChecker Classic chart is a rectangular card measuring about 11 by 8.25 inches (27.9 by 21.0 cm), or in its original incarnation about 13 by 9 inches (33 by 23 cm), an aspect ratio approximately the same as that of 35 mm film. It includes 24 patches in a 4 × 6 grid, each slightly under 2 inches (5.1 cm) square, made of matte paint applied to smooth paper, and surrounded by a black border. Six of the patches form a uniform gray lightness scale, and another six are primary colors typical of chemical photographic processes – red, green, blue, cyan, magenta, and yellow. The remaining colors include approximations of medium light and medium dark human skin, blue sky, the front of a typical leaf, and a blue chicory flower. The rest were chosen arbitrarily to represent a gamut "of general interest and utility for test purposes", though the orange and yellow patches are similarly colored to typical oranges and lemons.There is also a ColorCheckerPassport, a smaller version of the ColorChecker Classic with the same 24 chips but in a tri-fold version with some additional patches on two of the pages.  Its dimensions are 125 mm (H) × 90 mm (W) × 9 mm (T).
+The pigments for ColorCheckerPassport were modified in November 2014, so the current available cards do not have exactly the same carnation, and hence RGB numbers, as before, and particularly are not the ones provided on next section.
+
+Colors
+The colors of the chart were described by McCamy et al. with colorimetric measurements using the CIE 1931 2° standard observer and Illuminant C, and also in terms of the Munsell color system. Using measured reflectance spectra, it is possible to derive CIELAB coordinates for Illuminants D65 and D50 and coordinates in sRGB (D65).
+
+Use
+Color targets such as the ColorChecker can be captured by cameras and other color input devices, and the resulting images’ output can be compared to the original chart, or to reference measurements, to test the degree to which image acquisition reproduction systems and processes approximate the human visual systems. It can also be used to color correct one photo with the chart in it (that may have a different color cast, for example due to a lighting coloration difference) to another "reference" photo with the chart in it.
+Because of its wide availability and use, its careful design, and its consistency, and because comprehensive spectrophotometric measurements are available, the ColorChecker has also been used in academic research into topics such as spectral imaging.
+
+ColorChecker Digital SG
+X-Rite also sells a 140-patch chart called the ColorChecker Digital SG, and is intended for automated use with computer software to characterize digital cameras and scanners.
+
+See also
+List of colors
+Color chart
+Color calibration
+Color management
+Color mapping
+ICC profile
+IT8
+
+References
+External links
+"ColorChecker Classic" official product page at the X-Rite website for the full size, 24 patch version of the chart.
+ColorChecker Passport official product page for the small, 24 patch version of the chart.
+"ColorChecker Digital SG" official product page for the full size, 140 patch version of the chart
+Danny Pascale (2009). "The ColorChecker (since 1976!)". Babelcolor.com. This extensive page includes a history of the chart, average spectrophotometric measurements from 20 ColorCheckers (the precise tools used for these measurements is unclear), calculated RGB values in a variety of RGB color spaces, a list of places to buy charts, and advice for using the data in practical camera calibration and image applications.
+Danny Pascale (2006) "RGB coordinates of the Macbeth ColorChecker". Includes comparisons in CIELAB and RGB values based on spectrophotometric measurements vs. provided by Gretag–Macbeth
+Bruce Lindbloom (2007). "How the ColorChecker Calculator Works". brucelindbloom.com. Lindbloom measured the spectral reflectances his own copy of the ColorChecker, and created a Java applet to calculate  colorimetric coordinates under various standard illuminants and in various RGB color spaces
+Bruce Lindbloom (2008). "ColorChecker RGB Summaries, Spreadsheets and Lab TIFF File". brucelindbloom.com. A page showing RGB values for color patches in various RGB color spaces, based on the applet described above, and a set of Excel spreadsheets for comparing these numbers to those in a digital camera or scanner image of the ColorChecker.

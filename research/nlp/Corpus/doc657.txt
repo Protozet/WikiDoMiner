@@ -1,0 +1,5 @@
+In telecommunication, the power margin is the difference between available signal power and the minimum signal power needed to overcome system losses and still satisfy the minimum input requirements of the receiver for a given performance level. 
+System power margin reflects the excess signal level, present at the input of the receiver, that is available to compensate for (a) the effects of component aging in the transmitter, receiver, or physical transmission medium, and (b) a deterioration in propagation conditions. Synonym system power margin.
+
+References
+ This article incorporates public domain material from Federal Standard 1037C. General Services Administration. Archived from the original on 2022-01-22.

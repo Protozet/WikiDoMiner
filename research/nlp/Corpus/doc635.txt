@@ -1,0 +1,7 @@
+In telecommunication, a stop signal is a signal that marks the end of part of a transmission, for example:
+
+In asynchronous serial communication, a signal at the end of a character that prepares the receiving device for the reception of a subsequent character. A stop signal is usually limited to one signal element having any duration equal to or greater than a specified minimum value.
+A signal to a receiving mechanism to wait for the next signal.
+
+References
+ This article incorporates public domain material from Federal Standard 1037C. General Services Administration. (in support of MIL-STD-188).

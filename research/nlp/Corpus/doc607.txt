@@ -1,0 +1,12 @@
+A focusing screen is a flat translucent material, either a ground glass or Fresnel lens, found in a system camera that allows the user of the camera to preview the framed image in a viewfinder. Often, focusing screens are available in variants with different etched markings for various purposes. For instance, "overall matte" focusing screens with no etchings are a popular choice for astrophotography and other low-light situations.
+
+Overview
+The history of the focusing screen is almost as long as the history of the camera. Some primitive cameras consisted of a box with a board holding the lens in the front and a focusing screen in the back that was replaced by the imaging medium (plate, film holder) before taking the picture.
+The most common type of focusing screen in non-autofocus 35 mm SLR cameras is the split screen and microprism ring variation that aids focusing and became standard in the 1980s. The microprism ring breaks up the image unless the lens setting is in focus, the split screen shows part of the image split in two pieces. When both pieces are aligned  the setting is in focus. The drawback is that the prisms have considerable light loss, making low-light focusing almost impossible. Compare with focusing mechanism in rangefinder cameras.
+Professional cameras give the photographer a choice of screens that are, depending on the camera model, more or less easy to replace. For low light situations the screen of choice is plain, for architectural images and very wide angle lenses the choice is one with a grid etched on it to control the perspective distortion, for fast focusing the split screen is the screen of choice and so on.
+Cameras with interchangeable film formats (view cameras, field cameras and some medium format cameras) may have etchings on the focusing screen to show the limits of the films. Most of these cameras have either plain or grid screens because due to the size of the focusing screen the only focusing aid really needed is a magnifying glass.
+Autofocus SLR cameras, both digital and film, usually have a plain screen. Some models have markings etched in them to denote the areas on which the camera focuses or calculates the exposure from. Many of the newest midrange and professional digital SLR cameras possess a plain screen with a monochromatic LCD overlay that reveals focus points as needed.
+
+See also
+
+Reticle – other form of etchings

@@ -1,0 +1,60 @@
+A merry-go-round train, often abbreviated to MGR, is a block train of hopper wagons which both loads and unloads its cargo while moving. In the United Kingdom, they are most commonly coal trains delivering to power stations. These trains were introduced in the 1960s, and were one of the few innovations of the Beeching cuts, along with investment from the Central Electricity Generating Board (CEGB) and the NCB (National Coal Board) into new power stations and loading facilities.
+
+History and description
+West Burton Power Station was used as a testing ground for the MGR system but the first power station to receive its coal by MGR was Cockenzie in Scotland in 1966. It was estimated at the time that the 80 MGR hoppers needed to feed Cockenzie would replace up to 1,500 conventional wagons.A 1.2 GW power station, such as Cockenzie, receives up to 3 million tons of coal a year, whereas a larger 2 GW plant, like West Burton, up to 5 million tons per year. By the end of 1966 there were about 900 wagons carrying 53,000 tons a week to four power stations. Power stations that were built to handle the new MGR traffic were Aberthaw, Drax, Didcot, Eggborough, Ferrybridge C, Fiddlers Ferry and Ratcliffe, of which only the last is still open for traffic. Many of the older power stations were gradually converted to MGR operation.
+Merry-go-round operation was also adopted for the Immingham Bulk Terminal built in the early 1970s to supply iron ore to the Scunthorpe Steelworks from the Port of Immingham.
+
+The MGR hopper wagons
+There were 11,162 MGR hoppers built. The numbering ranges were 350000-359571, 365000-366129 and 368000-368459
+The two prototype wagons, 350000 and 350001, were built at Darlington works in 1964 and 1965 respectively, following which several large batches were constructed at the nearby Shildon works. With the exceptions of the two prototypes built at Darlington and the 160 wagons built at Ashford, all 10,702 HAA wagons and 460 HDA wagons were built there. Most of the early wagons (up to 355396) were originally lettered with B prefix numbers but these were later removed.
+While the majority of the wagons were built as HAAs, the final batch (built in 1982 as 368000-368459) were coded as HDA to indicate their ability to operate at up to 60 mph when empty instead of the standard 45 mph. This was achieved through modifications to the design of the brakes. Another variation, which did not initially result in a change of TOPS code, was the fitting of top canopies to increase the load volume. Many of the early wagons had these but then lost them and for some years canopied hoppers were only common in Scotland.
+When MGR services were first introduced, British Rail designed an all-new wagon with air brakes and a capacity for 33 tonnes of pulverised coal. The prototype was a 32-ton unit and was built at Darlington and tested in 1964. Before the introduction of TOPS these wagons were referred to by the telegraphic code name "HOP AB 33", this was an abbreviation of Hopper Air Brake 33 tonne.
+With the coming of privatisation to Britain's railways, new wagon types have been introduced by EWS (HTA), GB Railfreight (HYA), Freightliner Heavy Haul (HHA and HXA) and Jarvis Fastline (IIA). These new wagons have increased tonnage and air-operated doors that do away with the need for the "Dalek" release mechanism at the power station end of the trip.
+
+MGR wagon variants
+With the introduction of TOPS in 1973, the wagons were given the code "HAA", and with modifications to the wagons other codes have been allocated over the years, including HDA and HMA.
+From the early 1990s, further TOPS codes were introduced to show detail differences, such as canopies and modified brakes. Many HAAs became HFAs, while all of the HDAs became HBAs, this code now being available since all the original HBA hoppers had been rebuilt as HEAs. Later codes used were HCA, HMA and HNA.
+
+MGR wagon liveries
+The livery of these wagons was of unpainted metal hoppers and black underframes. The hopper support framework was originally brown, then red with the introduction of the new Railfreight image in the late 1970s. When Railfreight re-invented itself in 1987, a new livery with yellow framework and a large coal sector logo on the hopper side was introduced. Under EWS the framework is now painted maroon. Merry-go-round hoppers were worked hard however, and the typical livery included a coating of coal dust. Some of the terminals served used stationary shunters to move the wagons forward at low speed. These often featured tyred wheels that gripped the wagon sides, resulting in horizontal streaks on the hopper sides.
+
+The balloon loop and the Daleks
+Merry-go-round trains are associated with the construction of balloon loops at the origin and destination so that the train doesn't waste time shunting the engine from one end of the train to the other. However, whilst power stations such as Ratcliffe, West Burton and Cottam had balloon loops, few if any colliery/loading points had them, and thus true merry-go-round operation never really existed.
+"Dalek" was the nickname given to the automatic door opening/closing equipment located on the path to and from the bunker in the power station. The nickname was derived from its appearance. Two have been preserved by The National Wagon Preservation Group from Hope Cement Works. They arrived at Barrow Hill on Friday 28 August 2015.
+
+Locomotive control
+Locomotives used on the MGR trains needed to be fitted with electronic speed control known as Slow Speed Control, so that the driver could engage the system and the train could proceed at a fixed very slow speed under the loading and unloading facilities. The system was originally fitted to some members of Class 20, Class 26 and Class 47. Later, some members of Class 37 were also fitted, while the system was fitted to all members of classes 56, 58, 59, 60 and 66. Additionally, all Class 50s were originally fitted, although the system was later removed due to non-use.
+The Class 47 locomotives were replaced by the class 56s in 1977 with an increase of the number of wagons in a train, in most cases to around 30 to 34. This was followed by the Class 58s and the Class 60s. Two of the class 60s were named in honour of the men behind the MGR system, 60092 Reginald Munns and 60093 Jack Stirk. A small number of other locomotives were modified for working MGRs. In Scotland the class 26 and some class 20s and in South Wales some class 37s.
+In 1985, Driver Only Operation (DOO) was introduced after a short training session on the wagons which mostly showed how to isolate a defective brake. MGR trains in the Worksop and Shirebrook areas to West Burton and Cottam started running. These trains initially had a yellow painted tail lamp to identify that the train was DOO. As the system rapidly developed, the use of these yellow tail lamps was discontinued on all trains.
+
+MGR hopper decline and re-use
+The decline in the UK mining industry from the 1980s onwards made many of these wagons redundant. More of the type were replaced when EWS introduced a new batch of 1144 high-capacity bogie coal hoppers (HTA) from 2001. The last location to have coal delivered by MGR wagons was the Hope Cement Works in August 2010.
+Although many HAAs were scrapped for being worn out, over 1,000 have donated their underframes to be rebuilt as MHA lowsided box spoil wagons for infrastructure and general use. Conversions have been undertaken since 1997 and the new vehicles have been numbered in the 394001-394999 and 396000-396101 ranges.
+A batch of fifteen HAAs were rebuilt as china clay hoppers with a canvas roof (CDA), all but one of which were renumbered in the 375124-375137 range and the other being extant 353224 which is listed below.
+There were fourteen HAAs modified as MSA Scrap Hoppers in 2004 and renumbered in the 397000-397013 range. They proved to be a short-lived idea though, as the light alloy bodies took too much damage from rough use and were withdrawn and scrapped after only a few weeks of use.
+
+Extant examples
+There are now only four MGR hoppers still remaining on the network, excluding the examples that were successfully converted into china clay covered hoppers
+
+Scrapped Examples
+Whilst there were over 10,000 of the MGR wagons to begin with, there was only one notable scrapping after their official withdrawal in 2009 due to the wagon being scrapped in error at Newport Docks. The wagon was used as a static buffer on the main dock, however the scrap merchant cut up the wagon in error. This example would have been in line for preservation.
+
+Converted Examples
+The CDA was introduced in 1987-88 for English China Clay trains in Cornwall, with 124 wagons being built at Doncaster Works. These were given the design code CD002A and were largely based on the design of the HAA coal hopper wagon.
+A prototype was converted from a HAA, number 353224, which the National Wagon Preservation Group are custodians of, in 1987 by G Nevilles Ltd and given the design code CD001A. 
+A further 15 were rebuilt from HAA hoppers in 1989, of which three still survive to this day, as detailed in the table below
+
+Preservation
+Several examples have been preserved.
+
+The first MGR to be preserved was the Darlington-built prototype, HAA 350000, in October 1995 by the National Railway Museum (NRM).
+In 2011, The NRM secured the last-built MGR hopper (HDA 368459) and it was appropriately moved to its Shildon outpost in May of the same year.Notably, in 2014 an appeal was set up called The MGR Appeal to try and preserve another example, this being in the form of HMA 355798. After a successful appeal, it was saved for preservation from DB Schenker. It was formerly stored at their Immingham depot in Lincolnshire. In July 2015, the MGR Appeal was officially formed as National Wagon Preservation Group In May 2015, The Chasewater Railway secured three MGR hoppers from Mossend Yard (DBS) and moved them to Brownhills West station. In their statement, it was advised that these three MGRs were the "arrival of the first half of our HAA wagon fleet". The other three likely candidates are the three withdrawn in the Newport Docks area. Since then however, No.353934 which was stored off the tracks was cut up by accident, however the group is still intending to preserve the remaining two examples. The Chasewater and NWPG came together to create Project:MGR which is a collaborative effort to host the MGR wagons and run demonstration trains regularly to the public.
+As of 2023, the NWPG and Chasewater Railway have collectively acquired nine MGR wagons, of which eight are at the Chasewater in Brownhills, Staffordshire with 351500 at the Midland Railway Centre undergoing extansive repairs and a repaint.
+
+See also
+British carriage and wagon numbering and classification
+Kincardine power station
+
+References
+External links
+National Wagon Preservation Group

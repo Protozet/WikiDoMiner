@@ -1,0 +1,3053 @@
+A signal travelling along an electrical transmission line will be partly, or wholly, reflected back in the opposite direction when the travelling signal encounters a discontinuity in the characteristic impedance of the line, or if the far end of the line is not terminated in its characteristic impedance. This can happen, for instance, if two lengths of dissimilar transmission lines are joined.
+This article is about signal reflections on electrically conducting lines. Such lines are loosely referred to as copper lines, and indeed, in telecommunications are generally made from copper, but other metals are used, notably aluminium in power lines. Although this article is limited to describing reflections on conducting lines, this is essentially the same phenomenon as optical reflections in fibre-optic lines and microwave reflections in waveguides.
+Reflections cause several undesirable effects, including modifying frequency responses, causing overload power in transmitters and overvoltages on power lines. However, the reflection phenomenon can also be made use of in such devices as stubs and impedance transformers.  The special cases of open circuit and short circuit lines are of particular relevance to stubs.
+Reflections cause standing waves to be set up on the line.  Conversely, standing waves are an indication that reflections are present.  There is a relationship between the measures of reflection coefficient and standing wave ratio.
+
+Specific cases
+There are several approaches to understanding reflections, but the relationship of reflections to the conservation laws is particularly enlightening. A simple example is a step voltage, 
+  
+    
+      
+        V
+        
+        u
+        (
+        t
+        )
+      
+    
+    {\displaystyle V\,u(t)}
+   (where 
+  
+    
+      
+        V
+      
+    
+    {\displaystyle V}
+   is the height of the step and 
+  
+    
+      
+        u
+        (
+        t
+        )
+      
+    
+    {\displaystyle u(t)}
+   is the unit step function with time 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+  ), applied to one end of a lossless line, and consider what happens when the line is terminated in various ways. The step will be propagated down the line according to the telegrapher's equation at some velocity 
+  
+    
+      
+        κ
+      
+    
+    {\displaystyle \kappa }
+   and the incident voltage, 
+  
+    
+      
+        
+          v
+          
+            
+              i
+            
+          
+        
+      
+    
+    {\displaystyle v_{\mathrm {i} }}
+  , at some point 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+   on the line is given by
+
+  
+    
+      
+        
+          v
+          
+            
+              i
+            
+          
+        
+        =
+        V
+        
+        u
+        (
+        κ
+        
+        t
+        −
+        x
+        )
+        
+        
+      
+    
+    {\displaystyle v_{\mathrm {i} }=V\,u(\kappa \,t-x)\,\!}
+  The incident current, 
+  
+    
+      
+        
+          i
+          
+            
+              i
+            
+          
+        
+      
+    
+    {\displaystyle i_{\mathrm {i} }}
+  , can be found by dividing by the characteristic impedance, 
+  
+    
+      
+        
+          Z
+          
+            0
+          
+        
+      
+    
+    {\displaystyle Z_{0}}
+  
+
+  
+    
+      
+        
+          i
+          
+            
+              i
+            
+          
+        
+        =
+        
+          
+            
+              v
+              
+                
+                  i
+                
+              
+            
+            
+              Z
+              
+                0
+              
+            
+          
+        
+        =
+        I
+        
+        u
+        (
+        κ
+        
+        t
+        −
+        x
+        )
+      
+    
+    {\displaystyle i_{\mathrm {i} }={\frac {v_{\mathrm {i} }}{Z_{0}}}=I\,u(\kappa \,t-x)}
+
+Open circuit line
+The incident wave travelling down the line is not affected in any way by the open circuit at the end of the line. It cannot have any effect until the step actually reaches that point. The signal cannot have any foreknowledge of what is at the end of the line and is only affected by the local characteristics of the line. However, if the line is of length 
+  
+    
+      
+        ℓ
+      
+    
+    {\displaystyle \ell }
+   the step will arrive at the open circuit at time 
+  
+    
+      
+        t
+        =
+        ℓ
+        
+          /
+        
+        κ
+      
+    
+    {\displaystyle t=\ell /\kappa }
+  , at which point the current in the line is zero (by the definition of an open circuit). Since charge continues to arrive at the end of the line through the incident current, but no current is leaving the line, then conservation of electric charge requires that there must be an equal and opposite current into the end of the line. Essentially, this is Kirchhoff's current law in operation. This equal and opposite current is the reflected current, 
+  
+    
+      
+        
+          i
+          
+            
+              r
+            
+          
+        
+      
+    
+    {\displaystyle i_{\mathrm {r} }}
+  , and since
+
+  
+    
+      
+        
+          i
+          
+            
+              r
+            
+          
+        
+        =
+        
+          
+            
+              v
+              
+                
+                  r
+                
+              
+            
+            
+              Z
+              
+                0
+              
+            
+          
+        
+      
+    
+    {\displaystyle i_{\mathrm {r} }={\frac {v_{\mathrm {r} }}{Z_{0}}}}
+  there must also be a reflected voltage, 
+  
+    
+      
+        
+          v
+          
+            
+              r
+            
+          
+        
+      
+    
+    {\displaystyle v_{\mathrm {r} }}
+  , to drive the reflected current down the line. This reflected voltage must exist by reason of conservation of energy. The source is supplying energy to the line at a rate of 
+  
+    
+      
+        
+          v
+          
+            
+              i
+            
+          
+        
+        
+          i
+          
+            
+              i
+            
+          
+        
+      
+    
+    {\displaystyle v_{\mathrm {i} }i_{\mathrm {i} }}
+  . None of this energy is dissipated in the line or its termination and it must go somewhere. The only available direction is back up the line. Since the reflected current is equal in magnitude to the incident current, it must also be so that
+
+  
+    
+      
+        
+          v
+          
+            
+              r
+            
+          
+        
+        =
+        
+          v
+          
+            
+              i
+            
+          
+        
+        
+        
+      
+    
+    {\displaystyle v_{\mathrm {r} }=v_{\mathrm {i} }\,\!}
+  These two voltages will add to each other so that after the step has been reflected, twice the incident voltage appears across the output terminals of the line. As the reflection proceeds back up the line the reflected voltage continues to add to the incident voltage and the reflected current continues to subtract from the incident current. After a further interval of 
+  
+    
+      
+        t
+        =
+        ℓ
+        
+          /
+        
+        κ
+      
+    
+    {\displaystyle t=\ell /\kappa }
+   the reflected step arrives at the generator end and the condition of double voltage and zero current will pertain there also as well as all along the length of the line. If the generator is matched to the line with an impedance of 
+  
+    
+      
+        
+          Z
+          
+            0
+          
+        
+      
+    
+    {\displaystyle Z_{0}}
+   the step transient will be absorbed in the generator internal impedance and there will be no further reflections.
+
+This counter-intuitive doubling of voltage may become clearer if the circuit voltages are considered when the line is so short that it can be ignored for the purposes of analysis. The equivalent circuit of a generator matched to a load 
+  
+    
+      
+        
+          Z
+          
+            0
+          
+        
+      
+    
+    {\displaystyle Z_{0}}
+   to which it is delivering a voltage 
+  
+    
+      
+        V
+      
+    
+    {\displaystyle V}
+   can be represented as in figure 2. That is, the generator can be represented as an ideal voltage generator of twice the voltage it is to deliver and an internal impedance of 
+  
+    
+      
+        
+          Z
+          
+            0
+          
+        
+      
+    
+    {\displaystyle Z_{0}}
+  .
+
+However, if the generator is left open circuit, a voltage of 
+  
+    
+      
+        2
+        
+        V
+      
+    
+    {\displaystyle 2\,V}
+   appears at the generator output terminals as in figure 3. The same situation pertains if a very short transmission line is inserted between the generator and the open circuit. If, however, a longer line with a characteristic impedance of 
+  
+    
+      
+        
+          Z
+          
+            0
+          
+        
+      
+    
+    {\displaystyle Z_{0}}
+   and noticeable end-to-end delay is inserted, the generator – being initially matched to the impedance of the line – will have 
+  
+    
+      
+        V
+      
+    
+    {\displaystyle V}
+   at the output. But after an interval, a reflected transient will return from the end of the line with the "information" that the line is actually unterminated, and the voltage will become 
+  
+    
+      
+        2
+        
+        V
+      
+    
+    {\displaystyle 2\,V}
+   as before.
+
+Short circuit line
+The reflection from a short-circuited line can be described in similar terms to that from an open-circuited line. Just as in the open circuit case where the current must be zero at the end of the line, in the short circuit case the voltage must be zero since there can be no volts across a short circuit. Again, all of the energy must be reflected back up the line and the reflected voltage must be equal and opposite to the incident voltage by Kirchhoff's voltage law:
+
+  
+    
+      
+        
+          v
+          
+            
+              r
+            
+          
+        
+        =
+        −
+        
+          v
+          
+            
+              i
+            
+          
+        
+        
+        
+      
+    
+    {\displaystyle v_{\mathrm {r} }=-v_{\mathrm {i} }\,\!}
+  and
+
+  
+    
+      
+        
+          i
+          
+            
+              r
+            
+          
+        
+        =
+        −
+        
+          i
+          
+            
+              i
+            
+          
+        
+        
+        
+      
+    
+    {\displaystyle i_{\mathrm {r} }=-i_{\mathrm {i} }\,\!}
+  As the reflection travels back up the line, the two voltages subtract and cancel, while the currents will add (the reflection is double negative - a negative current traveling in the reverse direction), the dual situation to the open circuit case.
+
+Arbitrary impedance
+For the general case of a line terminated in some arbitrary impedance it is usual to describe the signal as a wave traveling down the line and analyse it in the frequency domain. The impedance is consequently represented as a frequency dependant complex function.
+For a line terminated in its own characteristic impedance there is no reflection. By definition, terminating in the characteristic impedance has the same effect as an infinitely long line. Any other impedance will result in a reflection. The magnitude of the reflection will be smaller than the magnitude of the incident wave if the terminating impedance is wholly or partly resistive since some of the energy of the incident wave will be absorbed in the resistance. The voltage (
+  
+    
+      
+        
+          V
+          
+            
+              o
+            
+          
+        
+      
+    
+    {\displaystyle V_{\mathrm {o} }}
+  ) across the terminating impedance (
+  
+    
+      
+        
+          Z
+          
+            
+              L
+            
+          
+        
+      
+    
+    {\displaystyle Z_{\mathrm {L} }}
+  ), may be calculated by replacing the output of the line with an equivalent generator (figure 4) and is given by
+
+  
+    
+      
+        
+          V
+          
+            
+              o
+            
+          
+        
+        =
+        2
+        
+        
+          V
+          
+            
+              i
+            
+          
+        
+        
+          
+            
+              Z
+              
+                
+                  L
+                
+              
+            
+            
+              
+                Z
+                
+                  
+                    0
+                  
+                
+              
+              +
+              
+                Z
+                
+                  
+                    L
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle V_{\mathrm {o} }=2\,V_{\mathrm {i} }{\frac {Z_{\mathrm {L} }}{Z_{\mathrm {0} }+Z_{\mathrm {L} }}}}
+  The reflection, 
+  
+    
+      
+        
+          V
+          
+            
+              r
+            
+          
+        
+      
+    
+    {\displaystyle V_{\mathrm {r} }}
+   must be the exact amount required to make 
+  
+    
+      
+        
+          V
+          
+            
+              i
+            
+          
+        
+        +
+        
+          V
+          
+            
+              r
+            
+          
+        
+        =
+        
+          V
+          
+            
+              o
+            
+          
+        
+      
+    
+    {\displaystyle V_{\mathrm {i} }+V_{\mathrm {r} }=V_{\mathrm {o} }}
+  ,
+
+  
+    
+      
+        
+          V
+          
+            
+              r
+            
+          
+        
+        =
+        
+          V
+          
+            
+              o
+            
+          
+        
+        −
+        
+          V
+          
+            
+              i
+            
+          
+        
+        =
+        2
+        
+        
+          V
+          
+            
+              i
+            
+          
+        
+        
+          
+            
+              Z
+              
+                
+                  L
+                
+              
+            
+            
+              
+                Z
+                
+                  
+                    0
+                  
+                
+              
+              +
+              
+                Z
+                
+                  
+                    L
+                  
+                
+              
+            
+          
+        
+        −
+        
+          V
+          
+            
+              i
+            
+          
+        
+        =
+        
+          V
+          
+            
+              i
+            
+          
+        
+        
+          
+            
+              
+                Z
+                
+                  
+                    L
+                  
+                
+              
+              −
+              
+                Z
+                
+                  
+                    0
+                  
+                
+              
+            
+            
+              
+                Z
+                
+                  
+                    L
+                  
+                
+              
+              +
+              
+                Z
+                
+                  
+                    0
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle V_{\mathrm {r} }=V_{\mathrm {o} }-V_{\mathrm {i} }=2\,V_{\mathrm {i} }{\frac {Z_{\mathrm {L} }}{Z_{\mathrm {0} }+Z_{\mathrm {L} }}}-V_{\mathrm {i} }=V_{\mathrm {i} }{\frac {Z_{\mathrm {L} }-Z_{\mathrm {0} }}{Z_{\mathrm {L} }+Z_{\mathrm {0} }}}}
+  The reflection coefficient,  
+  
+    
+      
+        
+          
+            Γ
+          
+        
+      
+    
+    {\displaystyle {\mathit {\Gamma }}}
+  , is defined as
+
+  
+    
+      
+        
+          
+            Γ
+          
+        
+        =
+        
+          
+            
+              
+              
+                V
+                
+                  
+                    r
+                  
+                
+              
+              
+            
+            
+              V
+              
+                
+                  i
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\mathit {\Gamma }}={\frac {\,V_{\mathrm {r} }\,}{V_{\mathrm {i} }}}}
+  and substituting in the expression for 
+  
+    
+      
+        
+          V
+          
+            
+              r
+            
+          
+        
+      
+    
+    {\displaystyle V_{\mathrm {r} }}
+  ,
+
+  
+    
+      
+        
+          
+            Γ
+          
+        
+        =
+        
+          
+            
+              V
+              
+                
+                  r
+                
+              
+            
+            
+              V
+              
+                
+                  i
+                
+              
+            
+          
+        
+        =
+        
+          
+            
+              I
+              
+                
+                  r
+                
+              
+            
+            
+              I
+              
+                
+                  i
+                
+              
+            
+          
+        
+        =
+        
+          
+            
+              
+                Z
+                
+                  
+                    L
+                  
+                
+              
+              −
+              
+                Z
+                
+                  
+                    0
+                  
+                
+              
+            
+            
+              
+                Z
+                
+                  
+                    L
+                  
+                
+              
+              +
+              
+                Z
+                
+                  
+                    0
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\mathit {\Gamma }}={\frac {V_{\mathrm {r} }}{V_{\mathrm {i} }}}={\frac {I_{\mathrm {r} }}{I_{\mathrm {i} }}}={\frac {Z_{\mathrm {L} }-Z_{\mathrm {0} }}{Z_{\mathrm {L} }+Z_{\mathrm {0} }}}}
+  In general 
+  
+    
+      
+        
+          
+            Γ
+          
+        
+      
+    
+    {\displaystyle {\mathit {\Gamma }}}
+   is a complex function but the above expression shows that the magnitude is limited to
+
+  
+    
+      
+        
+          |
+          
+            
+              
+                Γ
+              
+            
+            
+          
+          |
+        
+        ≤
+        1
+      
+    
+    {\displaystyle \left|{\mathit {\Gamma }}\,\right|\leq 1}
+   when 
+  
+    
+      
+        Re
+        ⁡
+        (
+        
+          Z
+          
+            
+              L
+            
+          
+        
+        )
+        ,
+        Re
+        ⁡
+        (
+        
+          Z
+          
+            0
+          
+        
+        )
+        >
+        0
+      
+    
+    {\displaystyle \operatorname {Re} (Z_{\mathrm {L} }),\operatorname {Re} (Z_{0})>0}
+  The physical interpretation of this is that the reflection cannot be greater than the incident wave when only passive elements are involved (but see negative resistance amplifier for an example where this condition does not hold). For the special cases described above,
+
+When both 
+  
+    
+      
+        
+          Z
+          
+            0
+          
+        
+      
+    
+    {\displaystyle Z_{0}}
+   and 
+  
+    
+      
+        
+          Z
+          
+            
+              L
+            
+          
+        
+      
+    
+    {\displaystyle Z_{\mathrm {L} }}
+   are purely resistive then 
+  
+    
+      
+        
+          
+            Γ
+          
+        
+      
+    
+    {\displaystyle {\mathit {\Gamma }}}
+   must be purely real. In the general case when 
+  
+    
+      
+        
+          
+            Γ
+          
+        
+      
+    
+    {\displaystyle {\mathit {\Gamma }}}
+   is complex, this is to be interpreted as a shift in phase of the reflected wave relative to the incident wave.
+
+Reactive termination
+Another special case occurs when 
+  
+    
+      
+        
+          Z
+          
+            0
+          
+        
+      
+    
+    {\displaystyle Z_{0}}
+   is purely real (
+  
+    
+      
+        
+          R
+          
+            0
+          
+        
+      
+    
+    {\displaystyle R_{0}}
+  ) and 
+  
+    
+      
+        
+          Z
+          
+            
+              L
+            
+          
+        
+      
+    
+    {\displaystyle Z_{\mathrm {L} }}
+   is purely imaginary (
+  
+    
+      
+        j
+        
+        
+          X
+          
+            
+              L
+            
+          
+        
+      
+    
+    {\displaystyle j\,X_{\mathrm {L} }}
+  ), that is, it is a reactance. In this case,
+
+  
+    
+      
+        
+          
+            Γ
+          
+        
+        =
+        
+          
+            
+              j
+              
+              
+                X
+                
+                  
+                    L
+                  
+                
+              
+              −
+              
+                R
+                
+                  
+                    0
+                  
+                
+              
+            
+            
+              j
+              
+              
+                X
+                
+                  
+                    L
+                  
+                
+              
+              +
+              
+                R
+                
+                  
+                    0
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\mathit {\Gamma }}={\frac {j\,X_{\mathrm {L} }-R_{\mathrm {0} }}{j\,X_{\mathrm {L} }+R_{\mathrm {0} }}}}
+  Since
+
+  
+    
+      
+        
+          |
+        
+        j
+        
+          X
+          
+            
+              L
+            
+          
+        
+        −
+        
+          R
+          
+            
+              0
+            
+          
+        
+        
+          |
+        
+        =
+        
+          |
+        
+        j
+        
+          X
+          
+            
+              L
+            
+          
+        
+        +
+        
+          R
+          
+            
+              0
+            
+          
+        
+        
+          |
+        
+        
+      
+    
+    {\displaystyle |jX_{\mathrm {L} }-R_{\mathrm {0} }|=|jX_{\mathrm {L} }+R_{\mathrm {0} }|\,}
+  then
+
+  
+    
+      
+        
+          |
+        
+        
+          
+            Γ
+          
+        
+        
+          |
+        
+        =
+        1
+        
+      
+    
+    {\displaystyle |{\mathit {\Gamma }}|=1\,}
+  showing that all the incident wave is reflected, and none of it is absorbed in the termination, as is to be expected from a pure reactance. There is, however, a change of phase, 
+  
+    
+      
+        θ
+      
+    
+    {\displaystyle \theta }
+  , in the reflection given by
+
+  
+    
+      
+        θ
+        =
+        
+          
+            {
+            
+              
+                
+                  π
+                  −
+                  2
+                  
+                  arctan
+                  ⁡
+                  
+                    
+                      
+                        X
+                        
+                          
+                            L
+                          
+                        
+                      
+                      
+                        R
+                        
+                          
+                            0
+                          
+                        
+                      
+                    
+                  
+                
+                
+                  
+                    
+                      if 
+                    
+                  
+                  
+                    
+                      X
+                      
+                        
+                          L
+                        
+                      
+                    
+                  
+                  >
+                  0
+                
+              
+              
+                
+                  −
+                  π
+                  −
+                  2
+                  
+                  arctan
+                  ⁡
+                  
+                    
+                      
+                        X
+                        
+                          
+                            L
+                          
+                        
+                      
+                      
+                        R
+                        
+                          
+                            0
+                          
+                        
+                      
+                    
+                  
+                
+                
+                  
+                    
+                      if 
+                    
+                  
+                  
+                    
+                      X
+                      
+                        
+                          L
+                        
+                      
+                    
+                  
+                  <
+                  0
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle \theta ={\begin{cases}\pi -2\,\arctan {\frac {X_{\mathrm {L} }}{R_{\mathrm {0} }}}&{\mbox{if }}{X_{\mathrm {L} }}>0\\-\pi -2\,\arctan {\frac {X_{\mathrm {L} }}{R_{\mathrm {0} }}}&{\mbox{if }}{X_{\mathrm {L} }}<0\\\end{cases}}}
+
+Discontinuity along line
+A discontinuity, or mismatch, somewhere along the length of the line results in part of the incident wave being reflected and part being transmitted onward in the second section of line as shown in figure 5. The reflection coefficient in this case is given by
+
+  
+    
+      
+        
+          
+            Γ
+          
+        
+        =
+        
+          
+            
+              
+              
+                Z
+                
+                  02
+                
+              
+              −
+              
+                Z
+                
+                  01
+                
+              
+              
+              
+            
+            
+              
+                Z
+                
+                  02
+                
+              
+              +
+              
+                Z
+                
+                  01
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\mathit {\Gamma }}={\frac {\,Z_{02}-Z_{01}\,\,}{Z_{02}+Z_{01}}}}
+  In a similar manner, a transmission coefficient, 
+  
+    
+      
+        T
+      
+    
+    {\displaystyle T}
+  , can be defined to describe the portion of the wave, 
+  
+    
+      
+        
+          V
+          
+            
+              t
+            
+          
+        
+      
+    
+    {\displaystyle V_{\mathrm {t} }}
+  , that it is transmitted in the forward direction:
+
+  
+    
+      
+        T
+        =
+        
+          
+            
+              V
+              
+                
+                  t
+                
+              
+            
+            
+              V
+              
+                
+                  i
+                
+              
+            
+          
+        
+        =
+        
+          
+            
+              2
+              
+              
+                Z
+                
+                  02
+                
+              
+            
+            
+              
+              
+                Z
+                
+                  02
+                
+              
+              +
+              
+                Z
+                
+                  01
+                
+              
+              
+              
+            
+          
+        
+      
+    
+    {\displaystyle T={\frac {V_{\mathrm {t} }}{V_{\mathrm {i} }}}={\frac {2\,Z_{02}}{\,Z_{02}+Z_{01}\,\,}}}
+  
+Another kind of discontinuity is caused when both sections of line have an identical characteristic impedance but there is a lumped element, 
+  
+    
+      
+        
+          Z
+          
+            
+              L
+            
+          
+        
+      
+    
+    {\displaystyle Z_{\mathrm {L} }}
+  , at the discontinuity. For the example shown (figure 6) of a shunt lumped element,
+
+  
+    
+      
+        
+          
+            Γ
+          
+        
+        =
+        
+          
+            
+              −
+              
+                Z
+                
+                  0
+                
+              
+            
+            
+              
+              
+                Z
+                
+                  0
+                
+              
+              +
+              2
+              
+              
+                Z
+                
+                  
+                    L
+                  
+                
+              
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\mathit {\Gamma }}={\frac {-Z_{0}}{\,Z_{0}+2\,Z_{\mathrm {L} }\,}}}
+   
+
+  
+    
+      
+        T
+        =
+        
+          
+            
+              2
+              
+              
+                Z
+                
+                  
+                    L
+                  
+                
+              
+            
+            
+              
+              
+                Z
+                
+                  0
+                
+              
+              +
+              2
+              
+              
+                Z
+                
+                  
+                    L
+                  
+                
+              
+              
+            
+          
+        
+      
+    
+    {\displaystyle T={\frac {2\,Z_{\mathrm {L} }}{\,Z_{0}+2\,Z_{\mathrm {L} }\,}}}
+   Similar expressions can be developed for a series element, or any electrical network for that matter.
+
+Networks
+Reflections in more complex scenarios, such as found on a network of cables, can result in very complicated and long lasting waveforms on the cable. Even a simple overvoltage pulse entering a cable system as uncomplicated as the power wiring found in a typical private home can result in an oscillatory disturbance as the pulse is reflected to and from multiple circuit ends. These ring waves as they are known persist for far longer than the original pulse and their waveforms bears little obvious resemblance to the original disturbance, containing high frequency components in the tens of MHz range.
+
+Standing waves
+For a transmission line carrying sinusoidal waves, the phase of the reflected wave is continually changing with distance, with respect to the incident wave, as it proceeds back down the line. Because of this continuous change there are certain points on the line that the reflection will be in phase with the incident wave and the amplitude of the two waves will add. There will be other points where the two waves are in anti-phase and will consequently subtract. At these latter points the amplitude is at a minimum and they are known as nodes. If the incident wave has been totally reflected and the line is lossless, there will be complete cancellation at the nodes with zero signal present there despite the ongoing transmission of waves in both directions. The points where the waves are in phase are anti-nodes and represent a peak in amplitude. Nodes and anti-nodes alternate along the line and the combined wave amplitude varies continuously between them. The combined (incident plus reflected) wave appears to be standing still on the line and is called a standing wave.The incident wave can be characterised in terms of the line's propagation constant 
+  
+    
+      
+        γ
+      
+    
+    {\displaystyle \gamma }
+  , source voltage 
+  
+    
+      
+        V
+      
+    
+    {\displaystyle V}
+  , and distance from the source 
+  
+    
+      
+        
+          x
+          ′
+        
+      
+    
+    {\displaystyle x'}
+  , by
+
+  
+    
+      
+        
+          V
+          
+            
+              i
+            
+          
+        
+        =
+        V
+        
+        
+          e
+          
+            −
+            γ
+            
+            
+              x
+              ′
+            
+          
+        
+        
+        
+      
+    
+    {\displaystyle V_{\mathrm {i} }=V\,e^{-\gamma \,x'}\,\!}
+  However, it is often more convenient to work in terms of distance from the load (
+  
+    
+      
+        x
+        =
+        ℓ
+        −
+        
+          x
+          ′
+        
+      
+    
+    {\displaystyle x=\ell -x'}
+  ) and the incident voltage that has arrived there (
+  
+    
+      
+        
+          V
+          
+            
+              i
+              L
+            
+          
+        
+      
+    
+    {\displaystyle V_{\mathsf {iL}}}
+  ).
+
+  
+    
+      
+        
+          V
+          
+            
+              i
+            
+          
+        
+        =
+        
+          V
+          
+            
+              i
+              L
+            
+          
+        
+        
+        
+          e
+          
+            γ
+            
+            x
+          
+        
+        
+        
+      
+    
+    {\displaystyle V_{\mathrm {i} }=V_{\mathsf {iL}}\,e^{\gamma \,x}\,\!}
+  The negative sign is absent because 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+   is measured in the reverse direction back up the line and the voltage is increasing closer to the source. Likewise the reflected voltage is given by
+
+  
+    
+      
+        
+          V
+          
+            
+              r
+            
+          
+        
+        =
+        
+          
+            Γ
+          
+        
+        
+        
+          V
+          
+            
+              i
+              L
+            
+          
+        
+        
+        
+          e
+          
+            −
+            γ
+            
+            x
+          
+        
+         
+        .
+      
+    
+    {\displaystyle V_{\mathsf {r}}={\mathit {\Gamma }}\,V_{\mathsf {iL}}\,e^{-\gamma \,x}~.}
+  The total voltage on the line is given by
+
+  
+    
+      
+        
+          V
+          
+            
+              T
+            
+          
+        
+        =
+        
+          V
+          
+            
+              i
+            
+          
+        
+        +
+        
+          V
+          
+            
+              r
+            
+          
+        
+        =
+        
+          V
+          
+            
+              i
+              L
+            
+          
+        
+        
+        
+          (
+          
+            
+              e
+              
+                γ
+                
+                x
+              
+            
+            +
+            
+              
+                Γ
+              
+            
+            
+            
+              e
+              
+                −
+                γ
+                
+                x
+              
+            
+          
+          )
+        
+         
+        .
+      
+    
+    {\displaystyle V_{\mathsf {T}}=V_{\mathsf {i}}+V_{\mathsf {r}}=V_{\mathsf {iL}}\,\left(e^{\gamma \,x}+{\mathit {\Gamma }}\,e^{-\gamma \,x}\right)~.}
+  It is often convenient to express this in terms of hyperbolic functions
+
+  
+    
+      
+        
+          V
+          
+            
+              T
+            
+          
+        
+        =
+        
+          V
+          
+            
+              i
+              L
+            
+          
+        
+        
+        
+          [
+          
+            
+            
+              (
+              
+                1
+                +
+                
+                  
+                    Γ
+                  
+                
+                
+              
+              )
+            
+            
+            cosh
+            ⁡
+            (
+            γ
+            
+            x
+            )
+            +
+            
+              (
+              
+                1
+                −
+                
+                  
+                    Γ
+                  
+                
+                
+              
+              )
+            
+            
+            sinh
+            ⁡
+            (
+            γ
+            
+            x
+            )
+            
+          
+          ]
+        
+         
+        .
+      
+    
+    {\displaystyle V_{\mathsf {T}}=V_{\mathsf {iL}}\,\left[\,\left(1+{\mathit {\Gamma }}\,\right)\,\cosh(\gamma \,x)+\left(1-{\mathit {\Gamma }}\,\right)\,\sinh(\gamma \,x)\,\right]~.}
+  Similarly, the total current on the line is
+
+  
+    
+      
+        
+          I
+          
+            
+              T
+            
+          
+        
+        =
+        
+          I
+          
+            
+              i
+              L
+            
+          
+        
+        
+        
+          [
+          
+            
+            (
+            1
+            −
+            
+              
+                Γ
+              
+            
+            
+            )
+            
+            cosh
+            ⁡
+            (
+            γ
+            
+            x
+            )
+            +
+            (
+            1
+            +
+            
+              
+                Γ
+              
+            
+            
+            )
+            
+            sinh
+            ⁡
+            (
+            γ
+            
+            x
+            )
+            
+          
+          ]
+        
+         
+        .
+      
+    
+    {\displaystyle I_{\mathsf {T}}=I_{\mathsf {iL}}\,\left[\,(1-{\mathit {\Gamma }}\,)\,\cosh(\gamma \,x)+(1+{\mathit {\Gamma }}\,)\,\sinh(\gamma \,x)\,\right]~.}
+  The voltage nodes (current nodes are not at the same locations) and anti-nodes occur when
+
+  
+    
+      
+        
+          
+            
+              ∂
+              
+                |
+                
+                  V
+                  
+                    
+                      T
+                    
+                  
+                
+                |
+              
+            
+            
+              ∂
+              x
+            
+          
+        
+        =
+        0
+         
+        .
+      
+    
+    {\displaystyle {\frac {\partial \left|V_{\mathsf {T}}\right|}{\partial x}}=0~.}
+  Because of the absolute value bars, the general case  analytical solution is tiresomely complicated, but in the case of lossless lines (or lines that are short enough that the losses can be neglected) 
+  
+    
+      
+        γ
+      
+    
+    {\displaystyle \gamma }
+   can be replaced by 
+  
+    
+      
+        j
+        
+        β
+      
+    
+    {\displaystyle j\,\beta }
+   where 
+  
+    
+      
+        β
+      
+    
+    {\displaystyle \beta }
+   is the phase change constant. The voltage equation then reduces to trigonometric functions
+
+  
+    
+      
+        
+          V
+          
+            
+              T
+            
+          
+        
+        =
+        
+          V
+          
+            
+              i
+              L
+            
+          
+        
+        
+        
+          [
+          
+            
+            (
+            1
+            +
+            
+              
+                Γ
+              
+            
+            
+            )
+            
+            cos
+            ⁡
+            (
+            β
+            
+            x
+            )
+            +
+            j
+            
+            
+              (
+              
+                1
+                −
+                
+                  
+                    Γ
+                  
+                
+                
+              
+              )
+            
+            
+            sin
+            ⁡
+            (
+            β
+            
+            x
+            )
+            
+          
+          ]
+        
+         
+        ,
+      
+    
+    {\displaystyle V_{\mathsf {T}}=V_{\mathsf {iL}}\,\left[\,(1+{\mathit {\Gamma }}\,)\,\cos(\beta \,x)+j\,\left(1-{\mathit {\Gamma }}\,\right)\,\sin(\beta \,x)\,\right]~,}
+  and the partial differential of the magnitude of this yields the condition,
+
+  
+    
+      
+        −
+        2
+        
+        
+          
+            
+              I
+              
+                m
+              
+            
+          
+        
+        ⁡
+        {
+        
+        
+          
+            Γ
+          
+        
+        
+        }
+        =
+        tan
+        ⁡
+        (
+        2
+        
+        β
+        
+        x
+        )
+         
+        .
+      
+    
+    {\displaystyle -2\,\operatorname {\mathcal {I_{m}}} \{\,{\mathit {\Gamma }}\,\}=\tan(2\,\beta \,x)~.}
+  Expressing 
+  
+    
+      
+        β
+      
+    
+    {\displaystyle \beta }
+   in terms of wavelength, 
+  
+    
+      
+        λ
+      
+    
+    {\displaystyle \lambda }
+  , allows 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+   to be solved in terms of 
+  
+    
+      
+        λ
+      
+    
+    {\displaystyle \lambda }
+  :
+
+  
+    
+      
+        −
+        2
+        
+        
+          
+            
+              I
+              
+                m
+              
+            
+          
+        
+        ⁡
+        {
+        
+        
+          
+            Γ
+          
+        
+        
+        }
+        =
+        tan
+        ⁡
+        
+          (
+          
+            
+              
+                
+                  
+                  4
+                  
+                  π
+                  
+                
+                λ
+              
+            
+            
+            x
+          
+          )
+        
+         
+        .
+      
+    
+    {\displaystyle -2\,\operatorname {\mathcal {I_{m}}} \{\,{\mathit {\Gamma }}\,\}=\tan \left({\frac {\,4\,\pi \,}{\lambda }}\,x\right)~.}
+  
+  
+    
+      
+        
+          
+            Γ
+          
+        
+      
+    
+    {\displaystyle {\mathit {\Gamma }}}
+   is purely real when the termination is short circuit or open circuit, or when both 
+  
+    
+      
+        
+          Z
+          
+            0
+          
+        
+      
+    
+    {\displaystyle Z_{0}}
+   and 
+  
+    
+      
+        
+          Z
+          
+            
+              L
+            
+          
+        
+      
+    
+    {\displaystyle Z_{\mathrm {L} }}
+   are purely resistive. In those cases the nodes and anti-nodes are given by
+
+  
+    
+      
+        tan
+        ⁡
+        
+          (
+          
+            
+            
+              
+                
+                  4
+                  
+                  π
+                  
+                
+                λ
+              
+            
+            
+            x
+          
+          )
+        
+        =
+        0
+         
+        ,
+      
+    
+    {\displaystyle \tan \left(\,{\frac {4\,\pi \,}{\lambda }}\,x\right)=0~,}
+  which solves for 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+   at
+
+  
+    
+      
+        x
+        =
+        0
+        ,
+         
+         
+        
+          
+            
+              1
+              4
+            
+          
+        
+        λ
+        ,
+         
+         
+        
+          
+            
+              1
+              2
+            
+          
+        
+        λ
+        ,
+         
+         
+        
+          
+            
+              3
+              4
+            
+          
+        
+        λ
+        ,
+         
+        …
+         
+        .
+      
+    
+    {\displaystyle x=0,~~{\tfrac {1}{4}}\lambda ,~~{\tfrac {1}{2}}\lambda ,~~{\tfrac {3}{4}}\lambda ,~\dots ~.}
+  For 
+  
+    
+      
+        
+          R
+          
+            
+              L
+            
+          
+        
+        <
+        
+          R
+          
+            0
+          
+        
+      
+    
+    {\displaystyle R_{\mathrm {L} }<R_{0}}
+   the first point is a node, for 
+  
+    
+      
+        
+          R
+          
+            
+              L
+            
+          
+        
+        >
+        
+          R
+          
+            0
+          
+        
+      
+    
+    {\displaystyle R_{\mathrm {L} }>R_{0}}
+   the first point is an anti-node and thereafter they will alternate. For terminations that are not purely resistive the spacing and alternation remain the same but the whole pattern is shifted along the line by a constant amount related to the phase of 
+  
+    
+      
+        
+          
+            Γ
+          
+        
+      
+    
+    {\displaystyle {\mathit {\Gamma }}}
+  .
+
+Voltage standing wave ratio
+The ratio of 
+  
+    
+      
+        
+          |
+        
+        
+          V
+          
+            
+              T
+            
+          
+        
+        
+          |
+        
+      
+    
+    {\displaystyle |V_{\mathsf {T}}|}
+   at anti-nodes and nodes is called the voltage standing wave ratio (VSWR) and is related to the reflection coefficient by
+
+  
+    
+      
+        
+          
+            V
+            S
+            W
+            R
+          
+        
+        =
+        
+          
+            
+              1
+              +
+              
+                |
+                
+                  
+                    
+                      Γ
+                    
+                  
+                  
+                
+                |
+              
+            
+            
+              1
+              −
+              
+                |
+                
+                  
+                    
+                      Γ
+                    
+                  
+                  
+                
+                |
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\mathsf {VSWR}}={\frac {1+\left|{\mathit {\Gamma }}\,\right|}{1-\left|{\mathit {\Gamma }}\,\right|}}}
+  for a lossless line; the expression for the current standing wave ratio (ISWR) is identical in this case. For a lossy line the expression is only valid adjacent to the termination; VSWR asymptotically approaches unity with distance from the termination or discontinuity.
+VSWR and the positions of the nodes are parameters that can be directly measured with an instrument called a slotted line. This instrument makes use of the reflection phenomenon to make many different measurements at microwave frequencies. One use is that VSWR and node position can be used to calculate the impedance of a test component terminating the slotted line. This is a useful method because measuring impedances by directly measuring voltages and currents is difficult at these frequencies.VSWR is the conventional means of expressing the match of a radio transmitter to its antenna. It is an important parameter because power reflected back into a high power transmitter can damage its output circuitry.
+
+Input impedance
+The input impedance looking into a transmission line which is not terminated with its characteristic impedance at the far end will be something other than 
+  
+    
+      
+        
+          Z
+          
+            0
+          
+        
+      
+    
+    {\displaystyle Z_{0}}
+   and will be a function of the length of the line. The value of this impedance can be found by dividing the expression for total voltage by the expression for total current given above:
+
+  
+    
+      
+        
+          Z
+          
+            
+              i
+              n
+            
+          
+        
+        =
+        
+          
+            
+              V
+              
+                
+                  T
+                
+              
+            
+            
+              I
+              
+                
+                  T
+                
+              
+            
+          
+        
+        =
+        
+          Z
+          
+            0
+          
+        
+        
+          
+            
+              (
+              1
+              +
+              
+                
+                  Γ
+                
+              
+              
+              )
+              cosh
+              ⁡
+              (
+              γ
+              
+              x
+              )
+              +
+              (
+              1
+              −
+              
+                
+                  Γ
+                
+              
+              
+              )
+              
+              sinh
+              ⁡
+              (
+              γ
+              
+              x
+              )
+            
+            
+              (
+              1
+              −
+              
+                
+                  Γ
+                
+              
+              
+              )
+              
+              cosh
+              ⁡
+              (
+              γ
+              
+              x
+              )
+              +
+              (
+              1
+              +
+              
+                
+                  Γ
+                
+              
+              
+              )
+              
+              sinh
+              ⁡
+              (
+              γ
+              
+              x
+              )
+            
+          
+        
+      
+    
+    {\displaystyle Z_{\mathrm {in} }={\frac {V_{\mathrm {T} }}{I_{\mathrm {T} }}}=Z_{0}{\frac {(1+{\mathit {\Gamma }}\,)\cosh(\gamma \,x)+(1-{\mathit {\Gamma }}\,)\,\sinh(\gamma \,x)}{(1-{\mathit {\Gamma }}\,)\,\cosh(\gamma \,x)+(1+{\mathit {\Gamma }}\,)\,\sinh(\gamma \,x)}}}
+  Substituting 
+  
+    
+      
+        x
+        =
+        ℓ
+      
+    
+    {\displaystyle x=\ell }
+  , the length of the line and dividing through by 
+  
+    
+      
+        (
+        1
+        +
+        
+          
+            Γ
+          
+        
+        
+        )
+        cosh
+        ⁡
+        (
+        γ
+        
+        x
+        )
+      
+    
+    {\displaystyle (1+{\mathit {\Gamma }}\,)\cosh(\gamma \,x)}
+   reduces this to
+
+  
+    
+      
+        
+          Z
+          
+            
+              i
+              n
+            
+          
+        
+        =
+        
+          Z
+          
+            0
+          
+        
+        
+          
+            
+              
+                Z
+                
+                  
+                    L
+                  
+                
+              
+              +
+              
+                Z
+                
+                  0
+                
+              
+              tanh
+              ⁡
+              (
+              γ
+              
+              ℓ
+              )
+            
+            
+              
+                Z
+                
+                  0
+                
+              
+              +
+              
+                Z
+                
+                  
+                    L
+                  
+                
+              
+              tanh
+              ⁡
+              (
+              γ
+              
+              ℓ
+              )
+            
+          
+        
+      
+    
+    {\displaystyle Z_{\mathrm {in} }=Z_{0}{\frac {Z_{\mathrm {L} }+Z_{0}\tanh(\gamma \,\ell )}{Z_{0}+Z_{\mathrm {L} }\tanh(\gamma \,\ell )}}}
+  As before, when considering just short pieces of transmission line, 
+  
+    
+      
+        γ
+      
+    
+    {\displaystyle \gamma }
+   can be replaced by 
+  
+    
+      
+        j
+        
+        β
+      
+    
+    {\displaystyle j\,\beta }
+   and the expression reduces to trigonometric functions
+
+  
+    
+      
+        
+          Z
+          
+            
+              i
+              n
+            
+          
+        
+        =
+        
+          Z
+          
+            0
+          
+        
+        
+          
+            
+              
+                Z
+                
+                  
+                    L
+                  
+                
+              
+              +
+              j
+              
+              
+                Z
+                
+                  0
+                
+              
+              tan
+              ⁡
+              (
+              β
+              
+              ℓ
+              )
+            
+            
+              
+                Z
+                
+                  0
+                
+              
+              +
+              j
+              
+              
+                Z
+                
+                  
+                    L
+                  
+                
+              
+              tan
+              ⁡
+              (
+              β
+              
+              ℓ
+              )
+            
+          
+        
+      
+    
+    {\displaystyle Z_{\mathrm {in} }=Z_{0}{\frac {Z_{\mathrm {L} }+j\,Z_{0}\tan(\beta \,\ell )}{Z_{0}+j\,Z_{\mathrm {L} }\tan(\beta \,\ell )}}}
+
+Applications
+There are two structures that are of particular importance which use reflected waves to modify impedance. One is the stub which is a short length of line terminated in a short circuit (or it can be an open circuit). This produces a purely imaginary impedance at its input, that is, a reactance
+
+  
+    
+      
+        
+          X
+          
+            
+              i
+              n
+            
+          
+        
+        =
+        
+          Z
+          
+            0
+          
+        
+        tan
+        ⁡
+        (
+        β
+        
+        ℓ
+        )
+        
+        
+      
+    
+    {\displaystyle X_{\mathrm {in} }=Z_{0}\tan(\beta \,\ell )\,\!}
+  By suitable choice of length, the stub can be used in place of a capacitor, an inductor or a resonant circuit.The other structure is the quarter wave impedance transformer. As its name suggests, this is a line exactly 
+  
+    
+      
+        λ
+        
+          /
+        
+        4
+      
+    
+    {\displaystyle \lambda /4}
+   in length. Since 
+  
+    
+      
+        β
+        ℓ
+        =
+        π
+        
+          /
+        
+        2
+      
+    
+    {\displaystyle \beta \ell =\pi /2}
+   this will produce the inverse of its terminating impedance
+
+  
+    
+      
+        
+          Z
+          
+            
+              i
+              n
+            
+          
+        
+        =
+        
+          
+            
+              
+                
+                  Z
+                  
+                    0
+                  
+                
+              
+              
+                2
+              
+            
+            
+              Z
+              
+                
+                  L
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle Z_{\mathrm {in} }={\frac {{Z_{0}}^{2}}{Z_{\mathrm {L} }}}}
+  Both of these structures are widely used in distributed element filters and impedance matching networks.
+
+See also
+Attenuation distortion
+Antenna tuner
+Fresnel reflection
+Lecher lines
+Time-domain reflectometry
+Space cloth
+Smith Chart
+
+Citations
+References
+Bowick, Christopher; Ajluni, Cheryl; Blyler, John, RF Circuit Design, Newnes, 2011 ISBN 0-08-055342-7.
+Carr, Joseph J., Practical antenna handbook, McGraw-Hill Professional, 2001 ISBN 0-07-137435-3.
+Connor, F.R., Wave Transmission, Edward Arnold Ltd., 1972 ISBN 0-7131-3278-7.
+Engen, Glenn F., Microwave circuit theory and foundations of microwave metrology, IET, 1992 ISBN 0-86341-287-4.
+Matthaei, G.; Young, L.; Jones, E. M. T., Microwave Filters, Impedance-Matching Networks, and Coupling Structures McGraw-Hill 1964.
+Pai, S. T.; Zhang, Qi, Introduction to high power pulse technology, World Scientific, 1995 ISBN 981-02-1714-5.
+Standler, Ronald B., Protection of Electronic Circuits from Overvoltages, Courier Dover Publications, 2002 ISBN 0-486-42552-5.

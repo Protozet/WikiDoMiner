@@ -1,0 +1,5 @@
+The Pixel Imaging Mass Spectrometry camera (PImMS) is an ultrafast imaging sensor designed for time-of-flight particle imaging. It was invented by professors of chemistry at the University of Oxford, Mark Brouard and Claire Vallance., Renato Turchetta from IMASENIC (formerly at the STFC Rutherford Appleton Laboratory), and Andrei Nomerotski from Brookhaven National Labs (formerly at the Department of Physics, University of Oxford).  The camera and accompanying software have been further developed by Iain Sedgwick (STFC Rutherford Appleton Laboratory), Jaya John John (Department of Physics, University of Oxford), and Jason Lee (Department of Chemistry, University of Oxford).  The camera has been used for studies in chemical reaction dynamics, imaging mass spectrometry, and neutron time-of-flight imaging.
+
+References
+External links
+University of Oxford (15 July 2015). "The Fastest Camera in the World: the PImMS sensor". YouTube. Retrieved 20 December 2017.

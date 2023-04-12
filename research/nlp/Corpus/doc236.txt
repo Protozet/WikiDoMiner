@@ -1,0 +1,8 @@
+In telecommunication, a hop is a portion of a signal's journey from source to receiver. Examples include:
+
+The excursion of a radio wave from the Earth to the ionosphere and back to the Earth.  The number of hops indicates the number of reflections from the ionosphere.
+A similar excursion from an earth station to a communications satellite to another station, counted similarly except that if the return trip is not by satellite, then it is only a half hop.In computer networks, a hop is the step from one network segment to the next.
+
+References
+
+ This article incorporates public domain material from Federal Standard 1037C. General Services Administration. (in support of MIL-STD-188).

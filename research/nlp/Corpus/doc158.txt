@@ -1,0 +1,105 @@
+The Apollo program used several television cameras in its space missions in the late 1960s and 1970s; some of these Apollo TV cameras were also used on the later Skylab and Apollo–Soyuz Test Project missions. These cameras varied in design, with image quality improving significantly with each successive model. Two companies made these various camera systems: RCA and Westinghouse. Originally, these slow-scan television (SSTV) cameras, running at 10 frames per second (fps), produced only black-and-white pictures and first flew on the Apollo 7 mission in October 1968. A color camera – using a field-sequential color system – flew on the Apollo 10 mission in May 1969, and every mission after that. The color camera ran at the North American standard 30 fps.  The cameras all used image pickup tubes that were initially fragile, as one was irreparably damaged during the live broadcast of the Apollo 12 mission's first moonwalk. Starting with the Apollo 15 mission, a more robust, damage-resistant camera was used on the lunar surface. All of these cameras required signal processing back on Earth to make the frame rate and color encoding compatible with analog broadcast television standards.
+Starting with Apollo 7, a camera was carried on every Apollo command module (CM) except Apollo 9.  For each lunar landing mission, a camera was also placed inside the Apollo Lunar Module (LM) descent stage's modularized equipment stowage assembly (MESA). Positioning the camera in the MESA made it possible to telecast the astronauts' first steps as they climbed down the LM's ladder at the start of a mission's first moonwalk/EVA. Afterwards, the camera would be detached from its mount in the MESA, mounted on a tripod and carried away from the LM to show the EVA's progress; or, mounted on a Lunar Roving Vehicle (LRV), where it could be remotely controlled from Mission Control on Earth.
+
+RCA command module TV camera
+Development
+NASA decided on initial specifications for TV on the Apollo command module (CM) in 1962. Both analog and digital transmission techniques were studied, but the early digital systems still used more bandwidth than an analog approach: 20 MHz for the digital system, compared to 500 kHz for the analog system. The video standard for the Block I CM meant that the analog video standard for early Apollo missions was set as follows: monochrome signal, with 320 active scan lines, and progressively scanned at 10 frames per second (fps). RCA was given the contract to manufacture such a camera. It was understood at the time that motion fidelity from such a slow-scan television system (SSTV) would be less than standard commercial television systems, but deemed sufficient considering that astronauts would not be moving quickly in orbit, or even on the Lunar surface.
+
+Video signal processing
+Since the camera's scan rate was much lower than the approximately 30 fps for NTSC video, the television standard used in North America at the time, a real-time scan conversion was needed to be able to show its images on a regular TV set. NASA selected a scan converter manufactured by RCA to convert the black-and-white SSTV signals from the Apollo 7, 8, 9, and 11 missions.When the Apollo TV camera radioed its images, the ground stations received its raw unconverted SSTV signal and split it into two branches. One signal branch was sent unprocessed to a fourteen-track analog data tape recorder where it was recorded onto fourteen-inch diameter reels of one-inch-wide analog magnetic data tapes at 3.04 meters per second. The other raw SSTV signal branch was sent to the RCA scan converter where it would be processed into an NTSC broadcast television signal.The conversion process started when the signal was sent to the RCA converter's high-quality 10-inch video monitor where a conventional RCA TK-22 television camera – using the NTSC broadcast standard of 525 scanned lines interlaced at 30 fps – merely re-photographed its screen. The monitor had persistent phosphors, that acted as a primitive framebuffer. An analog disk recorder, based on the Ampex HS-100 model, was used to record the first field from the camera. It then fed that field, and an appropriately time-delayed copy of the first field, to the NTSC field interlace switch (encoder). The combined original and copied fields created the first full 525-line interlaced frame and the signal was then sent to Houston. It repeated this sequence five more times, until the system imaged the next SSTV frame. It then repeated the whole process with each new frame downloaded from space in real time. In this way, the chain produced the extra 20 frames per second needed to produce flicker-free images to the world's television broadcasters.This live conversion was crude compared to early 21st-century electronic digital conversion techniques. Image degradation was unavoidable with this system as the monitor and camera's optical limitations significantly lowered the original SSTV signal's contrast, brightness and resolution. The video seen on home television sets was further degraded by the very long and noisy analog transmission path. The converted signal was sent by satellite from the receiving ground stations to Houston, Texas. Then the network pool feed was sent by microwave relay to New York, where it was broadcast live to the United States and the world.
+
+Operational history
+Apollo 7 and Apollo 8 used an RCA slow-scan, black-and-white camera. On Apollo 7, the camera could be fitted with either a wide angle 160-degree lens, or a telephoto lens with a 9-degree angle of view. The camera did not have a viewfinder or a monitor, so astronauts needed help from Mission Control when aiming the camera in telephoto mode.
+
+Specifications
+The camera used interchangeable lenses, including a wide-angle lens with a 160-degree field-of-view, and a 100 mm telephoto lens.Camera
+
+Westinghouse Apollo lunar television camera
+Development
+In October 1964, NASA awarded Westinghouse the contract for the lunar TV camera. Stan Lebar, the program manager for the Apollo lunar TV camera, headed the team at Westinghouse that developed the camera that brought pictures from the Moon's surface.
+The camera had to be designed to survive extreme temperature differences on the lunar surface, ranging from 121 °C (250 °F) in daylight to −157 °C (−251 °F) in the shade. Another requirement was to be able to keep the power to approximately 7 watts, and fit the signal into the narrow bandwidth on the LM's S-band antenna, which was much smaller and less powerful than the service module's antenna.
+
+Operational history
+The camera was first tested in space during the Apollo 9 mission in March 1969. The camera was stowed in the LM, and it used the LM's communications systems to evaluate their performance before lunar operations began. This meant that the CM did not carry a video camera for this mission. It was next used on Apollo 11, carried in the LM's descent stage, in the quad 4 Modularized Equipment Stowage Assembly (MESA). It was from the MESA where it captured humanity's first step on another celestial body on 21 July 1969. Apollo 11 would be the first and last time the camera was used on the Lunar surface; however, it flew as a backup camera on the Apollo missions from Apollo 13 to Apollo 16, in case the color cameras suffered a similar fate as the Apollo 12 camera.
+
+Specifications
+The camera's dimensions were 269 mm × 165 mm × 86 mm (10.6 in × 6.5 in × 3.4 in) in size, and weighed 3.29 kilograms (7.3 lb). It consumed 6.50 watts of power. Its bayonet lens mount allowed for quick changes for the two interchangeable lenses used on Apollo 11: a wide-angle and a lunar day lens.Camera
+
+Lenses
+
+Westinghouse lunar color camera
+Choosing a color process
+Color broadcast studio television cameras in the 1960s, such as the RCA TK-41, were large, heavy and high in energy consumption. They used three imaging tubes to generate red, green and blue (RGB) video signals which were combined to produce a composite color picture. These cameras required complex optics to keep the tubes aligned. Since temperature variations and vibration would easily put a three-tube system out of alignment, a more robust system was needed for lunar surface operations.In the 1940s, CBS Laboratories invented an early color system that utilized a wheel, containing six color filters, rotated in front of a single video camera tube to generate the RGB signal. Called a field-sequential color system, it used interlaced video, with sequentially alternating color video fields to produce one complete video frame. That meant that the first field would be red, the second blue, and the third field green – matching the color filters on the wheel. This system was both simpler and more reliable than a standard three-tube color camera, and more power-efficient.
+
+The camera
+Lebar and his Westinghouse team wanted to add color to their camera as early as 1967, and they knew that the CBS system would likely be the best system to study. The Westinghouse lunar color camera used a modified version of CBS's field-sequential color system. A color wheel, with six filter segments, was placed behind the lens mount. It rotated at 9.99 revolutions per second, producing a scan rate of 59.94 fields per second, the same as NTSC video. Synchronization between the color wheel and pickup tube's scan rate was provided by a magnet on the wheel, which controlled the sync pulse generator that governed the tube's timing.
+The color camera used the same SEC video imaging tube as the monochrome lunar camera flown on Apollo 9. The camera was larger, measuring 430 millimetres (17 in) long, including the new zoom lens. The zoom lens had a focal length variable from 25 mm to 150 mm, i.e. a zoom ratio of 6:1. At its widest angle, it had a 43-degree field of view, while in its extreme telephoto mode, it had a 7-degree field of view. The aperture ranged from F4 to F44, with a T5 light transmittance rating.
+
+Color decoding and signal processing
+Signal processing was needed at the Earth receiving ground stations to compensate for the Doppler effect, caused by the spacecraft moving away from or towards the Earth. The Doppler Effect would distort color, so a system that employed two videotape recorders (VTRs), with a tape-loop delay to compensate for the effect, was developed. The cleaned signal was then transmitted to Houston in NTSC-compatible black and white.Unlike the CBS system that required a special mechanical receiver on a TV set to decode the color, the signal was decoded in Houston's Mission Control Center. This video processing occurred in real time. The decoder separately recorded each red, blue and green field onto an analog magnetic disk recorder. Acting as a framebuffer, it then sent the coordinated color information to an encoder to produce a NTSC color video signal and then released to the broadcast pool feed. Once the color was decoded, scan conversion was not necessary, because the color camera ran at the same 60-fields-per-second video interlace rate as the NTSC standard.
+
+Operational history
+It was first used on the Apollo 10 mission. The camera used the command module's extra S-band channel and large S-band antenna to accommodate the camera's larger bandwidth. It was only used in the lunar module when it was docked to the command module. Unlike the earlier cameras, it contained a portable video monitor that could be either directly attached to the camera or float separately. Combined with the new zoom lens, it allowed the astronauts to have better precision with their framing.Apollo 12 was the first mission to use the color camera on the lunar surface. About 42 minutes into telecasting the first EVA, astronaut Alan Bean inadvertently pointed the camera at the Sun while preparing to mount it on the tripod. The Sun's extreme brightness burned out the video pickup tube, rendering the camera useless. When the camera was returned to Earth, it was shipped to Westinghouse, and they were able to get an image on the section of the tube that wasn't damaged. Procedures were re-written in order to prevent such damage in the future, including the addition of a lens cap to protect the tube when the camera was repositioned off the MESA.
+
+The color camera successfully covered the lunar operations during the Apollo 14 mission in 1971. Image quality issues appeared due to the camera's automatic gain control (AGC) having problems getting the proper exposure when the astronauts were in high contrast light situations, and caused the white spacesuits to be overexposed or "bloom". The camera did not have a gamma correction circuit. This resulted in the image's mid-tones losing detail.After Apollo 14, it was only used in the command module, as the new RCA-built camera replaced it for lunar surface operations. The Westinghouse color camera continued to be used throughout the 1970s on all three Skylab missions and the Apollo–Soyuz Test Project.
+The 1969–1970 Emmy Awards for Outstanding Achievement in Technical/Engineering Development were awarded to NASA for the conceptual aspects of the color Apollo television camera and to Westinghouse Electric Corporation for the development of the camera.
+
+Specifications
+Camera
+
+Lens
+
+RCA J-series ground-commanded television assembly (GCTA)
+Due to Apollo 12's camera failure, a new contract was awarded to the RCA Astro Electronics facility in East Windsor, New Jersey. The design team was headed by Robert G. Horner. The RCA system used a new, more sensitive and durable TV camera tube, the newly developed Silicon intensifier target (SIT) pickup tube. The improved image quality was obvious to the public with the RCA camera's better tonal detail in the midrange, and the lack of the blooming that was apparent in the previous missions.
+The system was composed of the color television camera (CTV) and the television control unit (TCU). These were connected to the lunar communications relay unit (LCRU) when mounted on the Lunar Roving Vehicle (LRV). Like the Westinghouse color camera, it used the field-sequential color system, and used the same ground-station signal processing and color decoding techniques to produce a broadcast NTSC color video signal.
+On Apollo 15 the camera produced live images from the LM's MESA, just as the previous missions did. It was repositioned from the MESA onto a tripod, where it photographed the Lunar Rover Vehicle (LRV) being deployed. Once the LRV was fully deployed, the camera was mounted there and controlled by commands from the ground to tilt, pan, and zoom in and out. This was the last mission to have live video of the mission's first steps via the MESA, as on the following flights it was stowed with the LRV.
+
+Usage
+Cameras used, CM = command module, LM = lunar module
+
+Apollo 7: RCA B&W SSTV (CM)
+Apollo 8: RCA B&W SSTV (CM)
+Apollo 9: Westinghouse B&W (LM)
+Apollo 10: Westinghouse color (CM)
+Apollo 11: Westinghouse color (CM), Westinghouse B&W (LM)
+Apollo 12: Westinghouse color (CM & LM)
+Apollo 13: Westinghouse color (CM & LM), Westinghouse B&W was a backup for LM (not used), LM camera was not used
+Apollo 14: Westinghouse color (CM & LM), Westinghouse B&W was a backup for LM (not used)
+Apollo 15: Westinghouse color (CM), RCA GCTA (LM), Westinghouse B&W was a backup for LM (not used)
+Apollo 16: Westinghouse color (CM), RCA GCTA (LM), Westinghouse B&W was a backup for LM (not used)
+Apollo 17: Westinghouse color (CM), RCA GCTA (LM)
+
+See also
+Apollo 11 missing tapes
+List of NASA cameras on spacecraft
+
+Notes
+Citations
+References
+"Earth sees itself from Apollo". The Globe and Mail. Toronto. Associated Press. 24 December 1968. p. 1.
+Coan, Paul M. (November 1973), "Apollo Experience Report – Television System" (PDF),  in Jones, Eric M.; Glover, Ken (eds.), Apollo Lunar Surface Journal, Washington, DC: NASA (published 1996–2013), archived (PDF) from the original on 17 November 2004, retrieved 20 October 2013, Originally published by NASA HQ as NASA Technical Note TN-A7476.
+Godwin, Robert (2000). Apollo 7: The NASA Mission Reports. Burlington, Ontario: Apogee Books. p. 44. ISBN 978-1-896522-64-7.
+Lebar, Stanley (15 August 1966), Lunar Camera Final Statement of Work (PDF), Washington, DC: NASA, retrieved 12 November 2019
+Lebar, Stanley; Hoffman, Charles P. (6 March 1967), "TV show of the century: A travelogue not atmosphere" (PDF),  in Jones, Eric M.; Glover, Ken (eds.), Apollo Lunar Surface Journal, Washington, DC: NASA (published 1996–2013), archived (PDF) from the original on 8 August 2006, retrieved 20 October 2013, Originally published in ELECTRONICS, published by McGraw Hill (1967).
+Lebar, Stanley (30 August 1968), "Apollo Lunar Television Camera Operations Manual" (PDF),  in Jones, Eric M.; Glover, Ken (eds.), Apollo Lunar Surface Journal, Washington, DC: NASA (published 1996–2013), archived (PDF) from the original on 26 September 2006, retrieved 2013-10-20
+Lebar, Stanley (Summer 1997). "The Color War goes to the Moon" (PDF). Invention and Technology. Retrieved 18 October 2013.
+Niemyer, Jr., L. L. (16 September 1969), "Apollo Color Camera" (PDF),  in Jones, Eric M.; Glover, Ken (eds.), Apollo Lunar Surface Journal, Washington, DC: NASA (published 1996–2013)
+O'Neal, James E. (6 July 2009). "TV's Longest Remote". TV Technology. New York: NewBay Media. Archived from the original on 19 October 2013. Retrieved 18 October 2013.
+O'Neal, James E. (21 July 2009). "Equipping Apollo for Color Television". TV Technology. New York: NewBay Media. Archived from the original on 19 October 2013. Retrieved 18 October 2013.
+O'Neal, James E. (6 August 2009). "Search for Missing Recordings Ends". TV Technology. New York: NewBay Media. Archived from the original on 19 October 2013. Retrieved 18 October 2013.
+Pearson, Howard (9 June 1969). "Emmy Awards to Top Shows". Deseret News. Salt Lake City, Utah. p. B7. Retrieved 15 October 2013.
+Peltzer, K. E. (1966), "Apollo Unified S-Band System" (PDF),  in Jones, Eric M.; Glover, Ken (eds.), Apollo Lunar Surface Journal, Washington, DC: NASA (published 1996–2013), archived (PDF) from the original on 30 August 2006, retrieved 20 October 2013
+RCA (25 February 1972). "Ground-Commanded Television Assembly (GCTA)" (PDF). Houston: NASA. Archived (PDF) from the original on 19 May 2010. Retrieved 20 October 2013.
+Sarkissian, John M. (2001). "On Eagle's Wings: The Parkes Observatory's Support of the Apollo 11 Mission" (PDF). Publications of the Astronomical Society of Australia. Melbourne: CSIRO Publishing. 18 (3): 287–310. Bibcode:2001PASA...18..287S. doi:10.1071/as01038. Archived (PDF) from the original on 31 August 2007. Retrieved 17 October 2013.
+Sarkissian, John (21 May 2006). "The search for the Apollo 11 SSTV tapes" (PDF). CSIRO Parkes Observatory. Archived (PDF) from the original on 21 July 2006. Retrieved 15 October 2013.
+Steven-Boniecki, Dwight (2010). Live TV From the Moon. Burlington, Ontario: Apogee Books. ISBN 978-1-926592-16-9.
+Von Baldegg, Kasia Cieplak-Mayr (20 July 2012). "1 Small Step for a Cam: How Astronauts Shot Video of the Moon Landing". The Atlantic. Washington, DC. Archived from the original on 23 July 2012. Retrieved 16 October 2013.
+Westinghouse (1 June 1971), Apollo Color Television Subsystem Operation Manual and Training Manual (PDF), Houston: NASA, archived (PDF) from the original on 17 November 2004, retrieved 19 October 2013
+Wetmore, Warren C. (26 May 1969). "Docking Transmitted Live in First Color TV From Space". Aviation Week & Space Technology. Washington, DC. pp. 18, 20.
+Wilford, John Noble (1971). We Reach the Moon: The New York Times Story of Man's Greatest Adventure. New York: Bantam Books. ISBN 978-0-552-08205-1.
+Windley, Jay (2011). "Technology: TV Quality". Moon Base Clavius. Salt Lake City, Utah: Clavius.org. Archived from the original on 11 June 2002. Retrieved 9 December 2011.
+Wood, Bill (2005), "Apollo Television" (PDF),  in Jones, Eric M.; Glover, Ken (eds.), Apollo Lunar Surface Journal, Washington, DC: NASA (published 1996–2013)
+
+External links
+Honeysuckle Creek Archived 27 September 2007 at the Wayback Machine discusses some of the Apollo 11 moonwalk video.
+Apollo Talks Episode 8 (2007) interview with Stan Lebar, Project Manager for the Westinghouse Lunar Camera.

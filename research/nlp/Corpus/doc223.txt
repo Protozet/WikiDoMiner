@@ -1,0 +1,3 @@
+In video processing, deflicking is a filtering operation applied to brightness flicker in video to improve visual quality. The flicker effect can be seen when camera framerate and lighting frequency are not adjusted or in video digitized old film. The filter aims to improve the appearance of movies.
+The main idea is to smooth image brightness between series of the same scene frames.
+The deflicking filter is usually used in video camera (for normalizing picture), used for postprocessing of captured video, and for restoration of video from old films.

@@ -1,0 +1,8 @@
+The following is a list of image resolutions implemented in the image sensors used in various digital cameras.
+
+See also
+Image sensor format — the sizes and shapes of common image sensors
+Exmor - the exact sizes of Sony Exmor sensors, often mentioning the camera(s) using them. Sony sells some of theses sensors to other camera manufacturers.
+
+
+== References ==
