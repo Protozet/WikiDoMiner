@@ -1,5 +1,0 @@
-In telecommunication, communications survivability is the ability of communications systems to continue to operate effectively under adverse conditions, though portions of the system may be damaged or destroyed. 
-Various methods may be used to maintain communications services, such as using alternate routing, different transmission media or methods, redundant equipment, and sites and equipment that are radiation hardened.
-
-References
- This article incorporates public domain material from Federal Standard 1037C. General Services Administration. Archived from the original on 2022-01-22.

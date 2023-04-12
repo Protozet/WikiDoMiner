@@ -1,6 +1,0 @@
-In computer networking and telecommunications, a broadcast communication network is a communication network which uses broadcasting for communication between its nodes. They take messages from a single sender and transmit to all endpoints on the network. For example, Radio, Television, etc.
-
-See also
-Fully connected network
-Multicast
-Switched communication network

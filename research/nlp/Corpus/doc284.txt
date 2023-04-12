@@ -1,2 +1,0 @@
-In telecommunication, continuous operation is an operation in which certain components, such as nodes, facilities, circuits, or equipment, are in an operational state at all times. Continuous operation usually requires that there be fully redundant configuration, or at least a sufficient X out of Y degree of redundancy for compatible equipment, where X is the number of spare components and Y is the number of operational components. 
- This article incorporates public domain material from Federal Standard 1037C. General Services Administration. (in support of MIL-STD-188).

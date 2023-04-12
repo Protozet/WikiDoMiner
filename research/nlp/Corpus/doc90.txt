@@ -1,4 +1,0 @@
-Generic Network Virtualization Encapsulation (Geneve) is a network encapsulation protocol created by the IETF in order to unify the efforts made by other initiatives like VXLAN and NVGRE, with the intent to eliminate the wild growth of encapsulation protocols.Open vSwitch is an example of a software-based virtual network switch that supports Geneve overlay networks.
-
-
-== References ==

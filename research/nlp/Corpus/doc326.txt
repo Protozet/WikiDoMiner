@@ -1,5 +1,0 @@
-The AgCam is a ruggedized camera system developed for use on Agricultural equipment to assist in viewing on large machinery. The system is manufactured by Dakota Micro, Inc., a North Dakota Corporation, United States.The University of North Dakota has developed a camera for use on the International Space Stations that was named the AgCam, but has since changed the name of their camera to ISSAC in the light of copyright issues.
-The AgCam is sold to a network of equipment dealerships. AgCam is sold by OEM Companies, including: AGCO Corporation, Trimble, Pickett Equipment, Morris Industries Ltd., Double L Inc. and TOPCON,
-
-
-== References ==

@@ -1,7 +1,0 @@
-In film, a sequence is a series of scenes that form a distinct narrative unit, which is usually connected either by a unity of location or a unity of time. For example, a heist film might include an extended recruitment sequence in which the leader of the gang collects together the conspirators, a robbery sequence, an escape sequence, and so on. Each of these sequences might further contain sub-sequences; for example the robbery sequence might consist of an entry sequence, a safe-cracking sequence, and so on.
-The sequence is one of a hierarchy of structural units used to describe the structure of films in varying degrees of granularity. Analysed this way, a film is composed of one or more acts; acts include one or more sequences; sequences are divided into one or more scenes; and scenes may be thought of as being built out of shots (if one is thinking visually) or beats (if one is thinking in narrative terms).
-The sequence paradigm of screenwriting was developed by Frank Daniel.
-
-See also
-Act structure
-Sequential art

@@ -1,9 +1,0 @@
-In telecommunication, the term demand load can have the following meanings: 
-
-In general, the total power required by a facility. The demand load is the sum of the operational load (including any tactical load) and nonoperational demand loads. It is determined by applying the proper demand factor to each of the connected loads and a diversity factor to the sum total.
-At a communications center, the power required by all automatic switching, synchronous, and terminal equipment (operated simultaneously on-line or in standby), control and keying equipment, plus lighting, ventilation, and air- conditioning equipment required to maintain full continuity of communications.
-The power required for ventilating equipment, shop lighting, and other support items that may be operated simultaneously with the technical load.
-The sum of the technical demand and nontechnical demand loads of an operating facility.
-
-References
- This article incorporates public domain material from Federal Standard 1037C. General Services Administration. (in support of MIL-STD-188).

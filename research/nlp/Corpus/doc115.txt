@@ -1,4 +1,0 @@
-A focus finder is a simple optical tool used to examine a virtual image in an optical device to achieve a precise point of focus.
-They are most commonly used in photographic enlarging to ensure that the negative image is accurately focussed on the easel.
-Focus finders are designed so that their optical path is exactly equal to the optical path of the uninterrupted light.
-In enlarging, this is achieved by mounting an angled front-silvered mirror on a small plinth and using a strong magnifying eyepiece and graticule to examine the reflected virtual image. The enlarger lens is then carefully focussed until the grain structure of the film can be seen in the plane of the graticle.

@@ -1,7 +1,0 @@
-Shoot and protect is a technique used in video and film production, in which the material is shot in such a way that the areas of interest within a frame lie within a rectangular "protected area" within the frame, with margins at top and bottom and both sides. The action safe and caption safe areas then lie within this protected area. This allows the resulting material to be cropped to any of a wide range of aspect ratios, whether wider or narrower than the shooting format, without losing the most important features of each shot or having to resort to pan and scan or letterboxing. A 14:9 safe area is often chosen as a compromise between 4:3 and 16:9 frame formats.
-
-See also
-Open matte
-
-
-== References ==

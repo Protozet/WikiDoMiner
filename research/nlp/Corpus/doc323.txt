@@ -1,9 +1,0 @@
-A film plane is the surface of an image recording device such as a camera, upon which the lens creates the focused image. In cameras from different manufacturers, the film plane varies in distance from the lens. Thus each lens used has to be chosen carefully to assure that the image is focused on the exact place where the individual frame of film or digital sensor is positioned during exposure. It is sometimes marked on a camera body with the 'Φ' symbol where the vertical bar represents the exact location.
-Movie cameras often also have small focus hooks where the focus puller can attach one side of a tape measure to quickly gauge the distance to objects that he intends to bring into focus. The measurement is taken from the film plane to the subject.
-Due to Petzval field curvature, the film plane upon which a lens focuses may not be a literal plane. Cameras may bend the film stock or even plate stock slightly to compensate, improving the area of critical focus and sharpness. Nevertheless, the general concept of a focal plane is understood to refer to this position in the camera sensor relative to the lens.
-
-See also
-Cardinal point (optics)
-Flange focal distance
-
-Basically Film Panel is an area inside any cameras or image taking device that has a lens,film and a digital sensor.

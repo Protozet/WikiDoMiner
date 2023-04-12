@@ -1,7 +1,0 @@
-In telecommunications, a forward echo is the propagation of a signal reflection in the same direction as the original signal and consisting of energy reflected back by one discontinuity and then forward again by another discontinuity.  Forward echoes can be supported by reflections caused by splices or other discontinuities in the transmission medium (e.g. optical fiber, twisted pair, or coaxial tube). In metallic lines, they may be supported by impedance mismatches between the source or load and the characteristic impedance of the transmission medium.  They may cause attenuation distortion.
-
-See also
-Pre-echo
-
-References
- This article incorporates public domain material from Federal Standard 1037C. General Services Administration. (in support of MIL-STD-188).

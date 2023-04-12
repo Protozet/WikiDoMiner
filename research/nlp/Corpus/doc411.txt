@@ -1,7 +1,0 @@
-In telecommunications, deterministic routing is the advance determination of the routes between given pairs of nodes. Examples:
-
-In a network where routing is controlled by a telephone switch or network switch, switching in which the routes between given pairs of nodes are pre-programmed, i.e., are determined, in advance of transmission. The routes used to complete a given call through a network are identified, in advance of transmission, in routing tables maintained in each switch database. The tables assign the trunks that are to be used to reach each switch code, area code, and International Access Prefix (IAP), usually with one or two alternate routes.
-In a non-switched network, the routes used to send a given message through the network are identified in advance in routing tables maintained in a database.
-
-Notes and references
- This article incorporates public domain material from Federal Standard 1037C. General Services Administration. Archived from the original on 2022-01-22.

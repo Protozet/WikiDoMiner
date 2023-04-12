@@ -1,6 +1,0 @@
-A reflex finder is a viewfinder system with a mirror placed behind a lens. The light passing through the lens is reflected by the mirror to a focusing screen, usually ground glass. The image formed on this ground glass can be observed directly, giving a waist-level reflex finder, or through a redressing optical device (set of mirrors or prism) for eye-level viewing, giving an eye-level reflex finder.
-With a reflex finder, you can focus the image on the ground glass and frame your picture at the same time. It is common to find a device on the center of the ground glass to help precise focusing, for example a split-image or a microprism device. Today's reflex cameras usually incorporate autofocusing.
-Reflex finders are found in:
-
-Single-lens reflex (SLR) cameras, with one lens for both viewing and taking the picture
-Twin-lens reflex (TLR) cameras, with one lens for viewing and one lens for taking the picture

@@ -1,8 +1,0 @@
-Phantom is Vision Research's brand of high-speed video cameras.The Phantom TMX 7510 is currently the company's fastest camera as of November 2022, it can record video at up to 76,000 frames per second (fps) at its max resolution of 1280x800, and can record at 1,750,000 frames per second at a resolution of 1280 x 32, or in binned mode with a resolution of 640 x 64.The Phantom v2512, the company's fastest camera as of August 2018, can record video at over 25,000  at its full one megapixel resolution, and up to one million frames per second at a reduced resolution of 256 x 32 pixels. The Phantom v2640 records 6,600 fps at its full resolution of four megapixels, and 12,500 fps at full HD resolution.Fox Network uses the Phantom cameras to provide slow-motion replays in live sports broadcasts.
-
-See also
-The Slow Mo Guys
-
-References
-External links
-Phantom High Speed website

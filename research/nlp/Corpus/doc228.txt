@@ -1,7 +1,0 @@
-The term telecine refers both to a film-to-tape transferring machine, as well as the process by which film is transferred to tape (or directly to a digital file). The telecine process is frequently used by filmmakers to transfer production footage to video, which can then be captured by various non-linear digital editing systems (e.g., Final Cut Pro, Avid, etc.).
-
-Piracy
-The term may also refer to a form of copying of movies (normally without authorization from the copyright holder) created using a telecine machine, as opposed to recording the projected image with a video camera (the camera method with a direct audio source is called a telesync). Since this process requires both access to a print of the movie on film and expensive equipment, telecine bootlegs are less common than camera bootlegs.The term is also often seen used as in the naming of bootleg movie releases. A naming scheme would look something like this: Movie.title.year-of-production.TELECINE.Codec-Groupname. Alternatively some groups simply use the TC tag instead. The quality of a good telecine is generally comparable to a DVD without any post-processing. This has motivated movie studios to develop countermeasures, such as Coded Anti-Piracy (CAP) to track the source of telecine copies in the hope of identifying the person responsible for the copy.
-
-
-== References ==

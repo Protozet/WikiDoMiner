@@ -1,6 +1,0 @@
-In telecommunications, power ramp is the way in which the signal increases ("power-on ramp") or falls off ("power-down ramp"), which may result in spectral splatter.
-
-See also
-Soft start
-Power gating
-Voltage scaling

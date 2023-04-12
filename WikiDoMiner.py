@@ -41,7 +41,7 @@ def main():
     parser.add_argument('--sim_threshold', dest='sim_threshold', type=float, default=0.5, help='set similarity threshold when using title similarity')
     parser.add_argument('--filter-cats', dest='filter_cats', type=bool, default=True, help='filter generic categories')
     parser.add_argument('--use-tfidf', dest='tfidf', type=bool, default=True, help='use TFIDF to rank keywords')
-    parser.add_argument('--limit-keywords', dest='K', type=int, default=10, help='Set to limit the number of extracted keywords if TFIDF is used.')
+    parser.add_argument('--limit-keywords', dest='K', type=int, default=1, help='Set to limit the number of extracted keywords if TFIDF is used.')
     parser.add_argument('--wiki-depth', dest='depth', type=int, default=0, help='Set the depth of wikiedia search. 0: only the articles that matches the keywords. 1: articles from the the categories of matching keywords. 2 articles from the subcategories..')
     parser.add_argument('--max-limit', dest='maxlimit', type=int, default=200, help='set limit to filter large categories')
     parser.add_argument('--max-cats', dest='maxcats', type=int, default=50, help='skip articles with too many categories')
@@ -108,7 +108,8 @@ def calculate_jaccard(text1,text2):  # calculates jaccard similarity between two
   #print("union:", union)
   print("Jaccard similarity score:", jaccard_score)
   #print("Jaccard similarity score: ", jaccard_score)
-  return jaccard_score
+  #return jaccard_score
+  return cosine_sim
 
 def stemlemma(text):
   return ' '.join([stemmer.stem(wordnet_lemmatizer.lemmatize(word)) for word in word_tokenize(text.lower())])

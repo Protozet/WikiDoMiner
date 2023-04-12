@@ -1,5 +1,0 @@
-In telecommunication, distortion-limited operation is the condition prevailing when distortion of a received signal, rather than its attenuated amplitude (or power), limits performance under stated operational conditions and limits.  
-Note:  Distortion-limited operation is reached when the system distorts the shape of the waveform beyond specified limits. For linear systems, distortion-limited operation is equivalent to bandwidth-limited operation.
-
-References
- This article incorporates public domain material from Federal Standard 1037C. General Services Administration. (in support of MIL-STD-188).

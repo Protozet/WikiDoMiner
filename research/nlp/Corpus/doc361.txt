@@ -1,6 +1,0 @@
-Psophometric voltage is a circuit noise voltage measured with a psophometer that includes a CCIF-1951 weighting network. 
-"Psophometric voltage" should not be confused with "psophometric emf," i.e., the emf in a generator or line with 600 Ω internal resistance. For practical purposes, the psophometric emf is twice the corresponding psophometric voltage. 
-Psophometric voltage readings, V, in millivolts, are commonly converted to dBm(psoph) by dBm(psoph) = 20 log10V – 57.78.
-
-References
- This article incorporates public domain material from Federal Standard 1037C. General Services Administration. Archived from the original on 2022-01-22.

@@ -1,9 +1,0 @@
-Design objective (DO):  In communications systems, a desired performance characteristic for communications circuits and equipment that is based on engineering analyses, but (a) is not considered feasible to mandate in a standard, or (b) has not been tested.  
-DOs are used because applicable systems standards are not in existence. 
-Examples of reasons for designating a performance characteristic as a DO rather than as a standard are (a) it may be bordering on an advancement in the state of the art, (b) the requirement may not have been fully confirmed by measurement or experience with operating circuits, and (c) it may not have been demonstrated that the requirement can be met considering other constraints, such as cost and size. 
-A DO is sometimes established in a standard for developmental consideration. A DO may also specify a performance characteristic used in the preparation of specifications for development or procurement of new equipment or systems.
-Design is the process of formulation of a plan for satisfaction of human needs
-
-References
-
- This article incorporates public domain material from Federal Standard 1037C. General Services Administration. (in support of MIL-STD-188).
