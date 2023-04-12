@@ -1,0 +1,13 @@
+Without changes, base Wikidominer (edited version for baseline functionality)
+
+ertms.pdf:  689 txt files generated
+Word cloud name: ertms.png
+
+ctc_network.pdf: 428 txt files generated
+Word Cloud name: ctc_network.png
+
+domain_3.pdf: 691 txt files generated
+Word Cloud name: domain_3.pdf
+
+domain_4.pdf: 323 txt files generated
+Word Cloud name: domain_4.png
