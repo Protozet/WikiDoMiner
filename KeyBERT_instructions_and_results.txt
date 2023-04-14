@@ -1,0 +1,59 @@
+Instructions and results for KeyBERT implementation
+
+First, clone this repository and the following repository into separate folders: https://github.com/MaartenGr/KeyBERT
+Next, move bert.py from WikiDoMiner to KeyBERT. Then ensure you have a separate folder of multiple PDF documents
+within your working directory. Be sure to change the "directory" line to the corresponding PDF folder name.
+Finally, run the program to generate the keywords/phrases and word clouds. 
+*KEYWORD RESULTS*
+
+Domain 1:
+PDFs extracted
+[[('gsmradio', 0.4738), ('railways', 0.4364), ('networknetwork', 0.3662), ('emc', 0.3143), ('interoperability', 0.2149)],
+ [('communicationsrailway', 0.5041), ('euroradio', 0.3997), ('handset', 0.3815), ('implementation', 0.2371), ('srs', 0.1892)],
+ [('etcs', 0.4274), ('frs', 0.3607), ('ssrs', 0.2975), ('reliability', 0.2426), ('discrepancy', 0.176)]]
+Wordclouds created
+
+Domain 2:
+PDFs extracted
+[[('communications', 0.4099), ('txdot', 0.3662), ('zone', 0.2189), ('identifierdallas', 0.1975), ('runtime', 0.1902)],
+ [('bridges', 0.4121), ('pontis', 0.3266), ('astructure', 0.3035), ('systematics', 0.2685), ('precondition', 0.1466)],
+ [('highways', 0.4705), ('vehiclesinvolvedcount', 0.351), ('mi', 0.3487), ('esspavementtemperature', 0.3111), ('impacted', 0.1925)]]
+Wordclouds created
+
+Domain 3:
+PDFs extracted
+[[('mars', 0.4734), ('spectrometer', 0.3209), ('fluxes', 0.2715), ('as', 0.1485), ('archive', 0.0983)],
+ [('astronomy', 0.4643), ('systemcorrelator', 0.3211), ('srs', 0.2427), ('frequencies', 0.237), ('compiler', 0.1607)],
+ [('astronomy', 0.3945), ('correlator', 0.2811), ('ion', 0.2649), ('srs', 0.2334), ('subsystems', 0.2051)]]
+Wordclouds created
+
+Domain 4:
+PDFs extracted
+[[('software', 0.4603), ('library', 0.4584), ('utilization', 0.3684), ('odbc', 0.3615), ('hierarchi', 0.262)],
+ [('libraries', 0.4758), ('cataloger', 0.4271), ('software', 0.4142), ('workflow', 0.2962), ('integrated', 0.2423)],
+ [('pubmedcentral', 0.5159), ('guidelines', 0.3516), ('appendix', 0.302), ('retention', 0.25), ('interoperability', 0.1627)]]
+Wordclouds created
+
+
+*KEYPHRASE RESULTS*
+
+Domain 1:
+[[('railway telecommunications', 0.7013), ('euroradio layers', 0.5464), ('gprs general', 0.4494), ('following frequency', 0.3303), ('conditions iec', 0.2522)],
+ [('railway telecommunications', 0.6999), ('gsm standard', 0.545), ('euroradio layers', 0.4925), ('automatic call', 0.3848), ('etcs application', 0.2336)],
+ [('etcs frs', 0.5699), ('procedures ertms', 0.5401), ('characterises train', 0.3146), ('maintenability safety', 0.2321), ('version numbering', 0.2047)]]
+
+Domain 2:
+[[('communications project', 0.5084), ('zone data', 0.3417), ('dfw dallas', 0.3183), ('interstates and', 0.3154), ('identifier ramp', 0.2311)],
+ [('pontis bridgeware', 0.5961), ('bridge analysis', 0.5418), ('culvert condition', 0.4154), ('infrastructure maintenance', 0.4034), ('analysis of', 0.3051)],
+ [('transportation michigan', 0.6188), ('impacts safety', 0.4912), ('data analysis', 0.3327), ('pavementtemperature', 0.2774), ('hydrocarbon concentration', 0.2541)]]
+
+Domain 3:
+[[('esa mars', 0.5392), ('space physics', 0.4212), ('atom spectra', 0.2696), ('aspera processing', 0.2266), ('particle imager', 0.178)],
+ [('observatory array', 0.6153), ('srs 14correlator', 0.3928), ('error statistics', 0.2432), ('level processing', 0.2349), ('current evl', 0.2204)],
+ [('radio astronomy', 0.5773), ('correlator monitor', 0.486), ('ion history', 0.3584), ('control srs', 0.3225), ('overall evla', 0.173)]]
+
+Domain 4:
+
+[[('pubmed allows', 0.5389), ('medicine selection', 0.5388), ('patient summary', 0.4648), ('facility procedures', 0.3096), ('save digital', 0.1538)],
+ [('library system', 0.6544), ('cir software', 0.4156), ('scheduling management', 0.381), ('customizable formats', 0.3516), ('process flowchart', 0.3004)],
+ [('library managers', 0.6428), ('software for', 0.4504), ('reports development', 0.4262), ('data archiving', 0.3992), ('page system', 0.3745)]]
