@@ -54,15 +54,18 @@ print("PDFs extracted")
 # KeyBERT keyword/keyphrase extraction
 # keyword: (1, 1), keyphrase(1, 2)
 keywords = kw_model.extract_keywords(lst, keyphrase_ngram_range=(1, 2), 
-                                     stop_words=None, use_mmr=True)
-print(keywords)
+                                     stop_words=None, use_maxsum=True, nr_candidates=25, top_n=25)
+for group in keywords: print(group)
 
 corpus = []
 i = 1
-WC = WordCloud(width=1000, height=500, max_font_size=50, max_words=100, include_numbers=False, background_color="white")
+# width=1000, height=500, 
+WC = WordCloud(max_font_size=50, max_words=100, include_numbers=False, background_color="white")
 
 for a in keywords:
-     for b in a:
+    j = 1
+    scores = []
+    for b in a:
            keyword = b[0]
            corpus.append(keyword)
            # Search Wikipedia
@@ -70,17 +73,33 @@ for a in keywords:
            if not matching_titles:
                 continue
            for title in matching_titles[0]:
-                if calculate_jaccard(title,keyword)<0.25:
+                # calculate mean of jaccard scores per domain
+                jaccard = calculate_jaccard(title,keyword)
+                if jaccard < 0.4:
                     continue
+                else: print(title, ": ", jaccard)
+                j+=1
+                scores.append(jaccard)
                 # Combine Wikipedia titles with keywords
                 corpus.append(title)
+                try: corpus.append(wiki.page(wiki.search(title)[0]).content)
+                except: None
 
      # Generate wordcloud for each PDF document
-     wordcloud = WC.generate(" ".join(corpus))
-     plt.figure(figsize=(15,8))
-     plt.imshow(wordcloud, interpolation="bilinear")
-     plt.axis("off")
-     plt.savefig("wc_{}.png".format(i), bbox_inches='tight')
-     corpus.clear()
-     i+=1
+    print("total articles: ", j)
+    wordcloud = WC.generate(" ".join(corpus))
+    plt.figure(figsize=(15,8))
+    plt.imshow(wordcloud, interpolation="bilinear")
+    plt.axis("off")
+    plt.savefig("wc_{}.png".format(i), bbox_inches='tight')
+    corpus.clear()
+    i+=1
+    
+    sum = 0
+    for c in scores:
+      sum += c
+    avg = sum/j
+    print("average Jaccard: ", avg)
+
+
 print("Wordclouds created")
