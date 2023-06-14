@@ -53,3 +53,8 @@ Please make sure to update tests as appropriate.
 
 
 Command used to run: python WikiDoMiner.py --doc cctns.pdf --output-path ./research/nlp --wiki-depth 1
+
+# KeyBERT for Keyword Extraction
+
+To run KeyBERT, follow the instructions within the README.md file within the KeyBERT-Master folder.
+After ensuring all of the necessary libraries are installed, change to the WikiDoMiner directory before running bert.py. The "all_requirements" folder is used by default, but if you wish to run the program on different documents, be sure to add the folder in the same format that "all_requirements" follows while also changing the "directory" variable to match the name of your folder.
